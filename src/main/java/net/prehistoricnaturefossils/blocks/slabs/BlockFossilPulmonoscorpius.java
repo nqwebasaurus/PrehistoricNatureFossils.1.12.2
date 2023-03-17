@@ -21,6 +21,7 @@ import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.blocks.base.BlockInit;
 import net.prehistoricnaturefossils.blocks.base.BlockSlabBase;
 import net.prehistoricnaturefossils.items.ItemInit;
+import net.prehistoricnaturefossils.tile.TileEntityFossilPulmonoscorpius;
 
 import javax.annotation.Nullable;
 import java.util.List;
