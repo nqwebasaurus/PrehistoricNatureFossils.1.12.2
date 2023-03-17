@@ -6,6 +6,7 @@ import net.prehistoricnaturefossils.client.render.skeletons.RenderFossilArizonas
 import net.prehistoricnaturefossils.client.render.slabs.RenderFossilAkmonistion;
 import net.prehistoricnaturefossils.client.render.slabs.RenderFossilAmpyx;
 import net.prehistoricnaturefossils.client.render.slabs.RenderFossilAnomalocaris;
+import net.prehistoricnaturefossils.client.render.slabs.RenderFossilArthropleura;
 import net.prehistoricnaturefossils.tile.*;
 
 public class RenderRegistryFossils {
@@ -16,6 +17,7 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilAnomalocaris.class, new RenderFossilAnomalocaris());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilAkmonistion.class, new RenderFossilAkmonistion());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilAmpyx.class, new RenderFossilAmpyx());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilArthropleura.class, new RenderFossilArthropleura());
 
         //Skeleton Mounts:
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilArizonasaurus.class, new RenderFossilArizonasaurus());
