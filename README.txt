@@ -3,6 +3,12 @@ Notes for our developers:
 Adding fossils:
 
 1) Create a skeleton or slab class by copying and pasting in blocks -> skeleton or blocks -> slabs
+If the fossil is NOT supposed to be able to dissolve into a DNA phial for a specific porganism,
+then remove this Override method in full from the class:
+
+    @Nullable
+    @Override
+    public String getDNACompat()  etc.
 
 2) Rename the mob name in that file, with both lower case and upper case starting letters
 
@@ -22,3 +28,5 @@ Adding fossils:
 9) Add the language file entry in resources for the fossil
 
 10) Add the json in resources for the item model (using skeleton or slab as the item graphic)
+
+11) Add the fossil to the drops for the right period in FossilBlockDrops.java
