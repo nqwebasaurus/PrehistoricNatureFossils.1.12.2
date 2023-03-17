@@ -78,7 +78,6 @@ public class BlockFossilArizonasaurus extends BlockSkeletonBase {
                     }
                 }
             }
-            return true;
         }
         int newRotation = getRotation(worldIn, pos) + 15;
         if (newRotation >= 360) {newRotation = 0;}
