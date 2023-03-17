@@ -192,7 +192,8 @@ public class FossilBlockDrops {
 
     public static ItemStack[] getOrdovicianDisplayableFossilDrops() {
         ItemStack[] itemStack = {
-                ItemStack.EMPTY
+                new ItemStack(BlockInit.FOSSIL_ASAPHUS, 1),
+                new ItemStack(BlockInit.FOSSIL_MIXOPTERUS, 1)
         };
         return itemStack;
     }
@@ -206,7 +207,12 @@ public class FossilBlockDrops {
 
     public static ItemStack[] getDevonianDisplayableFossilDrops() {
         ItemStack[] itemStack = {
-                ItemStack.EMPTY
+                new ItemStack(BlockInit.FOSSIL_BUNGARTIUS, 1),
+                new ItemStack(BlockInit.FOSSIL_DUNKLEOSTEUS, 1),
+                new ItemStack(BlockInit.FOSSIL_TIKTAALIK, 1),
+                new ItemStack(BlockInit.FOSSIL_WALLISEROPS, 1),
+                new ItemStack(BlockInit.FOSSIL_SCHINDERHANNES, 1),
+                new ItemStack(BlockInit.FOSSIL_COCCOSTEUS, 1)
         };
         return itemStack;
     }
@@ -214,6 +220,14 @@ public class FossilBlockDrops {
     public static ItemStack[] getCarboniferousDisplayableFossilDrops() {
         ItemStack[] itemStack = {
                 new ItemStack(BlockInit.FOSSIL_ARTHROPLEURA, 1),
+                new ItemStack(BlockInit.FOSSIL_DIPLOCAULUS, 1),
+                new ItemStack(BlockInit.FOSSIL_EDAPHOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_PULMONOSCORPIUS, 1),
+                new ItemStack(BlockInit.FOSSIL_TULLIMONSTRUM, 1),
+                new ItemStack(BlockInit.FOSSIL_OPHIACODON, 1),
+                new ItemStack(BlockInit.FOSSIL_MEGANEURA, 1),
+                new ItemStack(BlockInit.FOSSIL_MEGARACHNE, 1),
+                new ItemStack(BlockInit.FOSSIL_FALCATUS, 1),
                 new ItemStack(BlockInit.FOSSIL_AKMONISTION, 1)
         };
         return itemStack;
@@ -221,21 +235,60 @@ public class FossilBlockDrops {
 
     public static ItemStack[] getPermianDisplayableFossilDrops() {
         ItemStack[] itemStack = {
-                new ItemStack(BlockInit.FOSSIL_ANTEOSAURUS, 1)
+                new ItemStack(BlockInit.FOSSIL_ANTEOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_DIMETRODON, 1),
+                new ItemStack(BlockInit.FOSSIL_OPHIACODON, 1),
+                new ItemStack(BlockInit.FOSSIL_DIPLOCAULUS, 1),
+                new ItemStack(BlockInit.FOSSIL_MOSCHOPS, 1),
+                new ItemStack(BlockInit.FOSSIL_PLATYHYSTRIX, 1),
+                new ItemStack(BlockInit.FOSSIL_TIARAJUDENS, 1),
+                new ItemStack(BlockInit.FOSSIL_LYSTROSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_SCUTOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_JONKERIA, 1),
+                new ItemStack(BlockInit.FOSSIL_RUBIDGEA, 1),
+                new ItemStack(BlockInit.FOSSIL_SUMINIA, 1),
+                new ItemStack(BlockInit.FOSSIL_PRIONOSUCHUS, 1),
+                new ItemStack(BlockInit.FOSSIL_ESTEMMENOSUCHUS, 1),
+                new ItemStack(BlockInit.FOSSIL_EDAPHOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_COTYLORHYNCHUS, 1)
         };
         return itemStack;
     }
 
     public static ItemStack[] getTriassicDisplayableFossilDrops() {
         ItemStack[] itemStack = {
-                new ItemStack(BlockInit.FOSSIL_ARIZONASAURUS, 1)
+                new ItemStack(BlockInit.FOSSIL_ARIZONASAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_CYAMODUS, 1),
+                new ItemStack(BlockInit.FOSSIL_EFFIGIA, 1),
+                new ItemStack(BlockInit.FOSSIL_GERROTHORAX, 1),
+                new ItemStack(BlockInit.FOSSIL_KEICHOUSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_LOTOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_LYSTROSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_HENODUS, 1),
+                new ItemStack(BlockInit.FOSSIL_SHRINGASAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_MASTODONSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_TANYSTROPHEUS, 1),
+                new ItemStack(BlockInit.FOSSIL_THECODONTOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_POSTOSUCHUS, 1),
+                new ItemStack(BlockInit.FOSSIL_SILESAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_POPOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_ERYTHROSUCHUS, 1),
+                new ItemStack(BlockInit.FOSSIL_CYMBOSPONDYLUS, 1),
+                new ItemStack(BlockInit.FOSSIL_DESMATOSUCHUS, 1),
+                new ItemStack(BlockInit.FOSSIL_LILIENSTERNUS, 1),
+                new ItemStack(BlockInit.FOSSIL_CAVIRAMUS, 1)
         };
         return itemStack;
     }
 
     public static ItemStack[] getJurassicDisplayableFossilDrops() {
         ItemStack[] itemStack = {
-                ItemStack.EMPTY
+                new ItemStack(BlockInit.FOSSIL_KENTROSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_LIMULID, 1),
+                new ItemStack(BlockInit.FOSSIL_OPHTHALMOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_YINLONG, 1),
+                new ItemStack(BlockInit.FOSSIL_MEGALOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_DRYOSAURUS, 1)
         };
         return itemStack;
     }
