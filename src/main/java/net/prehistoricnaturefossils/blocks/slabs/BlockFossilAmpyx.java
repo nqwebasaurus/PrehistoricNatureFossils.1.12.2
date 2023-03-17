@@ -78,7 +78,6 @@ public class BlockFossilAmpyx extends BlockSlabBase {
                     }
                 }
             }
-            return true;
         }
         int newRotation = getRotation(worldIn, pos) + 15;
         if (newRotation >= 360) {newRotation = 0;}
