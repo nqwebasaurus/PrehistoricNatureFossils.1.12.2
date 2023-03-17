@@ -8,7 +8,7 @@ then remove this Override method in full from the class:
 
     @Nullable
     @Override
-    public String getDNACompat()  etc.
+    public String getDNACompat() etc.
 
 2) Rename the mob name in that file, with both lower case and upper case starting letters
 
