@@ -5,6 +5,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -41,8 +42,11 @@ public class PrehistoricNatureFossils {
     public void preInit(FMLPreInitializationEvent event) {
     }
 
-    @EventHandler
+    @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
+
+        MinecraftForge.EVENT_BUS.register(new FossilBlockDrops());
+
         try {
             for (Object block : Block.REGISTRY) {
                 if (block instanceof BlockSkeletonBase) {
@@ -62,6 +66,7 @@ public class PrehistoricNatureFossils {
             }
         } catch (Exception e) {
         }
+
     }
 
     @EventHandler

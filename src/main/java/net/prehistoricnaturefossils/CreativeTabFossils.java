@@ -1,8 +1,8 @@
 package net.prehistoricnaturefossils;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+import net.prehistoricnaturefossils.blocks.base.BlockInit;
 
 public class CreativeTabFossils extends CreativeTabs {
     public CreativeTabFossils() {
@@ -11,6 +11,6 @@ public class CreativeTabFossils extends CreativeTabs {
 
     @Override
     public ItemStack createIcon() {
-        return new ItemStack(Items.BONE);
+        return new ItemStack(BlockInit.FOSSIL_ANTEOSAURUS);
     }
 }
