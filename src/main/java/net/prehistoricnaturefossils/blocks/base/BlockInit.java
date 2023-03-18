@@ -69,5 +69,9 @@ public class BlockInit {
     public static final Block FOSSIL_YINLONG = new BlockFossilYinlong();
     public static final Block FOSSIL_JONKERIA = new BlockFossilJonkeria();
     public static final Block FOSSIL_POSTOSUCHUS = new BlockFossilPostosuchus();
+    public static final Block FOSSIL_CRASSIGYRINUS = new BlockFossilCrassigyrinus();
+    public static final Block FOSSIL_ERYOPS = new BlockFossilEryops();
+    public static final Block FOSSIL_LESSEMSAURUS = new BlockFossilLessemsaurus();
+    public static final Block FOSSIL_NOTHOSAURUS = new BlockFossilNothosaurus();
 
 }
