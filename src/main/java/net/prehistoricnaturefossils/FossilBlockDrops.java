@@ -39,7 +39,7 @@ public class FossilBlockDrops {
                     if (rand.nextInt(2) == 0) {
                         dropStack = getDisplayableFossilStack(state, levelEnchantment + 1);
                         if (!dropStack.isEmpty()) {
-                            Block.spawnAsEntity(worldIn, pos, blockFossil.getFossilDrop());
+                            Block.spawnAsEntity(worldIn, pos, dropStack);
                         }
                     }
                 }
