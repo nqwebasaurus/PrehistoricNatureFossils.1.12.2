@@ -36,7 +36,7 @@ public class FossilBlockDrops {
                 int levelEnchantment = net.minecraft.enchantment.EnchantmentHelper.getEnchantmentLevel(net.minecraft.init.Enchantments.FORTUNE, stack);
                 int ii = rand.nextInt(levelEnchantment + 1) * 2;
                 for (int i = 0; i < ii; ++i) {
-                    if (rand.nextInt(3) == 0) {
+                    if (rand.nextInt(2) == 0) {
                         dropStack = getDisplayableFossilStack(state);
                         if (!dropStack.isEmpty()) {
                             Block.spawnAsEntity(worldIn, pos, blockFossil.getFossilDrop());
