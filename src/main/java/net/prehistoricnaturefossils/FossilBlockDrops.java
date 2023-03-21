@@ -7,10 +7,6 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.minecraft.world.storage.loot.*;
-import net.minecraft.world.storage.loot.conditions.LootCondition;
-import net.minecraft.world.storage.loot.functions.LootFunction;
-import net.minecraftforge.event.LootTableLoadEvent;
 import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.prehistoricnaturefossils.blocks.base.BlockInit;
@@ -18,24 +14,6 @@ import net.prehistoricnaturefossils.blocks.base.BlockInit;
 import java.util.Random;
 
 public class FossilBlockDrops {
-
-    @SubscribeEvent //Add to dungeon loot
-    public void onLootTablesLoaded(LootTableLoadEvent event) {
-        if (event.getName().equals(LootTableList.CHESTS_SIMPLE_DUNGEON)
-                || event.getName().equals(LootTableList.CHESTS_ABANDONED_MINESHAFT)
-                || event.getName().equals(LootTableList.CHESTS_DESERT_PYRAMID)
-                || event.getName().equals(LootTableList.CHESTS_JUNGLE_TEMPLE)
-        ) {
-            Random rand = new Random();
-            int i = rand.nextInt(13) + 1;
-            ItemStack stack = fossilDropDisplayable(i);
-            if (!stack.isEmpty()) {
-                LootEntry entry = new LootEntryItem(stack.getItem(), 15, 60, new LootFunction[0], new LootCondition[0], "prehistoricnaturefossils:fossil_loot");
-                LootPool pool1 = new LootPool(new LootEntry[]{entry}, new LootCondition[0], new RandomValueRange(1), new RandomValueRange(0, 1), "fossil_loot");
-                event.getTable().addPool(pool1);
-            }
-        }
-    }
 
     @SubscribeEvent //Add to the block drops for the fossils
     public void onBlockBreak(BlockEvent.BreakEvent event) {
