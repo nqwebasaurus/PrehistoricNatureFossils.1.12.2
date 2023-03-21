@@ -77,5 +77,7 @@ public class BlockInit {
     public static final Block FOSSIL_PLACODUS = new BlockFossilPlacodus();
     public static final Block FOSSIL_SHONISAURUS = new BlockFossilShonisaurus();
     public static final Block FOSSIL_LISOWICIA = new BlockFossilLisowicia();
+    public static final Block FOSSIL_SMILOSUCHUS = new BlockFossilSmilosuchus();
+    public static final Block FOSSIL_EORHYNCHOCHELYS = new BlockFossilEorhynchochelys();
 
 }

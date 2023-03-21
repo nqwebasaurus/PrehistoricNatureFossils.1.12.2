@@ -279,11 +279,13 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_NOTHOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_ATOPODENTATUS, 1),
                 new ItemStack(BlockInit.FOSSIL_LISOWICIA, 1),
+                new ItemStack(BlockInit.FOSSIL_SMILOSUCHUS, 1),
                 new ItemStack(BlockInit.FOSSIL_SHONISAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_PLACODUS, 1),
                 new ItemStack(BlockInit.FOSSIL_ERYTHROSUCHUS, 1),
                 new ItemStack(BlockInit.FOSSIL_CYMBOSPONDYLUS, 1),
                 new ItemStack(BlockInit.FOSSIL_DESMATOSUCHUS, 1),
+                new ItemStack(BlockInit.FOSSIL_EORHYNCHOCHELYS, 1),
                 new ItemStack(BlockInit.FOSSIL_LILIENSTERNUS, 1),
                 new ItemStack(BlockInit.FOSSIL_CAVIRAMUS, 1)
         };
