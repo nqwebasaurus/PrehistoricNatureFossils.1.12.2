@@ -22,6 +22,9 @@ public class FossilBlockDrops {
         if (event.getPlayer() == null) {
             return;
         }
+        if (event.getPlayer().isCreative()) {
+            return;
+        }
         ItemStack stack = event.getPlayer().getHeldItemMainhand();
         BlockPos pos = event.getPos();
         IBlockState state = event.getState();
