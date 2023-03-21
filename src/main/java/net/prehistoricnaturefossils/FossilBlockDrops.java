@@ -28,7 +28,7 @@ public class FossilBlockDrops {
         if (state.getBlock() instanceof BlockFossil) {
             BlockFossil blockFossil = (BlockFossil)(state.getBlock());
             if (!worldIn.isRemote && stack.getItem() == ItemFossilHammer.block) {
-                ItemStack dropStack = getDisplayableFossilStack(state);
+                ItemStack dropStack = getDisplayableFossilStack(state, 1);
                 if (!dropStack.isEmpty()) {
                     Block.spawnAsEntity(worldIn, pos, dropStack);
                 }
