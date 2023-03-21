@@ -37,7 +37,7 @@ public class FossilBlockDrops {
                 int ii = rand.nextInt(levelEnchantment + 1) * 2;
                 for (int i = 0; i < ii; ++i) {
                     if (rand.nextInt(2) == 0) {
-                        dropStack = getDisplayableFossilStack(state);
+                        dropStack = getDisplayableFossilStack(state, levelEnchantment + 1);
                         if (!dropStack.isEmpty()) {
                             Block.spawnAsEntity(worldIn, pos, blockFossil.getFossilDrop());
                         }
@@ -47,128 +47,128 @@ public class FossilBlockDrops {
         }
     }
 
-    public ItemStack getDisplayableFossilStack(IBlockState state) {
+    public ItemStack getDisplayableFossilStack(IBlockState state, int fortune) {
         if (state.getBlock() == BlockFossilPrecambrian.block) {
-            return fossilDropDisplayable(1);
+            return fossilDropDisplayable(1, fortune);
         } else if (state.getBlock() == BlockFossilCambrian.block) {
-            return fossilDropDisplayable(2);
+            return fossilDropDisplayable(2, fortune);
         } else if (state.getBlock() == BlockFossilOrdovician.block) {
-            return fossilDropDisplayable(3);
+            return fossilDropDisplayable(3, fortune);
         } else if (state.getBlock() == BlockFossilSilurian.block) {
-            return fossilDropDisplayable(4);
+            return fossilDropDisplayable(4, fortune);
         } else if (state.getBlock() == BlockFossilDevonian.block) {
-            return fossilDropDisplayable(5);
+            return fossilDropDisplayable(5, fortune);
         } else if (state.getBlock() == BlockFossilCarboniferous.block) {
-            return fossilDropDisplayable(6);
+            return fossilDropDisplayable(6, fortune);
         } else if (state.getBlock() == BlockFossilPermian.block) {
-            return fossilDropDisplayable(7);
+            return fossilDropDisplayable(7, fortune);
         } else if (state.getBlock() == BlockFossilTriassic.block) {
-            return fossilDropDisplayable(8);
+            return fossilDropDisplayable(8, fortune);
         } else if (state.getBlock() == BlockFossilJurassic.block) {
-            return fossilDropDisplayable(9);
+            return fossilDropDisplayable(9, fortune);
         } else if (state.getBlock() == BlockFossilCretaceous.block) {
-            return fossilDropDisplayable(10);
+            return fossilDropDisplayable(10, fortune);
         } else if (state.getBlock() == BlockFossilPaleogene.block) {
-            return fossilDropDisplayable(11);
+            return fossilDropDisplayable(11, fortune);
         } else if (state.getBlock() == BlockFossilNeogene.block) {
-            return fossilDropDisplayable(12);
+            return fossilDropDisplayable(12, fortune);
         } else if (state.getBlock() == BlockFossilPleistocene.block) {
-            return fossilDropDisplayable(13);
+            return fossilDropDisplayable(13, fortune);
         } else {
             return ItemStack.EMPTY;
         }
     }
 
-    public static ItemStack fossilDropDisplayable(int dim) {
+    public static ItemStack fossilDropDisplayable(int dim, int fortune) {
 
         switch (dim) {
             case 1:
             default: //Precambrian
-                if (new Random().nextInt(10) == 0) {
+                if (new Random().nextInt(Math.round(10 / fortune)) == 0) {
                     int ii = (new Random()).nextInt(getPrecambrianDisplayableFossilDrops().length);
                     return getPrecambrianDisplayableFossilDrops()[ii];
                 }
                 return ItemStack.EMPTY;
 
             case 2: //Cambrian
-                if (new Random().nextInt(10) == 0) {
+                if (new Random().nextInt(Math.round(10 / fortune)) == 0) {
                     int ii = (new Random()).nextInt(getCambrianDisplayableFossilDrops().length);
                     return getCambrianDisplayableFossilDrops()[ii];
                 }
                 return ItemStack.EMPTY;
 
             case 3: //Ordovician
-                if (new Random().nextInt(10) == 0) {
+                if (new Random().nextInt(Math.round(10 / fortune)) == 0) {
                     int ii = (new Random()).nextInt(getOrdovicianDisplayableFossilDrops().length);
                     return getOrdovicianDisplayableFossilDrops()[ii];
                 }
                 return ItemStack.EMPTY;
 
             case 4: //Silurian
-                if (new Random().nextInt(10) == 0) {
+                if (new Random().nextInt(Math.round(10 / fortune)) == 0) {
                     int ii = (new Random()).nextInt(getSilurianDisplayableFossilDrops().length);
                     return getSilurianDisplayableFossilDrops()[ii];
                 }
                 return ItemStack.EMPTY;
 
             case 5: //Devonian
-                if (new Random().nextInt(10) == 0) {
+                if (new Random().nextInt(Math.round(10 / fortune)) == 0) {
                     int ii = (new Random()).nextInt(getDevonianDisplayableFossilDrops().length);
                     return getDevonianDisplayableFossilDrops()[ii];
                 }
                 return ItemStack.EMPTY;
 
             case 6: //Carboniferous
-                if (new Random().nextInt(10) == 0) {
+                if (new Random().nextInt(Math.round(10 / fortune)) == 0) {
                     int ii = (new Random()).nextInt(getCarboniferousDisplayableFossilDrops().length);
                     return getCarboniferousDisplayableFossilDrops()[ii];
                 }
                 return ItemStack.EMPTY;
 
             case 7: //Permian
-                if (new Random().nextInt(10) == 0) {
+                if (new Random().nextInt(Math.round(10 / fortune)) == 0) {
                     int ii = (new Random()).nextInt(getPermianDisplayableFossilDrops().length);
                     return getPermianDisplayableFossilDrops()[ii];
                 }
                 return ItemStack.EMPTY;
 
             case 8: //Triassic
-                if (new Random().nextInt(10) == 0) {
+                if (new Random().nextInt(Math.round(10 / fortune)) == 0) {
                     int ii = (new Random()).nextInt(getTriassicDisplayableFossilDrops().length);
                     return getTriassicDisplayableFossilDrops()[ii];
                 }
                 return ItemStack.EMPTY;
 
             case 9: //Jurassic
-                if (new Random().nextInt(10) == 0) {
+                if (new Random().nextInt(Math.round(10 / fortune)) == 0) {
                     int ii = (new Random()).nextInt(getJurassicDisplayableFossilDrops().length);
                     return getJurassicDisplayableFossilDrops()[ii];
                 }
                 return ItemStack.EMPTY;
 
             case 10: //Cretaceous
-                if (new Random().nextInt(10) == 0) {
+                if (new Random().nextInt(Math.round(10 / fortune)) == 0) {
                     int ii = (new Random()).nextInt(getCretaceousDisplayableFossilDrops().length);
                     return getCretaceousDisplayableFossilDrops()[ii];
                 }
                 return ItemStack.EMPTY;
 
             case 11: //Paleogene
-                if (new Random().nextInt(10) == 0) {
+                if (new Random().nextInt(Math.round(10 / fortune)) == 0) {
                     int ii = (new Random()).nextInt(getPaleogeneDisplayableFossilDrops().length);
                     return getPaleogeneDisplayableFossilDrops()[ii];
                 }
                 return ItemStack.EMPTY;
 
             case 12: //Neogene
-                if (new Random().nextInt(10) == 0) {
+                if (new Random().nextInt(Math.round(10 / fortune)) == 0) {
                     int ii = (new Random()).nextInt(getNeogeneDisplayableFossilDrops().length);
                     return getNeogeneDisplayableFossilDrops()[ii];
                 }
                 return ItemStack.EMPTY;
 
             case 13: //Pleistocene
-                if (new Random().nextInt(10) == 0) {
+                if (new Random().nextInt(Math.round(10 / fortune)) == 0) {
                     int ii = (new Random()).nextInt(getPleistoceneDisplayableFossilDrops().length);
                     return getPleistoceneDisplayableFossilDrops()[ii];
                 }
