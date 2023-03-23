@@ -227,12 +227,14 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_PULMONOSCORPIUS, 1),
                 new ItemStack(BlockInit.FOSSIL_CRASSIGYRINUS, 1),
                 new ItemStack(BlockInit.FOSSIL_TULLIMONSTRUM, 1),
+                new ItemStack(BlockInit.FOSSIL_LIMNOSCELIS, 1),
                 new ItemStack(BlockInit.FOSSIL_OPHIACODON, 1),
                 new ItemStack(BlockInit.FOSSIL_MEGANEURA, 1),
                 new ItemStack(BlockInit.FOSSIL_DATHEOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_PHOLIDERPETON, 1),
                 new ItemStack(BlockInit.FOSSIL_ERYOPS, 1),
                 new ItemStack(BlockInit.FOSSIL_MEGARACHNE, 1),
+                new ItemStack(BlockInit.FOSSIL_MEGALOCEPHALUS, 1),
                 new ItemStack(BlockInit.FOSSIL_FALCATUS, 1),
                 new ItemStack(BlockInit.FOSSIL_AKMONISTION, 1)
         };
