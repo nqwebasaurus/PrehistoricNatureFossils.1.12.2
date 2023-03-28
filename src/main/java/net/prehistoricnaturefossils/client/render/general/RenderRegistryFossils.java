@@ -84,6 +84,8 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilPholiderpeton.class, new RenderFossilPholiderpeton());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilMegalocephalus.class, new RenderFossilMegalocephalus());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilLimnoscelis.class, new RenderFossilLimnoscelis());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilProburnetia.class, new RenderFossilProburnetia());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilTetraceratops.class, new RenderFossilTetraceratops());
 
 
     }
