@@ -85,5 +85,7 @@ public class BlockInit {
     public static final Block FOSSIL_LIMNOSCELIS = new BlockFossilLimnoscelis();
     public static final Block FOSSIL_PROBURNETIA = new BlockFossilProburnetia();
     public static final Block FOSSIL_TETRACERATOPS  = new BlockFossilTetraceratops();
+    public static final Block FOSSIL_BUNOSTEGOS  = new BlockFossilBunostegos();
+    public static final Block FOSSIL_INOSTRANCEVIA  = new BlockFossilInostrancevia();
 
 }

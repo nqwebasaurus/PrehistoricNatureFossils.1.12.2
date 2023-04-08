@@ -250,6 +250,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_MOSCHOPS, 1),
                 new ItemStack(BlockInit.FOSSIL_DATHEOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_ERYOPS, 1),
+                new ItemStack(BlockInit.FOSSIL_BUNOSTEGOS, 1),
                 new ItemStack(BlockInit.FOSSIL_PLATYHYSTRIX, 1),
                 new ItemStack(BlockInit.FOSSIL_TIARAJUDENS, 1),
                 new ItemStack(BlockInit.FOSSIL_PROBURNETIA, 1),
