@@ -1,6 +1,5 @@
 package net.prehistoricnaturefossils.triggers;
 
-import net.lepidodendron.util.CustomTrigger;
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.advancements.ICriterionTrigger;
 import net.minecraftforge.fml.relauncher.ReflectionHelper;
