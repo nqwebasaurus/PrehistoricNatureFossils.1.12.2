@@ -16,6 +16,7 @@ import net.minecraftforge.oredict.OreDictionary;
 import net.prehistoricnaturefossils.blocks.base.BlockSkeletonBase;
 import net.prehistoricnaturefossils.blocks.base.BlockSlabBase;
 import net.prehistoricnaturefossils.proxy.CommonProxy;
+import net.prehistoricnaturefossils.triggers.ModTriggers;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -46,6 +47,7 @@ public class PrehistoricNatureFossils {
     public void init(FMLInitializationEvent event) {
 
         MinecraftForge.EVENT_BUS.register(new FossilBlockDrops());
+        ModTriggers.registerTriggers();
 
         try {
             for (Object block : Block.REGISTRY) {

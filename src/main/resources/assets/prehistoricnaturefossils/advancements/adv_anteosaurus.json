@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_anteosaurus"
+		  },
+		"title": {
+			"translate": "advancements.anteosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.anteosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_anteosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

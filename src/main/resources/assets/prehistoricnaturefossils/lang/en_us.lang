@@ -1,4 +1,6 @@
 itemGroup.prehistoricnaturefossils=Prehistoric Nature Fossils
+advancements.anteosaurus.title=Anteosaurus bones!
+advancements.anteosaurus.description=Complete an Anteosaurus fossil skeleton
 
 tile.pf_skeleton_mixopterus.name=Mixopterus Fossil Slab
 tile.pf_skeleton_falcatus.name=Falcatus Fossil Slab
