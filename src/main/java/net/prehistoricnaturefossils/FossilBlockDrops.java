@@ -298,6 +298,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_DESMATOSUCHUS, 1),
                 new ItemStack(BlockInit.FOSSIL_EORHYNCHOCHELYS, 1),
                 new ItemStack(BlockInit.FOSSIL_LILIENSTERNUS, 1),
+                new ItemStack(BlockInit.FOSSIL_AEGER, 1),
                 new ItemStack(BlockInit.FOSSIL_CAVIRAMUS, 1)
         };
         return itemStack;
@@ -309,7 +310,9 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_LIMULID, 1),
                 new ItemStack(BlockInit.FOSSIL_OPHTHALMOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_YINLONG, 1),
+                new ItemStack(BlockInit.FOSSIL_AEGER, 1),
                 new ItemStack(BlockInit.FOSSIL_MEGALOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_TURBOSCINETES, 1),
                 new ItemStack(BlockInit.FOSSIL_DRYOSAURUS, 1)
         };
         return itemStack;
@@ -317,7 +320,7 @@ public class FossilBlockDrops {
 
     public static ItemStack[] getCretaceousDisplayableFossilDrops() {
         ItemStack[] itemStack = {
-                ItemStack.EMPTY
+                new ItemStack(BlockInit.FOSSIL_AEGER, 1)
         };
         return itemStack;
     }
