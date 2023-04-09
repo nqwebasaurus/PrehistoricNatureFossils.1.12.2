@@ -19,6 +19,8 @@ tile.pf_skeleton_tullimonstrum.name=Tullimonstrum Fossil Slab
 tile.pf_skeleton_pulmonoscorpius.name=Pulmonoscorpius Fossil Slab
 tile.pf_skeleton_keichousaurus.name=Keichousaurus Fossil Slab
 tile.pf_skeleton_schinderhannes.name=Schinderhannes Fossil Slab
+tile.pf_skeleton_turboscinetes.name=Turboscinetes Fossil Slab
+tile.pf_skeleton_aeger.name=Aeger Fossil Slab
 
 
 
@@ -80,3 +82,5 @@ tile.pf_skeleton_megalocephalus.name=Megalocephalus Displayable Fossil
 tile.pf_skeleton_limnoscelis.name=Limnoscelis Displayable Fossil
 tile.pf_skeleton_proburnetia.name=Proburnetia Displayable Fossil
 tile.pf_skeleton_tetraceratops.name=Tetraceratops Displayable Fossil
+tile.pf_skeleton_bunostegos.name=Bunostegos Displayable Fossil
+tile.pf_skeleton_inostrancevia.name=Inostrancevia Displayable Fossil
