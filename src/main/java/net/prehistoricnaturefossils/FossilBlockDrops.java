@@ -275,6 +275,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_CYAMODUS, 1),
                 new ItemStack(BlockInit.FOSSIL_EFFIGIA, 1),
                 new ItemStack(BlockInit.FOSSIL_GERROTHORAX, 1),
+                new ItemStack(BlockInit.FOSSIL_FOREYIA, 1),
                 new ItemStack(BlockInit.FOSSIL_KEICHOUSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_LOTOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_LYSTROSAURUS, 1),
@@ -311,6 +312,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_OPHTHALMOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_YINLONG, 1),
                 new ItemStack(BlockInit.FOSSIL_AEGER, 1),
+                new ItemStack(BlockInit.FOSSIL_ERYON, 1),
                 new ItemStack(BlockInit.FOSSIL_MEGALOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_TURBOSCINETES, 1),
                 new ItemStack(BlockInit.FOSSIL_DRYOSAURUS, 1)

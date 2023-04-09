@@ -89,5 +89,7 @@ public class BlockInit {
     public static final Block FOSSIL_INOSTRANCEVIA  = new BlockFossilInostrancevia();
     public static final Block FOSSIL_TURBOSCINETES  = new BlockFossilTurboscinetes();
     public static final Block FOSSIL_AEGER  = new BlockFossilAeger();
+    public static final Block FOSSIL_ERYON  = new BlockFossilEryon();
+    public static final Block FOSSIL_FOREYIA  = new BlockFossilForeyia();
 
 }
