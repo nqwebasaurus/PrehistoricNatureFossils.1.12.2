@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_atopodentatus"
+		  },
+		"title": {
+			"translate": "advancements.atopodentatus.title"
+		},
+		"description": {
+			"translate": "advancements.atopodentatus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_atopodentatus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

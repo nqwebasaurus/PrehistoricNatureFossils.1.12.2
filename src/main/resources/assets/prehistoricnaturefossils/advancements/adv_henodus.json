@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_henodus"
+		  },
+		"title": {
+			"translate": "advancements.henodus.title"
+		},
+		"description": {
+			"translate": "advancements.henodus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_henodus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

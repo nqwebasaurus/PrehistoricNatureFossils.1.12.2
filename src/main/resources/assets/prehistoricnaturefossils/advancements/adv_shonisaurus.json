@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_shonisaurus"
+		  },
+		"title": {
+			"translate": "advancements.shonisaurus.title"
+		},
+		"description": {
+			"translate": "advancements.shonisaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_shonisaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

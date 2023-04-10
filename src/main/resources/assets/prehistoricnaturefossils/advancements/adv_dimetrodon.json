@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_dimetrodon"
+		  },
+		"title": {
+			"translate": "advancements.dimetrodon.title"
+		},
+		"description": {
+			"translate": "advancements.dimetrodon.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_dimetrodon"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

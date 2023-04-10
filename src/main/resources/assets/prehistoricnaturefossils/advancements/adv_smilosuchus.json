@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_smilosuchus"
+		  },
+		"title": {
+			"translate": "advancements.smilosuchus.title"
+		},
+		"description": {
+			"translate": "advancements.smilosuchus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_smilosuchus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

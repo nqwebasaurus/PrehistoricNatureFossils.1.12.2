@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_ophthalmosaurus"
+		  },
+		"title": {
+			"translate": "advancements.ophthalmosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.ophthalmosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_ophthalmosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

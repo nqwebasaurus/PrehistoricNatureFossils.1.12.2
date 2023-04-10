@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_liliensternus"
+		  },
+		"title": {
+			"translate": "advancements.liliensternus.title"
+		},
+		"description": {
+			"translate": "advancements.liliensternus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_liliensternus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_proburnetia"
+		  },
+		"title": {
+			"translate": "advancements.proburnetia.title"
+		},
+		"description": {
+			"translate": "advancements.proburnetia.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_proburnetia"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

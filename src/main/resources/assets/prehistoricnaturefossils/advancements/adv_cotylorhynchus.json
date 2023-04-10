@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_cotylorhynchus"
+		  },
+		"title": {
+			"translate": "advancements.cotylorhynchus.title"
+		},
+		"description": {
+			"translate": "advancements.cotylorhynchus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_cotylorhynchus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

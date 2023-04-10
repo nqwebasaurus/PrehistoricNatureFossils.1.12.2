@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_platyhystrix"
+		  },
+		"title": {
+			"translate": "advancements.platyhystrix.title"
+		},
+		"description": {
+			"translate": "advancements.platyhystrix.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_platyhystrix"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

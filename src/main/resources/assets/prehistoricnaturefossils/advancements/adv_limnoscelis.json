@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_limnoscelis"
+		  },
+		"title": {
+			"translate": "advancements.limnoscelis.title"
+		},
+		"description": {
+			"translate": "advancements.limnoscelis.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_limnoscelis"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

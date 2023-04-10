@@ -12,12 +12,131 @@ public class ModTriggers
 {
 
     public static final CustomTrigger ANTEOSAURUS_COMPLETE = new CustomTrigger("adv_anteosaurus");
+    public static final CustomTrigger ARIZONASAURUS_COMPLETE = new CustomTrigger("adv_arizonasaurus");
+    public static final CustomTrigger ATOPODENTATUS_COMPLETE = new CustomTrigger("adv_atopodentatus");
+    public static final CustomTrigger BUNGARTIUS_COMPLETE = new CustomTrigger("adv_bungartius");
+    public static final CustomTrigger BUNOSTEGOS_COMPLETE = new CustomTrigger("adv_bunostegos");
+    public static final CustomTrigger CAVIRAMUS_COMPLETE = new CustomTrigger("adv_caviramus");
+    public static final CustomTrigger COTYLORHYNCHUS_COMPLETE = new CustomTrigger("adv_cotylorhynchus");
+    public static final CustomTrigger CRASSIGYRINUS_COMPLETE = new CustomTrigger("adv_crassigyrinus");
+    public static final CustomTrigger CYAMODUS_COMPLETE = new CustomTrigger("adv_cyamodus");
+    public static final CustomTrigger CYMBOSPONDYLUS_COMPLETE = new CustomTrigger("adv_cymbospondylus");
+    public static final CustomTrigger DATHEOSAURUS_COMPLETE = new CustomTrigger("adv_datheosaurus");
+    public static final CustomTrigger DESMATOSUCHUS_COMPLETE = new CustomTrigger("adv_desmatosuchus");
+    public static final CustomTrigger DIMETRODON_COMPLETE = new CustomTrigger("adv_dimetrodon");
+    public static final CustomTrigger DIPLOCAULUS_COMPLETE = new CustomTrigger("adv_diplocaulus");
+    public static final CustomTrigger DRYOSAURUS_COMPLETE = new CustomTrigger("adv_dryosaurus");
+    public static final CustomTrigger DUNKLEOSTEUS_COMPLETE = new CustomTrigger("adv_dunkleosteus");
+    public static final CustomTrigger EDAPHOSAURUS_COMPLETE = new CustomTrigger("adv_edaphosaurus");
+    public static final CustomTrigger EFFIGIA_COMPLETE = new CustomTrigger("adv_effigia");
+    public static final CustomTrigger EORHYNCHOCHELYS_COMPLETE = new CustomTrigger("adv_eorhynchochelys");
+    public static final CustomTrigger ERYOPS_COMPLETE = new CustomTrigger("adv_eryops");
+    public static final CustomTrigger ERYTHROSUCHUS_COMPLETE = new CustomTrigger("adv_erythrosuchus");
+    public static final CustomTrigger ESTEMMENOSUCHUS_COMPLETE = new CustomTrigger("adv_estemmenosuchus");
+    public static final CustomTrigger GERROTHORAX_COMPLETE = new CustomTrigger("adv_gerrothorax");
+    public static final CustomTrigger HENODUS_COMPLETE = new CustomTrigger("adv_henodus");
+    public static final CustomTrigger INOSTRANCEVIA_COMPLETE = new CustomTrigger("adv_inostrancevia");
+    public static final CustomTrigger JONKERIA_COMPLETE = new CustomTrigger("adv_jonkeria");
+    public static final CustomTrigger KENTROSAURUS_COMPLETE = new CustomTrigger("adv_jonkeria");
+    public static final CustomTrigger LESSEMSAURUS_COMPLETE = new CustomTrigger("adv_lessemsaurus");
+    public static final CustomTrigger LILIENSTERNUS_COMPLETE = new CustomTrigger("adv_liliensternus");
+    public static final CustomTrigger LIMNOSCELIS_COMPLETE = new CustomTrigger("adv_limnoscelis");
+    public static final CustomTrigger LISOWICIA_COMPLETE = new CustomTrigger("adv_lisowicia");
+    public static final CustomTrigger LOTOSAURUS_COMPLETE = new CustomTrigger("adv_lotosaurus");
+    public static final CustomTrigger LYSTROSAURUS_COMPLETE = new CustomTrigger("adv_lystrosaurus");
+    public static final CustomTrigger MASTODONSAURUS_COMPLETE = new CustomTrigger("adv_mastodonsaurus");
+    public static final CustomTrigger MEGALOCEPHALUS_COMPLETE = new CustomTrigger("adv_megalocephalus");
+    public static final CustomTrigger MEGALOSAURUS_COMPLETE = new CustomTrigger("adv_megalosaurus");
+    public static final CustomTrigger MOSCHOPS_COMPLETE = new CustomTrigger("adv_moschops");
+    public static final CustomTrigger NOTHOSAURUS_COMPLETE = new CustomTrigger("adv_nothosaurus");
+    public static final CustomTrigger OPHIACODON_COMPLETE = new CustomTrigger("adv_ophiacodon");
+    public static final CustomTrigger OPHTHALMOSAURUS_COMPLETE = new CustomTrigger("adv_ophthalmosaurus");
+    public static final CustomTrigger PHOLIDERPETON_COMPLETE = new CustomTrigger("adv_pholiderpeton");
+    public static final CustomTrigger PLACODUS_COMPLETE = new CustomTrigger("adv_placodus");
+    public static final CustomTrigger PLATYHYSTRIX_COMPLETE = new CustomTrigger("adv_platyhystrix");
+    public static final CustomTrigger POPOSAURUS_COMPLETE = new CustomTrigger("adv_poposaurus");
+    public static final CustomTrigger POSTOSUCHUS_COMPLETE = new CustomTrigger("adv_postosuchus");
+    public static final CustomTrigger PRIONOSUCHUS_COMPLETE = new CustomTrigger("adv_prionosuchus");
+    public static final CustomTrigger PROBURNETIA_COMPLETE = new CustomTrigger("adv_proburnetia");
+    public static final CustomTrigger RUBIDGEA_COMPLETE = new CustomTrigger("adv_rubidgea");
+    public static final CustomTrigger SCUTOSAURUS_COMPLETE = new CustomTrigger("adv_scutosaurus");
+    public static final CustomTrigger SHONISAURUS_COMPLETE = new CustomTrigger("adv_shonisaurus");
+    public static final CustomTrigger SHRINGASAURUS_COMPLETE = new CustomTrigger("adv_shringasaurus");
+    public static final CustomTrigger SILESAURUS_COMPLETE = new CustomTrigger("adv_silesaurus");
+    public static final CustomTrigger SMILOSUCHUS_COMPLETE = new CustomTrigger("adv_smilosuchus");
+    public static final CustomTrigger SUMINIA_COMPLETE = new CustomTrigger("adv_suminia");
+    public static final CustomTrigger TANYSTROPHEUS_COMPLETE = new CustomTrigger("adv_tanystropheus");
+    public static final CustomTrigger TETRACERATOPS_COMPLETE = new CustomTrigger("adv_tetraceratops");
+    public static final CustomTrigger THECODONTOSAURUS_COMPLETE = new CustomTrigger("adv_thecodontosaurus");
+    public static final CustomTrigger TIARAJUDENS_COMPLETE = new CustomTrigger("adv_tiarajudens");
+    public static final CustomTrigger TIKTAALIK_COMPLETE = new CustomTrigger("adv_tiktaalik");
+    public static final CustomTrigger YINLONG_COMPLETE = new CustomTrigger("adv_yinlong");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
-            ANTEOSAURUS_COMPLETE
+            ANTEOSAURUS_COMPLETE,
+            YINLONG_COMPLETE,
+            TIKTAALIK_COMPLETE,
+            TANYSTROPHEUS_COMPLETE,
+            TIARAJUDENS_COMPLETE,
+            THECODONTOSAURUS_COMPLETE,
+            TETRACERATOPS_COMPLETE,
+            SMILOSUCHUS_COMPLETE,
+            SUMINIA_COMPLETE,
+            SILESAURUS_COMPLETE,
+            SHONISAURUS_COMPLETE,
+            SHRINGASAURUS_COMPLETE,
+            POSTOSUCHUS_COMPLETE,
+            SCUTOSAURUS_COMPLETE,
+            RUBIDGEA_COMPLETE,
+            PROBURNETIA_COMPLETE,
+            PRIONOSUCHUS_COMPLETE,
+            POPOSAURUS_COMPLETE,
+            OPHIACODON_COMPLETE,
+            PLATYHYSTRIX_COMPLETE,
+            PLACODUS_COMPLETE,
+            PHOLIDERPETON_COMPLETE,
+            OPHTHALMOSAURUS_COMPLETE,
+            LOTOSAURUS_COMPLETE,
+            LYSTROSAURUS_COMPLETE,
+            NOTHOSAURUS_COMPLETE,
+            MEGALOSAURUS_COMPLETE,
+            MOSCHOPS_COMPLETE,
+            MEGALOCEPHALUS_COMPLETE,
+            MASTODONSAURUS_COMPLETE,
+            LISOWICIA_COMPLETE,
+            LIMNOSCELIS_COMPLETE,
+            ATOPODENTATUS_COMPLETE,
+            LILIENSTERNUS_COMPLETE,
+            BUNGARTIUS_COMPLETE,
+            LESSEMSAURUS_COMPLETE,
+            KENTROSAURUS_COMPLETE,
+            HENODUS_COMPLETE,
+            JONKERIA_COMPLETE,
+            INOSTRANCEVIA_COMPLETE,
+            ERYOPS_COMPLETE,
+            GERROTHORAX_COMPLETE,
+            ESTEMMENOSUCHUS_COMPLETE,
+            ERYTHROSUCHUS_COMPLETE,
+            EORHYNCHOCHELYS_COMPLETE,
+            EFFIGIA_COMPLETE,
+            BUNOSTEGOS_COMPLETE,
+            EDAPHOSAURUS_COMPLETE,
+            CAVIRAMUS_COMPLETE,
+            CRASSIGYRINUS_COMPLETE,
+            DUNKLEOSTEUS_COMPLETE,
+            CYAMODUS_COMPLETE,
+            CYMBOSPONDYLUS_COMPLETE,
+            COTYLORHYNCHUS_COMPLETE,
+            DATHEOSAURUS_COMPLETE,
+            DRYOSAURUS_COMPLETE,
+            DESMATOSUCHUS_COMPLETE,
+            DIPLOCAULUS_COMPLETE,
+            DIMETRODON_COMPLETE,
+            ARIZONASAURUS_COMPLETE
 
     };
+
 
     public static void registerTriggers()
     {

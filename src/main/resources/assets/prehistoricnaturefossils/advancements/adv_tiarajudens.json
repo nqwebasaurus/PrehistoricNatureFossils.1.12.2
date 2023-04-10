@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_tiarajudens"
+		  },
+		"title": {
+			"translate": "advancements.tiarajudens.title"
+		},
+		"description": {
+			"translate": "advancements.tiarajudens.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_tiarajudens"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

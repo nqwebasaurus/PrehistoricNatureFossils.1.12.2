@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_effigia"
+		  },
+		"title": {
+			"translate": "advancements.effigia.title"
+		},
+		"description": {
+			"translate": "advancements.effigia.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_effigia"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

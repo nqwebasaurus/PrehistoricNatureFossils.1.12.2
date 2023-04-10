@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_megalosaurus"
+		  },
+		"title": {
+			"translate": "advancements.megalosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.megalosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_megalosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

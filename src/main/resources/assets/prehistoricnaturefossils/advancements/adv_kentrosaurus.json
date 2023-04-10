@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_kentrosaurus"
+		  },
+		"title": {
+			"translate": "advancements.kentrosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.kentrosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_kentrosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

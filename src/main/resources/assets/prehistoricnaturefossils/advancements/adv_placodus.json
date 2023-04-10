@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_placodus"
+		  },
+		"title": {
+			"translate": "advancements.placodus.title"
+		},
+		"description": {
+			"translate": "advancements.placodus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_placodus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

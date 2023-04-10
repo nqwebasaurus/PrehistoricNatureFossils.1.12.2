@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_gerrothorax"
+		  },
+		"title": {
+			"translate": "advancements.gerrothorax.title"
+		},
+		"description": {
+			"translate": "advancements.gerrothorax.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_gerrothorax"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

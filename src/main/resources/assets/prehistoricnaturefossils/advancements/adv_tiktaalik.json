@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_tiktaalik"
+		  },
+		"title": {
+			"translate": "advancements.tiktaalik.title"
+		},
+		"description": {
+			"translate": "advancements.tiktaalik.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_tiktaalik"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_eorhynchochelys"
+		  },
+		"title": {
+			"translate": "advancements.eorhynchochelys.title"
+		},
+		"description": {
+			"translate": "advancements.eorhynchochelys.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_eorhynchochelys"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

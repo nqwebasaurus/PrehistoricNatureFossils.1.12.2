@@ -3,6 +3,7 @@ package net.prehistoricnaturefossils.blocks.skeletons;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
@@ -22,6 +23,7 @@ import net.prehistoricnaturefossils.blocks.base.BlockInit;
 import net.prehistoricnaturefossils.blocks.base.BlockSkeletonBase;
 import net.prehistoricnaturefossils.items.ItemInit;
 import net.prehistoricnaturefossils.tile.TileEntityFossilMastodonsaurus;
+import net.prehistoricnaturefossils.triggers.ModTriggers;
 
 import javax.annotation.Nullable;
 import java.util.List;
@@ -73,6 +75,13 @@ public class BlockFossilMastodonsaurus extends BlockSkeletonBase {
                             worldIn.notifyBlockUpdate(pos, blockstate, blockstate, 3);
                             SoundEvent soundevent = this.soundPlace();
                             ((WorldServer) playerIn.getEntityWorld()).playSound(null, pos, soundevent, SoundCategory.BLOCKS, 1.0F, 1.0F);
+
+
+                            if (newStage == ((TileEntityFossilMastodonsaurus) tileEntity).getStages()) {
+                                if (playerIn instanceof EntityPlayerMP) {
+                                    ModTriggers.MASTODONSAURUS_COMPLETE.trigger((EntityPlayerMP) playerIn);
+                                }
+                            }
                             return true;
                         }
                     }

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_tetraceratops"
+		  },
+		"title": {
+			"translate": "advancements.tetraceratops.title"
+		},
+		"description": {
+			"translate": "advancements.tetraceratops.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_tetraceratops"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

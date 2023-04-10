@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_eryops"
+		  },
+		"title": {
+			"translate": "advancements.eryops.title"
+		},
+		"description": {
+			"translate": "advancements.eryops.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_eryops"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_edaphosaurus"
+		  },
+		"title": {
+			"translate": "advancements.edaphosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.edaphosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_edaphosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

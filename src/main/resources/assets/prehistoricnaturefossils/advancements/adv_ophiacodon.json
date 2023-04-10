@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_ophiacodon"
+		  },
+		"title": {
+			"translate": "advancements.ophiacodon.title"
+		},
+		"description": {
+			"translate": "advancements.ophiacodon.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_ophiacodon"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
