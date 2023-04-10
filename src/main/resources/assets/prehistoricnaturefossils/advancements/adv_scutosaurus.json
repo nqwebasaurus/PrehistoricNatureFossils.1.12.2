@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_scutosaurus"
+		  },
+		"title": {
+			"translate": "advancements.scutosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.scutosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_scutosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

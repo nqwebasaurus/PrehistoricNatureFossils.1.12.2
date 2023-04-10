@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_estemmenosuchus"
+		  },
+		"title": {
+			"translate": "advancements.estemmenosuchus.title"
+		},
+		"description": {
+			"translate": "advancements.estemmenosuchus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_estemmenosuchus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

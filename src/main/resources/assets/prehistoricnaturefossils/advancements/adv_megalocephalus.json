@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_megalocephalus"
+		  },
+		"title": {
+			"translate": "advancements.megalocephalus.title"
+		},
+		"description": {
+			"translate": "advancements.megalocephalus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_megalocephalus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

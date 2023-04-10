@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_postosuchus"
+		  },
+		"title": {
+			"translate": "advancements.postosuchus.title"
+		},
+		"description": {
+			"translate": "advancements.postosuchus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_postosuchus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

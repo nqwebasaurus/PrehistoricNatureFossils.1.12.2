@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_cyamodus"
+		  },
+		"title": {
+			"translate": "advancements.cyamodus.title"
+		},
+		"description": {
+			"translate": "advancements.cyamodus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_cyamodus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

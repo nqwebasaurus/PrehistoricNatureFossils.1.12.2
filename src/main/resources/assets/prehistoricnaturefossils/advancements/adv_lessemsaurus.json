@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_lessemsaurus"
+		  },
+		"title": {
+			"translate": "advancements.lessemsaurus.title"
+		},
+		"description": {
+			"translate": "advancements.lessemsaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_lessemsaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

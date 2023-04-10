@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_jonkeria"
+		  },
+		"title": {
+			"translate": "advancements.jonkeria.title"
+		},
+		"description": {
+			"translate": "advancements.jonkeria.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_jonkeria"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

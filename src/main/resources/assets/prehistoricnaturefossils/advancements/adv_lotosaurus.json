@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_lotosaurus"
+		  },
+		"title": {
+			"translate": "advancements.lotosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.lotosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_lotosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

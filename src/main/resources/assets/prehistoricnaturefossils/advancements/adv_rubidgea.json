@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_rubidgea"
+		  },
+		"title": {
+			"translate": "advancements.rubidgea.title"
+		},
+		"description": {
+			"translate": "advancements.rubidgea.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_rubidgea"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_inostrancevia"
+		  },
+		"title": {
+			"translate": "advancements.inostrancevia.title"
+		},
+		"description": {
+			"translate": "advancements.inostrancevia.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_inostrancevia"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

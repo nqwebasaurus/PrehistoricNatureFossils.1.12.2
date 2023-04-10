@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_erythrosuchus"
+		  },
+		"title": {
+			"translate": "advancements.erythrosuchus.title"
+		},
+		"description": {
+			"translate": "advancements.erythrosuchus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_erythrosuchus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

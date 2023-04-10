@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_dryosaurus"
+		  },
+		"title": {
+			"translate": "advancements.dryosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.dryosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_dryosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_thecodontosaurus"
+		  },
+		"title": {
+			"translate": "advancements.thecodontosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.thecodontosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_thecodontosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

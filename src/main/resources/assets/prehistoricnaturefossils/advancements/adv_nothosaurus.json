@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_nothosaurus"
+		  },
+		"title": {
+			"translate": "advancements.nothosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.nothosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_nothosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

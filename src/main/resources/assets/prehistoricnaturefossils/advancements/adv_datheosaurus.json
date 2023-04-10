@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_datheosaurus"
+		  },
+		"title": {
+			"translate": "advancements.datheosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.datheosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_datheosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_arizonasaurus"
+		  },
+		"title": {
+			"translate": "advancements.arizonasaurus.title"
+		},
+		"description": {
+			"translate": "advancements.arizonasaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_arizonasaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

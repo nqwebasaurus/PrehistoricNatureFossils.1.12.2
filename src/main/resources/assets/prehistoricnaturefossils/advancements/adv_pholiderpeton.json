@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_pholiderpeton"
+		  },
+		"title": {
+			"translate": "advancements.pholiderpeton.title"
+		},
+		"description": {
+			"translate": "advancements.pholiderpeton.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_pholiderpeton"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

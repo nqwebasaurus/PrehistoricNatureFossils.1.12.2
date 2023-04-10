@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_caviramus"
+		  },
+		"title": {
+			"translate": "advancements.caviramus.title"
+		},
+		"description": {
+			"translate": "advancements.caviramus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_caviramus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_lisowicia"
+		  },
+		"title": {
+			"translate": "advancements.lisowicia.title"
+		},
+		"description": {
+			"translate": "advancements.lisowicia.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_lisowicia"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

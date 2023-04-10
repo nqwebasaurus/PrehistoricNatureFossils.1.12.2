@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_diplocaulus"
+		  },
+		"title": {
+			"translate": "advancements.diplocaulus.title"
+		},
+		"description": {
+			"translate": "advancements.diplocaulus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_diplocaulus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

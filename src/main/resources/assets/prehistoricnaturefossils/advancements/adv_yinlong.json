@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_yinlong"
+		  },
+		"title": {
+			"translate": "advancements.yinlong.title"
+		},
+		"description": {
+			"translate": "advancements.yinlong.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_yinlong"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

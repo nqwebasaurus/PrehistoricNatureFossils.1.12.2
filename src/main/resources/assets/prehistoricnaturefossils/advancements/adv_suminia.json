@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_suminia"
+		  },
+		"title": {
+			"translate": "advancements.suminia.title"
+		},
+		"description": {
+			"translate": "advancements.suminia.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_suminia"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

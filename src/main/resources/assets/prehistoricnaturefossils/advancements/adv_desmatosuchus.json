@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_desmatosuchus"
+		  },
+		"title": {
+			"translate": "advancements.desmatosuchus.title"
+		},
+		"description": {
+			"translate": "advancements.desmatosuchus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_desmatosuchus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

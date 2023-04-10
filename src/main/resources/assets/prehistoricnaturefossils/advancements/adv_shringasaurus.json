@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_shringasaurus"
+		  },
+		"title": {
+			"translate": "advancements.shringasaurus.title"
+		},
+		"description": {
+			"translate": "advancements.shringasaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_shringasaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

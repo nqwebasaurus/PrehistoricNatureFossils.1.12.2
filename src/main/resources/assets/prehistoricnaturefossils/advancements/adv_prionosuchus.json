@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_prionosuchus"
+		  },
+		"title": {
+			"translate": "advancements.prionosuchus.title"
+		},
+		"description": {
+			"translate": "advancements.prionosuchus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_prionosuchus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

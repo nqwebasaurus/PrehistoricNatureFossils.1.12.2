@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_bungartius"
+		  },
+		"title": {
+			"translate": "advancements.bungartius.title"
+		},
+		"description": {
+			"translate": "advancements.bungartius.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_bungartius"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

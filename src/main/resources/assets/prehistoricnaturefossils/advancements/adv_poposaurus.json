@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_poposaurus"
+		  },
+		"title": {
+			"translate": "advancements.poposaurus.title"
+		},
+		"description": {
+			"translate": "advancements.poposaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_poposaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

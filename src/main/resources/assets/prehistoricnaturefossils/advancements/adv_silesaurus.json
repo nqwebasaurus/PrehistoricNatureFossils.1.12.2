@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_silesaurus"
+		  },
+		"title": {
+			"translate": "advancements.silesaurus.title"
+		},
+		"description": {
+			"translate": "advancements.silesaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_silesaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

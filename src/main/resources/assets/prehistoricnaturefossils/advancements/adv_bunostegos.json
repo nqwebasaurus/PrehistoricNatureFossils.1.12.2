@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_bunostegos"
+		  },
+		"title": {
+			"translate": "advancements.bunostegos.title"
+		},
+		"description": {
+			"translate": "advancements.bunostegos.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_bunostegos"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
