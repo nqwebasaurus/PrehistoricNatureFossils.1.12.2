@@ -91,5 +91,7 @@ public class BlockInit {
     public static final Block FOSSIL_AEGER  = new BlockFossilAeger();
     public static final Block FOSSIL_ERYON  = new BlockFossilEryon();
     public static final Block FOSSIL_FOREYIA  = new BlockFossilForeyia();
+    public static final Block FOSSIL_CROTALOCEPHALUS  = new BlockFossilCrotalocephalus();
+    public static final Block FOSSIL_OPABINIA  = new BlockFossilOpabinia();
 
 }

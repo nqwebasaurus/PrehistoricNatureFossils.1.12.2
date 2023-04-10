@@ -187,6 +187,7 @@ public class FossilBlockDrops {
 
     public static ItemStack[] getCambrianDisplayableFossilDrops() {
         ItemStack[] itemStack = {
+                new ItemStack(BlockInit.FOSSIL_OPABINIA, 1),
                 new ItemStack(BlockInit.FOSSIL_ANOMOLACARIS, 1)
         };
         return itemStack;
@@ -202,6 +203,7 @@ public class FossilBlockDrops {
 
     public static ItemStack[] getSilurianDisplayableFossilDrops() {
         ItemStack[] itemStack = {
+                new ItemStack(BlockInit.FOSSIL_CROTALOCEPHALUS, 1),
                 new ItemStack(BlockInit.FOSSIL_AMPYX, 1)
         };
         return itemStack;
@@ -211,6 +213,7 @@ public class FossilBlockDrops {
         ItemStack[] itemStack = {
                 new ItemStack(BlockInit.FOSSIL_BUNGARTIUS, 1),
                 new ItemStack(BlockInit.FOSSIL_DUNKLEOSTEUS, 1),
+                new ItemStack(BlockInit.FOSSIL_CROTALOCEPHALUS, 1),
                 new ItemStack(BlockInit.FOSSIL_TIKTAALIK, 1),
                 new ItemStack(BlockInit.FOSSIL_WALLISEROPS, 1),
                 new ItemStack(BlockInit.FOSSIL_SCHINDERHANNES, 1),
