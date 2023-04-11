@@ -35,7 +35,7 @@ public class ModelSkeletonTullimonstrum extends ModelBase {
         this.bone10.cubeList.add(new ModelBox(bone10, 0, 29, -7.0F, -1.0F, -10.0F, 8, 1, 8, 0.0F, false));
 
         this.bone = new ModelRenderer(this);
-        this.bone.setRotationPoint(0.0F, 4.9F, 0.0F);
+        this.bone.setRotationPoint(0.0F, 4.875F, 0.0F);
         this.bone10.addChild(bone);
         this.bone.cubeList.add(new ModelBox(bone, 0, 0, -1.5F, -6.0F, -4.0F, 3, 1, 8, 0.0F, false));
         this.bone.cubeList.add(new ModelBox(bone, 17, 18, -1.0F, -6.0F, -6.0F, 2, 1, 2, 0.0F, false));
