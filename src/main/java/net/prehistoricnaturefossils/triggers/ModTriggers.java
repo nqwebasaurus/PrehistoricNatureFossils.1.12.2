@@ -37,7 +37,7 @@ public class ModTriggers
     public static final CustomTrigger HENODUS_COMPLETE = new CustomTrigger("adv_henodus");
     public static final CustomTrigger INOSTRANCEVIA_COMPLETE = new CustomTrigger("adv_inostrancevia");
     public static final CustomTrigger JONKERIA_COMPLETE = new CustomTrigger("adv_jonkeria");
-    public static final CustomTrigger KENTROSAURUS_COMPLETE = new CustomTrigger("adv_jonkeria");
+    public static final CustomTrigger KENTROSAURUS_COMPLETE = new CustomTrigger("adv_kentrosaurus");
     public static final CustomTrigger LESSEMSAURUS_COMPLETE = new CustomTrigger("adv_lessemsaurus");
     public static final CustomTrigger LILIENSTERNUS_COMPLETE = new CustomTrigger("adv_liliensternus");
     public static final CustomTrigger LIMNOSCELIS_COMPLETE = new CustomTrigger("adv_limnoscelis");
