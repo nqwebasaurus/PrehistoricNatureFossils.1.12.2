@@ -95,5 +95,7 @@ public class BlockInit {
     public static final Block FOSSIL_OPABINIA  = new BlockFossilOpabinia();
     public static final Block FOSSIL_GEMUENDINA  = new BlockFossilGemuendina();
     public static final Block FOSSIL_BOBASATRANIA  = new BlockFossilBobasatrania();
+    public static final Block FOSSIL_OTTOIA  = new BlockFossilOttoia();
+    public static final Block FOSSIL_BELANTSEA  = new BlockFossilBelantsea();
 
 }
