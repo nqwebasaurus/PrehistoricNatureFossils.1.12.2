@@ -22,7 +22,7 @@ import org.apache.logging.log4j.Logger;
 
 @Mod(
         modid = "prehistoricnaturefossils",
-        version = "1.0"
+        version = "2.0"
 )
 public class PrehistoricNatureFossils {
     public static final String MODID = "prehistoricnaturefossils";
