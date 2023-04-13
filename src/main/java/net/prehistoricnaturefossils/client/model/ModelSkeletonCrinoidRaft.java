@@ -84,6 +84,9 @@ public class ModelSkeletonCrinoidRaft extends ModelBase {
     }
 
     public void renderAll(float f) {
+        horizontals.rotateAngleY = (float)Math.toRadians(90);
+        verticals.rotateAngleY = (float)Math.toRadians(90);
+        bb_main.rotateAngleY = (float)Math.toRadians(90);
         horizontals.render(0.01f);
         verticals.render(0.01f);
         bb_main.render(0.01f);
