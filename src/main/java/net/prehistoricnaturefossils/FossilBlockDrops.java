@@ -188,6 +188,7 @@ public class FossilBlockDrops {
     public static ItemStack[] getCambrianDisplayableFossilDrops() {
         ItemStack[] itemStack = {
                 new ItemStack(BlockInit.FOSSIL_OPABINIA, 1),
+                new ItemStack(BlockInit.FOSSIL_OTTOIA, 1),
                 new ItemStack(BlockInit.FOSSIL_ANOMOLACARIS, 1)
         };
         return itemStack;
@@ -215,6 +216,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_BUNGARTIUS, 1),
                 new ItemStack(BlockInit.FOSSIL_DUNKLEOSTEUS, 1),
                 new ItemStack(BlockInit.FOSSIL_CROTALOCEPHALUS, 1),
+                new ItemStack(BlockInit.FOSSIL_GEMUENDINA, 1),
                 new ItemStack(BlockInit.FOSSIL_TIKTAALIK, 1),
                 new ItemStack(BlockInit.FOSSIL_WALLISEROPS, 1),
                 new ItemStack(BlockInit.FOSSIL_SCHINDERHANNES, 1),
@@ -234,6 +236,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_LIMNOSCELIS, 1),
                 new ItemStack(BlockInit.FOSSIL_OPHIACODON, 1),
                 new ItemStack(BlockInit.FOSSIL_MEGANEURA, 1),
+                new ItemStack(BlockInit.FOSSIL_BELANTSEA, 1),
                 new ItemStack(BlockInit.FOSSIL_DATHEOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_PHOLIDERPETON, 1),
                 new ItemStack(BlockInit.FOSSIL_ERYOPS, 1),
@@ -264,6 +267,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_SCUTOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_JONKERIA, 1),
                 new ItemStack(BlockInit.FOSSIL_RUBIDGEA, 1),
+                new ItemStack(BlockInit.FOSSIL_BOBASATRANIA, 1),
                 new ItemStack(BlockInit.FOSSIL_SUMINIA, 1),
                 new ItemStack(BlockInit.FOSSIL_PRIONOSUCHUS, 1),
                 new ItemStack(BlockInit.FOSSIL_ESTEMMENOSUCHUS, 1),
@@ -280,6 +284,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_EFFIGIA, 1),
                 new ItemStack(BlockInit.FOSSIL_GERROTHORAX, 1),
                 new ItemStack(BlockInit.FOSSIL_FOREYIA, 1),
+                new ItemStack(BlockInit.FOSSIL_BOBASATRANIA, 1),
                 new ItemStack(BlockInit.FOSSIL_KEICHOUSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_LOTOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_LYSTROSAURUS, 1),
