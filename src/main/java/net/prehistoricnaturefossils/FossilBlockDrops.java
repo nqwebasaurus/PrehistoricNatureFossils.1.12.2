@@ -216,6 +216,8 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_BUNGARTIUS, 1),
                 new ItemStack(BlockInit.FOSSIL_DUNKLEOSTEUS, 1),
                 new ItemStack(BlockInit.FOSSIL_CROTALOCEPHALUS, 1),
+                new ItemStack(BlockInit.FOSSIL_CLADOSELACHE, 1),
+                new ItemStack(BlockInit.FOSSIL_EUSTHENOPTERON, 1),
                 new ItemStack(BlockInit.FOSSIL_GEMUENDINA, 1),
                 new ItemStack(BlockInit.FOSSIL_TIKTAALIK, 1),
                 new ItemStack(BlockInit.FOSSIL_WALLISEROPS, 1),

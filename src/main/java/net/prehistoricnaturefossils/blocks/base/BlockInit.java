@@ -98,5 +98,7 @@ public class BlockInit {
     public static final Block FOSSIL_OTTOIA  = new BlockFossilOttoia();
     public static final Block FOSSIL_BELANTSEA  = new BlockFossilBelantsea();
     public static final Block FOSSIL_CRINOID_RAFT  = new BlockFossilCrinoidRaft();
+    public static final Block FOSSIL_CLADOSELACHE  = new BlockFossilCladoselache();
+    public static final Block FOSSIL_EUSTHENOPTERON  = new BlockFossilEusthenopteron();
 
 }
