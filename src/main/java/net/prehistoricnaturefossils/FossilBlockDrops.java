@@ -204,7 +204,8 @@ public class FossilBlockDrops {
     public static ItemStack[] getSilurianDisplayableFossilDrops() {
         ItemStack[] itemStack = {
                 new ItemStack(BlockInit.FOSSIL_CROTALOCEPHALUS, 1),
-                new ItemStack(BlockInit.FOSSIL_AMPYX, 1)
+                new ItemStack(BlockInit.FOSSIL_AMPYX, 1),
+                new ItemStack(BlockInit.FOSSIL_CRINOID_RAFT, 1)
         };
         return itemStack;
     }
