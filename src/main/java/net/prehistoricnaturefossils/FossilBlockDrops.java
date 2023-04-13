@@ -189,6 +189,8 @@ public class FossilBlockDrops {
         ItemStack[] itemStack = {
                 new ItemStack(BlockInit.FOSSIL_OPABINIA, 1),
                 new ItemStack(BlockInit.FOSSIL_OTTOIA, 1),
+                new ItemStack(BlockInit.FOSSIL_VETULICOLA, 1),
+                new ItemStack(BlockInit.FOSSIL_SIDNEYIA, 1),
                 new ItemStack(BlockInit.FOSSIL_ANOMOLACARIS, 1)
         };
         return itemStack;
