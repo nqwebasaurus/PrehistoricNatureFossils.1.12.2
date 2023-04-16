@@ -191,6 +191,8 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_OTTOIA, 1),
                 new ItemStack(BlockInit.FOSSIL_VETULICOLA, 1),
                 new ItemStack(BlockInit.FOSSIL_HALLUCIGENIA, 1),
+                new ItemStack(BlockInit.FOSSIL_CANADASPIS, 1),
+                new ItemStack(BlockInit.FOSSIL_KERYGMACHELA, 1),
                 new ItemStack(BlockInit.FOSSIL_PIKAIA, 1),
                 new ItemStack(BlockInit.FOSSIL_SIDNEYIA, 1),
                 new ItemStack(BlockInit.FOSSIL_ANOMOLACARIS, 1)
