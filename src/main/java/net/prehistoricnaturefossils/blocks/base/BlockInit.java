@@ -106,5 +106,7 @@ public class BlockInit {
     public static final Block FOSSIL_HALLUCIGENIA  = new BlockFossilHallucigenia();
     public static final Block FOSSIL_BANDRINGA  = new BlockFossilBandringa();
     public static final Block FOSSIL_PIKAIA  = new BlockFossilPikaia();
+    public static final Block FOSSIL_CANADASPIS  = new BlockFossilCanadaspis();
+    public static final Block FOSSIL_KERYGMACHELA  = new BlockFossilKerygmachela();
 
 }
