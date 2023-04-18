@@ -47,7 +47,7 @@ public class RenderFossilAnomalocaris extends TileEntitySpecialRenderer<TileEnti
         ModelSkeletonAnomalocaris modelSkeleton = this.modelSkeleton;
         double scale = RenderAnomalocaris.getScaler() * RenderDisplayWallMount.scaler;
 
-        double offset = 0.3;
+        double offset = 0.4;
         if (facing == EnumFacing.UP) {
             GlStateManager.translate(x + 0.5, y + offset, z + 0.5);
             GlStateManager.rotate(180, 0F, 0F, 1F);
