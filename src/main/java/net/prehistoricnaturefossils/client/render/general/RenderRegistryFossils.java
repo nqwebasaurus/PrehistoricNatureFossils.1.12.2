@@ -50,6 +50,10 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilCambroraster.class, new RenderFossilCambroraster());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilEoredlichia.class, new RenderFossilEoredlichia());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilYawunik.class, new RenderFossilYawunik());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilMarrella.class, new RenderFossilMarrella());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilNectocaris.class, new RenderFossilNectocaris());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilPolybranchiaspis.class, new RenderFossilPolybranchiaspis());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilParameteoraspis.class, new RenderFossilParameteoraspis());
 
         //Skeleton Mounts:
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilArizonasaurus.class, new RenderFossilArizonasaurus());

@@ -112,5 +112,10 @@ public class BlockInit {
     public static final Block FOSSIL_CAMBRORASTER  = new BlockFossilCambroraster();
     public static final Block FOSSIL_EOREDLICHIA  = new BlockFossilEoredlichia();
     public static final Block FOSSIL_YAWUNIK  = new BlockFossilYawunik();
+    public static final Block FOSSIL_MARRELLA  = new BlockFossilMarrella();
+    public static final Block FOSSIL_NECTOCARIS  = new BlockFossilNectocaris();
+    public static final Block FOSSIL_POLYBRANCHIASPIS  = new BlockFossilPolybranchiaspis();
+    public static final Block FOSSIL_PARAMETEORASPIS  = new BlockFossilParameteoraspis();
+
 
 }
