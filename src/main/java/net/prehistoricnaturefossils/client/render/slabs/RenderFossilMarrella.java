@@ -1,6 +1,6 @@
 package net.prehistoricnaturefossils.client.render.slabs;
 
-import net.lepidodendron.entity.render.entity.RenderAnomalocaris;
+import net.lepidodendron.entity.render.entity.RenderMarrella;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
@@ -9,21 +9,21 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.blocks.base.BlockSlabBase;
-import net.prehistoricnaturefossils.client.model.ModelSkeletonAnomalocaris;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonMarrella;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
-import net.prehistoricnaturefossils.tile.TileEntityFossilAnomalocaris;
+import net.prehistoricnaturefossils.tile.TileEntityFossilMarrella;
 
-public class RenderFossilAnomalocaris extends TileEntitySpecialRenderer<TileEntityFossilAnomalocaris> {
+public class RenderFossilMarrella extends TileEntitySpecialRenderer<TileEntityFossilMarrella> {
 
-    private static final ResourceLocation TEXTURE1 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/anomalocaris_stage1.png");
-    private final ModelSkeletonAnomalocaris modelSkeleton;
+    private static final ResourceLocation TEXTURE1 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/marrella_stage1.png");
+    private final ModelSkeletonMarrella modelSkeleton;
 
-    public RenderFossilAnomalocaris() {
-        this.modelSkeleton = new ModelSkeletonAnomalocaris();
+    public RenderFossilMarrella() {
+        this.modelSkeleton = new ModelSkeletonMarrella();
     }
 
     @Override
-    public void render(TileEntityFossilAnomalocaris entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
+    public void render(TileEntityFossilMarrella entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
         int currentRotation = 0;
         int currentStage = 0;
         EnumFacing facing = EnumFacing.UP;
@@ -44,10 +44,10 @@ public class RenderFossilAnomalocaris extends TileEntitySpecialRenderer<TileEnti
         }
 
         GlStateManager.enableAlpha();
-        ModelSkeletonAnomalocaris modelSkeleton = this.modelSkeleton;
-        double scale = RenderAnomalocaris.getScaler() * RenderDisplayWallMount.scaler;
+        ModelSkeletonMarrella modelSkeleton = this.modelSkeleton;
+        double scale = RenderMarrella.getScaler() * RenderDisplayWallMount.scaler;
 
-        double offset = 0.4;
+        double offset = 0.25;
         if (facing == EnumFacing.UP) {
             GlStateManager.translate(x + 0.5, y + offset, z + 0.5);
             GlStateManager.rotate(180, 0F, 0F, 1F);
