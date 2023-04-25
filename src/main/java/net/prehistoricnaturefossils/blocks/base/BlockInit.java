@@ -116,6 +116,8 @@ public class BlockInit {
     public static final Block FOSSIL_NECTOCARIS  = new BlockFossilNectocaris();
     public static final Block FOSSIL_POLYBRANCHIASPIS  = new BlockFossilPolybranchiaspis();
     public static final Block FOSSIL_PARAMETEORASPIS  = new BlockFossilParameteoraspis();
+    public static final Block FOSSIL_HAIKOUICHTHYS  = new BlockFossilHaikouichthys();
+    public static final Block FOSSIL_YOHOIA  = new BlockFossilYohoia();
 
 
 }
