@@ -118,6 +118,8 @@ public class BlockInit {
     public static final Block FOSSIL_PARAMETEORASPIS  = new BlockFossilParameteoraspis();
     public static final Block FOSSIL_HAIKOUICHTHYS  = new BlockFossilHaikouichthys();
     public static final Block FOSSIL_YOHOIA  = new BlockFossilYohoia();
+    public static final Block FOSSIL_SANCTACARIS  = new BlockFossilSanctacaris();
+    public static final Block FOSSIL_SKEEMELLA  = new BlockFossilSkeemella();
 
 
 }
