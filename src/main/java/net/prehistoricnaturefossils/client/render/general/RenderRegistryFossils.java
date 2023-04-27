@@ -56,6 +56,8 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilParameteoraspis.class, new RenderFossilParameteoraspis());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilHaikouichthys.class, new RenderFossilHaikouichthys());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilYohoia.class, new RenderFossilYohoia());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSanctacaris.class, new RenderFossilSanctacaris());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSkeemella.class, new RenderFossilSkeemella());
 
         //Skeleton Mounts:
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilArizonasaurus.class, new RenderFossilArizonasaurus());
