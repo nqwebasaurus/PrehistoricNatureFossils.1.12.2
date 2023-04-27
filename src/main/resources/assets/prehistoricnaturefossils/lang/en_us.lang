@@ -119,6 +119,10 @@ advancements.tiktaalik.title=Burbot
 advancements.tiktaalik.description=Complete an Tiktaalik skeleton
 advancements.yinlong.title=Hidden Dragon
 advancements.yinlong.description=Complete an Yinlong skeleton
+advancements.rhomaleosaurus.title=Strong Lizard
+advancements.rhomaleosaurus.description=Complete an Rhomaleosaurus skeleton
+advancements.proterosuchus.title=Primitive Crocodile
+advancements.proterosuchus.description=Complete an Proterosuchus skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
 
@@ -236,3 +240,5 @@ tile.pf_skeleton_proburnetia.name=Proburnetia Displayable Fossil
 tile.pf_skeleton_tetraceratops.name=Tetraceratops Displayable Fossil
 tile.pf_skeleton_bunostegos.name=Bunostegos Displayable Fossil
 tile.pf_skeleton_inostrancevia.name=Inostrancevia Displayable Fossil
+tile.pf_skeleton_rhomaleosaurus.name=Rhomaleosaurus Displayable Fossil
+tile.pf_skeleton_proterosuchus.name=Proterosuchus Displayable Fossil
