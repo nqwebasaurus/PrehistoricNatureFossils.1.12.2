@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_placerias"
+		  },
+		"title": {
+			"translate": "advancements.placerias.title"
+		},
+		"description": {
+			"translate": "advancements.placerias.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_placerias"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

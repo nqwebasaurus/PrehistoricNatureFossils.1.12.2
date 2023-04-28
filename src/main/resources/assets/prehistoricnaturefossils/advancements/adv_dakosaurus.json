@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_dakosaurus"
+		  },
+		"title": {
+			"translate": "advancements.dakosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.dakosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_dakosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
