@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_proterosuchus"
+		  },
+		"title": {
+			"translate": "advancements.proterosuchus.title"
+		},
+		"description": {
+			"translate": "advancements.proterosuchus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_proterosuchus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

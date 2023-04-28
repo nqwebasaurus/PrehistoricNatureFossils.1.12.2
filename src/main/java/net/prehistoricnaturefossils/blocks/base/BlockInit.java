@@ -120,6 +120,10 @@ public class BlockInit {
     public static final Block FOSSIL_YOHOIA  = new BlockFossilYohoia();
     public static final Block FOSSIL_SANCTACARIS  = new BlockFossilSanctacaris();
     public static final Block FOSSIL_SKEEMELLA  = new BlockFossilSkeemella();
+    public static final Block FOSSIL_RHOMALEOSAURUS  = new BlockFossilRhomaleosaurus();
+    public static final Block FOSSIL_PROTEROSUCHUS  = new BlockFossilProterosuchus();
+    public static final Block FOSSIL_DAKOSAURUS  = new BlockFossilDakosaurus();
+    public static final Block FOSSIL_PLACERIAS  = new BlockFossilPlacerias();
 
 
 }
