@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_plateosaurus"
+		  },
+		"title": {
+			"translate": "advancements.plateosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.plateosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_plateosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

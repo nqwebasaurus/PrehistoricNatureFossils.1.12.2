@@ -323,6 +323,8 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_ATOPODENTATUS, 1),
                 new ItemStack(BlockInit.FOSSIL_LISOWICIA, 1),
                 new ItemStack(BlockInit.FOSSIL_SMILOSUCHUS, 1),
+                new ItemStack(BlockInit.FOSSIL_PLATEOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_COELOPHYSIS, 1),
                 new ItemStack(BlockInit.FOSSIL_PLACERIAS, 1),
                 new ItemStack(BlockInit.FOSSIL_SHONISAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_PLACODUS, 1),

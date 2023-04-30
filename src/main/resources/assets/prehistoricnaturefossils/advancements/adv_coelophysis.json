@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_coelophysis"
+		  },
+		"title": {
+			"translate": "advancements.coelophysis.title"
+		},
+		"description": {
+			"translate": "advancements.coelophysis.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_coelophysis"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
