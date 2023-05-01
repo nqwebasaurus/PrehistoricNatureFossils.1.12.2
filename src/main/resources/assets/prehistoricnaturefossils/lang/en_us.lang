@@ -127,6 +127,10 @@ advancements.dakosaurus.title=Biter Lizard
 advancements.dakosaurus.description=Complete a Dakosaurus skeleton
 advancements.placerias.title=Broad Body
 advancements.placerias.description=Complete a Placerias skeleton
+advancements.plateosaurus.title=Flat Lizard
+advancements.plateosaurus.description=Complete a Plateosaurus skeleton
+advancements.coelophysis.title=Hollow Form
+advancements.coelophysis.description=Complete a Coelophysis skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
 
@@ -248,3 +252,5 @@ tile.pf_skeleton_rhomaleosaurus.name=Rhomaleosaurus Displayable Fossil
 tile.pf_skeleton_proterosuchus.name=Proterosuchus Displayable Fossil
 tile.pf_skeleton_dakosaurus.name=Dakosaurus Displayable Fossil
 tile.pf_skeleton_placerias.name=Placerias Displayable Fossil
+tile.pf_skeleton_plateosaurus.name=Plateosaurus Displayable Fossil
+tile.pf_skeleton_coelophysis.name=Coelophysis Displayable Fossil

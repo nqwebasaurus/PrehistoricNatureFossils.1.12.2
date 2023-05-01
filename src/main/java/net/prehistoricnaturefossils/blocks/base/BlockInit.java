@@ -124,6 +124,8 @@ public class BlockInit {
     public static final Block FOSSIL_PROTEROSUCHUS  = new BlockFossilProterosuchus();
     public static final Block FOSSIL_DAKOSAURUS  = new BlockFossilDakosaurus();
     public static final Block FOSSIL_PLACERIAS  = new BlockFossilPlacerias();
+    public static final Block FOSSIL_PLATEOSAURUS  = new BlockFossilPlateosaurus();
+    public static final Block FOSSIL_COELOPHYSIS  = new BlockFossilCoelophysis();
 
 
 }
