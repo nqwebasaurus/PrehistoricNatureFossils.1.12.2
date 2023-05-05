@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_diadectes"
+		  },
+		"title": {
+			"translate": "advancements.diadectes.title"
+		},
+		"description": {
+			"translate": "advancements.diadectes.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_diadectes"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

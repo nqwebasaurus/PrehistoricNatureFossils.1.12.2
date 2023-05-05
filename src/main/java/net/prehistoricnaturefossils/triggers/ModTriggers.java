@@ -79,6 +79,8 @@ public class ModTriggers
     public static final CustomTrigger COELOPHYSIS_COMPLETE = new CustomTrigger("adv_coelophysis");
     public static final CustomTrigger ICHTHYOSTEGA_COMPLETE = new CustomTrigger("adv_ichthyostega");
     public static final CustomTrigger HERRERASAURUS_COMPLETE = new CustomTrigger("adv_herrerasaurus");
+    public static final CustomTrigger BATRACHOTOMUS_COMPLETE = new CustomTrigger("adv_batrachotomus");
+    public static final CustomTrigger DIADECTES_COMPLETE = new CustomTrigger("adv_diadectes");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
@@ -91,9 +93,11 @@ public class ModTriggers
             TIKTAALIK_COMPLETE,
             HERRERASAURUS_COMPLETE,
             TANYSTROPHEUS_COMPLETE,
+            DIADECTES_COMPLETE,
             TIARAJUDENS_COMPLETE,
             THECODONTOSAURUS_COMPLETE,
             TETRACERATOPS_COMPLETE,
+            BATRACHOTOMUS_COMPLETE,
             SMILOSUCHUS_COMPLETE,
             COELOPHYSIS_COMPLETE,
             SUMINIA_COMPLETE,
