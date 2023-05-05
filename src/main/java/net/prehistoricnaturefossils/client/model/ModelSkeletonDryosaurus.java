@@ -1188,7 +1188,7 @@ public class ModelSkeletonDryosaurus extends ModelBase {
         this.cube_r128.setRotationPoint(0.0F, 0.0F, 0.0F);
         this.FootL2.addChild(cube_r128);
         this.setRotateAngle(cube_r128, -0.0698F, 0.0F, 0.0F);
-        this.cube_r128.cubeList.add(new ModelBox(cube_r128, 0, 25, -1.99F, -1.0F, -6.0F, 3, 2, 7, 0.0F, false));
+        this.cube_r128.cubeList.add(new ModelBox(cube_r128, 0, 26, -1.99F, -1.0F, -6.0F, 3, 2, 7, 0.0F, false));
 
     }
 

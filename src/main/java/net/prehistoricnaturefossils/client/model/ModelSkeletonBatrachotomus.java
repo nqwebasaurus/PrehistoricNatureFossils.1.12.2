@@ -651,7 +651,7 @@ public class ModelSkeletonBatrachotomus extends ModelBase {
         this.cube_r73.setRotationPoint(0.0F, -3.4403F, -3.8645F);
         this.Neck.addChild(cube_r73);
         this.setRotateAngle(cube_r73, -0.0873F, 0.0F, 0.0F);
-        this.cube_r73.cubeList.add(new ModelBox(cube_r73, 46, 70, -0.5F, -0.5F, 0.2F, 1, 1, 4, -0.02F, false));
+        this.cube_r73.cubeList.add(new ModelBox(cube_r73, 47, 70, -0.5F, -0.5F, 0.2F, 1, 1, 4, -0.02F, false));
 
         this.cube_r74 = new ModelRenderer(this);
         this.cube_r74.setRotationPoint(0.0F, -0.1358F, -6.9748F);
@@ -712,7 +712,7 @@ public class ModelSkeletonBatrachotomus extends ModelBase {
         this.cube_r82.setRotationPoint(0.0F, -2.9169F, -2.1684F);
         this.Neck2.addChild(cube_r82);
         this.setRotateAngle(cube_r82, 0.2618F, 0.0F, 0.0F);
-        this.cube_r82.cubeList.add(new ModelBox(cube_r82, 71, 46, -0.5F, -0.5F, -2.5F, 1, 1, 4, -0.03F, false));
+        this.cube_r82.cubeList.add(new ModelBox(cube_r82, 71, 47, -0.5F, -0.5F, -2.5F, 1, 1, 4, -0.03F, false));
 
         this.cube_r83 = new ModelRenderer(this);
         this.cube_r83.setRotationPoint(0.0F, -1.1042F, -3.7447F);
@@ -953,7 +953,7 @@ public class ModelSkeletonBatrachotomus extends ModelBase {
         this.cube_r102.setRotationPoint(0.0F, -0.5589F, -0.714F);
         this.Tail2.addChild(cube_r102);
         this.setRotateAngle(cube_r102, -0.0175F, 0.0F, 0.0F);
-        this.cube_r102.cubeList.add(new ModelBox(cube_r102, 24, 16, -0.5F, -3.0F, 0.99F, 1, 1, 12, -0.01F, false));
+        this.cube_r102.cubeList.add(new ModelBox(cube_r102, 24, 17, -0.5F, -3.0F, 0.99F, 1, 1, 12, -0.01F, false));
 
         this.cube_r103 = new ModelRenderer(this);
         this.cube_r103.setRotationPoint(0.0F, -0.605F, 4.556F);
@@ -1147,7 +1147,9 @@ public class ModelSkeletonBatrachotomus extends ModelBase {
     }
 
     public void renderAll(float f) {
+
         this.fossil.render(0.01f);
+        //this.cube_r82.render(0.01f);
     }
 
     public void setRotateAngle(ModelRenderer modelRenderer, float x, float y, float z) {
