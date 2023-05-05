@@ -135,6 +135,10 @@ advancements.ichthyostega.title=Fish Roof
 advancements.ichthyostega.description=Complete an Ichthyostega skeleton
 advancements.herrerasaurus.title=Herrera's Lizard
 advancements.herrerasaurus.description=Complete a Herrerasaurus skeleton
+advancements.batrachotomus.title=Frog Slicer
+advancements.batrachotomus.description=Complete a Batrachotomus skeleton
+advancements.diadectes.title=Crosswise-Biter
+advancements.diadectes.description=Complete a Diadectes skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
 
@@ -260,3 +264,5 @@ tile.pf_skeleton_plateosaurus.name=Plateosaurus Displayable Fossil
 tile.pf_skeleton_coelophysis.name=Coelophysis Displayable Fossil
 tile.pf_skeleton_ichthyostega.name=Ichthyostega Displayable Fossil
 tile.pf_skeleton_herrerasaurus.name=Herrerasaurus Displayable Fossil
+tile.pf_skeleton_batrachotomus.name=Batrachotomus Displayable Fossil
+tile.pf_skeleton_diadectes.name=Diadectes Displayable Fossil
