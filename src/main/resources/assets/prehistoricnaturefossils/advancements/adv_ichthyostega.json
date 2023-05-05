@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_ichthyostega"
+		  },
+		"title": {
+			"translate": "advancements.ichthyostega.title"
+		},
+		"description": {
+			"translate": "advancements.ichthyostega.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_ichthyostega"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
