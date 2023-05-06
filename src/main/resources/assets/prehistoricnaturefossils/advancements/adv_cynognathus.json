@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_cynognathus"
+		  },
+		"title": {
+			"translate": "advancements.cynognathus.title"
+		},
+		"description": {
+			"translate": "advancements.cynognathus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_cynognathus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

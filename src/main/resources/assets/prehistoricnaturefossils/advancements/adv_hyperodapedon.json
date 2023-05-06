@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_hyperodapedon"
+		  },
+		"title": {
+			"translate": "advancements.hyperodapedon.title"
+		},
+		"description": {
+			"translate": "advancements.hyperodapedon.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_hyperodapedon"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
