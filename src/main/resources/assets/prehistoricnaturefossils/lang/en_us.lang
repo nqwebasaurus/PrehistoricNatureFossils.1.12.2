@@ -143,6 +143,10 @@ advancements.cynognathus.title=Dog Jaw
 advancements.cynognathus.description=Complete a Cynognathus skeleton
 advancements.hyperodapedon.title=Above Pavement
 advancements.hyperodapedon.description=Complete a Hyperodapedon skeleton
+advancements.proganochelys.title=Brightness Before the Turtle
+advancements.proganochelys.description=Complete a Proganochelys skeleton
+advancements.sillosuchus.title=Sill's Crocodile
+advancements.sillosuchus.description=Complete a Sillosuchus skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
 
@@ -272,3 +276,5 @@ tile.pf_skeleton_batrachotomus.name=Batrachotomus Displayable Fossil
 tile.pf_skeleton_diadectes.name=Diadectes Displayable Fossil
 tile.pf_skeleton_cynognathus.name=Cynognathus Displayable Fossil
 tile.pf_skeleton_hyperodapedon.name=Hyperodapedon Displayable Fossil
+tile.pf_skeleton_proganochelys.name=Proganochelys Displayable Fossil
+tile.pf_skeleton_sillosuchus.name=Sillosuchus Displayable Fossil
