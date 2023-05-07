@@ -139,6 +139,10 @@ advancements.batrachotomus.title=Frog Slicer
 advancements.batrachotomus.description=Complete a Batrachotomus skeleton
 advancements.diadectes.title=Crosswise-Biter
 advancements.diadectes.description=Complete a Diadectes skeleton
+advancements.cynognathus.title=Dog Jaw
+advancements.cynognathus.description=Complete a Cynognathus skeleton
+advancements.hyperodapedon.title=Above Pavement
+advancements.hyperodapedon.description=Complete a Hyperodapedon skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
 
@@ -266,3 +270,5 @@ tile.pf_skeleton_ichthyostega.name=Ichthyostega Displayable Fossil
 tile.pf_skeleton_herrerasaurus.name=Herrerasaurus Displayable Fossil
 tile.pf_skeleton_batrachotomus.name=Batrachotomus Displayable Fossil
 tile.pf_skeleton_diadectes.name=Diadectes Displayable Fossil
+tile.pf_skeleton_cynognathus.name=Cynognathus Displayable Fossil
+tile.pf_skeleton_hyperodapedon.name=Hyperodapedon Displayable Fossil

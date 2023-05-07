@@ -130,6 +130,8 @@ public class BlockInit {
     public static final Block FOSSIL_HERRERASAURUS  = new BlockFossilHerrerasaurus();
     public static final Block FOSSIL_BATRACHOTOMUS  = new BlockFossilBatrachotomus();
     public static final Block FOSSIL_DIADECTES  = new BlockFossilDiadectes();
+    public static final Block FOSSIL_CYNOGNATHUS  = new BlockFossilCynognathus();
+    public static final Block FOSSIL_HYPERODAPEDON  = new BlockFossilHyperodapedon();
 
 
 }
