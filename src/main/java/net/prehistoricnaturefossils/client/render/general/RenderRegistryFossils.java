@@ -133,6 +133,8 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilDiadectes.class, new RenderFossilDiadectes());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilCynognathus.class, new RenderFossilCynognathus());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilHyperodapedon.class, new RenderFossilHyperodapedon());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilProganochelys.class, new RenderFossilProganochelys());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSillosuchus.class, new RenderFossilSillosuchus());
 
     }
 }

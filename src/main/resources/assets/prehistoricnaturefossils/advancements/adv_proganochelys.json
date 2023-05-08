@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_proganochelys"
+		  },
+		"title": {
+			"translate": "advancements.proganochelys.title"
+		},
+		"description": {
+			"translate": "advancements.proganochelys.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_proganochelys"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

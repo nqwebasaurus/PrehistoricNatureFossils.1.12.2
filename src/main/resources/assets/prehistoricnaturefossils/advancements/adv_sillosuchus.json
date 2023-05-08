@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_sillosuchus"
+		  },
+		"title": {
+			"translate": "advancements.sillosuchus.title"
+		},
+		"description": {
+			"translate": "advancements.sillosuchus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_sillosuchus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -132,6 +132,8 @@ public class BlockInit {
     public static final Block FOSSIL_DIADECTES  = new BlockFossilDiadectes();
     public static final Block FOSSIL_CYNOGNATHUS  = new BlockFossilCynognathus();
     public static final Block FOSSIL_HYPERODAPEDON  = new BlockFossilHyperodapedon();
+    public static final Block FOSSIL_PROGANOCHELYS  = new BlockFossilProganochelys();
+    public static final Block FOSSIL_SILLOSUCHUS  = new BlockFossilSillosuchus();
 
 
 }

@@ -83,15 +83,19 @@ public class ModTriggers
     public static final CustomTrigger DIADECTES_COMPLETE = new CustomTrigger("adv_diadectes");
     public static final CustomTrigger CYNOGNATHUS_COMPLETE = new CustomTrigger("adv_cynognathus");
     public static final CustomTrigger HYPERODAPEDON_COMPLETE = new CustomTrigger("adv_hyperodapedon");
+    public static final CustomTrigger PROGANOCHELYS_COMPLETE = new CustomTrigger("adv_proganochelys");
+    public static final CustomTrigger SILLOSUCHUS_COMPLETE = new CustomTrigger("adv_sillosuchus");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             ANTEOSAURUS_COMPLETE,
             PLATEOSAURUS_COMPLETE,
+            SILLOSUCHUS_COMPLETE,
             YINLONG_COMPLETE,
             PLACERIAS_COMPLETE,
             CYNOGNATHUS_COMPLETE,
             ICHTHYOSTEGA_COMPLETE,
+            PROGANOCHELYS_COMPLETE,
             DAKOSAURUS_COMPLETE,
             HYPERODAPEDON_COMPLETE,
             TIKTAALIK_COMPLETE,
