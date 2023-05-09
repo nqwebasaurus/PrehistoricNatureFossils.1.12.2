@@ -87,11 +87,15 @@ public class ModTriggers
     public static final CustomTrigger SILLOSUCHUS_COMPLETE = new CustomTrigger("adv_sillosuchus");
     public static final CustomTrigger XINPUSAURUS_COMPLETE = new CustomTrigger("adv_xinpusaurus");
     public static final CustomTrigger VANCLEAVEA_COMPLETE = new CustomTrigger("adv_vancleavea");
+    public static final CustomTrigger TEMNODONTOSAURUS_COMPLETE = new CustomTrigger("adv_temnodontosaurus");
+    public static final CustomTrigger CERATOSAURUS_COMPLETE = new CustomTrigger("adv_ceratosaurus");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             ANTEOSAURUS_COMPLETE,
             PLATEOSAURUS_COMPLETE,
+            CERATOSAURUS_COMPLETE,
+            TEMNODONTOSAURUS_COMPLETE,
             SILLOSUCHUS_COMPLETE,
             VANCLEAVEA_COMPLETE,
             XINPUSAURUS_COMPLETE,

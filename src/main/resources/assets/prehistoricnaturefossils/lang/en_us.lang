@@ -151,6 +151,10 @@ advancements.xinpusaurus.title=Xinpu Lizard
 advancements.xinpusaurus.description=Complete a Xinpusaurus skeleton
 advancements.vancleavea.title=Van Cleave's
 advancements.vancleavea.description=Complete a Vancleavea skeleton
+advancements.temnodontosaurus.title=Cutting-Tooth Lizard
+advancements.temnodontosaurus.description=Complete a Temnodontosaurus skeleton
+advancements.ceratosaurus.title=Horned Lizard
+advancements.ceratosaurus.description=Complete a Ceratosaurus skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
 
@@ -284,3 +288,5 @@ tile.pf_skeleton_proganochelys.name=Proganochelys Displayable Fossil
 tile.pf_skeleton_sillosuchus.name=Sillosuchus Displayable Fossil
 tile.pf_skeleton_xinpusaurus.name=Xinpusaurus Displayable Fossil
 tile.pf_skeleton_vancleavea.name=Vancleavea Displayable Fossil
+tile.pf_skeleton_temnodontosaurus.name=Temnodontosaurus Displayable Fossil
+tile.pf_skeleton_ceratosaurus.name=Ceratosaurus Displayable Fossil

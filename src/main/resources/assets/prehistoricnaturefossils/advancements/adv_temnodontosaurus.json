@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_temnodontosaurus"
+		  },
+		"title": {
+			"translate": "advancements.temnodontosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.temnodontosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_temnodontosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
