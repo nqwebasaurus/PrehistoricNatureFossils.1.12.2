@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_vancleavea"
+		  },
+		"title": {
+			"translate": "advancements.vancleavea.title"
+		},
+		"description": {
+			"translate": "advancements.vancleavea.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_vancleavea"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

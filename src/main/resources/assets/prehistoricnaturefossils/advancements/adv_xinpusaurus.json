@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_xinpusaurus"
+		  },
+		"title": {
+			"translate": "advancements.xinpusaurus.title"
+		},
+		"description": {
+			"translate": "advancements.xinpusaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_xinpusaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
