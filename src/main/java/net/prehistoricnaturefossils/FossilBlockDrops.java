@@ -360,7 +360,9 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_RHOMALEOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_AEGER, 1),
                 new ItemStack(BlockInit.FOSSIL_ERYON, 1),
+                new ItemStack(BlockInit.FOSSIL_TEMNODONTOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_MEGALOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_CERATOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_TURBOSCINETES, 1),
                 new ItemStack(BlockInit.FOSSIL_DRYOSAURUS, 1)
         };

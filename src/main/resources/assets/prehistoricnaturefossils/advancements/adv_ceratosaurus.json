@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_ceratosaurus"
+		  },
+		"title": {
+			"translate": "advancements.ceratosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.ceratosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_ceratosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
