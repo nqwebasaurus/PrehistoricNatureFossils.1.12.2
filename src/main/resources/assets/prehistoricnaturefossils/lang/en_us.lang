@@ -155,6 +155,10 @@ advancements.temnodontosaurus.title=Cutting-Tooth Lizard
 advancements.temnodontosaurus.description=Complete a Temnodontosaurus skeleton
 advancements.ceratosaurus.title=Horned Lizard
 advancements.ceratosaurus.description=Complete a Ceratosaurus skeleton
+advancements.bobosaurus.title=Bobo's Lizard
+advancements.bobosaurus.description=Complete a Bobosaurus skeleton
+advancements.eurhinosaurus.title=Well-Nosed Lizard
+advancements.eurhinosaurus.description=Complete an Eurhinosaurus skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
 
@@ -290,3 +294,5 @@ tile.pf_skeleton_xinpusaurus.name=Xinpusaurus Displayable Fossil
 tile.pf_skeleton_vancleavea.name=Vancleavea Displayable Fossil
 tile.pf_skeleton_temnodontosaurus.name=Temnodontosaurus Displayable Fossil
 tile.pf_skeleton_ceratosaurus.name=Ceratosaurus Displayable Fossil
+tile.pf_skeleton_bobosaurus.name=Bobosaurus Displayable Fossil
+tile.pf_skeleton_eurhinosaurus.name=Eurhinosaurus Displayable Fossil

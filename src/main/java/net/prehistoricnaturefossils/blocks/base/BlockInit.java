@@ -138,5 +138,7 @@ public class BlockInit {
     public static final Block FOSSIL_VANCLEAVEA  = new BlockFossilVancleavea();
     public static final Block FOSSIL_TEMNODONTOSAURUS  = new BlockFossilTemnodontosaurus();
     public static final Block FOSSIL_CERATOSAURUS  = new BlockFossilCeratosaurus();
+    public static final Block FOSSIL_BOBOSAURUS  = new BlockFossilBobosaurus();
+    public static final Block FOSSIL_EURHINOSAURUS  = new BlockFossilEurhinosaurus();
 
 }

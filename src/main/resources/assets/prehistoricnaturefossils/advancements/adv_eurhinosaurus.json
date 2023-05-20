@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_eurhinosaurus"
+		  },
+		"title": {
+			"translate": "advancements.eurhinosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.eurhinosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_eurhinosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
