@@ -216,6 +216,11 @@ tile.pf_skeleton_cyrtoceras.name=Cyrtoceras Fossil Slab
 tile.pf_skeleton_platypeltoides.name=Platypeltoides Fossil Slab
 tile.pf_skeleton_lituites.name=Lituites Fossil Slab
 tile.pf_skeleton_cothurnocystis.name=Cothurnocystis Fossil Slab
+tile.pf_skeleton_orthoceras.name=Orthoceras Fossil Slab
+tile.pf_skeleton_arandaspis.name=Arandaspis Fossil Slab
+tile.pf_skeleton_maclurina.name=Maclurina Fossil Slab
+tile.pf_skeleton_aphetoceras.name=Aphetoceras Fossil Slab
+
 
 
 

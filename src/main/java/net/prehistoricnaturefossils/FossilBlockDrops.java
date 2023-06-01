@@ -214,6 +214,10 @@ public class FossilBlockDrops {
         ItemStack[] itemStack = {
                 new ItemStack(BlockInit.FOSSIL_ASAPHUS, 1),
                 new ItemStack(BlockInit.FOSSIL_LITUITES, 1),
+                new ItemStack(BlockInit.FOSSIL_ORTHOCERAS, 1),
+                new ItemStack(BlockInit.FOSSIL_ARANDASPIS, 1),
+                new ItemStack(BlockInit.FOSSIL_MACLURINA, 1),
+                new ItemStack(BlockInit.FOSSIL_APHETOCERAS, 1),
                 new ItemStack(BlockInit.FOSSIL_CYRTOCERAS, 1),
                 new ItemStack(BlockInit.FOSSIL_COTHURNOCYSTIS, 1),
                 new ItemStack(BlockInit.FOSSIL_PLATYPELTOIDES, 1),
@@ -226,6 +230,7 @@ public class FossilBlockDrops {
         ItemStack[] itemStack = {
                 new ItemStack(BlockInit.FOSSIL_CROTALOCEPHALUS, 1),
                 new ItemStack(BlockInit.FOSSIL_CYRTOCERAS, 1),
+                new ItemStack(BlockInit.FOSSIL_MACLURINA, 1),
                 new ItemStack(BlockInit.FOSSIL_AMPYX, 1),
                 new ItemStack(BlockInit.FOSSIL_CRINOID_RAFT, 1)
         };
@@ -238,6 +243,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_CYRTOCERAS, 1),
                 new ItemStack(BlockInit.FOSSIL_DUNKLEOSTEUS, 1),
                 new ItemStack(BlockInit.FOSSIL_CROTALOCEPHALUS, 1),
+                new ItemStack(BlockInit.FOSSIL_MACLURINA, 1),
                 new ItemStack(BlockInit.FOSSIL_CLADOSELACHE, 1),
                 new ItemStack(BlockInit.FOSSIL_ICHTHYOSTEGA, 1),
                 new ItemStack(BlockInit.FOSSIL_EUSTHENOPTERON, 1),
