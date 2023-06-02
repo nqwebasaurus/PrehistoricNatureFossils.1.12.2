@@ -148,5 +148,7 @@ public class BlockInit {
     public static final Block FOSSIL_ARANDASPIS  = new BlockFossilArandaspis();
     public static final Block FOSSIL_MACLURINA   = new BlockFossilMaclurina();
     public static final Block FOSSIL_APHETOCERAS   = new BlockFossilAphetoceras();
+    public static final Block FOSSIL_SACABAMBASPIS   = new BlockFossilSacabambaspis();
+    public static final Block FOSSIL_HUNGIOIDES   = new BlockFossilHungioides();
 
 }
