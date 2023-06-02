@@ -1,6 +1,6 @@
 package net.prehistoricnaturefossils.client.render.slabs;
 
-import net.lepidodendron.entity.render.entity.RenderTitanoptera;
+import net.lepidodendron.entity.render.entity.RenderCothurnocystis;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
@@ -9,21 +9,21 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.blocks.base.BlockSlabBase;
-import net.prehistoricnaturefossils.client.model.ModelSkeletonClatrotitan;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonCothurnocystis;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
-import net.prehistoricnaturefossils.tile.TileEntityFossilClatrotitan;
+import net.prehistoricnaturefossils.tile.TileEntityFossilCothurnocystis;
 
-public class RenderFossilClatrotitan extends TileEntitySpecialRenderer<TileEntityFossilClatrotitan> {
+public class RenderFossilCothurnocystis extends TileEntitySpecialRenderer<TileEntityFossilCothurnocystis> {
 
-    private static final ResourceLocation TEXTURE1 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/clatrotitan_stage1.png");
-    private final ModelSkeletonClatrotitan modelSkeleton;
+    private static final ResourceLocation TEXTURE1 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/cothurnocystis_stage1.png");
+    private final ModelSkeletonCothurnocystis modelSkeleton;
 
-    public RenderFossilClatrotitan() {
-        this.modelSkeleton = new ModelSkeletonClatrotitan();
+    public RenderFossilCothurnocystis() {
+        this.modelSkeleton = new ModelSkeletonCothurnocystis();
     }
 
     @Override
-    public void render(TileEntityFossilClatrotitan entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
+    public void render(TileEntityFossilCothurnocystis entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
         int currentRotation = 0;
         int currentStage = 0;
         EnumFacing facing = EnumFacing.UP;
@@ -44,10 +44,10 @@ public class RenderFossilClatrotitan extends TileEntitySpecialRenderer<TileEntit
         }
 
         GlStateManager.enableAlpha();
-        ModelSkeletonClatrotitan modelSkeleton = this.modelSkeleton;
-        double scale = RenderTitanoptera.getScaler() * RenderDisplayWallMount.scaler;
+        ModelSkeletonCothurnocystis modelSkeleton = this.modelSkeleton;
+        double scale = RenderCothurnocystis.getScaler() * RenderDisplayWallMount.scaler;
 
-        double offset = 0.26;
+        double offset = 0.3;
         if (facing == EnumFacing.UP) {
             GlStateManager.translate(x + 0.5, y + offset, z + 0.5);
             GlStateManager.rotate(180, 0F, 0F, 1F);

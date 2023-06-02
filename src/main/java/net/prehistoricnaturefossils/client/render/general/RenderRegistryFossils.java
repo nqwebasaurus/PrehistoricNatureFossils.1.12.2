@@ -58,6 +58,14 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilYohoia.class, new RenderFossilYohoia());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSanctacaris.class, new RenderFossilSanctacaris());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSkeemella.class, new RenderFossilSkeemella());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilCyrtoceras.class, new RenderFossilCyrtoceras());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilPlatypeltoides.class, new RenderFossilPlatypeltoides());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilLituites.class, new RenderFossilLituites());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilCothurnocystis.class, new RenderFossilCothurnocystis());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilOrthoceras.class, new RenderFossilOrthoceras());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilArandaspis.class, new RenderFossilArandaspis());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilMaclurina.class, new RenderFossilMaclurina());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilAphetoceras.class, new RenderFossilAphetoceras());
 
         //Skeleton Mounts:
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilArizonasaurus.class, new RenderFossilArizonasaurus());
@@ -139,6 +147,8 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilVancleavea.class, new RenderFossilVancleavea());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilTemnodontosaurus.class, new RenderFossilTemnodontosaurus());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilCeratosaurus.class, new RenderFossilCeratosaurus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilBobosaurus.class, new RenderFossilBobosaurus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilEurhinosaurus.class, new RenderFossilEurhinosaurus());
 
     }
 }

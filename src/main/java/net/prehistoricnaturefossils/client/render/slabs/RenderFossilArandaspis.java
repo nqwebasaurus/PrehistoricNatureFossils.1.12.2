@@ -1,6 +1,6 @@
 package net.prehistoricnaturefossils.client.render.slabs;
 
-import net.lepidodendron.entity.render.entity.RenderTitanoptera;
+import net.lepidodendron.entity.render.entity.RenderArandaspis;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
@@ -9,21 +9,21 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.blocks.base.BlockSlabBase;
-import net.prehistoricnaturefossils.client.model.ModelSkeletonClatrotitan;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonArandaspis;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
-import net.prehistoricnaturefossils.tile.TileEntityFossilClatrotitan;
+import net.prehistoricnaturefossils.tile.TileEntityFossilArandaspis;
 
-public class RenderFossilClatrotitan extends TileEntitySpecialRenderer<TileEntityFossilClatrotitan> {
+public class RenderFossilArandaspis extends TileEntitySpecialRenderer<TileEntityFossilArandaspis> {
 
-    private static final ResourceLocation TEXTURE1 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/clatrotitan_stage1.png");
-    private final ModelSkeletonClatrotitan modelSkeleton;
+    private static final ResourceLocation TEXTURE1 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/arandaspis_stage1.png");
+    private final ModelSkeletonArandaspis modelSkeleton;
 
-    public RenderFossilClatrotitan() {
-        this.modelSkeleton = new ModelSkeletonClatrotitan();
+    public RenderFossilArandaspis() {
+        this.modelSkeleton = new ModelSkeletonArandaspis();
     }
 
     @Override
-    public void render(TileEntityFossilClatrotitan entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
+    public void render(TileEntityFossilArandaspis entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
         int currentRotation = 0;
         int currentStage = 0;
         EnumFacing facing = EnumFacing.UP;
@@ -44,10 +44,10 @@ public class RenderFossilClatrotitan extends TileEntitySpecialRenderer<TileEntit
         }
 
         GlStateManager.enableAlpha();
-        ModelSkeletonClatrotitan modelSkeleton = this.modelSkeleton;
-        double scale = RenderTitanoptera.getScaler() * RenderDisplayWallMount.scaler;
+        ModelSkeletonArandaspis modelSkeleton = this.modelSkeleton;
+        double scale = RenderArandaspis.getScaler() * RenderDisplayWallMount.scaler;
 
-        double offset = 0.26;
+        double offset = 0.38;
         if (facing == EnumFacing.UP) {
             GlStateManager.translate(x + 0.5, y + offset, z + 0.5);
             GlStateManager.rotate(180, 0F, 0F, 1F);

@@ -138,5 +138,15 @@ public class BlockInit {
     public static final Block FOSSIL_VANCLEAVEA  = new BlockFossilVancleavea();
     public static final Block FOSSIL_TEMNODONTOSAURUS  = new BlockFossilTemnodontosaurus();
     public static final Block FOSSIL_CERATOSAURUS  = new BlockFossilCeratosaurus();
+    public static final Block FOSSIL_BOBOSAURUS  = new BlockFossilBobosaurus();
+    public static final Block FOSSIL_EURHINOSAURUS  = new BlockFossilEurhinosaurus();
+    public static final Block FOSSIL_CYRTOCERAS  = new BlockFossilCyrtoceras();
+    public static final Block FOSSIL_PLATYPELTOIDES  = new BlockFossilPlatypeltoides();
+    public static final Block FOSSIL_LITUITES  = new BlockFossilLituites();
+    public static final Block FOSSIL_COTHURNOCYSTIS  = new BlockFossilCothurnocystis();
+    public static final Block FOSSIL_ORTHOCERAS  = new BlockFossilOrthoceras();
+    public static final Block FOSSIL_ARANDASPIS  = new BlockFossilArandaspis();
+    public static final Block FOSSIL_MACLURINA   = new BlockFossilMaclurina();
+    public static final Block FOSSIL_APHETOCERAS   = new BlockFossilAphetoceras();
 
 }
