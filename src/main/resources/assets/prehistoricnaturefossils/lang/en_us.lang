@@ -155,6 +155,10 @@ advancements.temnodontosaurus.title=Cutting-Tooth Lizard
 advancements.temnodontosaurus.description=Complete a Temnodontosaurus skeleton
 advancements.ceratosaurus.title=Horned Lizard
 advancements.ceratosaurus.description=Complete a Ceratosaurus skeleton
+advancements.bobosaurus.title=Bobo's Lizard
+advancements.bobosaurus.description=Complete a Bobosaurus skeleton
+advancements.eurhinosaurus.title=Well-Nosed Lizard
+advancements.eurhinosaurus.description=Complete an Eurhinosaurus skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
 
@@ -208,6 +212,17 @@ tile.pf_skeleton_haikouichthys.name=Haikouichthys Fossil Slab
 tile.pf_skeleton_yohoia.name=Yohoia Fossil Slab
 tile.pf_skeleton_sanctacaris.name=Sanctacaris Fossil Slab
 tile.pf_skeleton_skeemella.name=Skeemella Fossil Slab
+tile.pf_skeleton_cyrtoceras.name=Cyrtoceras Fossil Slab
+tile.pf_skeleton_platypeltoides.name=Platypeltoides Fossil Slab
+tile.pf_skeleton_lituites.name=Lituites Fossil Slab
+tile.pf_skeleton_cothurnocystis.name=Cothurnocystis Fossil Slab
+tile.pf_skeleton_orthoceras.name=Orthoceras Fossil Slab
+tile.pf_skeleton_arandaspis.name=Arandaspis Fossil Slab
+tile.pf_skeleton_maclurina.name=Maclurina Fossil Slab
+tile.pf_skeleton_aphetoceras.name=Aphetoceras Fossil Slab
+tile.pf_skeleton_sacabambaspis.name=Sacabambaspis Fossil Slab
+tile.pf_skeleton_hungioides.name=Hungioides Fossil Slab
+
 
 
 
@@ -290,3 +305,5 @@ tile.pf_skeleton_xinpusaurus.name=Xinpusaurus Displayable Fossil
 tile.pf_skeleton_vancleavea.name=Vancleavea Displayable Fossil
 tile.pf_skeleton_temnodontosaurus.name=Temnodontosaurus Displayable Fossil
 tile.pf_skeleton_ceratosaurus.name=Ceratosaurus Displayable Fossil
+tile.pf_skeleton_bobosaurus.name=Bobosaurus Displayable Fossil
+tile.pf_skeleton_eurhinosaurus.name=Eurhinosaurus Displayable Fossil

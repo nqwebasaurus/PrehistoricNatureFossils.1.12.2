@@ -89,10 +89,14 @@ public class ModTriggers
     public static final CustomTrigger VANCLEAVEA_COMPLETE = new CustomTrigger("adv_vancleavea");
     public static final CustomTrigger TEMNODONTOSAURUS_COMPLETE = new CustomTrigger("adv_temnodontosaurus");
     public static final CustomTrigger CERATOSAURUS_COMPLETE = new CustomTrigger("adv_ceratosaurus");
+    public static final CustomTrigger BOBOSAURUS_COMPLETE = new CustomTrigger("adv_bobosaurus");
+    public static final CustomTrigger EURHINOSAURUS_COMPLETE = new CustomTrigger("adv_eurhinosaurus");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             ANTEOSAURUS_COMPLETE,
+            BOBOSAURUS_COMPLETE,
+            EURHINOSAURUS_COMPLETE,
             PLATEOSAURUS_COMPLETE,
             CERATOSAURUS_COMPLETE,
             TEMNODONTOSAURUS_COMPLETE,

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_bobosaurus"
+		  },
+		"title": {
+			"translate": "advancements.bobosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.bobosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_bobosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

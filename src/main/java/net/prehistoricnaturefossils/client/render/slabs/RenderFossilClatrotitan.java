@@ -1,6 +1,6 @@
 package net.prehistoricnaturefossils.client.render.slabs;
 
-import net.lepidodendron.entity.render.entity.RenderTitanopteraClatrotitan;
+import net.lepidodendron.entity.render.entity.RenderTitanoptera;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
@@ -45,7 +45,7 @@ public class RenderFossilClatrotitan extends TileEntitySpecialRenderer<TileEntit
 
         GlStateManager.enableAlpha();
         ModelSkeletonClatrotitan modelSkeleton = this.modelSkeleton;
-        double scale = RenderTitanopteraClatrotitan.getScaler() * RenderDisplayWallMount.scaler;
+        double scale = RenderTitanoptera.getScaler() * RenderDisplayWallMount.scaler;
 
         double offset = 0.26;
         if (facing == EnumFacing.UP) {
