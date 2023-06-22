@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_tuojiangosaurus"
+		  },
+		"title": {
+			"translate": "advancements.tuojiangosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.tuojiangosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_tuojiangosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
