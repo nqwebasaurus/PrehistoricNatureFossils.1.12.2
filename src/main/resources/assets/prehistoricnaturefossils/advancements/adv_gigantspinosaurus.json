@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_gigantspinosaurus"
+		  },
+		"title": {
+			"translate": "advancements.gigantspinosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.gigantspinosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_gigantspinosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

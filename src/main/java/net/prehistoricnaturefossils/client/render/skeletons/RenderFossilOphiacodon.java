@@ -83,7 +83,7 @@ public class RenderFossilOphiacodon extends TileEntitySpecialRenderer<TileEntity
         ModelSkeletonOphiacodon modelSkeleton = this.modelSkeleton;
         double scale = RenderOphiacodon.getScaler() * RenderDisplayWallMount.scaler;
 
-        GlStateManager.translate(x + 0.5, y + 0.6, z + 0.5);
+        GlStateManager.translate(x + 0.5, y + 0.58, z + 0.5);
         GlStateManager.scale(scale,scale,scale);
         GlStateManager.rotate(180, 0F, 0F, 1F);
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);

@@ -223,7 +223,6 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_CYRTOCERAS, 1),
                 new ItemStack(BlockInit.FOSSIL_COTHURNOCYSTIS, 1),
                 new ItemStack(BlockInit.FOSSIL_PLATYPELTOIDES, 1),
-                new ItemStack(BlockInit.FOSSIL_MIXOPTERUS, 1)
         };
         return itemStack;
     }
@@ -234,6 +233,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_CYRTOCERAS, 1),
                 new ItemStack(BlockInit.FOSSIL_MACLURINA, 1),
                 new ItemStack(BlockInit.FOSSIL_AMPYX, 1),
+                new ItemStack(BlockInit.FOSSIL_MIXOPTERUS, 1),
                 new ItemStack(BlockInit.FOSSIL_CRINOID_RAFT, 1)
         };
         return itemStack;
@@ -370,7 +370,11 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_KENTROSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_LIMULID, 1),
                 new ItemStack(BlockInit.FOSSIL_OPHTHALMOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_CRYOLOPHOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_GIGANTSPINOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_YINLONG, 1),
+                new ItemStack(BlockInit.FOSSIL_TUOJIANGOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_STEGOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_DAKOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_RHOMALEOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_AEGER, 1),

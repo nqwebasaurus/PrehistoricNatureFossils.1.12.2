@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_cryolophosaurus"
+		  },
+		"title": {
+			"translate": "advancements.cryolophosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.cryolophosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_cryolophosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
