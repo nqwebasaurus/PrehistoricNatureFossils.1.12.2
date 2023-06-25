@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_huayangosaurus"
+		  },
+		"title": {
+			"translate": "advancements.huayangosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.huayangosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_huayangosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
