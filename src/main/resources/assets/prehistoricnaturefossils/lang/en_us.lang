@@ -167,6 +167,10 @@ advancements.tuojiangosaurus.title=Tuo River lizard
 advancements.tuojiangosaurus.description=Complete a Tuojiangosaurus skeleton
 advancements.stegosaurus.title=Roof Lizard
 advancements.stegosaurus.description=Complete a Stegosaurus skeleton
+advancements.huayangosaurus.title=Early Sichan Lizard
+advancements.huayangosaurus.description=Complete a Huayangosaurus skeleton
+advancements.europasaurus.title=Europe Lizard
+advancements.europasaurus.description=Complete an Europasaurus skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
 
@@ -319,3 +323,5 @@ tile.pf_skeleton_cryolophosaurus.name=Cryolophosaurus Displayable Fossil
 tile.pf_skeleton_gigantspinosaurus.name=Gigantspinosaurus Displayable Fossil
 tile.pf_skeleton_tuojiangosaurus.name=Tuojiangosaurus Displayable Fossil
 tile.pf_skeleton_stegosaurus.name=Stegosaurus Displayable Fossil
+tile.pf_skeleton_huayangosaurus.name=Huayangosaurus Displayable Fossil
+tile.pf_skeleton_europasaurus.name=Europasaurus Displayable Fossil
