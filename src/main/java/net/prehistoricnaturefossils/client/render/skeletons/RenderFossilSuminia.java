@@ -64,7 +64,7 @@ public class RenderFossilSuminia extends TileEntitySpecialRenderer<TileEntityFos
         ModelSkeletonSuminia modelSkeleton = this.modelSkeleton;
         double scale = RenderSuminia.getScaler() * RenderDisplayWallMount.scaler;
 
-        GlStateManager.translate(x + 0.5, y + 0.23, z + 0.5);
+        GlStateManager.translate(x + 0.5, y + 0.21, z + 0.5);
         GlStateManager.scale(scale,scale,scale);
         GlStateManager.rotate(180, 0F, 0F, 1F);
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);

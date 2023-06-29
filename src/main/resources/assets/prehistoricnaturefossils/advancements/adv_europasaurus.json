@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_europasaurus"
+		  },
+		"title": {
+			"translate": "advancements.europasaurus.title"
+		},
+		"description": {
+			"translate": "advancements.europasaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_europasaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

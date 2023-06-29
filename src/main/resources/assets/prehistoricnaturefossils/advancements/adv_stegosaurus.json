@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_stegosaurus"
+		  },
+		"title": {
+			"translate": "advancements.stegosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.stegosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_stegosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
