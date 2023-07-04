@@ -47,7 +47,7 @@ public class RenderFossilHaikouichthys extends TileEntitySpecialRenderer<TileEnt
         ModelSkeletonHaikouichthys modelSkeleton = this.modelSkeleton;
         double scale = RenderHaikouichthys.getScaler() * RenderDisplayWallMount.scaler;
 
-        double offset = 0.09;
+        double offset = 0.085;
         if (facing == EnumFacing.UP) {
             GlStateManager.translate(x + 0.5, y + offset, z + 0.5);
             GlStateManager.rotate(180, 0F, 0F, 1F);
