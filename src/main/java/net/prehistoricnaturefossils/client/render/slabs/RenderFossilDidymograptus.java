@@ -1,6 +1,6 @@
 package net.prehistoricnaturefossils.client.render.slabs;
 
-import net.lepidodendron.entity.render.entity.RenderMeganeura;
+import net.lepidodendron.entity.render.entity.RenderDidymograptus;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
@@ -9,21 +9,21 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.blocks.base.BlockSlabBase;
-import net.prehistoricnaturefossils.client.model.ModelSkeletonMeganeura;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonDidymograptus;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
-import net.prehistoricnaturefossils.tile.TileEntityFossilMeganeura;
+import net.prehistoricnaturefossils.tile.TileEntityFossilDidymograptus;
 
-public class RenderFossilMeganeura extends TileEntitySpecialRenderer<TileEntityFossilMeganeura> {
+public class RenderFossilDidymograptus extends TileEntitySpecialRenderer<TileEntityFossilDidymograptus> {
 
-    private static final ResourceLocation TEXTURE1 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/meganeura_stage1.png");
-    private final ModelSkeletonMeganeura modelSkeleton;
+    private static final ResourceLocation TEXTURE1 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/didymograptus_stage1.png");
+    private final ModelSkeletonDidymograptus modelSkeleton;
 
-    public RenderFossilMeganeura() {
-        this.modelSkeleton = new ModelSkeletonMeganeura();
+    public RenderFossilDidymograptus() {
+        this.modelSkeleton = new ModelSkeletonDidymograptus();
     }
 
     @Override
-    public void render(TileEntityFossilMeganeura entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
+    public void render(TileEntityFossilDidymograptus entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
         int currentRotation = 0;
         int currentStage = 0;
         EnumFacing facing = EnumFacing.UP;
@@ -44,10 +44,10 @@ public class RenderFossilMeganeura extends TileEntitySpecialRenderer<TileEntityF
         }
 
         GlStateManager.enableAlpha();
-        ModelSkeletonMeganeura modelSkeleton = this.modelSkeleton;
-        double scale = RenderMeganeura.getScaler() * RenderDisplayWallMount.scaler;
+        ModelSkeletonDidymograptus modelSkeleton = this.modelSkeleton;
+        double scale = RenderDidymograptus.getScaler() * RenderDisplayWallMount.scaler;
 
-        double offset = 0.38;
+        double offset = 0.53;
         if (facing == EnumFacing.UP) {
             GlStateManager.translate(x + 0.5, y + offset, z + 0.5);
             GlStateManager.rotate(180, 0F, 0F, 1F);
