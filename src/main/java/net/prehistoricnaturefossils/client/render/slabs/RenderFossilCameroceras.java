@@ -1,6 +1,6 @@
 package net.prehistoricnaturefossils.client.render.slabs;
 
-import net.lepidodendron.entity.render.entity.RenderSanctacaris;
+import net.lepidodendron.entity.render.entity.RenderCameroceras;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
@@ -9,21 +9,21 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.blocks.base.BlockSlabBase;
-import net.prehistoricnaturefossils.client.model.ModelSkeletonSanctacaris;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonCameroceras;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
-import net.prehistoricnaturefossils.tile.TileEntityFossilSanctacaris;
+import net.prehistoricnaturefossils.tile.TileEntityFossilCameroceras;
 
-public class RenderFossilSanctacaris extends TileEntitySpecialRenderer<TileEntityFossilSanctacaris> {
+public class RenderFossilCameroceras extends TileEntitySpecialRenderer<TileEntityFossilCameroceras> {
 
-    private static final ResourceLocation TEXTURE1 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/sanctacaris_stage1.png");
-    private final ModelSkeletonSanctacaris modelSkeleton;
+    private static final ResourceLocation TEXTURE1 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/cameroceras_stage1.png");
+    private final ModelSkeletonCameroceras modelSkeleton;
 
-    public RenderFossilSanctacaris() {
-        this.modelSkeleton = new ModelSkeletonSanctacaris();
+    public RenderFossilCameroceras() {
+        this.modelSkeleton = new ModelSkeletonCameroceras();
     }
 
     @Override
-    public void render(TileEntityFossilSanctacaris entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
+    public void render(TileEntityFossilCameroceras entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
         int currentRotation = 0;
         int currentStage = 0;
         EnumFacing facing = EnumFacing.UP;
@@ -44,10 +44,10 @@ public class RenderFossilSanctacaris extends TileEntitySpecialRenderer<TileEntit
         }
 
         GlStateManager.enableAlpha();
-        ModelSkeletonSanctacaris modelSkeleton = this.modelSkeleton;
-        double scale = RenderSanctacaris.getScaler() * RenderDisplayWallMount.scaler;
+        ModelSkeletonCameroceras modelSkeleton = this.modelSkeleton;
+        double scale = RenderCameroceras.getScaler() * RenderDisplayWallMount.scaler;
 
-        double offset = 0.19;
+        double offset = 1.4;
         if (facing == EnumFacing.UP) {
             GlStateManager.translate(x + 0.5, y + offset, z + 0.5);
             GlStateManager.rotate(180, 0F, 0F, 1F);

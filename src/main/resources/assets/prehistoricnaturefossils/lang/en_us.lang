@@ -236,6 +236,12 @@ tile.pf_skeleton_sacabambaspis.name=Sacabambaspis Fossil Slab
 tile.pf_skeleton_hungioides.name=Hungioides Fossil Slab
 tile.pf_skeleton_didymograptus.name=Didymograptus Fossil Slab
 tile.pf_skeleton_gonioceras.name=Gonioceras Fossil Slab
+tile.pf_skeleton_aegirocassis.name=Aegirocassis Fossil Slab
+tile.pf_skeleton_cameroceras.name=Cameroceras Fossil Slab
+tile.pf_skeleton_conodont.name=Conodont Animal Fossil Slab
+tile.pf_skeleton_pricyclopyge.name=Pricyclopyge Fossil Slab
+tile.pf_skeleton_villebrunaster.name=Villebrunaster Fossil Slab
+tile.pf_skeleton_calvapilosa.name=Calvapilosa Fossil Slab
 
 
 
