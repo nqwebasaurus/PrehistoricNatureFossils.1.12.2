@@ -164,5 +164,7 @@ public class BlockInit {
     public static final Block FOSSIL_PRICYCLOPYGE   = new BlockFossilPricyclopyge();
     public static final Block FOSSIL_VILLEBRUNASTER   = new BlockFossilVillebrunaster();
     public static final Block FOSSIL_CALVAPILOSA   = new BlockFossilCalvapilosa();
+    public static final Block FOSSIL_AINIKTOZOON   = new BlockFossilAiniktozoon();
+    public static final Block FOSSIL_ARCTINURUS   = new BlockFossilArctinurus();
 
 }

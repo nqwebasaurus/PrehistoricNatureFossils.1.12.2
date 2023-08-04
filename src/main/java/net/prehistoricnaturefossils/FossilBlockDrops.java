@@ -242,8 +242,10 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_CONODONT, 1),
                 new ItemStack(BlockInit.FOSSIL_CYRTOCERAS, 1),
                 new ItemStack(BlockInit.FOSSIL_MACLURINA, 1),
+                new ItemStack(BlockInit.FOSSIL_AINIKTOZOON, 1),
                 new ItemStack(BlockInit.FOSSIL_AMPYX, 1),
                 new ItemStack(BlockInit.FOSSIL_MIXOPTERUS, 1),
+                new ItemStack(BlockInit.FOSSIL_ARCTINURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_CRINOID_RAFT, 1)
         };
         return itemStack;
