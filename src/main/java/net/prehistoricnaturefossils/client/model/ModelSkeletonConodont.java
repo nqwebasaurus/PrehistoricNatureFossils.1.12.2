@@ -82,7 +82,7 @@ public class ModelSkeletonConodont extends ModelBase {
         this.gill.setRotationPoint(0.0F, -2.5F, -3.0F);
         this.head.addChild(gill);
         this.setRotateAngle(gill, 0.0F, -0.1745F, 0.0F);
-        this.gill.cubeList.add(new ModelBox(gill, 11, 0, -1.5F, 1.49F, 0.0F, 3, 0, 9, 0.0F, false));
+        this.gill.cubeList.add(new ModelBox(gill, 11, 0, -1.5F, 1.39F, 0.0F, 3, 0, 9, 0.0F, false));
 
         this.body = new ModelRenderer(this);
         this.body.setRotationPoint(0.0F, 0.0F, 9.0F);

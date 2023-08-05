@@ -170,5 +170,7 @@ public class BlockInit {
     public static final Block FOSSIL_BIRKENIA   = new BlockFossilBirkenia();
     public static final Block FOSSIL_CARCINOSOMA   = new BlockFossilCarcinosoma();
     public static final Block FOSSIL_FURCASTER   = new BlockFossilFurcaster();
+    public static final Block FOSSIL_EURYPTERUS   = new BlockFossilEurypterus();
+    public static final Block FOSSIL_JAMOYTIUS    = new BlockFossilJamoytius();
 
 }
