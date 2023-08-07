@@ -158,5 +158,19 @@ public class BlockInit {
     public static final Block FOSSIL_EUROPASAURUS   = new BlockFossilEuropasaurus();
     public static final Block FOSSIL_DIDYMOGRAPTUS   = new BlockFossilDidymograptus();
     public static final Block FOSSIL_GONIOCERAS   = new BlockFossilGonioceras();
+    public static final Block FOSSIL_AEGIROCASSIS   = new BlockFossilAegirocassis();
+    public static final Block FOSSIL_CAMEROCERAS   = new BlockFossilCameroceras();
+    public static final Block FOSSIL_CONODONT   = new BlockFossilConodont();
+    public static final Block FOSSIL_PRICYCLOPYGE   = new BlockFossilPricyclopyge();
+    public static final Block FOSSIL_VILLEBRUNASTER   = new BlockFossilVillebrunaster();
+    public static final Block FOSSIL_CALVAPILOSA   = new BlockFossilCalvapilosa();
+    public static final Block FOSSIL_AINIKTOZOON   = new BlockFossilAiniktozoon();
+    public static final Block FOSSIL_ARCTINURUS   = new BlockFossilArctinurus();
+    public static final Block FOSSIL_BOHEMOHARPES   = new BlockFossilBohemoharpes();
+    public static final Block FOSSIL_BIRKENIA   = new BlockFossilBirkenia();
+    public static final Block FOSSIL_CARCINOSOMA   = new BlockFossilCarcinosoma();
+    public static final Block FOSSIL_FURCASTER   = new BlockFossilFurcaster();
+    public static final Block FOSSIL_EURYPTERUS   = new BlockFossilEurypterus();
+    public static final Block FOSSIL_JAMOYTIUS    = new BlockFossilJamoytius();
 
 }
