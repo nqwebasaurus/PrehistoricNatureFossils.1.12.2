@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_hupehsuchus"
+		  },
+		"title": {
+			"translate": "advancements.hupehsuchus.title"
+		},
+		"description": {
+			"translate": "advancements.hupehsuchus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_hupehsuchus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

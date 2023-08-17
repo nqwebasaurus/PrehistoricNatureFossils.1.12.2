@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_yunguisaurus"
+		  },
+		"title": {
+			"translate": "advancements.yunguisaurus.title"
+		},
+		"description": {
+			"translate": "advancements.yunguisaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_yunguisaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

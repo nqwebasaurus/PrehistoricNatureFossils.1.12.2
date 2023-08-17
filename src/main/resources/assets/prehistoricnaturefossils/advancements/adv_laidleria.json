@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_laidleria"
+		  },
+		"title": {
+			"translate": "advancements.laidleria.title"
+		},
+		"description": {
+			"translate": "advancements.laidleria.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_laidleria"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
