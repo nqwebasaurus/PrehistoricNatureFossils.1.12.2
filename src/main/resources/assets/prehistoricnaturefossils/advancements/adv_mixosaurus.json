@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_mixosaurus"
+		  },
+		"title": {
+			"translate": "advancements.mixosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.mixosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_mixosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
