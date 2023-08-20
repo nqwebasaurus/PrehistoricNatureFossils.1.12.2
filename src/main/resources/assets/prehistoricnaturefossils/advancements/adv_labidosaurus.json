@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_labidosaurus"
+		  },
+		"title": {
+			"translate": "advancements.labidosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.labidosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_labidosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

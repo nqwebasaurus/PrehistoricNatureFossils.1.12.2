@@ -101,14 +101,26 @@ public class ModTriggers
     public static final CustomTrigger LAIDLERIA_COMPLETE = new CustomTrigger("adv_laidleria");
     public static final CustomTrigger YUNGUISAURUS_COMPLETE = new CustomTrigger("adv_yunguisaurus");
     public static final CustomTrigger MIXOSAURUS_COMPLETE = new CustomTrigger("adv_mixosaurus");
+    public static final CustomTrigger CRIOCEPHALOSAURUS_COMPLETE = new CustomTrigger("adv_criocephalosaurus");
+    public static final CustomTrigger CTENOSPONDYLUS_COMPLETE = new CustomTrigger("adv_ctenospondylus");
+    public static final CustomTrigger ELGINIA_COMPLETE = new CustomTrigger("adv_elginia");
+    public static final CustomTrigger EUNOTOSAURUS_COMPLETE = new CustomTrigger("adv_eunotosaurus");
+    public static final CustomTrigger ROBERTIA_COMPLETE = new CustomTrigger("adv_robertia");
+    public static final CustomTrigger LABIDOSAURUS_COMPLETE = new CustomTrigger("adv_labidosaurus");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             ANTEOSAURUS_COMPLETE,
             GIGANTSPINOSAURUS_COMPLETE,
             LAIDLERIA_COMPLETE,
+            LABIDOSAURUS_COMPLETE,
+            ROBERTIA_COMPLETE,
+            EUNOTOSAURUS_COMPLETE,
+            ELGINIA_COMPLETE,
+            CTENOSPONDYLUS_COMPLETE,
             MIXOSAURUS_COMPLETE,
             HUPEHSUCHUS_COMPLETE,
+            CRIOCEPHALOSAURUS_COMPLETE,
             YUNGUISAURUS_COMPLETE,
             STEGOSAURUS_COMPLETE,
             EUROPASAURUS_COMPLETE,

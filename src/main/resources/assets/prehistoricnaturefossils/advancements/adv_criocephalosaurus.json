@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_criocephalosaurus"
+		  },
+		"title": {
+			"translate": "advancements.criocephalosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.criocephalosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_criocephalosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

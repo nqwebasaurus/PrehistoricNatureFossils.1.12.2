@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_ctenospondylus"
+		  },
+		"title": {
+			"translate": "advancements.ctenospondylus.title"
+		},
+		"description": {
+			"translate": "advancements.ctenospondylus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_ctenospondylus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
