@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_eunotosaurus"
+		  },
+		"title": {
+			"translate": "advancements.eunotosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.eunotosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_eunotosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

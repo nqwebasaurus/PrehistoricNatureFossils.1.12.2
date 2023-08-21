@@ -176,5 +176,11 @@ public class BlockInit {
     public static final Block FOSSIL_LAIDLERIA    = new BlockFossilLaidleria();
     public static final Block FOSSIL_YUNGUISAURUS    = new BlockFossilYunguisaurus();
     public static final Block FOSSIL_MIXOSAURUS    = new BlockFossilMixosaurus();
+    public static final Block FOSSIL_CRIOCEPHALOSAURUS    = new BlockFossilCriocephalosaurus();
+    public static final Block FOSSIL_CTENOSPONDYLUS    = new BlockFossilCtenospondylus();
+    public static final Block FOSSIL_ELGINIA    = new BlockFossilElginia();
+    public static final Block FOSSIL_EUNOTOSAURUS    = new BlockFossilEunotosaurus();
+    public static final Block FOSSIL_ROBERTIA    = new BlockFossilRobertia();
+    public static final Block FOSSIL_LABIDOSAURUS    = new BlockFossilLabidosaurus();
 
 }
