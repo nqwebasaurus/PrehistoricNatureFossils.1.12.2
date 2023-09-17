@@ -44,6 +44,7 @@ public class RenderFossilBobasatrania extends TileEntitySpecialRenderer<TileEnti
         }
 
         GlStateManager.enableAlpha();
+
         ModelSkeletonBobasatrania modelSkeleton = this.modelSkeleton;
         double scale = RenderBobasatrania.getScaler() * RenderDisplayWallMount.scaler;
 
