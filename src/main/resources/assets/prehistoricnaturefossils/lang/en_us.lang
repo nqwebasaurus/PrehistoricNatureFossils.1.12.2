@@ -191,6 +191,10 @@ advancements.robertia.title=Robert's
 advancements.robertia.description=Complete a Robertia skeleton
 advancements.labidosaurus.title=Forceps Lizard
 advancements.labidosaurus.description=Complete a Labidosaurus skeleton
+advancements.vivaxosaurus.title=Durable Lizard
+advancements.vivaxosaurus.description=Complete a Vivaxosaurus skeleton
+advancements.uranocentrodon.title=Prickle-Toothed Palate
+advancements.uranocentrodon.description=Complete a Uranocentrodon skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
 
@@ -370,3 +374,5 @@ tile.pf_skeleton_elginia.name=Elginia Displayable Fossil
 tile.pf_skeleton_eunotosaurus.name=Eunotosaurus Displayable Fossil
 tile.pf_skeleton_labidosaurus.name=Labidosaurus Displayable Fossil
 tile.pf_skeleton_robertia.name=Robertia Displayable Fossil
+tile.pf_skeleton_vivaxosaurus.name=Vivaxosaurus Displayable Fossil
+tile.pf_skeleton_uranocentrodon.name=Uranocentrodon Displayable Fossil
