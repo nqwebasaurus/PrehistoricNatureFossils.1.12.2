@@ -3,7 +3,7 @@
     "modid": "prehistoricnaturefossils",
     "name": "Prehistoric Nature Fossils",
     "description": "Adds displayable fossils for Prehistoric Nature",
-    "version": "1.12.2-2.0",
+    "version": "1.12.2-2.01",
     "credits": "Aecht Rob",
     "logoFile": "assets/prehistoricnaturefossils/textures/packlogo.png",
     "mcversion": "${mcversion}",
