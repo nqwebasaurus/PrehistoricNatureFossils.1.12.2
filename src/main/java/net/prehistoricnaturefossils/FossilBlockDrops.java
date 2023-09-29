@@ -251,8 +251,8 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_EURYPTERUS, 1),
                 new ItemStack(BlockInit.FOSSIL_ARCTINURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_JAMOYTIUS, 1),
-                new ItemStack(BlockInit.FOSSIL_BIRKENIA, 1),
-                new ItemStack(BlockInit.FOSSIL_CRINOID_RAFT, 1)
+                new ItemStack(BlockInit.FOSSIL_BIRKENIA, 1)
+//                new ItemStack(BlockInit.FOSSIL_CRINOID_RAFT, 1)
         };
         return itemStack;
     }

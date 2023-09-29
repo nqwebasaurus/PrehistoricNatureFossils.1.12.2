@@ -64,7 +64,7 @@ public class RenderFossilHyperodapedon extends TileEntitySpecialRenderer<TileEnt
         ModelSkeletonHyperodapedon modelSkeleton = this.modelSkeleton;
         double scale = RenderHyperodapedon.getScaler() * RenderDisplayWallMount.scaler;
 
-        GlStateManager.translate(x + 0.5, y + 1.15, z + 0.5);
+        GlStateManager.translate(x + 0.5, y + 0.78, z + 0.5);
         GlStateManager.scale(scale,scale,scale);
         GlStateManager.rotate(180, 0F, 0F, 1F);
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
