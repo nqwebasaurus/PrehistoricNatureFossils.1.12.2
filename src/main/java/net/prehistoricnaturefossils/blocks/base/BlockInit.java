@@ -182,5 +182,7 @@ public class BlockInit {
     public static final Block FOSSIL_EUNOTOSAURUS    = new BlockFossilEunotosaurus();
     public static final Block FOSSIL_ROBERTIA    = new BlockFossilRobertia();
     public static final Block FOSSIL_LABIDOSAURUS    = new BlockFossilLabidosaurus();
+    public static final Block FOSSIL_VIVAXOSAURUS    = new BlockFossilVivaxosaurus();
+    public static final Block FOSSIL_URANOCENTRODON    = new BlockFossilUranocentrodon();
 
 }

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_uranocentrodon"
+		  },
+		"title": {
+			"translate": "advancements.uranocentrodon.title"
+		},
+		"description": {
+			"translate": "advancements.uranocentrodon.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_uranocentrodon"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

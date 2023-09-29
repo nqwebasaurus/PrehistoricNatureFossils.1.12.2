@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_vivaxosaurus"
+		  },
+		"title": {
+			"translate": "advancements.vivaxosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.vivaxosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_vivaxosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
