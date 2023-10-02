@@ -22,12 +22,12 @@ import org.apache.logging.log4j.Logger;
 
 @Mod(
         modid = "prehistoricnaturefossils",
-        version = "2.0"
+        version = "3.0"
 )
 public class PrehistoricNatureFossils {
     public static final String MODID = "prehistoricnaturefossils";
     public static final String NAME = "Prehistoric Nature Fossils";
-    public static final String VERSION = "2.01";
+    public static final String VERSION = "3.0";
     public static final String MCVERSION = "[1.12.2]";
     public static final Logger LOGGER = LogManager.getLogger("prehistoricnaturefossils");
     public static final CreativeTabs CREATIVE_TAB = new CreativeTabFossils();
