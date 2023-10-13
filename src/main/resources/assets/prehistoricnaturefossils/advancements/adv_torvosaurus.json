@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_torvosaurus"
+		  },
+		"title": {
+			"translate": "advancements.torvosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.torvosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_torvosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

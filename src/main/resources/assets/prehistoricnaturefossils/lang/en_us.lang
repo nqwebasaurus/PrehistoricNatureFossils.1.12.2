@@ -195,6 +195,10 @@ advancements.vivaxosaurus.title=Durable Lizard
 advancements.vivaxosaurus.description=Complete a Vivaxosaurus skeleton
 advancements.uranocentrodon.title=Prickle-Toothed Palate
 advancements.uranocentrodon.description=Complete a Uranocentrodon skeleton
+advancements.torvosaurus.title=Savage Lizard
+advancements.torvosaurus.description=Complete a Torvosaurus skeleton
+advancements.yangchuanosaurus.title=Lizard from Yangquan
+advancements.yangchuanosaurus.description=Complete a Yangchuanosaurus skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
 
@@ -376,3 +380,5 @@ tile.pf_skeleton_labidosaurus.name=Labidosaurus Displayable Fossil
 tile.pf_skeleton_robertia.name=Robertia Displayable Fossil
 tile.pf_skeleton_vivaxosaurus.name=Vivaxosaurus Displayable Fossil
 tile.pf_skeleton_uranocentrodon.name=Uranocentrodon Displayable Fossil
+tile.pf_skeleton_torvosaurus.name=Torvosaurus Displayable Fossil
+tile.pf_skeleton_yangchuanosaurus.name=Yangchuanosaurus Displayable Fossil

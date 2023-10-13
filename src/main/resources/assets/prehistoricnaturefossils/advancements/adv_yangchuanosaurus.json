@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_yangchuanosaurus"
+		  },
+		"title": {
+			"translate": "advancements.yangchuanosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.yangchuanosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_yangchuanosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
