@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_dilophosaurus"
+		  },
+		"title": {
+			"translate": "advancements.dilophosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.dilophosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_dilophosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

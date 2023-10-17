@@ -111,11 +111,15 @@ public class ModTriggers
     public static final CustomTrigger URANOCENTRODON_COMPLETE = new CustomTrigger("adv_uranocentrodon");
     public static final CustomTrigger TORVOSAURUS_COMPLETE = new CustomTrigger("adv_torvosaurus");
     public static final CustomTrigger YANGCHUANOSAURUS_COMPLETE = new CustomTrigger("adv_yangchuanosaurus");
+    public static final CustomTrigger DILOPHOSAURUS_COMPLETE = new CustomTrigger("adv_dilophosaurus");
+    public static final CustomTrigger MYMOORAPELTA_COMPLETE = new CustomTrigger("adv_mymoorapelta");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             ANTEOSAURUS_COMPLETE,
+            MYMOORAPELTA_COMPLETE,
             YANGCHUANOSAURUS_COMPLETE,
+            DILOPHOSAURUS_COMPLETE,
             GIGANTSPINOSAURUS_COMPLETE,
             VIVAXOSAURUS_COMPLETE,
             TORVOSAURUS_COMPLETE,

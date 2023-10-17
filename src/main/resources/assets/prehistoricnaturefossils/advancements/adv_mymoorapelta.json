@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_mymoorapelta"
+		  },
+		"title": {
+			"translate": "advancements.mymoorapelta.title"
+		},
+		"description": {
+			"translate": "advancements.mymoorapelta.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_mymoorapelta"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
