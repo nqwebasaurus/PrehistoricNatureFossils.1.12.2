@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_limusaurus"
+		  },
+		"title": {
+			"translate": "advancements.limusaurus.title"
+		},
+		"description": {
+			"translate": "advancements.limusaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_limusaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
