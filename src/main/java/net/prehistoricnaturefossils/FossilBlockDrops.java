@@ -41,8 +41,9 @@ public class FossilBlockDrops {
                     Block.spawnAsEntity(worldIn, pos, dropStack);
                 }
                 //fortune modifier:
-                int levelEnchantment = net.minecraft.enchantment.EnchantmentHelper.getEnchantmentLevel(Enchantments.DISCERNING_COLLECTOR, stack);
-                for (int i = 0; i < (levelEnchantment * 10); ++i) {
+                int levelEnchantment = net.minecraft.enchantment.EnchantmentHelper.getEnchantmentLevel(net.minecraft.init.Enchantments.FORTUNE, stack);
+                int ii = rand.nextInt(levelEnchantment + 1) * 2;
+                for (int i = 0; i < ii; ++i) {
                     if (rand.nextInt(2) == 0) {
                         dropStack = getDisplayableFossilStackModified(state, event.getPlayer(), stack);
                         if (!dropStack.isEmpty()) {
@@ -55,7 +56,7 @@ public class FossilBlockDrops {
     }
 
     public ItemStack getDisplayableFossilStackModified(IBlockState state, EntityPlayer player, ItemStack stack) {
-        int chanceImprover = net.minecraft.enchantment.EnchantmentHelper.getEnchantmentLevel(net.minecraft.init.Enchantments.FORTUNE, stack);
+        int chanceImprover = net.minecraft.enchantment.EnchantmentHelper.getEnchantmentLevel(Enchantments.DISCERNING_COLLECTOR, stack);
         chanceImprover = chanceImprover * 5;
         ItemStack resultStack = ItemStack.EMPTY;
         for (int i = 0; i <= chanceImprover; i++) {
