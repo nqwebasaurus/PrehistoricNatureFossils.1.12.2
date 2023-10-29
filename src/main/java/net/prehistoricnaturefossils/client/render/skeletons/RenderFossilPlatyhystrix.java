@@ -68,6 +68,7 @@ public class RenderFossilPlatyhystrix extends TileEntitySpecialRenderer<TileEnti
         GlStateManager.scale(scale,scale,scale);
         GlStateManager.rotate(180, 0F, 0F, 1F);
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
+        GlStateManager.rotate(180, 0F, 1F, 0F); //model is backwards!
 
         modelSkeleton.renderAll(Minecraft.getMinecraft().player.ticksExisted);
         GlStateManager.disableAlpha();
