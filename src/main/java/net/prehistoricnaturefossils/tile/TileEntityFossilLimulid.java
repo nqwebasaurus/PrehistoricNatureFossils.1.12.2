@@ -4,9 +4,8 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilLimulid extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {
-        return 1;
-    }
 
+    public TileEntityFossilLimulid(int stagesIn) {
+        super(stagesIn);
+    }
 }

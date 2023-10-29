@@ -4,9 +4,8 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilMixopterus extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {
-        return 1;
-    }
 
+    public TileEntityFossilMixopterus(int stagesIn) {
+        super(stagesIn);
+    }
 }

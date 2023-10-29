@@ -1,6 +1,7 @@
 package net.prehistoricnaturefossils;
 
 import net.minecraft.block.Block;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -8,6 +9,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.prehistoricnaturefossils.blocks.base.BlockInit;
 import net.prehistoricnaturefossils.client.render.general.RenderRegistryFossils;
+import net.prehistoricnaturefossils.enchantments.Enchantments;
 import net.prehistoricnaturefossils.items.IHasModel;
 import net.prehistoricnaturefossils.items.ItemInit;
 
@@ -37,5 +39,11 @@ public class RegistrationHandler {
         }
         RenderRegistryFossils.RegisterEntityRenders();
     }
+
+    @SubscribeEvent
+    public static void registerEnchantments(RegistryEvent.Register<Enchantment> event) {
+        event.getRegistry().registerAll(Enchantments.DISCERNING_COLLECTOR);
+    }
+
 
 }

@@ -4,9 +4,8 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilInostrancevia extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {
-        return 15;
-    }
 
+    public TileEntityFossilInostrancevia(int stagesIn) {
+        super(stagesIn);
+    }
 }

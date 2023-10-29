@@ -4,9 +4,8 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilMeganeura extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {
-        return 1;
-    }
 
+    public TileEntityFossilMeganeura(int stagesIn) {
+        super(stagesIn);
+    }
 }

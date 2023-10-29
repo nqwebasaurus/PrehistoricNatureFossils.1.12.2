@@ -4,9 +4,8 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilJonkeria extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {
-        return 15;
-    }
 
+    public TileEntityFossilJonkeria(int stagesIn) {
+        super(stagesIn);
+    }
 }

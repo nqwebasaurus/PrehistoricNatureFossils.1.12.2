@@ -4,9 +4,8 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilBohemoharpes extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {
-        return 1;
-    }
 
+    public TileEntityFossilBohemoharpes(int stagesIn) {
+        super(stagesIn);
+    }
 }

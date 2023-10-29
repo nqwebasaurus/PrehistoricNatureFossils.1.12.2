@@ -4,9 +4,8 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilMaclurina extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {
-        return 1;
-    }
 
+    public TileEntityFossilMaclurina(int stagesIn) {
+        super(stagesIn);
+    }
 }

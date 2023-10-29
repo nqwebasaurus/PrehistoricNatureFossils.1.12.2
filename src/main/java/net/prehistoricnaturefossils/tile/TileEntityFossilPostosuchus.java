@@ -4,9 +4,8 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilPostosuchus extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {
-        return 20;
-    }
 
+    public TileEntityFossilPostosuchus(int stagesIn) {
+        super(stagesIn);
+    }
 }

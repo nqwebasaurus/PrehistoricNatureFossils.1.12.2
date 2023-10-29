@@ -4,9 +4,7 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilCarcinosoma extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {
-        return 1;
+    public TileEntityFossilCarcinosoma(int stagesIn) {
+        super(stagesIn);
     }
-
 }

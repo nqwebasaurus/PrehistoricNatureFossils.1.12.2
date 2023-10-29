@@ -1,6 +1,5 @@
 package net.prehistoricnaturefossils.client.render.skeletons;
 
-import net.lepidodendron.LepidodendronMod;
 import net.lepidodendron.entity.render.entity.RenderCaviramus;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;

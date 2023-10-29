@@ -4,9 +4,7 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilCameroceras extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {
-        return 1;
+    public TileEntityFossilCameroceras(int stagesIn) {
+        super(stagesIn);
     }
-
 }

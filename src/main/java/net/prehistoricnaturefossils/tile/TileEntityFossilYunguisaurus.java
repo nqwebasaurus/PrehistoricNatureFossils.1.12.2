@@ -4,7 +4,8 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilYunguisaurus extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {return 10;}
 
+    public TileEntityFossilYunguisaurus(int stagesIn) {
+        super(stagesIn);
+    }
 }

@@ -4,12 +4,18 @@ import net.lepidodendron.block.*;
 import net.lepidodendron.item.ItemFossilHammer;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.minecraft.world.WorldServer;
 import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.prehistoricnaturefossils.blocks.base.BlockInit;
+import net.prehistoricnaturefossils.blocks.base.IAdvancementGranterFossil;
+import net.prehistoricnaturefossils.enchantments.Enchantments;
 
 import java.util.Random;
 
@@ -30,16 +36,15 @@ public class FossilBlockDrops {
         IBlockState state = event.getState();
         if (state.getBlock() instanceof BlockFossil) {
             if (!worldIn.isRemote && stack.getItem() == ItemFossilHammer.block) {
-                ItemStack dropStack = getDisplayableFossilStack(state);
+                ItemStack dropStack = getDisplayableFossilStackModified(state, event.getPlayer(), stack);
                 if (!dropStack.isEmpty()) {
                     Block.spawnAsEntity(worldIn, pos, dropStack);
                 }
                 //fortune modifier:
-                int levelEnchantment = net.minecraft.enchantment.EnchantmentHelper.getEnchantmentLevel(net.minecraft.init.Enchantments.FORTUNE, stack);
-                int ii = rand.nextInt(levelEnchantment + 1) * 2;
-                for (int i = 0; i < ii; ++i) {
+                int levelEnchantment = net.minecraft.enchantment.EnchantmentHelper.getEnchantmentLevel(Enchantments.DISCERNING_COLLECTOR, stack);
+                for (int i = 0; i < (levelEnchantment * 10); ++i) {
                     if (rand.nextInt(2) == 0) {
-                        dropStack = getDisplayableFossilStack(state);
+                        dropStack = getDisplayableFossilStackModified(state, event.getPlayer(), stack);
                         if (!dropStack.isEmpty()) {
                             Block.spawnAsEntity(worldIn, pos, dropStack);
                         }
@@ -48,6 +53,39 @@ public class FossilBlockDrops {
             }
         }
     }
+
+    public ItemStack getDisplayableFossilStackModified(IBlockState state, EntityPlayer player, ItemStack stack) {
+        int chanceImprover = net.minecraft.enchantment.EnchantmentHelper.getEnchantmentLevel(net.minecraft.init.Enchantments.FORTUNE, stack);
+        chanceImprover = chanceImprover * 5;
+        ItemStack resultStack = ItemStack.EMPTY;
+        for (int i = 0; i <= chanceImprover; i++) {
+            resultStack = getDisplayableFossilStack(state);
+            if (!hasAdvancement(resultStack, player)) {
+                break;
+            }
+        }
+        return resultStack;
+    }
+
+    public boolean hasAdvancement(ItemStack stack, EntityPlayer player) {
+
+        String strAdv = "";
+        if (Block.getBlockFromItem(stack.getItem()) instanceof IAdvancementGranterFossil) {
+            strAdv = ((IAdvancementGranterFossil) Block.getBlockFromItem(stack.getItem())).getModTrigger().getId().toString();
+            strAdv = strAdv.replace("minecraft:", "prehistoricnaturefossils:");
+        }
+        if (strAdv.equalsIgnoreCase("")) {
+            return false;
+        }
+        if (player instanceof EntityPlayerMP) {
+            if (((EntityPlayerMP)player).getAdvancements().getProgress(((WorldServer) player.world).getAdvancementManager()
+                .getAdvancement(new ResourceLocation(strAdv))).isDone()) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 
     public ItemStack getDisplayableFossilStack(IBlockState state) {
         if (state.getBlock() == BlockFossilPrecambrian.block) {

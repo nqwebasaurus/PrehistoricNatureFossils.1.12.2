@@ -4,9 +4,9 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilBelantsea extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {
-        return 1;
+    public TileEntityFossilBelantsea(int stagesIn) {
+        super(stagesIn);
     }
+
 
 }

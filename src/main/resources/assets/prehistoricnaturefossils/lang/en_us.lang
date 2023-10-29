@@ -1,4 +1,6 @@
 itemGroup.prehistoricnaturefossils=Prehistoric Nature Fossils
+advancements.aeger.title=Aeger
+advancements.aeger.description=Complete an Aeger slab
 advancements.anteosaurus.title=Antaeus Lizard
 advancements.anteosaurus.description=Complete an Anteosaurus skeleton
 advancements.arizonasaurus.title=Arizona's Lizard
@@ -201,6 +203,8 @@ advancements.yangchuanosaurus.title=Lizard from Yangquan
 advancements.yangchuanosaurus.description=Complete a Yangchuanosaurus skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
+
+enchantment.pf_discerning_collector=Discerning Collector
 
 tile.pf_skeleton_mixopterus.name=Mixopterus Fossil Slab
 tile.pf_skeleton_falcatus.name=Falcatus Fossil Slab

@@ -9,10 +9,16 @@ import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class TileEntityFossilBase extends TileEntity {
+public abstract class TileEntityFossilBase extends TileEntity {
+
+    private int stages;
+
+    public TileEntityFossilBase(int stagesIn) {
+        this.stages = stagesIn;
+    }
 
     public int getStages() {
-        return 1;
+        return this.stages;
     }
 
     @Override

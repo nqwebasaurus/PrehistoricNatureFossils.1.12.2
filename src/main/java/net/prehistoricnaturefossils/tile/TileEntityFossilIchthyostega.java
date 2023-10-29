@@ -4,7 +4,8 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilIchthyostega extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {return 5;}
 
+    public TileEntityFossilIchthyostega(int stagesIn) {
+        super(stagesIn);
+    }
 }

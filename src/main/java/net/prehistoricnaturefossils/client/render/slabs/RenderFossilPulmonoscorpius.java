@@ -1,7 +1,6 @@
 package net.prehistoricnaturefossils.client.render.slabs;
 
 import net.lepidodendron.entity.render.entity.RenderScorpion_Pulmonoscorpius;
-import net.lepidodendron.entity.render.entity.RenderScorpion_Pulmonoscorpius;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;

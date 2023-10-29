@@ -4,9 +4,9 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilAmpyx extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {
-        return 1;
+    public TileEntityFossilAmpyx(int stagesIn) {
+        super(stagesIn);
     }
+
 
 }

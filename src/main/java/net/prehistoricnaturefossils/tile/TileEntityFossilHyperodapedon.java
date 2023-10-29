@@ -4,7 +4,8 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilHyperodapedon extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {return 5;}
 
+    public TileEntityFossilHyperodapedon(int stagesIn) {
+        super(stagesIn);
+    }
 }

@@ -4,7 +4,7 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilCyamodus extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {return 5;}
-
+    public TileEntityFossilCyamodus(int stagesIn) {
+        super(stagesIn);
+    }
 }

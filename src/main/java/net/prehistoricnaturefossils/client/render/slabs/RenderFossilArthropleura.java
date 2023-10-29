@@ -1,6 +1,5 @@
 package net.prehistoricnaturefossils.client.render.slabs;
 
-import net.lepidodendron.LepidodendronMod;
 import net.lepidodendron.entity.render.entity.RenderArthropleura;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;

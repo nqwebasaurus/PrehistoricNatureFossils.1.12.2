@@ -4,7 +4,8 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilMegalocephalus extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {return 10;}
 
+    public TileEntityFossilMegalocephalus(int stagesIn) {
+        super(stagesIn);
+    }
 }

@@ -4,7 +4,8 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilMoschops extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {return 10;}
 
+    public TileEntityFossilMoschops(int stagesIn) {
+        super(stagesIn);
+    }
 }

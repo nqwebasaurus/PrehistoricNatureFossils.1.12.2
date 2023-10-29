@@ -4,7 +4,7 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilCtenospondylus extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {return 10;}
-
+    public TileEntityFossilCtenospondylus(int stagesIn) {
+        super(stagesIn);
+    }
 }

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_aeger"
+		  },
+		"title": {
+			"translate": "advancements.aeger.title"
+		},
+		"description": {
+			"translate": "advancements.aeger.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_aeger"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -11,6 +11,7 @@ public class ModTriggers
 
 {
 
+    public static final CustomTrigger AEGER_COMPLETE = new CustomTrigger("adv_aeger");
     public static final CustomTrigger ANTEOSAURUS_COMPLETE = new CustomTrigger("adv_anteosaurus");
     public static final CustomTrigger ARIZONASAURUS_COMPLETE = new CustomTrigger("adv_arizonasaurus");
     public static final CustomTrigger ATOPODENTATUS_COMPLETE = new CustomTrigger("adv_atopodentatus");
@@ -114,6 +115,7 @@ public class ModTriggers
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
+            AEGER_COMPLETE,
             ANTEOSAURUS_COMPLETE,
             YANGCHUANOSAURUS_COMPLETE,
             GIGANTSPINOSAURUS_COMPLETE,

@@ -4,7 +4,8 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilRobertia extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {return 5;}
 
+    public TileEntityFossilRobertia(int stagesIn) {
+        super(stagesIn);
+    }
 }

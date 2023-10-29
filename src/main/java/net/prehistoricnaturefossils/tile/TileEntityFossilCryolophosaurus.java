@@ -4,9 +4,7 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilCryolophosaurus extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {
-        return 15;
+    public TileEntityFossilCryolophosaurus(int stagesIn) {
+        super(stagesIn);
     }
-
 }

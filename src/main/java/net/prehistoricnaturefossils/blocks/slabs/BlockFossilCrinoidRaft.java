@@ -40,58 +40,22 @@
 //    @Override
 //    public String getDNACompat() {
 //        return "mobdnaPNlepidodendron:prehistoric_flora_crinoid_raft";
-//    }
-//
-//    @SideOnly(Side.CLIENT)
-//    @Override
-//    public void addInformation(ItemStack stack, World player, List<String> tooltip, ITooltipFlag advanced) {
-//        tooltip.add("When completed contains " + new TileEntityFossilCrinoidRaft().getStages() + " part(s)");
-//        super.addInformation(stack, player, tooltip, advanced);
-//    }
-//
-//    @Nullable
-//    @Override
-//    public TileEntity createTileEntity(World world, IBlockState state) {
-//        return new TileEntityFossilCrinoidRaft();
-//    }
-//
-//    @Override
-//    public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
-//        super.onBlockActivated(worldIn, pos, state, playerIn, hand, facing, hitX, hitY, hitZ);
-//        int newStage = getStage(worldIn, pos) + 1;
-//        if (playerIn.getHeldItemMainhand().getItem() == Item.getItemFromBlock(this)) {
-//            if (!worldIn.isRemote) {
-//                TileEntity tileEntity = worldIn.getTileEntity(pos);
-//                IBlockState blockstate = worldIn.getBlockState(pos);
-//                if (tileEntity != null) {
-//                    if (tileEntity instanceof TileEntityFossilCrinoidRaft) {
-//                        if (((TileEntityFossilCrinoidRaft) tileEntity).getStages() >= newStage) {
-//                            tileEntity.getTileData().setInteger("stage", newStage);
-//                            if (!playerIn.isCreative()) {
-//                                playerIn.getHeldItemMainhand().shrink(1);
-//                            }
-//                            worldIn.notifyBlockUpdate(pos, blockstate, blockstate, 3);
-//                            SoundEvent soundevent = this.soundPlace();
-//                            ((WorldServer) playerIn.getEntityWorld()).playSound(null, pos, soundevent, SoundCategory.BLOCKS, 1.0F, 1.0F);
-//                            return true;
-//                        }
-//                    }
-//                }
-//            }
+
+//@Nullable
+//@Override
+//public TileEntity createTileEntity(World world, IBlockState state) {
+//        return new TileEntityFossilCothurnocystis(stages());
 //        }
-//        int newRotation = getRotation(worldIn, pos) + 15;
-//        if (newRotation >= 360) {newRotation = 0;}
-//        if (!worldIn.isRemote) {
-//            TileEntity tileEntity = worldIn.getTileEntity(pos);
-//            IBlockState blockstate = worldIn.getBlockState(pos);
-//            if (tileEntity != null) {
-//                tileEntity.getTileData().setInteger("rotation", newRotation);
-//            }
-//            worldIn.notifyBlockUpdate(pos, blockstate, blockstate, 3);
-//            SoundEvent soundevent = this.soundTurn();
-//            ((WorldServer) playerIn.getEntityWorld()).playSound(null, pos, soundevent, SoundCategory.BLOCKS, 1.0F, 1.0F);
+//
+//@Override
+//public int stages() {
+//        return 1;
 //        }
-//        return true;
-//    }
+//
+//@Nullable
+//@Override
+//public CustomTrigger getModTrigger() {
+//        return null;
+//        }
 //
 //}
