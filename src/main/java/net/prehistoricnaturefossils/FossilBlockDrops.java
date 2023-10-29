@@ -57,7 +57,7 @@ public class FossilBlockDrops {
 
     public ItemStack getDisplayableFossilStackModified(IBlockState state, EntityPlayer player, ItemStack stack) {
         int chanceImprover = net.minecraft.enchantment.EnchantmentHelper.getEnchantmentLevel(Enchantments.DISCERNING_COLLECTOR, stack);
-        int chanceImproverFactor = chanceImprover * 5;
+        int chanceImproverFactor = chanceImprover * 4;
         ItemStack resultStack = ItemStack.EMPTY;
         for (int i = 0; i <= chanceImproverFactor; i++) {
             resultStack = getDisplayableFossilStack(state);
@@ -66,11 +66,6 @@ public class FossilBlockDrops {
             }
             if (chanceImprover > 0) {
                 if ((new Random()).nextInt(chanceImproverFactor) == 0) {
-                    break;
-                }
-            }
-            if (chanceImprover > 0) {
-                if ((new Random()).nextInt(chanceImprover) == 0) {
                     break;
                 }
             }
