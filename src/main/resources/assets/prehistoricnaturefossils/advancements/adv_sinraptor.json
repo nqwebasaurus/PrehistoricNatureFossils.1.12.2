@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_sinraptor"
+		  },
+		"title": {
+			"translate": "advancements.sinraptor.title"
+		},
+		"description": {
+			"translate": "advancements.sinraptor.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_sinraptor"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

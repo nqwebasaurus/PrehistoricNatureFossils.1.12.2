@@ -201,6 +201,18 @@ advancements.torvosaurus.title=Savage Lizard
 advancements.torvosaurus.description=Complete a Torvosaurus skeleton
 advancements.yangchuanosaurus.title=Lizard from Yangquan
 advancements.yangchuanosaurus.description=Complete a Yangchuanosaurus skeleton
+advancements.dilophosaurus.title=Two Crested Lizard
+advancements.dilophosaurus.description=Complete a Dilophosaurus skeleton
+advancements.mymoorapelta.title=Shield of Mygatt-Moore
+advancements.mymoorapelta.description=Complete a Mymoorapelta skeleton
+advancements.sinraptor.title=Chinese Robber
+advancements.sinraptor.description=Complete a Sinraptor skeleton
+advancements.allosaurus.title=Different Lizard
+advancements.allosaurus.description=Complete an Allosaurus skeleton
+advancements.limusaurus.title=Stuck-in-the-mud Lizard
+advancements.limusaurus.description=Complete a Limusaurus skeleton
+advancements.apatosaurus.title=Deceptive Lizard
+advancements.apatosaurus.description=Complete an Apatosaurus skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
 
@@ -282,6 +294,8 @@ tile.pf_skeleton_carcinosoma.name=Carcinosoma Fossil Slab
 tile.pf_skeleton_furcaster.name=Furcaster Fossil Slab
 tile.pf_skeleton_eurypterus.name=Eurypterus Fossil Slab
 tile.pf_skeleton_jamoytius.name=Jamoytius Fossil Slab
+tile.pf_skeleton_phragmoceras.name=PhragmocerasFossil Slab
+tile.pf_skeleton_platylomaspis.name=Platylomaspis Fossil Slab
 
 
 
@@ -386,3 +400,9 @@ tile.pf_skeleton_vivaxosaurus.name=Vivaxosaurus Displayable Fossil
 tile.pf_skeleton_uranocentrodon.name=Uranocentrodon Displayable Fossil
 tile.pf_skeleton_torvosaurus.name=Torvosaurus Displayable Fossil
 tile.pf_skeleton_yangchuanosaurus.name=Yangchuanosaurus Displayable Fossil
+tile.pf_skeleton_dilophosaurus.name=Dilophosaurus Displayable Fossil
+tile.pf_skeleton_mymoorapelta.name=Mymoorapelta Displayable Fossil
+tile.pf_skeleton_sinraptor.name=Sinraptor Displayable Fossil
+tile.pf_skeleton_allosaurus.name=Allosaurus Displayable Fossil
+tile.pf_skeleton_limusaurus.name=Limusaurus Displayable Fossil
+tile.pf_skeleton_apatosaurus.name=Apatosaurus Displayable Fossil
