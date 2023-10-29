@@ -60,7 +60,7 @@ public class FossilBlockDrops {
         ItemStack resultStack = ItemStack.EMPTY;
         for (int i = 0; i <= chanceImprover; i++) {
             resultStack = getDisplayableFossilStack(state);
-            if (!hasAdvancement(resultStack, player)) {
+            if ((!hasAdvancement(resultStack, player)) && Block.getBlockFromItem(resultStack.getItem()) == null) {
                 break;
             }
         }
@@ -71,6 +71,9 @@ public class FossilBlockDrops {
 
         String strAdv = "";
         if (stack.isEmpty()) {
+            return false;
+        }
+        if (stack.equals(ItemStack.EMPTY)) {
             return false;
         }
         if (stack == ItemStack.EMPTY) {
