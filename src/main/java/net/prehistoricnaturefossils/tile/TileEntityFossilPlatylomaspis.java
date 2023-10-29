@@ -4,9 +4,7 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilPlatylomaspis extends TileEntityFossilBase {
 
-    @Override
-    public int getStages() {
-        return 1;
+    public TileEntityFossilPlatylomaspis(int stagesIn) {
+        super(stagesIn);
     }
-
 }

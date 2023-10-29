@@ -36,6 +36,11 @@ public class BlockFossilPhragmoceras extends BlockSlabBase {
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }
 
+    @Override
+    public int stages() {
+        return 1;
+    }
+
     @Nullable
     @Override
     public String getDNACompat() {
