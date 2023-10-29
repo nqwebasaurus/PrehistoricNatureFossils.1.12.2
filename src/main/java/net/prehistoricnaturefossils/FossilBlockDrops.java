@@ -70,7 +70,19 @@ public class FossilBlockDrops {
     public boolean hasAdvancement(ItemStack stack, EntityPlayer player) {
 
         String strAdv = "";
+        if (stack.isEmpty()) {
+            return false;
+        }
+        if (stack == ItemStack.EMPTY) {
+            return false;
+        }
+        if (Block.getBlockFromItem(stack.getItem()) == null) {
+            return false;
+        }
         if (Block.getBlockFromItem(stack.getItem()) instanceof IAdvancementGranterFossil) {
+            if (((IAdvancementGranterFossil) Block.getBlockFromItem(stack.getItem())).getModTrigger() == null) {
+                return false;
+            }
             strAdv = ((IAdvancementGranterFossil) Block.getBlockFromItem(stack.getItem())).getModTrigger().getId().toString();
             strAdv = strAdv.replace("minecraft:", "prehistoricnaturefossils:");
         }
