@@ -39,7 +39,7 @@ public class BlockFossilMymoorapelta extends BlockSkeletonBase {
 
     @Override
     public int stages() {
-        return 20;
+        return 10;
     }
 
     @Nullable
