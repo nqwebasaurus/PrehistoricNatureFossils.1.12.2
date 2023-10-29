@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilDimetrodon extends TileEntityFossilBase {
 
 
-    public TileEntityFossilDimetrodon(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilDimetrodon() {
     }
 }

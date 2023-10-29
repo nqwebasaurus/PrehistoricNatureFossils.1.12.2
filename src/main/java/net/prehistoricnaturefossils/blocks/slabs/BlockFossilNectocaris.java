@@ -33,7 +33,7 @@ public class BlockFossilNectocaris extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilNectocaris(stages());
+        return new TileEntityFossilNectocaris();
     }
 
     @Override

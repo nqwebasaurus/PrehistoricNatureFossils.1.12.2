@@ -4,8 +4,7 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilBalhuticaris extends TileEntityFossilBase {
 
-    public TileEntityFossilBalhuticaris(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilBalhuticaris() {
     }
 
 }

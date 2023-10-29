@@ -33,7 +33,7 @@ public class BlockFossilMarrella extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilMarrella(stages());
+        return new TileEntityFossilMarrella();
     }
 
     @Override

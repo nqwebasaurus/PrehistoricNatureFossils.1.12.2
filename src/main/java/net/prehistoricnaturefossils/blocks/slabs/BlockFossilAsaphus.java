@@ -33,7 +33,7 @@ public class BlockFossilAsaphus extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilAsaphus(stages());
+        return new TileEntityFossilAsaphus();
     }
 
     @Override

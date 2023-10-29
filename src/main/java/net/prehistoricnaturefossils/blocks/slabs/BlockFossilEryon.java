@@ -33,7 +33,7 @@ public class BlockFossilEryon extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilEryon(stages());
+        return new TileEntityFossilEryon();
     }
 
     @Override

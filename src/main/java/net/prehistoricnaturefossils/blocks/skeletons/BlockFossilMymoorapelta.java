@@ -34,7 +34,7 @@ public class BlockFossilMymoorapelta extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilMymoorapelta(stages());
+        return new TileEntityFossilMymoorapelta();
     }
 
     @Override

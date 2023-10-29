@@ -34,7 +34,7 @@ public class BlockFossilProburnetia extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilProburnetia(stages());
+        return new TileEntityFossilProburnetia();
     }
 
     @Override

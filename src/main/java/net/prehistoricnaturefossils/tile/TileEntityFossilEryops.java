@@ -4,7 +4,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilEryops extends TileEntityFossilBase {
 
-    public TileEntityFossilEryops(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilEryops() {
     }
 }

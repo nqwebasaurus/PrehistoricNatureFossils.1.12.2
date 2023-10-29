@@ -34,7 +34,7 @@ public class BlockFossilIchthyostega extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilIchthyostega(stages());
+        return new TileEntityFossilIchthyostega();
     }
 
     @Override

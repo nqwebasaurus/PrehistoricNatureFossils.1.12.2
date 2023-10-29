@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilRubidgea extends TileEntityFossilBase {
 
 
-    public TileEntityFossilRubidgea(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilRubidgea() {
     }
 }

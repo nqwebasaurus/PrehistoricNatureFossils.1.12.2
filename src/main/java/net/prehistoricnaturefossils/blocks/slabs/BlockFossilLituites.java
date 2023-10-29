@@ -33,7 +33,7 @@ public class BlockFossilLituites extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilLituites(stages());
+        return new TileEntityFossilLituites();
     }
 
     @Override

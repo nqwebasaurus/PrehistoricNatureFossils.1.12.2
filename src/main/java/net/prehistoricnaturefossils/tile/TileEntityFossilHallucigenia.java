@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilHallucigenia extends TileEntityFossilBase {
 
 
-    public TileEntityFossilHallucigenia(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilHallucigenia() {
     }
 }

@@ -34,7 +34,7 @@ public class BlockFossilMoschops extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilMoschops(stages());
+        return new TileEntityFossilMoschops();
     }
 
     @Override

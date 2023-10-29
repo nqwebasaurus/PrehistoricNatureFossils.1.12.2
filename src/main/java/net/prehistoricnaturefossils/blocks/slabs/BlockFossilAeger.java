@@ -33,7 +33,7 @@ public class BlockFossilAeger extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilAeger(stages());
+        return new TileEntityFossilAeger();
     }
 
     @Override

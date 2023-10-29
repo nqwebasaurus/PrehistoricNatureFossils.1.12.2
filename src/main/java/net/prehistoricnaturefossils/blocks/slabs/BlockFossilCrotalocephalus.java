@@ -33,7 +33,7 @@ public class BlockFossilCrotalocephalus extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilCrotalocephalus(stages());
+        return new TileEntityFossilCrotalocephalus();
     }
 
     @Override

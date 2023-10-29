@@ -33,7 +33,7 @@ public class BlockFossilPlatylomaspis extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilPlatylomaspis(stages());
+        return new TileEntityFossilPlatylomaspis();
     }
 
     @Override

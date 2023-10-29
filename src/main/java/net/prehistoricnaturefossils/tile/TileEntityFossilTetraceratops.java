@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilTetraceratops extends TileEntityFossilBase {
 
 
-    public TileEntityFossilTetraceratops(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilTetraceratops() {
     }
 }

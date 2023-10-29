@@ -34,7 +34,7 @@ public class BlockFossilHupehsuchus extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilHupehsuchus(stages());
+        return new TileEntityFossilHupehsuchus();
     }
 
     @Override

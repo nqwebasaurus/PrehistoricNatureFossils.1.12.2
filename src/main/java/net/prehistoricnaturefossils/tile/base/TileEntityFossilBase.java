@@ -8,17 +8,21 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.prehistoricnaturefossils.blocks.base.BlockSkeletonBase;
+import net.prehistoricnaturefossils.blocks.base.BlockSlabBase;
 
 public abstract class TileEntityFossilBase extends TileEntity {
 
-    private int stages;
-
-    public TileEntityFossilBase(int stagesIn) {
-        this.stages = stagesIn;
-    }
+    public TileEntityFossilBase(){};
 
     public int getStages() {
-        return this.stages;
+        if (this.world.getBlockState(this.pos).getBlock() instanceof BlockSlabBase) {
+            return ((BlockSlabBase)this.world.getBlockState(this.pos).getBlock()).stages();
+        }
+        if (this.world.getBlockState(this.pos).getBlock() instanceof BlockSkeletonBase) {
+            return ((BlockSkeletonBase)this.world.getBlockState(this.pos).getBlock()).stages();
+        }
+        return 0;
     }
 
     @Override

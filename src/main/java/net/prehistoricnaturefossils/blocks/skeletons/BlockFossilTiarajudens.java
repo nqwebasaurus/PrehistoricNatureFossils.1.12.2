@@ -34,7 +34,7 @@ public class BlockFossilTiarajudens extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilTiarajudens(stages());
+        return new TileEntityFossilTiarajudens();
     }
 
     @Override

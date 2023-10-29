@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilJamoytius extends TileEntityFossilBase {
 
 
-    public TileEntityFossilJamoytius(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilJamoytius() {
     }
 }

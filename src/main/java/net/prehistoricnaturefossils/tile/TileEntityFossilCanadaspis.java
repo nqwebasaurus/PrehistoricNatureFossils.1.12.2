@@ -4,7 +4,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilCanadaspis extends TileEntityFossilBase {
 
-    public TileEntityFossilCanadaspis(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilCanadaspis() {
     }
 }

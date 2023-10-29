@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilKentrosaurus extends TileEntityFossilBase {
 
 
-    public TileEntityFossilKentrosaurus(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilKentrosaurus() {
     }
 }

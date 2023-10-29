@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilCalvapilosa extends TileEntityFossilBase {
 
 
-    public TileEntityFossilCalvapilosa(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilCalvapilosa() {
     }
 }

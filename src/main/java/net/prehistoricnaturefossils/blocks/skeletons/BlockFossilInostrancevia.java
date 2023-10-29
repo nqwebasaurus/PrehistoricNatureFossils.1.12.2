@@ -34,7 +34,7 @@ public class BlockFossilInostrancevia extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilInostrancevia(stages());
+        return new TileEntityFossilInostrancevia();
     }
 
     @Override

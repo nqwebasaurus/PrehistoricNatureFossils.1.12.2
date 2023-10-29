@@ -34,7 +34,7 @@ public class BlockFossilEryops extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilEryops(stages());
+        return new TileEntityFossilEryops();
     }
 
     @Override

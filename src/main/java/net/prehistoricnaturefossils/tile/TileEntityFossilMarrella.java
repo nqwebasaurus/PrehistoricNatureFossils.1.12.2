@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilMarrella extends TileEntityFossilBase {
 
 
-    public TileEntityFossilMarrella(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilMarrella() {
     }
 }

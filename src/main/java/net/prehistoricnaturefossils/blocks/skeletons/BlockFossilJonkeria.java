@@ -34,7 +34,7 @@ public class BlockFossilJonkeria extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilJonkeria(stages());
+        return new TileEntityFossilJonkeria();
     }
 
     @Override

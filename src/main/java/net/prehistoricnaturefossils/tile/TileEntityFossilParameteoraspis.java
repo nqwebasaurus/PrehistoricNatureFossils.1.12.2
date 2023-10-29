@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilParameteoraspis extends TileEntityFossilBase {
 
 
-    public TileEntityFossilParameteoraspis(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilParameteoraspis() {
     }
 }

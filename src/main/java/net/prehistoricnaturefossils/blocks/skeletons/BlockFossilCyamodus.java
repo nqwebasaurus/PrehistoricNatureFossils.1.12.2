@@ -34,7 +34,7 @@ public class BlockFossilCyamodus extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilCyamodus(stages());
+        return new TileEntityFossilCyamodus();
     }
 
     @Override

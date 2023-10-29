@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilMixopterus extends TileEntityFossilBase {
 
 
-    public TileEntityFossilMixopterus(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilMixopterus() {
     }
 }

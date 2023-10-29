@@ -34,7 +34,7 @@ public class BlockFossilPlatyhystrix extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilPlatyhystrix(stages());
+        return new TileEntityFossilPlatyhystrix();
     }
 
     @Override

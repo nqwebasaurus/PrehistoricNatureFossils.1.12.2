@@ -33,7 +33,7 @@ public class BlockFossilArthropleura extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilArthropleura(stages());
+        return new TileEntityFossilArthropleura();
     }
 
     @Override

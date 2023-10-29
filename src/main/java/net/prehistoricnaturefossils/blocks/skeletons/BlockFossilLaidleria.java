@@ -34,7 +34,7 @@ public class BlockFossilLaidleria extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilLaidleria(stages());
+        return new TileEntityFossilLaidleria();
     }
 
     @Override

@@ -33,7 +33,7 @@ public class BlockFossilTurboscinetes extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilTurboscinetes(stages());
+        return new TileEntityFossilTurboscinetes();
     }
 
     @Override

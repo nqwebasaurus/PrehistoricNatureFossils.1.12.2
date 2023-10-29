@@ -34,7 +34,7 @@ public class BlockFossilBunostegos extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilBunostegos(stages());
+        return new TileEntityFossilBunostegos();
     }
 
     @Override

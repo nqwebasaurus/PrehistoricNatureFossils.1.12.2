@@ -4,8 +4,7 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilArandaspis extends TileEntityFossilBase {
 
-    public TileEntityFossilArandaspis(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilArandaspis() {
     }
 
 }

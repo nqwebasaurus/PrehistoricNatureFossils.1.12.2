@@ -33,7 +33,7 @@ public class BlockFossilAiniktozoon extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilAiniktozoon(stages());
+        return new TileEntityFossilAiniktozoon();
     }
 
     @Override

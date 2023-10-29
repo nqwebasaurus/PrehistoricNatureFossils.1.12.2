@@ -33,7 +33,7 @@ public class BlockFossilEurypterus extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilEurypterus(stages());
+        return new TileEntityFossilEurypterus();
     }
 
     @Override

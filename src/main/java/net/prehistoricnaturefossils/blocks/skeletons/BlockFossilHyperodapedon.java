@@ -34,7 +34,7 @@ public class BlockFossilHyperodapedon extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilHyperodapedon(stages());
+        return new TileEntityFossilHyperodapedon();
     }
 
     @Override

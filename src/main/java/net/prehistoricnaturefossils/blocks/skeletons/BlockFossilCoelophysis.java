@@ -34,7 +34,7 @@ public class BlockFossilCoelophysis extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilCoelophysis(stages());
+        return new TileEntityFossilCoelophysis();
     }
 
     @Override

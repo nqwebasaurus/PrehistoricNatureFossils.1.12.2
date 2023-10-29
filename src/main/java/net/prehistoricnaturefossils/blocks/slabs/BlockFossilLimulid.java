@@ -33,7 +33,7 @@ public class BlockFossilLimulid extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilLimulid(stages());
+        return new TileEntityFossilLimulid();
     }
 
     @Override

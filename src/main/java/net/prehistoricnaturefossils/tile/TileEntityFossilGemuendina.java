@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilGemuendina extends TileEntityFossilBase {
 
 
-    public TileEntityFossilGemuendina(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilGemuendina() {
     }
 }

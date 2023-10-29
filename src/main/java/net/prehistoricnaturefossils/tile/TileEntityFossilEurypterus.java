@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilEurypterus extends TileEntityFossilBase {
 
 
-    public TileEntityFossilEurypterus(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilEurypterus() {
     }
 }

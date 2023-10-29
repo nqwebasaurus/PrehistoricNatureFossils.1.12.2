@@ -33,7 +33,7 @@ public class BlockFossilSacabambaspis extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilSacabambaspis(stages());
+        return new TileEntityFossilSacabambaspis();
     }
 
     @Override

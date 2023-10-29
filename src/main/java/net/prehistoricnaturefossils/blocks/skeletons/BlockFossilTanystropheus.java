@@ -34,7 +34,7 @@ public class BlockFossilTanystropheus extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilTanystropheus(stages());
+        return new TileEntityFossilTanystropheus();
     }
 
     @Override

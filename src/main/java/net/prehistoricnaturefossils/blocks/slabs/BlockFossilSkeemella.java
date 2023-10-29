@@ -33,7 +33,7 @@ public class BlockFossilSkeemella extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilSkeemella(stages());
+        return new TileEntityFossilSkeemella();
     }
 
     @Override

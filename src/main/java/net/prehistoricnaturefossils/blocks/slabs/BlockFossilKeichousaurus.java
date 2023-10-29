@@ -33,7 +33,7 @@ public class BlockFossilKeichousaurus extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilKeichousaurus(stages());
+        return new TileEntityFossilKeichousaurus();
     }
 
     @Override

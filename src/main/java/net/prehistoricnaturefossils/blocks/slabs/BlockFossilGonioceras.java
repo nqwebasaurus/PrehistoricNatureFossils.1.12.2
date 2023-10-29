@@ -33,7 +33,7 @@ public class BlockFossilGonioceras extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilGonioceras(stages());
+        return new TileEntityFossilGonioceras();
     }
 
     @Override

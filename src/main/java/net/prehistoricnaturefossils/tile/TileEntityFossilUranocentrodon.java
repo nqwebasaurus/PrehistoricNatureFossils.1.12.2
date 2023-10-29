@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilUranocentrodon extends TileEntityFossilBase {
 
 
-    public TileEntityFossilUranocentrodon(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilUranocentrodon() {
     }
 }

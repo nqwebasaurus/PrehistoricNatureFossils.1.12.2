@@ -33,7 +33,7 @@ public class BlockFossilTullimonstrum extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilTullimonstrum(stages());
+        return new TileEntityFossilTullimonstrum();
     }
 
     @Override

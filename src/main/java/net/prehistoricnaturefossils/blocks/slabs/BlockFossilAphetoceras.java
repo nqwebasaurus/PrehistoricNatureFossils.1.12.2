@@ -33,7 +33,7 @@ public class BlockFossilAphetoceras extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilAphetoceras(stages());
+        return new TileEntityFossilAphetoceras();
     }
 
     @Override

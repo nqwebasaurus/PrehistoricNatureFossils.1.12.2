@@ -34,7 +34,7 @@ public class BlockFossilOphiacodon extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilOphiacodon(stages());
+        return new TileEntityFossilOphiacodon();
     }
 
     @Override

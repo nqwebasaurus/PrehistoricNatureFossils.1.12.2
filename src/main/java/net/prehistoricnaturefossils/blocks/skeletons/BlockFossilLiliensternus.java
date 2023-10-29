@@ -34,7 +34,7 @@ public class BlockFossilLiliensternus extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilLiliensternus(stages());
+        return new TileEntityFossilLiliensternus();
     }
 
     @Override

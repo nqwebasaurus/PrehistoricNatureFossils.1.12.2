@@ -4,8 +4,7 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilAiniktozoon extends TileEntityFossilBase {
 
-    public TileEntityFossilAiniktozoon(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilAiniktozoon() {
     }
 
 }

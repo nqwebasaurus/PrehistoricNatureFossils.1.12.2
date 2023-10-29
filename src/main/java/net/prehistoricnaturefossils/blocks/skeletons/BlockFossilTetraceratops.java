@@ -34,7 +34,7 @@ public class BlockFossilTetraceratops extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilTetraceratops(stages());
+        return new TileEntityFossilTetraceratops();
     }
 
     @Override

@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilEorhynchochelys extends TileEntityFossilBase {
 
 
-    public TileEntityFossilEorhynchochelys(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilEorhynchochelys() {
     }
 }

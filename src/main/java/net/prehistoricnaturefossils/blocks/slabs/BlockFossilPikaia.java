@@ -33,7 +33,7 @@ public class BlockFossilPikaia extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilPikaia(stages());
+        return new TileEntityFossilPikaia();
     }
 
     @Override

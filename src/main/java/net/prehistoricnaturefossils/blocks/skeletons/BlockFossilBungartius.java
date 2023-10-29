@@ -34,7 +34,7 @@ public class BlockFossilBungartius extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilBungartius(stages());
+        return new TileEntityFossilBungartius();
     }
 
     @Override

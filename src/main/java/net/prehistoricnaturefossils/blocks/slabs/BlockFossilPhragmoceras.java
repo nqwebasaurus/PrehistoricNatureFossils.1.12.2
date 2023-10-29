@@ -33,7 +33,7 @@ public class BlockFossilPhragmoceras extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilPhragmoceras(stages());
+        return new TileEntityFossilPhragmoceras();
     }
 
     @Override

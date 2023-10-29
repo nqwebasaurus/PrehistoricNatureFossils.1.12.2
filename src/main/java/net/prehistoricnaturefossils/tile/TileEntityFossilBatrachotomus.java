@@ -4,8 +4,7 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilBatrachotomus extends TileEntityFossilBase {
 
-    public TileEntityFossilBatrachotomus(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilBatrachotomus() {
     }
 
 }

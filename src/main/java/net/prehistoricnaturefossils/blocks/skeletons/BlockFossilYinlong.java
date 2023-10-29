@@ -34,7 +34,7 @@ public class BlockFossilYinlong extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilYinlong(stages());
+        return new TileEntityFossilYinlong();
     }
 
     @Override

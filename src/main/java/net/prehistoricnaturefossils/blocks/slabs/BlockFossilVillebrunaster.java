@@ -33,7 +33,7 @@ public class BlockFossilVillebrunaster extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilVillebrunaster(stages());
+        return new TileEntityFossilVillebrunaster();
     }
 
     @Override

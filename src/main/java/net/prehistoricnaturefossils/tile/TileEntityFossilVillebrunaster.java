@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilVillebrunaster extends TileEntityFossilBase {
 
 
-    public TileEntityFossilVillebrunaster(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilVillebrunaster() {
     }
 }

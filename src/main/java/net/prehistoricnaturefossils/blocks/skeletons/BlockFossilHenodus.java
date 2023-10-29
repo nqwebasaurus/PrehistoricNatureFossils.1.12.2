@@ -34,7 +34,7 @@ public class BlockFossilHenodus extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilHenodus(stages());
+        return new TileEntityFossilHenodus();
     }
 
     @Override

@@ -33,7 +33,7 @@ public class BlockFossilCanadaspis extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilCanadaspis(stages());
+        return new TileEntityFossilCanadaspis();
     }
 
     @Override

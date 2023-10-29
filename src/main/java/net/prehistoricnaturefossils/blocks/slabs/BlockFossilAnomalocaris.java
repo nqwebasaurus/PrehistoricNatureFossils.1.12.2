@@ -33,7 +33,7 @@ public class BlockFossilAnomalocaris extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilAnomalocaris(stages());
+        return new TileEntityFossilAnomalocaris();
     }
 
     @Override

@@ -4,8 +4,7 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilCotylorhynchus extends TileEntityFossilBase {
 
-    public TileEntityFossilCotylorhynchus(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilCotylorhynchus() {
     }
 
 }

@@ -33,7 +33,7 @@ public class BlockFossilBandringa extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilBandringa(stages());
+        return new TileEntityFossilBandringa();
     }
 
     @Override

@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilClatrotitan extends TileEntityFossilBase {
 
 
-    public TileEntityFossilClatrotitan(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilClatrotitan() {
     }
 }

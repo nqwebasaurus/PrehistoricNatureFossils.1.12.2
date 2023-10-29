@@ -44,7 +44,7 @@
 //@Nullable
 //@Override
 //public TileEntity createTileEntity(World world, IBlockState state) {
-//        return new TileEntityFossilCothurnocystis(stages());
+//        return new TileEntityFossilCothurnocystis();
 //        }
 //
 //@Override

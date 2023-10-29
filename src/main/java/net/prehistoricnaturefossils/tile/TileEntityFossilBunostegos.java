@@ -4,8 +4,7 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilBunostegos extends TileEntityFossilBase {
 
-    public TileEntityFossilBunostegos(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilBunostegos() {
     }
 
 }

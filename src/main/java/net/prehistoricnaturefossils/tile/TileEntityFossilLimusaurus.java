@@ -4,7 +4,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilLimusaurus extends TileEntityFossilBase {
 
-    public TileEntityFossilLimusaurus(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilLimusaurus() {
     }
 }

@@ -33,7 +33,7 @@ public class BlockFossilArctinurus extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilArctinurus(stages());
+        return new TileEntityFossilArctinurus();
     }
 
     @Override

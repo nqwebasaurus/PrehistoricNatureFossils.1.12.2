@@ -34,7 +34,7 @@ public class BlockFossilTiktaalik extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilTiktaalik(stages());
+        return new TileEntityFossilTiktaalik();
     }
 
     @Override

@@ -33,7 +33,7 @@ public class BlockFossilGemuendina extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilGemuendina(stages());
+        return new TileEntityFossilGemuendina();
     }
 
     @Override

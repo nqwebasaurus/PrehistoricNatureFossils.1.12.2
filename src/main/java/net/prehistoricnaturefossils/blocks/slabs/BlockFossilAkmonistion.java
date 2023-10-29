@@ -33,7 +33,7 @@ public class BlockFossilAkmonistion extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilAkmonistion(stages());
+        return new TileEntityFossilAkmonistion();
     }
 
     @Override

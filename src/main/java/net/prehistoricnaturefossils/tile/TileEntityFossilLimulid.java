@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilLimulid extends TileEntityFossilBase {
 
 
-    public TileEntityFossilLimulid(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilLimulid() {
     }
 }

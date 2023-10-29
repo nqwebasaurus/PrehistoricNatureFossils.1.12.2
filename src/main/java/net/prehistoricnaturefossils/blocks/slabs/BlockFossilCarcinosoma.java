@@ -33,7 +33,7 @@ public class BlockFossilCarcinosoma extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilCarcinosoma(stages());
+        return new TileEntityFossilCarcinosoma();
     }
 
     @Override

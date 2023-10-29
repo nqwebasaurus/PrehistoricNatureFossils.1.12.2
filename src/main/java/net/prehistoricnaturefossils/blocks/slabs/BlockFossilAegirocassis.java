@@ -33,7 +33,7 @@ public class BlockFossilAegirocassis extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilAegirocassis(stages());
+        return new TileEntityFossilAegirocassis();
     }
 
     @Override

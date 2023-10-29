@@ -34,7 +34,7 @@ public class BlockFossilVancleavea extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilVancleavea(stages());
+        return new TileEntityFossilVancleavea();
     }
 
     @Override

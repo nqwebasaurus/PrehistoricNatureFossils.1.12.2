@@ -34,7 +34,7 @@ public class BlockFossilXinpusaurus extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilXinpusaurus(stages());
+        return new TileEntityFossilXinpusaurus();
     }
 
     @Override

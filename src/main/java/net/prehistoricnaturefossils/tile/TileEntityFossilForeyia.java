@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilForeyia extends TileEntityFossilBase {
 
 
-    public TileEntityFossilForeyia(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilForeyia() {
     }
 }

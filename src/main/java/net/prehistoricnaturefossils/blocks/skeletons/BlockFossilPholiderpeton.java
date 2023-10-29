@@ -34,7 +34,7 @@ public class BlockFossilPholiderpeton extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilPholiderpeton(stages());
+        return new TileEntityFossilPholiderpeton();
     }
 
     @Override

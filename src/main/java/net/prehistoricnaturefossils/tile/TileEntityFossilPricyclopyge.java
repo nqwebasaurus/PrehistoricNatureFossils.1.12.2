@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilPricyclopyge extends TileEntityFossilBase {
 
 
-    public TileEntityFossilPricyclopyge(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilPricyclopyge() {
     }
 }

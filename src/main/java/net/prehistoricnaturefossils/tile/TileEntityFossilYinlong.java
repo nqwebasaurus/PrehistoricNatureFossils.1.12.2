@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilYinlong extends TileEntityFossilBase {
 
 
-    public TileEntityFossilYinlong(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilYinlong() {
     }
 }

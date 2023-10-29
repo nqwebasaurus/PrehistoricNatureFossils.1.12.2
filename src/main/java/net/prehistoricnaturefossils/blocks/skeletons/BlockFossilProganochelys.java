@@ -34,7 +34,7 @@ public class BlockFossilProganochelys extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilProganochelys(stages());
+        return new TileEntityFossilProganochelys();
     }
 
     @Override

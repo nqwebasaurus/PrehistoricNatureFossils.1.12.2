@@ -33,7 +33,7 @@ public class BlockFossilSidneyia extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilSidneyia(stages());
+        return new TileEntityFossilSidneyia();
     }
 
     @Override

@@ -33,7 +33,7 @@ public class BlockFossilKerygmachela extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilKerygmachela(stages());
+        return new TileEntityFossilKerygmachela();
     }
 
     @Override

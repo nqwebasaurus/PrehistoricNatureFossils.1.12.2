@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilPlatypeltoides extends TileEntityFossilBase {
 
 
-    public TileEntityFossilPlatypeltoides(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilPlatypeltoides() {
     }
 }

@@ -33,7 +33,7 @@ public class BlockFossilAmpyx extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilAmpyx(stages());
+        return new TileEntityFossilAmpyx();
     }
 
     @Override

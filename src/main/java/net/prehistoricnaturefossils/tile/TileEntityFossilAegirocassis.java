@@ -4,8 +4,7 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilAegirocassis extends TileEntityFossilBase {
 
-    public TileEntityFossilAegirocassis(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilAegirocassis() {
     }
 
 }

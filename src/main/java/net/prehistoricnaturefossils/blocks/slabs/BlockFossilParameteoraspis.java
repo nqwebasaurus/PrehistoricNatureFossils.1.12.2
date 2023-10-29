@@ -33,7 +33,7 @@ public class BlockFossilParameteoraspis extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilParameteoraspis(stages());
+        return new TileEntityFossilParameteoraspis();
     }
 
     @Override

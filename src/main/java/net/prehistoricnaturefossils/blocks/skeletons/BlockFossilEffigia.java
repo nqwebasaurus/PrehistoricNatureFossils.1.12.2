@@ -34,7 +34,7 @@ public class BlockFossilEffigia extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilEffigia(stages());
+        return new TileEntityFossilEffigia();
     }
 
     @Override

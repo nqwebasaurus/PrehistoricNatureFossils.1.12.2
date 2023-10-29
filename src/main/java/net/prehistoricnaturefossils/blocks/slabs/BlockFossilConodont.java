@@ -33,7 +33,7 @@ public class BlockFossilConodont extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilConodont(stages());
+        return new TileEntityFossilConodont();
     }
 
     @Override

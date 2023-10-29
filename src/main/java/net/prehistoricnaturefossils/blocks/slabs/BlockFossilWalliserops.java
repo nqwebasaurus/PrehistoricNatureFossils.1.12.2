@@ -33,7 +33,7 @@ public class BlockFossilWalliserops extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilWalliserops(stages());
+        return new TileEntityFossilWalliserops();
     }
 
     @Override

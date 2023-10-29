@@ -33,7 +33,7 @@ public class BlockFossilYawunik extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilYawunik(stages());
+        return new TileEntityFossilYawunik();
     }
 
     @Override

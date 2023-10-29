@@ -5,7 +5,6 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 public class TileEntityFossilLisowicia extends TileEntityFossilBase {
 
 
-    public TileEntityFossilLisowicia(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilLisowicia() {
     }
 }

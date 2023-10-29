@@ -33,7 +33,7 @@ public class BlockFossilYohoia extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilYohoia(stages());
+        return new TileEntityFossilYohoia();
     }
 
     @Override

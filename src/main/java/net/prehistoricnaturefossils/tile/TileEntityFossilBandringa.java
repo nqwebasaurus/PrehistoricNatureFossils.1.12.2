@@ -4,8 +4,7 @@ import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 public class TileEntityFossilBandringa extends TileEntityFossilBase {
 
-    public TileEntityFossilBandringa(int stagesIn) {
-        super(stagesIn);
+    public TileEntityFossilBandringa() {
     }
 
 

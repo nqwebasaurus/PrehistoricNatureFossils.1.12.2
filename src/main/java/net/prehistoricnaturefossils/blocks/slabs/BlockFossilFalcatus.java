@@ -33,7 +33,7 @@ public class BlockFossilFalcatus extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilFalcatus(stages());
+        return new TileEntityFossilFalcatus();
     }
 
     @Override

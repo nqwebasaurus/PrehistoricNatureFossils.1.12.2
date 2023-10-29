@@ -33,7 +33,7 @@ public class BlockFossilPricyclopyge extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilPricyclopyge(stages());
+        return new TileEntityFossilPricyclopyge();
     }
 
     @Override

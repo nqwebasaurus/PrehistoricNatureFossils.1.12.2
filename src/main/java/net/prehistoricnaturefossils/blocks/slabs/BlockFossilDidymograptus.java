@@ -33,7 +33,7 @@ public class BlockFossilDidymograptus extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilDidymograptus(stages());
+        return new TileEntityFossilDidymograptus();
     }
 
     @Override

@@ -33,7 +33,7 @@ public class BlockFossilSchinderhannes extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilSchinderhannes(stages());
+        return new TileEntityFossilSchinderhannes();
     }
 
     @Override

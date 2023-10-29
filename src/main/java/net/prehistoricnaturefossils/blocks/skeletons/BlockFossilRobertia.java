@@ -34,7 +34,7 @@ public class BlockFossilRobertia extends BlockSkeletonBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilRobertia(stages());
+        return new TileEntityFossilRobertia();
     }
 
     @Override

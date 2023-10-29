@@ -33,7 +33,7 @@ public class BlockFossilMixopterus extends BlockSlabBase {
     @Nullable
     @Override
     public TileEntity createTileEntity(World world, IBlockState state) {
-        return new TileEntityFossilMixopterus(stages());
+        return new TileEntityFossilMixopterus();
     }
 
     @Override
