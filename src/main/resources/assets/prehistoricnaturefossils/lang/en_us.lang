@@ -213,6 +213,14 @@ advancements.limusaurus.title=Stuck-in-the-mud Lizard
 advancements.limusaurus.description=Complete a Limusaurus skeleton
 advancements.apatosaurus.title=Deceptive Lizard
 advancements.apatosaurus.description=Complete an Apatosaurus skeleton
+advancements.dasyceps.title=Hairy Head
+advancements.dasyceps.description=Complete a Dasyceps skeleton
+advancements.pristerognathus.title=Sawing Jaw
+advancements.pristerognathus.description=Complete a Pristerognathus skeleton
+advancements.bothriolepis.title=Trench Scale
+advancements.bothriolepis.description=Complete a Bothriolepis skeleton
+advancements.parmastega.title=Parma Roof
+advancements.parmastega.description=Complete a Parmastega skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
 
@@ -296,6 +304,12 @@ tile.pf_skeleton_eurypterus.name=Eurypterus Fossil Slab
 tile.pf_skeleton_jamoytius.name=Jamoytius Fossil Slab
 tile.pf_skeleton_phragmoceras.name=PhragmocerasFossil Slab
 tile.pf_skeleton_platylomaspis.name=Platylomaspis Fossil Slab
+tile.pf_skeleton_bundenbachiellus.name=Bundenbachiellus Fossil Slab
+tile.pf_skeleton_attercopus.name=Attercopus Fossil Slab
+tile.pf_skeleton_jaekelopterus.name=Jaekelopterus Fossil Slab
+tile.pf_skeleton_brochoadmones.name=Brochoadmones Fossil Slab
+tile.pf_skeleton_rhinopteraspis.name=Rhinopteraspis Fossil Slab
+tile.pf_skeleton_hibbertopterus.name=Hibbertopterus Fossil Slab
 
 
 
@@ -406,3 +420,7 @@ tile.pf_skeleton_sinraptor.name=Sinraptor Displayable Fossil
 tile.pf_skeleton_allosaurus.name=Allosaurus Displayable Fossil
 tile.pf_skeleton_limusaurus.name=Limusaurus Displayable Fossil
 tile.pf_skeleton_apatosaurus.name=Apatosaurus Displayable Fossil
+tile.pf_skeleton_dasyceps.name=Dasyceps Displayable Fossil
+tile.pf_skeleton_pristerognathus.name=Pristerognathus Displayable Fossil
+tile.pf_skeleton_bothriolepis.name=Bothriolepis Displayable Fossil
+tile.pf_skeleton_parmastega.name=Parmastega Displayable Fossil

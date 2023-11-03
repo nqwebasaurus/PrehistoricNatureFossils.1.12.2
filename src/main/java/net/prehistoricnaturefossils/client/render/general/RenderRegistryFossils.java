@@ -86,6 +86,12 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilJamoytius.class, new RenderFossilJamoytius());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilPhragmoceras.class, new RenderFossilPhragmoceras());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilPlatylomaspis.class, new RenderFossilPlatylomaspis());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilBundenbachiellus.class, new RenderFossilBundenbachiellus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilAttercopus.class, new RenderFossilAttercopus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilJaekelopterus.class, new RenderFossilJaekelopterus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilBrochoadmones.class, new RenderFossilBrochoadmones());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilRhinopteraspis.class, new RenderFossilRhinopteraspis());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilHibbertopterus.class, new RenderFossilHibbertopterus());
 
         //Skeleton Mounts:
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilArizonasaurus.class, new RenderFossilArizonasaurus());
@@ -195,6 +201,10 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilAllosaurus.class, new RenderFossilAllosaurus());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilLimusaurus.class, new RenderFossilLimusaurus());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilApatosaurus.class, new RenderFossilApatosaurus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilDasyceps.class, new RenderFossilDasyceps());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilPristerognathus.class, new RenderFossilPristerognathus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilBothriolepis.class, new RenderFossilBothriolepis());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilParmastega.class, new RenderFossilParmastega());
 
     }
 }

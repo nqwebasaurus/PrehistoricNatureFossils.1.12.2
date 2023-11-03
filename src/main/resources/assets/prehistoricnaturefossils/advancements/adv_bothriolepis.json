@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_bothriolepis"
+		  },
+		"title": {
+			"translate": "advancements.bothriolepis.title"
+		},
+		"description": {
+			"translate": "advancements.bothriolepis.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_bothriolepis"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

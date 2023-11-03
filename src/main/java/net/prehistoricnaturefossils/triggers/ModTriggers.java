@@ -118,12 +118,20 @@ public class ModTriggers
     public static final CustomTrigger ALLOSAURUS_COMPLETE = new CustomTrigger("adv_allosaurus");
     public static final CustomTrigger LIMUSAURUS_COMPLETE = new CustomTrigger("adv_limusaurus");
     public static final CustomTrigger APATOSAURUS_COMPLETE = new CustomTrigger("adv_apatosaurus");
+    public static final CustomTrigger DASYCEPS_COMPLETE = new CustomTrigger("adv_dasyceps");
+    public static final CustomTrigger PRISTEROGNATHUS_COMPLETE = new CustomTrigger("adv_pristerognathus");
+    public static final CustomTrigger BOTHRIOLEPIS_COMPLETE = new CustomTrigger("adv_bothriolepis");
+    public static final CustomTrigger PARMASTEGA_COMPLETE = new CustomTrigger("adv_parmastega");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
+            PARMASTEGA_COMPLETE,
             ANTEOSAURUS_COMPLETE,
+            DASYCEPS_COMPLETE,
+            BOTHRIOLEPIS_COMPLETE,
             MYMOORAPELTA_COMPLETE,
+            PRISTEROGNATHUS_COMPLETE,
             APATOSAURUS_COMPLETE,
             SINRAPTOR_COMPLETE,
             LIMUSAURUS_COMPLETE,
