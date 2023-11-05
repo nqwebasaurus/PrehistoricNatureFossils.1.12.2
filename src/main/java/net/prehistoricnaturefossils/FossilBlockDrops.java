@@ -37,8 +37,10 @@ public class FossilBlockDrops {
         if (state.getBlock() instanceof BlockFossil) {
             if (!worldIn.isRemote && stack.getItem() == ItemFossilHammer.block) {
                 ItemStack dropStack = getDisplayableFossilStackModified(state, event.getPlayer(), stack);
-                if (!dropStack.isEmpty()) {
-                    Block.spawnAsEntity(worldIn, pos, dropStack);
+                if (new Random().nextInt(10) == 0) {
+                    if (!dropStack.isEmpty()) {
+                        Block.spawnAsEntity(worldIn, pos, dropStack);
+                    }
                 }
                 //fortune modifier:
                 int levelEnchantment = net.minecraft.enchantment.EnchantmentHelper.getEnchantmentLevel(net.minecraft.init.Enchantments.FORTUNE, stack);
@@ -46,8 +48,10 @@ public class FossilBlockDrops {
                 for (int i = 0; i < ii; ++i) {
                     if (rand.nextInt(2) == 0) {
                         dropStack = getDisplayableFossilStackModified(state, event.getPlayer(), stack);
-                        if (!dropStack.isEmpty()) {
-                            Block.spawnAsEntity(worldIn, pos, dropStack);
+                        if (new Random().nextInt(10) == 0) {
+                            if (!dropStack.isEmpty()) {
+                                Block.spawnAsEntity(worldIn, pos, dropStack);
+                            }
                         }
                     }
                 }
@@ -145,95 +149,57 @@ public class FossilBlockDrops {
         switch (dim) {
             case 1:
             default: //Precambrian
-                if (new Random().nextInt(10) == 0) {
-                    int ii = (new Random()).nextInt(getPrecambrianDisplayableFossilDrops().length);
-                    return getPrecambrianDisplayableFossilDrops()[ii];
-                }
-                return ItemStack.EMPTY;
+                int ii = (new Random()).nextInt(getPrecambrianDisplayableFossilDrops().length);
+                return getPrecambrianDisplayableFossilDrops()[ii];
 
             case 2: //Cambrian
-                if (new Random().nextInt(10) == 0) {
-                    int ii = (new Random()).nextInt(getCambrianDisplayableFossilDrops().length);
-                    return getCambrianDisplayableFossilDrops()[ii];
-                }
-                return ItemStack.EMPTY;
+                ii = (new Random()).nextInt(getCambrianDisplayableFossilDrops().length);
+                return getCambrianDisplayableFossilDrops()[ii];
 
             case 3: //Ordovician
-                if (new Random().nextInt(10) == 0) {
-                    int ii = (new Random()).nextInt(getOrdovicianDisplayableFossilDrops().length);
-                    return getOrdovicianDisplayableFossilDrops()[ii];
-                }
-                return ItemStack.EMPTY;
+                ii = (new Random()).nextInt(getOrdovicianDisplayableFossilDrops().length);
+                return getOrdovicianDisplayableFossilDrops()[ii];
 
             case 4: //Silurian
-                if (new Random().nextInt(10) == 0) {
-                    int ii = (new Random()).nextInt(getSilurianDisplayableFossilDrops().length);
-                    return getSilurianDisplayableFossilDrops()[ii];
-                }
-                return ItemStack.EMPTY;
+                ii = (new Random()).nextInt(getSilurianDisplayableFossilDrops().length);
+                return getSilurianDisplayableFossilDrops()[ii];
 
             case 5: //Devonian
-                if (new Random().nextInt(10) == 0) {
-                    int ii = (new Random()).nextInt(getDevonianDisplayableFossilDrops().length);
-                    return getDevonianDisplayableFossilDrops()[ii];
-                }
-                return ItemStack.EMPTY;
+                ii = (new Random()).nextInt(getDevonianDisplayableFossilDrops().length);
+                return getDevonianDisplayableFossilDrops()[ii];
 
             case 6: //Carboniferous
-                if (new Random().nextInt(10) == 0) {
-                    int ii = (new Random()).nextInt(getCarboniferousDisplayableFossilDrops().length);
-                    return getCarboniferousDisplayableFossilDrops()[ii];
-                }
-                return ItemStack.EMPTY;
+                ii = (new Random()).nextInt(getCarboniferousDisplayableFossilDrops().length);
+                return getCarboniferousDisplayableFossilDrops()[ii];
 
             case 7: //Permian
-                if (new Random().nextInt(10) == 0) {
-                    int ii = (new Random()).nextInt(getPermianDisplayableFossilDrops().length);
-                    return getPermianDisplayableFossilDrops()[ii];
-                }
-                return ItemStack.EMPTY;
+                ii = (new Random()).nextInt(getPermianDisplayableFossilDrops().length);
+                return getPermianDisplayableFossilDrops()[ii];
 
             case 8: //Triassic
-                if (new Random().nextInt(10) == 0) {
-                    int ii = (new Random()).nextInt(getTriassicDisplayableFossilDrops().length);
-                    return getTriassicDisplayableFossilDrops()[ii];
-                }
-                return ItemStack.EMPTY;
+                ii = (new Random()).nextInt(getTriassicDisplayableFossilDrops().length);
+                return getTriassicDisplayableFossilDrops()[ii];
 
             case 9: //Jurassic
-                if (new Random().nextInt(10) == 0) {
-                    int ii = (new Random()).nextInt(getJurassicDisplayableFossilDrops().length);
-                    return getJurassicDisplayableFossilDrops()[ii];
-                }
-                return ItemStack.EMPTY;
+                ii = (new Random()).nextInt(getJurassicDisplayableFossilDrops().length);
+                return getJurassicDisplayableFossilDrops()[ii];
 
             case 10: //Cretaceous
-                if (new Random().nextInt(10) == 0) {
-                    int ii = (new Random()).nextInt(getCretaceousDisplayableFossilDrops().length);
-                    return getCretaceousDisplayableFossilDrops()[ii];
-                }
-                return ItemStack.EMPTY;
+                ii = (new Random()).nextInt(getCretaceousDisplayableFossilDrops().length);
+                return getCretaceousDisplayableFossilDrops()[ii];
 
             case 11: //Paleogene
-                if (new Random().nextInt(10) == 0) {
-                    int ii = (new Random()).nextInt(getPaleogeneDisplayableFossilDrops().length);
-                    return getPaleogeneDisplayableFossilDrops()[ii];
-                }
-                return ItemStack.EMPTY;
+                ii = (new Random()).nextInt(getPaleogeneDisplayableFossilDrops().length);
+                return getPaleogeneDisplayableFossilDrops()[ii];
 
             case 12: //Neogene
-                if (new Random().nextInt(10) == 0) {
-                    int ii = (new Random()).nextInt(getNeogeneDisplayableFossilDrops().length);
-                    return getNeogeneDisplayableFossilDrops()[ii];
-                }
-                return ItemStack.EMPTY;
+                ii = (new Random()).nextInt(getNeogeneDisplayableFossilDrops().length);
+                return getNeogeneDisplayableFossilDrops()[ii];
 
             case 13: //Pleistocene
-                if (new Random().nextInt(10) == 0) {
-                    int ii = (new Random()).nextInt(getPleistoceneDisplayableFossilDrops().length);
-                    return getPleistoceneDisplayableFossilDrops()[ii];
-                }
-                return ItemStack.EMPTY;
+                ii = (new Random()).nextInt(getPleistoceneDisplayableFossilDrops().length);
+                return getPleistoceneDisplayableFossilDrops()[ii];
+
         }
     }
 
