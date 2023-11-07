@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_elaphrosaurus"
+		  },
+		"title": {
+			"translate": "advancements.elaphrosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.elaphrosaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_elaphrosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

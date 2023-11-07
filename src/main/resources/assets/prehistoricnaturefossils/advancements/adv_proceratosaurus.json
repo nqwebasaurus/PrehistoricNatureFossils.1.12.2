@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_proceratosaurus"
+		  },
+		"title": {
+			"translate": "advancements.proceratosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.proceratosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_proceratosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

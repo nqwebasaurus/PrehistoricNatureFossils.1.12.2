@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_yuxisaurus"
+		  },
+		"title": {
+			"translate": "advancements.yuxisaurus.title"
+		},
+		"description": {
+			"translate": "advancements.yuxisaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_yuxisaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
