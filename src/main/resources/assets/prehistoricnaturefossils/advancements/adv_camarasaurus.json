@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_camarasaurus"
+		  },
+		"title": {
+			"translate": "advancements.camarasaurus.title"
+		},
+		"description": {
+			"translate": "advancements.camarasaurus.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_camarasaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

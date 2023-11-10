@@ -884,7 +884,7 @@ public class ModelSkeletonGuanlong extends ModelBase {
         this.Leftupperarm = new ModelRenderer(this);
         this.Leftupperarm.setRotationPoint(3.8F, 4.0762F, -2.8058F);
         this.Bodyfront.addChild(Leftupperarm);
-        this.setRotateAngle(Leftupperarm, 0.4737F, 0.6304F, -0.6799F);
+        this.setRotateAngle(Leftupperarm, 0.3651F, 0.3796F, -0.4002F);
         this.Leftupperarm.cubeList.add(new ModelBox(Leftupperarm, 0, 58, -0.3548F, -0.2145F, -0.6055F, 1, 4, 1, 0.0F, false));
 
         this.Leftlowerarm = new ModelRenderer(this);
@@ -903,20 +903,20 @@ public class ModelSkeletonGuanlong extends ModelBase {
         this.Rightupperarm = new ModelRenderer(this);
         this.Rightupperarm.setRotationPoint(-3.8F, 4.0762F, -2.8058F);
         this.Bodyfront.addChild(Rightupperarm);
-        this.setRotateAngle(Rightupperarm, 0.4306F, -0.6206F, 0.755F);
+        this.setRotateAngle(Rightupperarm, 0.1303F, -0.6096F, 0.5953F);
         this.Rightupperarm.cubeList.add(new ModelBox(Rightupperarm, 41, 56, -0.6452F, -0.2145F, -0.6055F, 1, 4, 1, 0.0F, false));
 
         this.Rightlowerarm = new ModelRenderer(this);
         this.Rightlowerarm.setRotationPoint(-0.0336F, 4.1797F, -0.0221F);
         this.Rightupperarm.addChild(Rightlowerarm);
-        this.setRotateAngle(Rightlowerarm, -1.3302F, 0.5328F, -0.707F);
+        this.setRotateAngle(Rightlowerarm, -1.2093F, 0.7031F, -0.475F);
         this.Rightlowerarm.cubeList.add(new ModelBox(Rightlowerarm, 57, 0, -0.5F, -0.362F, -0.176F, 1, 4, 1, 0.0F, false));
         this.Rightlowerarm.cubeList.add(new ModelBox(Rightlowerarm, 46, 56, -0.5F, -0.062F, -1.276F, 1, 4, 1, -0.2F, false));
 
         this.Righthand = new ModelRenderer(this);
         this.Righthand.setRotationPoint(-0.4F, 3.138F, -0.176F);
         this.Rightlowerarm.addChild(Righthand);
-        this.setRotateAngle(Righthand, 0.2546F, -0.0424F, -0.2759F);
+        this.setRotateAngle(Righthand, 0.2557F, 0.0353F, -0.5714F);
         this.Righthand.cubeList.add(new ModelBox(Righthand, 0, 0, 0.0F, 0.0F, -2.5F, 1, 5, 4, 0.0F, false));
 
         this.Belly = new ModelRenderer(this);
@@ -928,7 +928,7 @@ public class ModelSkeletonGuanlong extends ModelBase {
         this.Tailbase = new ModelRenderer(this);
         this.Tailbase.setRotationPoint(0.0F, -0.2941F, 4.1056F);
         this.Hips.addChild(Tailbase);
-        this.setRotateAngle(Tailbase, -0.0213F, -0.0436F, 0.0009F);
+        this.setRotateAngle(Tailbase, 0.066F, -0.0436F, 0.0009F);
 
 
         this.Tailbase_r1 = new ModelRenderer(this);
@@ -953,7 +953,7 @@ public class ModelSkeletonGuanlong extends ModelBase {
         this.Tailmiddlebase = new ModelRenderer(this);
         this.Tailmiddlebase.setRotationPoint(0.0F, -0.3914F, 8.7937F);
         this.Tailbase.addChild(Tailmiddlebase);
-        this.setRotateAngle(Tailmiddlebase, 0.1065F, -0.0868F, -0.0093F);
+        this.setRotateAngle(Tailmiddlebase, 0.2339F, -0.0706F, -0.0468F);
 
 
         this.Tailbase_r3 = new ModelRenderer(this);
@@ -987,7 +987,7 @@ public class ModelSkeletonGuanlong extends ModelBase {
         this.Tailmiddleend = new ModelRenderer(this);
         this.Tailmiddleend.setRotationPoint(-0.49F, -0.7989F, 12.0212F);
         this.Tailmiddlebase.addChild(Tailmiddleend);
-        this.setRotateAngle(Tailmiddleend, 0.1279F, 0.0866F, 0.0111F);
+        this.setRotateAngle(Tailmiddleend, 0.3024F, 0.0866F, 0.0111F);
 
 
         this.Tailmiddleend_r1 = new ModelRenderer(this);
@@ -999,7 +999,7 @@ public class ModelSkeletonGuanlong extends ModelBase {
         this.Tailend = new ModelRenderer(this);
         this.Tailend.setRotationPoint(-0.01F, 1.2186F, 11.5676F);
         this.Tailmiddleend.addChild(Tailend);
-        this.setRotateAngle(Tailend, -0.1087F, 0.2169F, -0.0235F);
+        this.setRotateAngle(Tailend, 0.0222F, 0.2169F, -0.0235F);
 
 
         this.Tailend_r1 = new ModelRenderer(this);
@@ -1023,7 +1023,7 @@ public class ModelSkeletonGuanlong extends ModelBase {
         this.Rightshin = new ModelRenderer(this);
         this.Rightshin.setRotationPoint(-0.1F, 7.959F, 1.1584F);
         this.Rightthigh.addChild(Rightshin);
-        this.setRotateAngle(Rightshin, 1.5424F, -0.0872F, 0.0025F);
+        this.setRotateAngle(Rightshin, 1.7169F, -0.0872F, 0.0025F);
         this.Rightshin.cubeList.add(new ModelBox(Rightshin, 53, 43, -0.5F, 0.0F, -0.8F, 1, 2, 2, 0.005F, false));
         this.Rightshin.cubeList.add(new ModelBox(Rightshin, 26, 49, -0.5F, 2.0F, -0.5F, 1, 8, 1, 0.0F, false));
         this.Rightshin.cubeList.add(new ModelBox(Rightshin, 21, 49, -0.5F, 2.0F, 0.4F, 1, 8, 1, -0.2F, false));
@@ -1031,13 +1031,13 @@ public class ModelSkeletonGuanlong extends ModelBase {
         this.Rightankle = new ModelRenderer(this);
         this.Rightankle.setRotationPoint(0.01F, 9.7F, 0.6F);
         this.Rightshin.addChild(Rightankle);
-        this.setRotateAngle(Rightankle, -0.4091F, 0.0453F, -0.1148F);
+        this.setRotateAngle(Rightankle, -0.6709F, 0.0453F, -0.1148F);
         this.Rightankle.cubeList.add(new ModelBox(Rightankle, 36, 56, -0.5F, 0.0F, -0.5F, 1, 4, 1, 0.0F, false));
 
         this.Rightfoot = new ModelRenderer(this);
         this.Rightfoot.setRotationPoint(-0.1F, 3.6F, 0.2F);
         this.Rightankle.addChild(Rightfoot);
-        this.setRotateAngle(Rightfoot, 0.1014F, 0.0F, 0.0F);
+        this.setRotateAngle(Rightfoot, 0.452F, -0.0785F, -0.0381F);
         this.Rightfoot.cubeList.add(new ModelBox(Rightfoot, 35, 14, -1.5F, -0.2786F, -5.6863F, 3, 1, 6, 0.0F, false));
 
         this.Leftthigh = new ModelRenderer(this);
@@ -1063,7 +1063,7 @@ public class ModelSkeletonGuanlong extends ModelBase {
         this.Leftankle = new ModelRenderer(this);
         this.Leftankle.setRotationPoint(-0.01F, 9.7F, 0.6F);
         this.Leftshin.addChild(Leftankle);
-        this.setRotateAngle(Leftankle, -0.8011F, 0.0627F, 0.0607F);
+        this.setRotateAngle(Leftankle, -0.807F, 0.1233F, -0.0024F);
         this.Leftankle.cubeList.add(new ModelBox(Leftankle, 35, 14, -0.5F, 0.0F, -0.5F, 1, 4, 1, 0.0F, false));
 
         this.Leftfoot = new ModelRenderer(this);

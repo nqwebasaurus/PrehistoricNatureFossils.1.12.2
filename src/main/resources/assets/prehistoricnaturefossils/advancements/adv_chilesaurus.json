@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_chilesaurus"
+		  },
+		"title": {
+			"translate": "advancements.chilesaurus.title"
+		},
+		"description": {
+			"translate": "advancements.chilesaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_chilesaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

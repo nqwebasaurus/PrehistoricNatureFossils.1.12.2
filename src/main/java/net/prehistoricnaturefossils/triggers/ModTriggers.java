@@ -128,13 +128,21 @@ public class ModTriggers
     public static final CustomTrigger RHAMPHORHYNCHUS_COMPLETE = new CustomTrigger("adv_rhamphorhynchus");
     public static final CustomTrigger YUXISAURUS_COMPLETE = new CustomTrigger("adv_yuxisaurus");
     public static final CustomTrigger GUANLONG_COMPLETE = new CustomTrigger("adv_guanlong");
+    public static final CustomTrigger CHILESAURUS_COMPLETE = new CustomTrigger("adv_chilesaurus");
+    public static final CustomTrigger CAMARASAURUS_COMPLETE = new CustomTrigger("adv_camarasaurus");
+    public static final CustomTrigger ADEOPAPPOSAURUS_COMPLETE = new CustomTrigger("adv_adeopapposaurus");
+    public static final CustomTrigger MIRAGAIA_COMPLETE = new CustomTrigger("adv_miragaia");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
             PARMASTEGA_COMPLETE,
+            CAMARASAURUS_COMPLETE,
+            MIRAGAIA_COMPLETE,
+            ADEOPAPPOSAURUS_COMPLETE,
             ANUROGNATHUS_COMPLETE,
             GUANLONG_COMPLETE,
+            CHILESAURUS_COMPLETE,
             RHAMPHORHYNCHUS_COMPLETE,
             ANTEOSAURUS_COMPLETE,
             YUXISAURUS_COMPLETE,
