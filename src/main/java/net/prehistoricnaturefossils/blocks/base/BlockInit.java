@@ -214,5 +214,16 @@ public class BlockInit {
     public static final Block FOSSIL_CAMARASAURUS    = new BlockFossilCamarasaurus();
     public static final Block FOSSIL_ADEOPAPPOSAURUS    = new BlockFossilAdeopapposaurus();
     public static final Block FOSSIL_MIRAGAIA    = new BlockFossilMiragaia();
+    public static final Block FOSSIL_CIURCOPTERUS    = new BlockFossilCiurcopterus();
+    public static final Block FOSSIL_SLIMONIA    = new BlockFossilSlimonia();
+    public static final Block FOSSIL_DUNYU    = new BlockFossilDunyu();
+    public static final Block FOSSIL_PLATYCARASPIS    = new BlockFossilPlatycaraspis();
+    public static final Block FOSSIL_PTERODACTYLUS    = new BlockFossilPterodactylus();
+    public static final Block FOSSIL_COMPSOGNATHUS    = new BlockFossilCompsognathus();
+    public static final Block FOSSIL_THELODUS    = new BlockFossilThelodus();
+    public static final Block FOSSIL_GUIYU    = new BlockFossilGuiyu();
+    public static final Block FOSSIL_TITANICHTHYS    = new BlockFossilTitanichthys();
+    public static final Block FOSSIL_CAMPTOSAURUS    = new BlockFossilCamptosaurus();
+
 
 }

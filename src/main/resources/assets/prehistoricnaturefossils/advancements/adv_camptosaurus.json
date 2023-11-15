@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_camptosaurus"
+		  },
+		"title": {
+			"translate": "advancements.camptosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.camptosaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_camptosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

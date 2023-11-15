@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_titanichthys"
+		  },
+		"title": {
+			"translate": "advancements.titanichthys.title"
+		},
+		"description": {
+			"translate": "advancements.titanichthys.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_titanichthys"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}
