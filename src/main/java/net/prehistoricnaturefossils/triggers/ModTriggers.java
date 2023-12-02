@@ -18,6 +18,8 @@ public class ModTriggers
     public static final CustomTrigger GUIYU_COMPLETE = new CustomTrigger("adv_guiyu");
     public static final CustomTrigger PLATYCARASPIS_COMPLETE = new CustomTrigger("adv_platycaraspis");
     public static final CustomTrigger THELODUS_COMPLETE = new CustomTrigger("adv_thelodus");
+    public static final CustomTrigger WARNETICARIS_COMPLETE = new CustomTrigger("adv_warneticaris");
+    public static final CustomTrigger PHANTASPIS_COMPLETE = new CustomTrigger("adv_phantaspis");
     public static final CustomTrigger ANTEOSAURUS_COMPLETE = new CustomTrigger("adv_anteosaurus");
     public static final CustomTrigger ARIZONASAURUS_COMPLETE = new CustomTrigger("adv_arizonasaurus");
     public static final CustomTrigger ATOPODENTATUS_COMPLETE = new CustomTrigger("adv_atopodentatus");
@@ -142,6 +144,8 @@ public class ModTriggers
     public static final CustomTrigger COMPSOGNATHUS_COMPLETE = new CustomTrigger("adv_compsognathus");
     public static final CustomTrigger TITANICHTHYS_COMPLETE = new CustomTrigger("adv_titanichthys");
     public static final CustomTrigger CAMPTOSAURUS_COMPLETE = new CustomTrigger("adv_camptosaurus");
+    public static final CustomTrigger ACANTHOSTEGA_COMPLETE = new CustomTrigger("adv_acanthostega");
+    public static final CustomTrigger SHUNOSAURUS_COMPLETE = new CustomTrigger("adv_shunosaurus");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
@@ -151,6 +155,9 @@ public class ModTriggers
             THELODUS_COMPLETE,
             DUNYU_COMPLETE,
             CIURCOPTERUS_COMPLETE,
+            WARNETICARIS_COMPLETE,
+            PHANTASPIS_COMPLETE,
+            SHUNOSAURUS_COMPLETE,
             CAMPTOSAURUS_COMPLETE,
             TITANICHTHYS_COMPLETE,
             PLATYCARASPIS_COMPLETE,
@@ -158,6 +165,7 @@ public class ModTriggers
             COMPSOGNATHUS_COMPLETE,
             PTERODACTYLUS_COMPLETE,
             CAMARASAURUS_COMPLETE,
+            ACANTHOSTEGA_COMPLETE,
             MIRAGAIA_COMPLETE,
             ADEOPAPPOSAURUS_COMPLETE,
             ANUROGNATHUS_COMPLETE,

@@ -249,6 +249,10 @@ advancements.titanichthys.title=Titanic Fish
 advancements.titanichthys.description=Complete a Titanichthys skeleton
 advancements.camptosaurus.title=Bent Lizard
 advancements.camptosaurus.description=Complete a Camptosaurus skeleton
+advancements.acanthostega.title=Spiny Roof
+advancements.acanthostega.description=Complete an Acanthostega skeleton
+advancements.shunosaurus.title=Lizard from Shu [Sichuan]
+advancements.shunosaurus.description=Complete a Shunosaurus skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
 
@@ -344,6 +348,8 @@ tile.pf_skeleton_dunyu.name=Dunyu Fossil Slab
 tile.pf_skeleton_platycaraspis.name=Microphymaspis Fossil Slab
 tile.pf_skeleton_thelodus.name=Thelodus Fossil Slab
 tile.pf_skeleton_guiyu.name=Guiyu Fossil Slab
+tile.pf_skeleton_warneticaris.name=Warneticaris Fossil Slab
+tile.pf_skeleton_phantaspis.name=Phantaspis Fossil Slab
 
 
 
@@ -472,3 +478,5 @@ tile.pf_skeleton_pterodactylus.name=Pterodactylus Displayable Fossil
 tile.pf_skeleton_compsognathus.name=Compsognathus Displayable Fossil
 tile.pf_skeleton_titanichthys.name=Titanichthys Displayable Fossil
 tile.pf_skeleton_camptosaurus.name=Camptosaurus Displayable Fossil
+tile.pf_skeleton_acanthostega.name=Acanthostega Displayable Fossil
+tile.pf_skeleton_shunosaurus.name=Shunosaurus Displayable Fossil

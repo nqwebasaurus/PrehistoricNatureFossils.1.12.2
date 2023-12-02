@@ -224,6 +224,10 @@ public class BlockInit {
     public static final Block FOSSIL_GUIYU    = new BlockFossilGuiyu();
     public static final Block FOSSIL_TITANICHTHYS    = new BlockFossilTitanichthys();
     public static final Block FOSSIL_CAMPTOSAURUS    = new BlockFossilCamptosaurus();
+    public static final Block FOSSIL_ACANTHOSTEGA    = new BlockFossilAcanthostega();
+    public static final Block FOSSIL_SHUNOSAURUS    = new BlockFossilShunosaurus();
+    public static final Block FOSSIL_WARNETICARIS    = new BlockFossilWarneticaris();
+    public static final Block FOSSIL_PHANTASPIS    = new BlockFossilPhantaspis();
 
 
 }

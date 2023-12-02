@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_acanthostega"
+		  },
+		"title": {
+			"translate": "advancements.acanthostega.title"
+		},
+		"description": {
+			"translate": "advancements.acanthostega.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_acanthostega"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
