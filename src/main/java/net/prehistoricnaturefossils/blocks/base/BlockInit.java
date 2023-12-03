@@ -194,5 +194,40 @@ public class BlockInit {
     public static final Block FOSSIL_ALLOSAURUS    = new BlockFossilAllosaurus();
     public static final Block FOSSIL_LIMUSAURUS    = new BlockFossilLimusaurus();
     public static final Block FOSSIL_APATOSAURUS    = new BlockFossilApatosaurus();
+    public static final Block FOSSIL_DASYCEPS    = new BlockFossilDasyceps();
+    public static final Block FOSSIL_PRISTEROGNATHUS    = new BlockFossilPristerognathus();
+    public static final Block FOSSIL_BOTHRIOLEPIS    = new BlockFossilBothriolepis();
+    public static final Block FOSSIL_BUNDENBACHIELLUS    = new BlockFossilBundenbachiellus();
+    public static final Block FOSSIL_ATTERCOPUS    = new BlockFossilAttercopus();
+    public static final Block FOSSIL_JAEKELOPTERUS    = new BlockFossilJaekelopterus();
+    public static final Block FOSSIL_BROCHOADMONES    = new BlockFossilBrochoadmones();
+    public static final Block FOSSIL_RHINOPTERASPIS    = new BlockFossilRhinopteraspis();
+    public static final Block FOSSIL_HIBBERTOPTERUS    = new BlockFossilHibbertopterus();
+    public static final Block FOSSIL_PARMASTEGA    = new BlockFossilParmastega();
+    public static final Block FOSSIL_PROCERATOSAURUS    = new BlockFossilProceratosaurus();
+    public static final Block FOSSIL_ELAPHROSAURUS    = new BlockFossilElaphrosaurus();
+    public static final Block FOSSIL_ANUROGNATHUS    = new BlockFossilAnurognathus();
+    public static final Block FOSSIL_RHAMPHORHYNCHUS    = new BlockFossilRhamphorhynchus();
+    public static final Block FOSSIL_YUXISAURUS    = new BlockFossilYuxisaurus();
+    public static final Block FOSSIL_GUANLONG    = new BlockFossilGuanlong();
+    public static final Block FOSSIL_CHILESAURUS    = new BlockFossilChilesaurus();
+    public static final Block FOSSIL_CAMARASAURUS    = new BlockFossilCamarasaurus();
+    public static final Block FOSSIL_ADEOPAPPOSAURUS    = new BlockFossilAdeopapposaurus();
+    public static final Block FOSSIL_MIRAGAIA    = new BlockFossilMiragaia();
+    public static final Block FOSSIL_CIURCOPTERUS    = new BlockFossilCiurcopterus();
+    public static final Block FOSSIL_SLIMONIA    = new BlockFossilSlimonia();
+    public static final Block FOSSIL_DUNYU    = new BlockFossilDunyu();
+    public static final Block FOSSIL_PLATYCARASPIS    = new BlockFossilPlatycaraspis();
+    public static final Block FOSSIL_PTERODACTYLUS    = new BlockFossilPterodactylus();
+    public static final Block FOSSIL_COMPSOGNATHUS    = new BlockFossilCompsognathus();
+    public static final Block FOSSIL_THELODUS    = new BlockFossilThelodus();
+    public static final Block FOSSIL_GUIYU    = new BlockFossilGuiyu();
+    public static final Block FOSSIL_TITANICHTHYS    = new BlockFossilTitanichthys();
+    public static final Block FOSSIL_CAMPTOSAURUS    = new BlockFossilCamptosaurus();
+    public static final Block FOSSIL_ACANTHOSTEGA    = new BlockFossilAcanthostega();
+    public static final Block FOSSIL_SHUNOSAURUS    = new BlockFossilShunosaurus();
+    public static final Block FOSSIL_WARNETICARIS    = new BlockFossilWarneticaris();
+    public static final Block FOSSIL_PHANTASPIS    = new BlockFossilPhantaspis();
+
 
 }

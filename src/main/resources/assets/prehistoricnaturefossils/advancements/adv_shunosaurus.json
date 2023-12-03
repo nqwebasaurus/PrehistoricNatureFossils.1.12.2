@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_shunosaurus"
+		  },
+		"title": {
+			"translate": "advancements.shunosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.shunosaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_shunosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_parmastega"
+		  },
+		"title": {
+			"translate": "advancements.parmastega.title"
+		},
+		"description": {
+			"translate": "advancements.parmastega.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_parmastega"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

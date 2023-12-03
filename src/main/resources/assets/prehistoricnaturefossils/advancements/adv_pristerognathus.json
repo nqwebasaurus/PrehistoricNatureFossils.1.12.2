@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_pristerognathus"
+		  },
+		"title": {
+			"translate": "advancements.pristerognathus.title"
+		},
+		"description": {
+			"translate": "advancements.pristerognathus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_pristerognathus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

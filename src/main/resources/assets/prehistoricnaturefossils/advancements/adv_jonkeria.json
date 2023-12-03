@@ -8,7 +8,8 @@
 		},
 		"description": {
 			"translate": "advancements.jonkeria.description"
-		}
+		},
+		"frame": "goal"
 	},
 	"parent": "prehistoricnaturefossils:base_adv",
 	"criteria": {
@@ -17,6 +18,6 @@
 		}
 	},
   "rewards": {
-	  "experience": 10
+	  "experience": 50
   }
 }

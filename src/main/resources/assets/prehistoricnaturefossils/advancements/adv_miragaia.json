@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_miragaia"
+		  },
+		"title": {
+			"translate": "advancements.miragaia.title"
+		},
+		"description": {
+			"translate": "advancements.miragaia.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_miragaia"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

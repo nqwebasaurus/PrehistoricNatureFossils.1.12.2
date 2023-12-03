@@ -12,6 +12,14 @@ public class ModTriggers
 {
 
     public static final CustomTrigger AEGER_COMPLETE = new CustomTrigger("adv_aeger");
+    public static final CustomTrigger CIURCOPTERUS_COMPLETE = new CustomTrigger("adv_ciurcopterus");
+    public static final CustomTrigger SLIMONIA_COMPLETE = new CustomTrigger("adv_slimonia");
+    public static final CustomTrigger DUNYU_COMPLETE = new CustomTrigger("adv_dunyu");
+    public static final CustomTrigger GUIYU_COMPLETE = new CustomTrigger("adv_guiyu");
+    public static final CustomTrigger PLATYCARASPIS_COMPLETE = new CustomTrigger("adv_platycaraspis");
+    public static final CustomTrigger THELODUS_COMPLETE = new CustomTrigger("adv_thelodus");
+    public static final CustomTrigger WARNETICARIS_COMPLETE = new CustomTrigger("adv_warneticaris");
+    public static final CustomTrigger PHANTASPIS_COMPLETE = new CustomTrigger("adv_phantaspis");
     public static final CustomTrigger ANTEOSAURUS_COMPLETE = new CustomTrigger("adv_anteosaurus");
     public static final CustomTrigger ARIZONASAURUS_COMPLETE = new CustomTrigger("adv_arizonasaurus");
     public static final CustomTrigger ATOPODENTATUS_COMPLETE = new CustomTrigger("adv_atopodentatus");
@@ -118,12 +126,60 @@ public class ModTriggers
     public static final CustomTrigger ALLOSAURUS_COMPLETE = new CustomTrigger("adv_allosaurus");
     public static final CustomTrigger LIMUSAURUS_COMPLETE = new CustomTrigger("adv_limusaurus");
     public static final CustomTrigger APATOSAURUS_COMPLETE = new CustomTrigger("adv_apatosaurus");
+    public static final CustomTrigger DASYCEPS_COMPLETE = new CustomTrigger("adv_dasyceps");
+    public static final CustomTrigger PRISTEROGNATHUS_COMPLETE = new CustomTrigger("adv_pristerognathus");
+    public static final CustomTrigger BOTHRIOLEPIS_COMPLETE = new CustomTrigger("adv_bothriolepis");
+    public static final CustomTrigger PARMASTEGA_COMPLETE = new CustomTrigger("adv_parmastega");
+    public static final CustomTrigger PROCERATOSAURUS_COMPLETE = new CustomTrigger("adv_proceratosaurus");
+    public static final CustomTrigger ELAPHROSAURUS_COMPLETE = new CustomTrigger("adv_elaphrosaurus");
+    public static final CustomTrigger ANUROGNATHUS_COMPLETE = new CustomTrigger("adv_anurognathus");
+    public static final CustomTrigger RHAMPHORHYNCHUS_COMPLETE = new CustomTrigger("adv_rhamphorhynchus");
+    public static final CustomTrigger YUXISAURUS_COMPLETE = new CustomTrigger("adv_yuxisaurus");
+    public static final CustomTrigger GUANLONG_COMPLETE = new CustomTrigger("adv_guanlong");
+    public static final CustomTrigger CHILESAURUS_COMPLETE = new CustomTrigger("adv_chilesaurus");
+    public static final CustomTrigger CAMARASAURUS_COMPLETE = new CustomTrigger("adv_camarasaurus");
+    public static final CustomTrigger ADEOPAPPOSAURUS_COMPLETE = new CustomTrigger("adv_adeopapposaurus");
+    public static final CustomTrigger MIRAGAIA_COMPLETE = new CustomTrigger("adv_miragaia");
+    public static final CustomTrigger PTERODACTYLUS_COMPLETE = new CustomTrigger("adv_pterodactylus");
+    public static final CustomTrigger COMPSOGNATHUS_COMPLETE = new CustomTrigger("adv_compsognathus");
+    public static final CustomTrigger TITANICHTHYS_COMPLETE = new CustomTrigger("adv_titanichthys");
+    public static final CustomTrigger CAMPTOSAURUS_COMPLETE = new CustomTrigger("adv_camptosaurus");
+    public static final CustomTrigger ACANTHOSTEGA_COMPLETE = new CustomTrigger("adv_acanthostega");
+    public static final CustomTrigger SHUNOSAURUS_COMPLETE = new CustomTrigger("adv_shunosaurus");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
+            SLIMONIA_COMPLETE,
+            GUIYU_COMPLETE,
+            THELODUS_COMPLETE,
+            DUNYU_COMPLETE,
+            CIURCOPTERUS_COMPLETE,
+            WARNETICARIS_COMPLETE,
+            PHANTASPIS_COMPLETE,
+            SHUNOSAURUS_COMPLETE,
+            CAMPTOSAURUS_COMPLETE,
+            TITANICHTHYS_COMPLETE,
+            PLATYCARASPIS_COMPLETE,
+            PARMASTEGA_COMPLETE,
+            COMPSOGNATHUS_COMPLETE,
+            PTERODACTYLUS_COMPLETE,
+            CAMARASAURUS_COMPLETE,
+            ACANTHOSTEGA_COMPLETE,
+            MIRAGAIA_COMPLETE,
+            ADEOPAPPOSAURUS_COMPLETE,
+            ANUROGNATHUS_COMPLETE,
+            GUANLONG_COMPLETE,
+            CHILESAURUS_COMPLETE,
+            RHAMPHORHYNCHUS_COMPLETE,
             ANTEOSAURUS_COMPLETE,
+            YUXISAURUS_COMPLETE,
+            DASYCEPS_COMPLETE,
+            BOTHRIOLEPIS_COMPLETE,
+            ELAPHROSAURUS_COMPLETE,
             MYMOORAPELTA_COMPLETE,
+            PRISTEROGNATHUS_COMPLETE,
+            PROCERATOSAURUS_COMPLETE,
             APATOSAURUS_COMPLETE,
             SINRAPTOR_COMPLETE,
             LIMUSAURUS_COMPLETE,

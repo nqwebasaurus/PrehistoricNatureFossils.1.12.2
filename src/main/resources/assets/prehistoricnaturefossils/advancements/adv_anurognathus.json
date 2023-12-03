@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_anurognathus"
+		  },
+		"title": {
+			"translate": "advancements.anurognathus.title"
+		},
+		"description": {
+			"translate": "advancements.anurognathus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_anurognathus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

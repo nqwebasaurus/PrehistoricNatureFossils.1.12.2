@@ -1383,7 +1383,7 @@ public class ModelSkeletonAllosaurus extends ModelBase {
         this.Lowerjaw = new ModelRenderer(this);
         this.Lowerjaw.setRotationPoint(0.0F, 2.5638F, 0.7948F);
         this.Head.addChild(Lowerjaw);
-        this.setRotateAngle(Lowerjaw, 1.3544F, 0.0F, 0.0F);
+        this.setRotateAngle(Lowerjaw, 0.8744F, 0.0F, 0.0F);
         this.Lowerjaw.cubeList.add(new ModelBox(Lowerjaw, 47, 0, -1.0F, -0.6239F, -13.4679F, 2, 1, 4, 0.0F, false));
 
         this.Lowerjawfront_r1 = new ModelRenderer(this);

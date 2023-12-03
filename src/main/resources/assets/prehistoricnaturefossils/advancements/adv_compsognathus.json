@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_compsognathus"
+		  },
+		"title": {
+			"translate": "advancements.compsognathus.title"
+		},
+		"description": {
+			"translate": "advancements.compsognathus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_compsognathus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

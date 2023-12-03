@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_rhamphorhynchus"
+		  },
+		"title": {
+			"translate": "advancements.rhamphorhynchus.title"
+		},
+		"description": {
+			"translate": "advancements.rhamphorhynchus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_rhamphorhynchus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_adeopapposaurus"
+		  },
+		"title": {
+			"translate": "advancements.adeopapposaurus.title"
+		},
+		"description": {
+			"translate": "advancements.adeopapposaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_adeopapposaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
