@@ -146,6 +146,10 @@ public class ModTriggers
     public static final CustomTrigger CAMPTOSAURUS_COMPLETE = new CustomTrigger("adv_camptosaurus");
     public static final CustomTrigger ACANTHOSTEGA_COMPLETE = new CustomTrigger("adv_acanthostega");
     public static final CustomTrigger SHUNOSAURUS_COMPLETE = new CustomTrigger("adv_shunosaurus");
+    public static final CustomTrigger PROTEROGYRINUS_COMPLETE = new CustomTrigger("adv_proterogyrinus");
+    public static final CustomTrigger HETERODONTOSAURUS_COMPLETE = new CustomTrigger("adv_heterodontosaurus");
+    public static final CustomTrigger DIPLODOCUS_COMPLETE = new CustomTrigger("adv_diplodocus");
+    public static final CustomTrigger BRACHIOSAURUS_COMPLETE = new CustomTrigger("adv_brachiosaurus");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
@@ -153,6 +157,8 @@ public class ModTriggers
             SLIMONIA_COMPLETE,
             GUIYU_COMPLETE,
             THELODUS_COMPLETE,
+            DIPLODOCUS_COMPLETE,
+            BRACHIOSAURUS_COMPLETE,
             DUNYU_COMPLETE,
             CIURCOPTERUS_COMPLETE,
             WARNETICARIS_COMPLETE,
@@ -165,7 +171,9 @@ public class ModTriggers
             COMPSOGNATHUS_COMPLETE,
             PTERODACTYLUS_COMPLETE,
             CAMARASAURUS_COMPLETE,
+            PROTEROGYRINUS_COMPLETE,
             ACANTHOSTEGA_COMPLETE,
+            HETERODONTOSAURUS_COMPLETE,
             MIRAGAIA_COMPLETE,
             ADEOPAPPOSAURUS_COMPLETE,
             ANUROGNATHUS_COMPLETE,

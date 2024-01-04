@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_brachiosaurus"
+		  },
+		"title": {
+			"translate": "advancements.brachiosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.brachiosaurus.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_brachiosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

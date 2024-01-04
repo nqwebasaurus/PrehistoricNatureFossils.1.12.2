@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_heterodontosaurus"
+		  },
+		"title": {
+			"translate": "advancements.heterodontosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.heterodontosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_heterodontosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

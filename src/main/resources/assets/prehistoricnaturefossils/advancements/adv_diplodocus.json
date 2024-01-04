@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_diplodocus"
+		  },
+		"title": {
+			"translate": "advancements.diplodocus.title"
+		},
+		"description": {
+			"translate": "advancements.diplodocus.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_diplodocus"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}
