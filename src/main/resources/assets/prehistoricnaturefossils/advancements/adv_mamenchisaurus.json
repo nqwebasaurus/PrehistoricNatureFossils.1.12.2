@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_mamenchisaurus"
+		  },
+		"title": {
+			"translate": "advancements.mamenchisaurus.title"
+		},
+		"description": {
+			"translate": "advancements.mamenchisaurus.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_mamenchisaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

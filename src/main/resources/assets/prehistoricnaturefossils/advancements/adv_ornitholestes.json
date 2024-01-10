@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_ornitholestes"
+		  },
+		"title": {
+			"translate": "advancements.ornitholestes.title"
+		},
+		"description": {
+			"translate": "advancements.ornitholestes.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_ornitholestes"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -150,6 +150,8 @@ public class ModTriggers
     public static final CustomTrigger HETERODONTOSAURUS_COMPLETE = new CustomTrigger("adv_heterodontosaurus");
     public static final CustomTrigger DIPLODOCUS_COMPLETE = new CustomTrigger("adv_diplodocus");
     public static final CustomTrigger BRACHIOSAURUS_COMPLETE = new CustomTrigger("adv_brachiosaurus");
+    public static final CustomTrigger ORNITHOLESTES_COMPLETE = new CustomTrigger("adv_ornitholestes");
+    public static final CustomTrigger MAMENCHISAURUS_COMPLETE = new CustomTrigger("adv_mamenchisaurus");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
@@ -165,6 +167,8 @@ public class ModTriggers
             PHANTASPIS_COMPLETE,
             SHUNOSAURUS_COMPLETE,
             CAMPTOSAURUS_COMPLETE,
+            ORNITHOLESTES_COMPLETE,
+            MAMENCHISAURUS_COMPLETE,
             TITANICHTHYS_COMPLETE,
             PLATYCARASPIS_COMPLETE,
             PARMASTEGA_COMPLETE,

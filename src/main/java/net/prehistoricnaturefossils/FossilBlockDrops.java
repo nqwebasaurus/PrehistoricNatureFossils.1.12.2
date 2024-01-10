@@ -453,6 +453,8 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_KENTROSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_LIMULID, 1),
                 new ItemStack(BlockInit.FOSSIL_OPHTHALMOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_ORNITHOLESTES, 1),
+                new ItemStack(BlockInit.FOSSIL_MAMENCHISAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_HUAYANGOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_ELAPHROSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_DILOPHOSAURUS, 1),
