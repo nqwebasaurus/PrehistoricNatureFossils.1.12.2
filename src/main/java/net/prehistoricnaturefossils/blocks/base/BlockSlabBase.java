@@ -208,7 +208,7 @@ public abstract class BlockSlabBase extends Block implements IHasModel, IAdvance
             if (tileEntity != null) {
                 if (tileEntity instanceof TileEntityFossilBase) {
                     if (((TileEntityFossilBase) tileEntity).getStages() <= 1) {
-                        if (placer instanceof EntityPlayerMP) {
+                        if (placer instanceof EntityPlayerMP && getModTrigger() != null) {
                             getModTrigger().trigger((EntityPlayerMP) placer);
                         }
                     }
@@ -237,7 +237,7 @@ public abstract class BlockSlabBase extends Block implements IHasModel, IAdvance
                             ((WorldServer) playerIn.getEntityWorld()).playSound(null, pos, soundevent, SoundCategory.BLOCKS, 1.0F, 1.0F);
 
                             if (newStage == ((TileEntityFossilBase) tileEntity).getStages()) {
-                                if (playerIn instanceof EntityPlayerMP) {
+                                if (playerIn instanceof EntityPlayerMP && getModTrigger() != null) {
                                     getModTrigger().trigger((EntityPlayerMP) playerIn);
                                 }
                             }
