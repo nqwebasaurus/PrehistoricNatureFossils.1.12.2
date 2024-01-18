@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_yi"
+		  },
+		"title": {
+			"translate": "advancements.yi.title"
+		},
+		"description": {
+			"translate": "advancements.yi.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_yi"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

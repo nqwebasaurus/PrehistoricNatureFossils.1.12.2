@@ -236,6 +236,8 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilBrachiosaurus.class, new RenderFossilBrachiosaurus());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilOrnitholestes.class, new RenderFossilOrnitholestes());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilMamenchisaurus.class, new RenderFossilMamenchisaurus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilYi.class, new RenderFossilYi());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilDimorphodon.class, new RenderFossilDimorphodon());
 
     }
 }
