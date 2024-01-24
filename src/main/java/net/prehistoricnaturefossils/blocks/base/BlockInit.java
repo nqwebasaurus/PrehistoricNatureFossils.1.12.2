@@ -232,6 +232,12 @@ public class BlockInit {
     public static final Block FOSSIL_HETERODONTOSAURUS    = new BlockFossilHeterodontosaurus();
     public static final Block FOSSIL_DIPLODOCUS    = new BlockFossilDiplodocus();
     public static final Block FOSSIL_BRACHIOSAURUS    = new BlockFossilBrachiosaurus();
+    public static final Block FOSSIL_ORNITHOLESTES    = new BlockFossilOrnitholestes();
+    public static final Block FOSSIL_MAMENCHISAURUS    = new BlockFossilMamenchisaurus();
+    public static final Block FOSSIL_YI    = new BlockFossilYi();
+    public static final Block FOSSIL_DIMORPHODON    = new BlockFossilDimorphodon();
+    public static final Block FOSSIL_ARCHAEOPTERYX    = new BlockFossilArchaeopteryx();
+    public static final Block FOSSIL_NEUROPTERA    = new BlockFossilNeuroptera();
 
 
 

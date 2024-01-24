@@ -453,6 +453,8 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_KENTROSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_LIMULID, 1),
                 new ItemStack(BlockInit.FOSSIL_OPHTHALMOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_ORNITHOLESTES, 1),
+                new ItemStack(BlockInit.FOSSIL_MAMENCHISAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_HUAYANGOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_ELAPHROSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_DILOPHOSAURUS, 1),
@@ -478,12 +480,15 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_LIMUSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_MYMOORAPELTA, 1),
                 new ItemStack(BlockInit.FOSSIL_YANGCHUANOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_YI, 1),
+                new ItemStack(BlockInit.FOSSIL_DIMORPHODON, 1),
                 new ItemStack(BlockInit.FOSSIL_CRYOLOPHOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_TORVOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_EUROPASAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_GIGANTSPINOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_YINLONG, 1),
                 new ItemStack(BlockInit.FOSSIL_CONODONT, 1),
+                new ItemStack(BlockInit.FOSSIL_NEUROPTERA, 1),
                 new ItemStack(BlockInit.FOSSIL_TUOJIANGOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_STEGOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_DAKOSAURUS, 1),
@@ -495,6 +500,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_MEGALOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_CERATOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_TURBOSCINETES, 1),
+                new ItemStack(BlockInit.FOSSIL_ARCHAEOPTERYX, 1),
                 new ItemStack(BlockInit.FOSSIL_DRYOSAURUS, 1)
         };
         return itemStack;

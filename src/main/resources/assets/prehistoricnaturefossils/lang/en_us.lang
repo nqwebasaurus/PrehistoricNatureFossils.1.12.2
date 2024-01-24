@@ -261,6 +261,14 @@ advancements.diplodocus.title=Double Beam
 advancements.diplodocus.description=Complete a Diplodocus skeleton
 advancements.brachiosaurus.title=Arm Lizard
 advancements.brachiosaurus.description=Complete a Brachiosaurus skeleton
+advancements.ornitholestes.title=Bird Robber
+advancements.ornitholestes.description=Complete an Ornitholestes skeleton
+advancements.mamenchisaurus.title=Mamenchi lizard
+advancements.mamenchisaurus.description=Complete a Mamenchisaurus skeleton
+advancements.yi.title=Strange [wing]
+advancements.yi.description=Complete a Yi skeleton
+advancements.dimorphodon.title=Two-form Tooth
+advancements.dimorphodon.description=Complete a Dimorphodon skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
 
@@ -358,6 +366,8 @@ tile.pf_skeleton_thelodus.name=Thelodus Fossil Slab
 tile.pf_skeleton_guiyu.name=Guiyu Fossil Slab
 tile.pf_skeleton_warneticaris.name=Warneticaris Fossil Slab
 tile.pf_skeleton_phantaspis.name=Phantaspis Fossil Slab
+tile.pf_skeleton_archaeopteryx.name=Archaeopteryx Fossil Slab
+tile.pf_skeleton_neuroptera.name=Bellinympha Fossil Slab
 
 
 
@@ -492,3 +502,7 @@ tile.pf_skeleton_proterogyrinus.name=Proterogyrinus Displayable Fossil
 tile.pf_skeleton_heterodontosaurus.name=Heterodontosaurus Displayable Fossil
 tile.pf_skeleton_diplodocus.name=Diplodocus Displayable Fossil
 tile.pf_skeleton_brachiosaurus.name=Brachiosaurus Displayable Fossil
+tile.pf_skeleton_ornitholestes.name=Ornitholestes Displayable Fossil
+tile.pf_skeleton_mamenchisaurus.name=Mamenchisaurus Displayable Fossil
+tile.pf_skeleton_yi.name=Yi Displayable Fossil
+tile.pf_skeleton_dimorphodon.name=Dimorphodon Displayable Fossil

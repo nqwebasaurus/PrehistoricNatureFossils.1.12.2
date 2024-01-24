@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_dimorphodon"
+		  },
+		"title": {
+			"translate": "advancements.dimorphodon.title"
+		},
+		"description": {
+			"translate": "advancements.dimorphodon.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_dimorphodon"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

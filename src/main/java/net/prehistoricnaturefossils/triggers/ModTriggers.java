@@ -20,6 +20,8 @@ public class ModTriggers
     public static final CustomTrigger THELODUS_COMPLETE = new CustomTrigger("adv_thelodus");
     public static final CustomTrigger WARNETICARIS_COMPLETE = new CustomTrigger("adv_warneticaris");
     public static final CustomTrigger PHANTASPIS_COMPLETE = new CustomTrigger("adv_phantaspis");
+    public static final CustomTrigger ARCHAEOPTERYX_COMPLETE = new CustomTrigger("adv_archaeopteryx");
+    public static final CustomTrigger NEUROPTERA_COMPLETE = new CustomTrigger("adv_neuroptera");
     public static final CustomTrigger ANTEOSAURUS_COMPLETE = new CustomTrigger("adv_anteosaurus");
     public static final CustomTrigger ARIZONASAURUS_COMPLETE = new CustomTrigger("adv_arizonasaurus");
     public static final CustomTrigger ATOPODENTATUS_COMPLETE = new CustomTrigger("adv_atopodentatus");
@@ -150,6 +152,10 @@ public class ModTriggers
     public static final CustomTrigger HETERODONTOSAURUS_COMPLETE = new CustomTrigger("adv_heterodontosaurus");
     public static final CustomTrigger DIPLODOCUS_COMPLETE = new CustomTrigger("adv_diplodocus");
     public static final CustomTrigger BRACHIOSAURUS_COMPLETE = new CustomTrigger("adv_brachiosaurus");
+    public static final CustomTrigger ORNITHOLESTES_COMPLETE = new CustomTrigger("adv_ornitholestes");
+    public static final CustomTrigger MAMENCHISAURUS_COMPLETE = new CustomTrigger("adv_mamenchisaurus");
+    public static final CustomTrigger YI_COMPLETE = new CustomTrigger("adv_yi");
+    public static final CustomTrigger DIMORPHODON_COMPLETE = new CustomTrigger("adv_dimorphodon");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
@@ -163,8 +169,14 @@ public class ModTriggers
             CIURCOPTERUS_COMPLETE,
             WARNETICARIS_COMPLETE,
             PHANTASPIS_COMPLETE,
+            ARCHAEOPTERYX_COMPLETE,
+            NEUROPTERA_COMPLETE,
             SHUNOSAURUS_COMPLETE,
             CAMPTOSAURUS_COMPLETE,
+            ORNITHOLESTES_COMPLETE,
+            YI_COMPLETE,
+            DIMORPHODON_COMPLETE,
+            MAMENCHISAURUS_COMPLETE,
             TITANICHTHYS_COMPLETE,
             PLATYCARASPIS_COMPLETE,
             PARMASTEGA_COMPLETE,
