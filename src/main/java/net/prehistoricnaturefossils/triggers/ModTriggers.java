@@ -21,6 +21,10 @@ public class ModTriggers
     public static final CustomTrigger WARNETICARIS_COMPLETE = new CustomTrigger("adv_warneticaris");
     public static final CustomTrigger PHANTASPIS_COMPLETE = new CustomTrigger("adv_phantaspis");
     public static final CustomTrigger ARCHAEOPTERYX_COMPLETE = new CustomTrigger("adv_archaeopteryx");
+    public static final CustomTrigger KLEPTOTHULE_COMPLETE = new CustomTrigger("adv_kleptothule");
+    public static final CustomTrigger PSYCHOPYGE_COMPLETE = new CustomTrigger("adv_psychopyge");
+    public static final CustomTrigger ANGUSTIDONTUS_COMPLETE = new CustomTrigger("adv_angustidontus");
+    public static final CustomTrigger TYRANNOPHONTES_COMPLETE = new CustomTrigger("adv_tyrannophontes");
     public static final CustomTrigger NEUROPTERA_COMPLETE = new CustomTrigger("adv_neuroptera");
     public static final CustomTrigger ANTEOSAURUS_COMPLETE = new CustomTrigger("adv_anteosaurus");
     public static final CustomTrigger ARIZONASAURUS_COMPLETE = new CustomTrigger("adv_arizonasaurus");
@@ -162,6 +166,10 @@ public class ModTriggers
             AEGER_COMPLETE,
             SLIMONIA_COMPLETE,
             GUIYU_COMPLETE,
+            KLEPTOTHULE_COMPLETE,
+            PSYCHOPYGE_COMPLETE,
+            ANGUSTIDONTUS_COMPLETE,
+            TYRANNOPHONTES_COMPLETE,
             THELODUS_COMPLETE,
             DIPLODOCUS_COMPLETE,
             BRACHIOSAURUS_COMPLETE,
