@@ -238,7 +238,10 @@ public class BlockInit {
     public static final Block FOSSIL_DIMORPHODON    = new BlockFossilDimorphodon();
     public static final Block FOSSIL_ARCHAEOPTERYX    = new BlockFossilArchaeopteryx();
     public static final Block FOSSIL_NEUROPTERA    = new BlockFossilNeuroptera();
-
+    public static final Block FOSSIL_KLEPTOTHULE    = new BlockFossilKleptothule();
+    public static final Block FOSSIL_PSYCHOPYGE    = new BlockFossilPsychopyge();
+    public static final Block FOSSIL_ANGUSTIDONTUS    = new BlockFossilAngustidontus();
+    public static final Block FOSSIL_TYRANNOPHONTES    = new BlockFossilTyrannophontes();
 
 
 }
