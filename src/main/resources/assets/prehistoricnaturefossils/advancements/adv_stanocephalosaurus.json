@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_stanocephalosaurus"
+		  },
+		"title": {
+			"translate": "advancements.stanocephalosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.stanocephalosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_stanocephalosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

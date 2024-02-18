@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_cacops"
+		  },
+		"title": {
+			"translate": "advancements.cacops.title"
+		},
+		"description": {
+			"translate": "advancements.cacops.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_cacops"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

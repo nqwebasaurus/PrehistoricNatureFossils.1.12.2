@@ -160,6 +160,8 @@ public class ModTriggers
     public static final CustomTrigger MAMENCHISAURUS_COMPLETE = new CustomTrigger("adv_mamenchisaurus");
     public static final CustomTrigger YI_COMPLETE = new CustomTrigger("adv_yi");
     public static final CustomTrigger DIMORPHODON_COMPLETE = new CustomTrigger("adv_dimorphodon");
+    public static final CustomTrigger STANOCEPHALOSAURUS_COMPLETE = new CustomTrigger("adv_stanocephalosaurus");
+    public static final CustomTrigger CACOPS_COMPLETE = new CustomTrigger("adv_cacops");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
@@ -182,6 +184,8 @@ public class ModTriggers
             SHUNOSAURUS_COMPLETE,
             CAMPTOSAURUS_COMPLETE,
             ORNITHOLESTES_COMPLETE,
+            STANOCEPHALOSAURUS_COMPLETE,
+            CACOPS_COMPLETE,
             YI_COMPLETE,
             DIMORPHODON_COMPLETE,
             MAMENCHISAURUS_COMPLETE,
