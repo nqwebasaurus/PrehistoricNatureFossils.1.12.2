@@ -1,5 +1,6 @@
 package net.prehistoricnaturefossils.client.render.skeletons;
 
+import net.lepidodendron.entity.render.entity.RenderStanocephalosaurus;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
@@ -61,9 +62,9 @@ public class RenderFossilStanocephalosaurus extends TileEntitySpecialRenderer<Ti
 
         GlStateManager.enableAlpha();
         ModelSkeletonStanocephalosaurus modelSkeleton = this.modelSkeleton;
-        double scale = 0.205F * RenderDisplayWallMount.scaler;
+        double scale = RenderStanocephalosaurus.getScaler() * RenderDisplayWallMount.scaler;
 
-        GlStateManager.translate(x + 0.5, y + 0.3, z + 0.5);
+        GlStateManager.translate(x + 0.5, y + 0.73, z + 0.5);
         GlStateManager.scale(scale,scale,scale);
         GlStateManager.rotate(180, 0F, 0F, 1F);
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);

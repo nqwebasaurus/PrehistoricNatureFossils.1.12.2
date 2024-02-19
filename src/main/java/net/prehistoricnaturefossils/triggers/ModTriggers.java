@@ -16,6 +16,8 @@ public class ModTriggers
     public static final CustomTrigger SLIMONIA_COMPLETE = new CustomTrigger("adv_slimonia");
     public static final CustomTrigger DUNYU_COMPLETE = new CustomTrigger("adv_dunyu");
     public static final CustomTrigger GUIYU_COMPLETE = new CustomTrigger("adv_guiyu");
+    public static final CustomTrigger OSTEOLEPIS_COMPLETE = new CustomTrigger("adv_osteolepis");
+    public static final CustomTrigger DICKINSONIA_COMPLETE = new CustomTrigger("adv_dickinsonia");
     public static final CustomTrigger PLATYCARASPIS_COMPLETE = new CustomTrigger("adv_platycaraspis");
     public static final CustomTrigger THELODUS_COMPLETE = new CustomTrigger("adv_thelodus");
     public static final CustomTrigger WARNETICARIS_COMPLETE = new CustomTrigger("adv_warneticaris");
@@ -168,6 +170,8 @@ public class ModTriggers
             AEGER_COMPLETE,
             SLIMONIA_COMPLETE,
             GUIYU_COMPLETE,
+            OSTEOLEPIS_COMPLETE,
+            DICKINSONIA_COMPLETE,
             KLEPTOTHULE_COMPLETE,
             PSYCHOPYGE_COMPLETE,
             ANGUSTIDONTUS_COMPLETE,
