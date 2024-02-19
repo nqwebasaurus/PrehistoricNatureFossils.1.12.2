@@ -205,7 +205,7 @@ public class FossilBlockDrops {
 
     public static ItemStack[] getPrecambrianDisplayableFossilDrops() {
         ItemStack[] itemStack = {
-                ItemStack.EMPTY
+                new ItemStack(BlockInit.FOSSIL_DICKINSONIA, 1),
         };
         return itemStack;
     }
@@ -316,6 +316,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_EUSTHENOPTERON, 1),
                 new ItemStack(BlockInit.FOSSIL_RHINOPTERASPIS, 1),
                 new ItemStack(BlockInit.FOSSIL_GEMUENDINA, 1),
+                new ItemStack(BlockInit.FOSSIL_OSTEOLEPIS, 1),
                 new ItemStack(BlockInit.FOSSIL_POLYBRANCHIASPIS, 1),
                 new ItemStack(BlockInit.FOSSIL_PARAMETEORASPIS, 1),
                 new ItemStack(BlockInit.FOSSIL_HIBBERTOPTERUS, 1),
@@ -364,6 +365,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_MOSCHOPS, 1),
                 new ItemStack(BlockInit.FOSSIL_URANOCENTRODON, 1),
                 new ItemStack(BlockInit.FOSSIL_ROBERTIA, 1),
+                new ItemStack(BlockInit.FOSSIL_CACOPS, 1),
                 new ItemStack(BlockInit.FOSSIL_LABIDOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_PRISTEROGNATHUS, 1),
                 new ItemStack(BlockInit.FOSSIL_VIVAXOSAURUS, 1),
@@ -402,6 +404,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_CYAMODUS, 1),
                 new ItemStack(BlockInit.FOSSIL_EFFIGIA, 1),
                 new ItemStack(BlockInit.FOSSIL_GERROTHORAX, 1),
+                new ItemStack(BlockInit.FOSSIL_STANOCEPHALOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_FOREYIA, 1),
                 new ItemStack(BlockInit.FOSSIL_BOBASATRANIA, 1),
                 new ItemStack(BlockInit.FOSSIL_KEICHOUSAURUS, 1),

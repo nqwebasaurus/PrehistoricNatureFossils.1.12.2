@@ -16,6 +16,8 @@ public class ModTriggers
     public static final CustomTrigger SLIMONIA_COMPLETE = new CustomTrigger("adv_slimonia");
     public static final CustomTrigger DUNYU_COMPLETE = new CustomTrigger("adv_dunyu");
     public static final CustomTrigger GUIYU_COMPLETE = new CustomTrigger("adv_guiyu");
+    public static final CustomTrigger OSTEOLEPIS_COMPLETE = new CustomTrigger("adv_osteolepis");
+    public static final CustomTrigger DICKINSONIA_COMPLETE = new CustomTrigger("adv_dickinsonia");
     public static final CustomTrigger PLATYCARASPIS_COMPLETE = new CustomTrigger("adv_platycaraspis");
     public static final CustomTrigger THELODUS_COMPLETE = new CustomTrigger("adv_thelodus");
     public static final CustomTrigger WARNETICARIS_COMPLETE = new CustomTrigger("adv_warneticaris");
@@ -160,12 +162,16 @@ public class ModTriggers
     public static final CustomTrigger MAMENCHISAURUS_COMPLETE = new CustomTrigger("adv_mamenchisaurus");
     public static final CustomTrigger YI_COMPLETE = new CustomTrigger("adv_yi");
     public static final CustomTrigger DIMORPHODON_COMPLETE = new CustomTrigger("adv_dimorphodon");
+    public static final CustomTrigger STANOCEPHALOSAURUS_COMPLETE = new CustomTrigger("adv_stanocephalosaurus");
+    public static final CustomTrigger CACOPS_COMPLETE = new CustomTrigger("adv_cacops");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
             SLIMONIA_COMPLETE,
             GUIYU_COMPLETE,
+            OSTEOLEPIS_COMPLETE,
+            DICKINSONIA_COMPLETE,
             KLEPTOTHULE_COMPLETE,
             PSYCHOPYGE_COMPLETE,
             ANGUSTIDONTUS_COMPLETE,
@@ -182,6 +188,8 @@ public class ModTriggers
             SHUNOSAURUS_COMPLETE,
             CAMPTOSAURUS_COMPLETE,
             ORNITHOLESTES_COMPLETE,
+            STANOCEPHALOSAURUS_COMPLETE,
+            CACOPS_COMPLETE,
             YI_COMPLETE,
             DIMORPHODON_COMPLETE,
             MAMENCHISAURUS_COMPLETE,

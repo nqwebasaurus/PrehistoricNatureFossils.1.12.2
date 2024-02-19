@@ -269,6 +269,10 @@ advancements.yi.title=Strange [wing]
 advancements.yi.description=Complete a Yi skeleton
 advancements.dimorphodon.title=Two-form Tooth
 advancements.dimorphodon.description=Complete a Dimorphodon skeleton
+advancements.stanocephalosaurus.title=Narrow Headed Lizard
+advancements.stanocephalosaurus.description=Complete a Stanocephalosaurus skeleton
+advancements.cacops.title=Ugly Face
+advancements.cacops.description=Complete a Cacops skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
 
@@ -372,6 +376,8 @@ tile.pf_skeleton_kleptothule.name=Kleptothule Fossil Slab
 tile.pf_skeleton_psychopyge.name=Psychopyge Fossil Slab
 tile.pf_skeleton_angustidontus.name=Angustidontus Fossil Slab
 tile.pf_skeleton_tyrannophontes.name=Tyrannophontes Fossil Slab
+tile.pf_skeleton_dickinsonia.name=Dickinsonia Fossil Slab
+tile.pf_skeleton_osteolepis.name=Osteolepis Fossil Slab
 
 
 
@@ -510,3 +516,5 @@ tile.pf_skeleton_ornitholestes.name=Ornitholestes Displayable Fossil
 tile.pf_skeleton_mamenchisaurus.name=Mamenchisaurus Displayable Fossil
 tile.pf_skeleton_yi.name=Yi Displayable Fossil
 tile.pf_skeleton_dimorphodon.name=Dimorphodon Displayable Fossil
+tile.pf_skeleton_stanocephalosaurus.name=Stanocephalosaurus Displayable Fossil
+tile.pf_skeleton_cacops.name=Cacops Displayable Fossil
