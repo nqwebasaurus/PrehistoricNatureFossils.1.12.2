@@ -18,16 +18,16 @@ import javax.annotation.Nullable;
 public class BlockFossilOsteolepis extends BlockSlabBase {
 
     public BlockFossilOsteolepis() {
-        setRegistryName(PrehistoricNatureFossils.MODID, "skeleton_Osteolepis");
-        setTranslationKey("pf_skeleton_Osteolepis");
-        GameRegistry.registerTileEntity(TileEntityFossilOsteolepis.class, PrehistoricNatureFossils.MODID + ":tileentityskeleton_Osteolepis");
+        setRegistryName(PrehistoricNatureFossils.MODID, "skeleton_osteolepis");
+        setTranslationKey("pf_skeleton_osteolepis");
+        GameRegistry.registerTileEntity(TileEntityFossilOsteolepis.class, PrehistoricNatureFossils.MODID + ":tileentityskeleton_osteolepis");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_Osteolepis";
+        return "mobdnaPNlepidodendron:prehistoric_flora_osteolepis";
     }
 
     @Nullable
