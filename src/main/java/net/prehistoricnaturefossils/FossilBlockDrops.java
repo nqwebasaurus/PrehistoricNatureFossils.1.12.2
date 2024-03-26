@@ -206,6 +206,7 @@ public class FossilBlockDrops {
     public static ItemStack[] getPrecambrianDisplayableFossilDrops() {
         ItemStack[] itemStack = {
                 new ItemStack(BlockInit.FOSSIL_DICKINSONIA, 1),
+                new ItemStack(BlockInit.FOSSIL_SPRIGGINA, 1),
         };
         return itemStack;
     }
@@ -300,7 +301,10 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_CYRTOCERAS, 1),
                 new ItemStack(BlockInit.FOSSIL_DUNKLEOSTEUS, 1),
                 new ItemStack(BlockInit.FOSSIL_CROTALOCEPHALUS, 1),
+                new ItemStack(BlockInit.FOSSIL_PAREXUS, 1),
+                new ItemStack(BlockInit.FOSSIL_DIPLACANTHUS, 1),
                 new ItemStack(BlockInit.FOSSIL_MACLURINA, 1),
+                new ItemStack(BlockInit.FOSSIL_FURCACAUDA, 1),
                 new ItemStack(BlockInit.FOSSIL_BOTHRIOLEPIS, 1),
                 new ItemStack(BlockInit.FOSSIL_ATTERCOPUS, 1),
                 new ItemStack(BlockInit.FOSSIL_BUNDENBACHIELLUS, 1),
