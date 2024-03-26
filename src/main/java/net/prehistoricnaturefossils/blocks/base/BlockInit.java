@@ -248,6 +248,10 @@ public class BlockInit {
     public static final Block FOSSIL_OSTEOLEPIS    = new BlockFossilOsteolepis();
     public static final Block FOSSIL_DICRANURUS    = new BlockFossilDicranurus();
     public static final Block FOSSIL_HELIOPELTIS    = new BlockFossilHeliopeltis();
+    public static final Block FOSSIL_FURCACAUDA    = new BlockFossilFurcacauda();
+    public static final Block FOSSIL_DIPLACANTHUS    = new BlockFossilDiplacanthus();
+    public static final Block FOSSIL_SPRIGGINA    = new BlockFossilSpriggina();
+    public static final Block FOSSIL_PAREXUS    = new BlockFossilParexus();
 
 
 }

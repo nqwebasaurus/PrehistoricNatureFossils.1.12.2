@@ -3,7 +3,7 @@
     "modid": "prehistoricnaturefossils",
     "name": "Prehistoric Nature Fossils",
     "description": "Adds displayable fossils for Prehistoric Nature",
-    "version": "1.12.2-3.01",
+    "version": "1.12.2-4.0",
     "credits": "Aecht Rob",
     "logoFile": "assets/prehistoricnaturefossils/textures/packlogo.png",
     "mcversion": "${mcversion}",
@@ -12,9 +12,9 @@
     "authorList": [
       "Aecht Rob"
     ],
-    "dependencies": ["lepidodendron@[59.0,)"],
+    "dependencies": ["lepidodendron@[60.0,)"],
     "dependants": [],
-    "requiredMods": ["lepidodendron@[59.0,)"],
+    "requiredMods": ["lepidodendron@[60.0,)"],
     "useDependencyInformation": "true"
   }
 ]
