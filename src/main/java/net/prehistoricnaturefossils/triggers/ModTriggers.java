@@ -14,6 +14,8 @@ public class ModTriggers
     public static final CustomTrigger AEGER_COMPLETE = new CustomTrigger("adv_aeger");
     public static final CustomTrigger CIURCOPTERUS_COMPLETE = new CustomTrigger("adv_ciurcopterus");
     public static final CustomTrigger SLIMONIA_COMPLETE = new CustomTrigger("adv_slimonia");
+    public static final CustomTrigger SCAUMENACIA_COMPLETE = new CustomTrigger("adv_scaumenacia");
+    public static final CustomTrigger DREPANASPIS_COMPLETE = new CustomTrigger("adv_drepanaspis");
     public static final CustomTrigger HELIOPELTIS_COMPLETE = new CustomTrigger("adv_heliopeltis");
     public static final CustomTrigger PAREXUS_COMPLETE = new CustomTrigger("adv_parexus");
     public static final CustomTrigger SPRIGGINA_COMPLETE = new CustomTrigger("adv_spriggina");
@@ -175,6 +177,8 @@ public class ModTriggers
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
             SLIMONIA_COMPLETE,
+            SCAUMENACIA_COMPLETE,
+            DREPANASPIS_COMPLETE,
             HELIOPELTIS_COMPLETE,
             PAREXUS_COMPLETE,
             SPRIGGINA_COMPLETE,
