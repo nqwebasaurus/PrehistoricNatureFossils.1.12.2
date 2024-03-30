@@ -13,6 +13,8 @@ public class ModTriggers
 
     public static final CustomTrigger AEGER_COMPLETE = new CustomTrigger("adv_aeger");
     public static final CustomTrigger CIURCOPTERUS_COMPLETE = new CustomTrigger("adv_ciurcopterus");
+    public static final CustomTrigger ZENASPIS_COMPLETE = new CustomTrigger("adv_zenaspis");
+    public static final CustomTrigger SCLERODUS_COMPLETE = new CustomTrigger("adv_sclerodus");
     public static final CustomTrigger SLIMONIA_COMPLETE = new CustomTrigger("adv_slimonia");
     public static final CustomTrigger SCAUMENACIA_COMPLETE = new CustomTrigger("adv_scaumenacia");
     public static final CustomTrigger DREPANASPIS_COMPLETE = new CustomTrigger("adv_drepanaspis");
@@ -197,6 +199,8 @@ public class ModTriggers
             BRACHIOSAURUS_COMPLETE,
             DUNYU_COMPLETE,
             CIURCOPTERUS_COMPLETE,
+            ZENASPIS_COMPLETE,
+            SCLERODUS_COMPLETE,
             WARNETICARIS_COMPLETE,
             PHANTASPIS_COMPLETE,
             ARCHAEOPTERYX_COMPLETE,
