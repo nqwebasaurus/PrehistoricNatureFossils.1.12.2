@@ -256,6 +256,11 @@ public class BlockInit {
     public static final Block FOSSIL_DREPANASPIS    = new BlockFossilDrepanaspis();
     public static final Block FOSSIL_ZENASPIS    = new BlockFossilZenaspis();
     public static final Block FOSSIL_SCLERODUS    = new BlockFossilSclerodus();
+    public static final Block FOSSIL_OPHTHALMOTHULE    = new BlockFossilOphthalmothule();
+    public static final Block FOSSIL_PLESIOSAURUS    = new BlockFossilPlesiosaurus();
+    public static final Block FOSSIL_CHARNIA    = new BlockFossilCharnia();
+    public static final Block FOSSIL_LONGISQUAMA    = new BlockFossilLongisquama();
+
 
 
 }

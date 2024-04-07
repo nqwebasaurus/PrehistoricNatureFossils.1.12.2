@@ -118,6 +118,8 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilDrepanaspis.class, new RenderFossilDrepanaspis());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilZenaspis.class, new RenderFossilZenaspis());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSclerodus.class, new RenderFossilSclerodus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilCharnia.class, new RenderFossilCharnia());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilLongisquama.class, new RenderFossilLongisquama());
 
 
         //Skeleton Mounts:
@@ -258,6 +260,8 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilDimorphodon.class, new RenderFossilDimorphodon());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilStanocephalosaurus.class, new RenderFossilStanocephalosaurus());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilCacops.class, new RenderFossilCacops());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilOphthalmothule.class, new RenderFossilOphthalmothule());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilPlesiosaurus.class, new RenderFossilPlesiosaurus());
 
     }
 }

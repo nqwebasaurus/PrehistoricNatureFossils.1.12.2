@@ -273,6 +273,10 @@ advancements.stanocephalosaurus.title=Narrow Headed Lizard
 advancements.stanocephalosaurus.description=Complete a Stanocephalosaurus skeleton
 advancements.cacops.title=Ugly Face
 advancements.cacops.description=Complete a Cacops skeleton
+advancements.ophthalmothule.title=Eye of the North
+advancements.ophthalmothule.description=Complete an Ophthalmothule skeleton
+advancements.plesiosaurus.title=Near to a Lizard
+advancements.plesiosaurus.description=Complete a Plesiosaurus skeleton
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
 
@@ -388,6 +392,8 @@ tile.pf_skeleton_scaumenacia.name=Scaumenacia Fossil Slab
 tile.pf_skeleton_drepanaspis.name=Drepanaspis Fossil Slab
 tile.pf_skeleton_zenaspis.name=Zenaspis Fossil Slab
 tile.pf_skeleton_sclerodus.name=Sclerodus Fossil Slab
+tile.pf_skeleton_charnia.name=Charnia Fossil Slab
+tile.pf_skeleton_longisquama.name=Longisquama Fossil Slab
 
 
 
@@ -528,3 +534,5 @@ tile.pf_skeleton_yi.name=Yi Displayable Fossil
 tile.pf_skeleton_dimorphodon.name=Dimorphodon Displayable Fossil
 tile.pf_skeleton_stanocephalosaurus.name=Stanocephalosaurus Displayable Fossil
 tile.pf_skeleton_cacops.name=Cacops Displayable Fossil
+tile.pf_skeleton_ophthalmothule.name=Ophthalmothule Displayable Fossil
+tile.pf_skeleton_plesiosaurus.name=Plesiosaurus Displayable Fossil

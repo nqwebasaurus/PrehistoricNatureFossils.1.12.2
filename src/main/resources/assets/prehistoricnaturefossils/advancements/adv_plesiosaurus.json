@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_plesiosaurus"
+		  },
+		"title": {
+			"translate": "advancements.plesiosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.plesiosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_plesiosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -18,6 +18,8 @@ public class ModTriggers
     public static final CustomTrigger SLIMONIA_COMPLETE = new CustomTrigger("adv_slimonia");
     public static final CustomTrigger SCAUMENACIA_COMPLETE = new CustomTrigger("adv_scaumenacia");
     public static final CustomTrigger DREPANASPIS_COMPLETE = new CustomTrigger("adv_drepanaspis");
+    public static final CustomTrigger LONGISQUAMA_COMPLETE = new CustomTrigger("adv_longisquama");
+    public static final CustomTrigger CHARNIA_COMPLETE = new CustomTrigger("adv_charnia");
     public static final CustomTrigger HELIOPELTIS_COMPLETE = new CustomTrigger("adv_heliopeltis");
     public static final CustomTrigger PAREXUS_COMPLETE = new CustomTrigger("adv_parexus");
     public static final CustomTrigger SPRIGGINA_COMPLETE = new CustomTrigger("adv_spriggina");
@@ -174,6 +176,8 @@ public class ModTriggers
     public static final CustomTrigger DIMORPHODON_COMPLETE = new CustomTrigger("adv_dimorphodon");
     public static final CustomTrigger STANOCEPHALOSAURUS_COMPLETE = new CustomTrigger("adv_stanocephalosaurus");
     public static final CustomTrigger CACOPS_COMPLETE = new CustomTrigger("adv_cacops");
+    public static final CustomTrigger OPHTHALMOTHULE_COMPLETE = new CustomTrigger("adv_ophthalmothule");
+    public static final CustomTrigger PLESIOSAURUS_COMPLETE = new CustomTrigger("adv_plesiosaurus");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
@@ -181,6 +185,8 @@ public class ModTriggers
             SLIMONIA_COMPLETE,
             SCAUMENACIA_COMPLETE,
             DREPANASPIS_COMPLETE,
+            LONGISQUAMA_COMPLETE,
+            CHARNIA_COMPLETE,
             HELIOPELTIS_COMPLETE,
             PAREXUS_COMPLETE,
             SPRIGGINA_COMPLETE,
@@ -196,6 +202,8 @@ public class ModTriggers
             TYRANNOPHONTES_COMPLETE,
             THELODUS_COMPLETE,
             DIPLODOCUS_COMPLETE,
+            OPHTHALMOTHULE_COMPLETE,
+            PLESIOSAURUS_COMPLETE,
             BRACHIOSAURUS_COMPLETE,
             DUNYU_COMPLETE,
             CIURCOPTERUS_COMPLETE,
