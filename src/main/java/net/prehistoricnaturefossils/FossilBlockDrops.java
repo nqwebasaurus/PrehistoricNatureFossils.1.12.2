@@ -208,6 +208,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_DICKINSONIA, 1),
                 new ItemStack(BlockInit.FOSSIL_CHARNIA, 1),
                 new ItemStack(BlockInit.FOSSIL_SPRIGGINA, 1),
+                new ItemStack(BlockInit.FOSSIL_CYCLOMEDUSA, 1),
         };
         return itemStack;
     }
@@ -224,6 +225,10 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_YAWUNIK, 1),
                 new ItemStack(BlockInit.FOSSIL_PHANTASPIS, 1),
                 new ItemStack(BlockInit.FOSSIL_SANCTACARIS, 1),
+                new ItemStack(BlockInit.FOSSIL_HADRANAX, 1),
+                new ItemStack(BlockInit.FOSSIL_CAPINATATOR, 1),
+                new ItemStack(BlockInit.FOSSIL_ISOXYS, 1),
+                new ItemStack(BlockInit.FOSSIL_WAPTIA, 1),
                 new ItemStack(BlockInit.FOSSIL_KLEPTOTHULE, 1),
                 new ItemStack(BlockInit.FOSSIL_KERYGMACHELA, 1),
                 new ItemStack(BlockInit.FOSSIL_SKEEMELLA, 1),
@@ -270,6 +275,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_CROTALOCEPHALUS, 1),
                 new ItemStack(BlockInit.FOSSIL_CONODONT, 1),
                 new ItemStack(BlockInit.FOSSIL_CYRTOCERAS, 1),
+                new ItemStack(BlockInit.FOSSIL_ROTACIURCA, 1),
                 new ItemStack(BlockInit.FOSSIL_MACLURINA, 1),
                 new ItemStack(BlockInit.FOSSIL_AINIKTOZOON, 1),
                 new ItemStack(BlockInit.FOSSIL_PHRAGMOCERAS, 1),
@@ -518,6 +524,8 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_ERYON, 1),
                 new ItemStack(BlockInit.FOSSIL_EURHINOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_TEMNODONTOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_ERYMA, 1),
+                new ItemStack(BlockInit.FOSSIL_MECOCHIRUS, 1),
                 new ItemStack(BlockInit.FOSSIL_MEGALOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_CERATOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_TURBOSCINETES, 1),
@@ -529,7 +537,9 @@ public class FossilBlockDrops {
 
     public static ItemStack[] getCretaceousDisplayableFossilDrops() {
         ItemStack[] itemStack = {
-                new ItemStack(BlockInit.FOSSIL_AEGER, 1)
+                new ItemStack(BlockInit.FOSSIL_AEGER, 1),
+                new ItemStack(BlockInit.FOSSIL_MECOCHIRUS, 1),
+                new ItemStack(BlockInit.FOSSIL_ERYMA, 1)
         };
         return itemStack;
     }

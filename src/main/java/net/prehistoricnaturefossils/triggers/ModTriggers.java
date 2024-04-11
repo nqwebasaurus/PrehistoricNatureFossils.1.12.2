@@ -13,6 +13,14 @@ public class ModTriggers
 
     public static final CustomTrigger AEGER_COMPLETE = new CustomTrigger("adv_aeger");
     public static final CustomTrigger CIURCOPTERUS_COMPLETE = new CustomTrigger("adv_ciurcopterus");
+    public static final CustomTrigger HADRANAX_COMPLETE = new CustomTrigger("adv_hadranax");
+    public static final CustomTrigger CAPINATATOR_COMPLETE = new CustomTrigger("adv_capinatator");
+    public static final CustomTrigger ERYMA_COMPLETE = new CustomTrigger("adv_eryma");
+    public static final CustomTrigger MECOCHIRUS_COMPLETE = new CustomTrigger("adv_mecochirus");
+    public static final CustomTrigger CYCLOMEDUSA_COMPLETE = new CustomTrigger("adv_cyclomedusa");
+    public static final CustomTrigger ROTACIURCA_COMPLETE = new CustomTrigger("adv_rotaciurca");
+    public static final CustomTrigger WAPTIA_COMPLETE = new CustomTrigger("adv_waptia");
+    public static final CustomTrigger ISOXYS_COMPLETE = new CustomTrigger("adv_isoxys");
     public static final CustomTrigger ZENASPIS_COMPLETE = new CustomTrigger("adv_zenaspis");
     public static final CustomTrigger SCLERODUS_COMPLETE = new CustomTrigger("adv_sclerodus");
     public static final CustomTrigger SLIMONIA_COMPLETE = new CustomTrigger("adv_slimonia");
@@ -207,6 +215,14 @@ public class ModTriggers
             BRACHIOSAURUS_COMPLETE,
             DUNYU_COMPLETE,
             CIURCOPTERUS_COMPLETE,
+            HADRANAX_COMPLETE,
+            CAPINATATOR_COMPLETE,
+            ERYMA_COMPLETE,
+            MECOCHIRUS_COMPLETE,
+            CYCLOMEDUSA_COMPLETE,
+            ROTACIURCA_COMPLETE,
+            WAPTIA_COMPLETE,
+            ISOXYS_COMPLETE,
             ZENASPIS_COMPLETE,
             SCLERODUS_COMPLETE,
             WARNETICARIS_COMPLETE,
