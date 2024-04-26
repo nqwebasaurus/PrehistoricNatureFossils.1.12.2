@@ -164,7 +164,6 @@ public class ModelSkeletonEurhinosaurus extends ModelBase {
         this.Eurhinosaurus = new ModelRenderer(this);
         this.Eurhinosaurus.setRotationPoint(0.5F, -20.0F, -5.0F);
         this.fossil.addChild(Eurhinosaurus);
-        this.setRotateAngle(Eurhinosaurus, -0.3053F, -0.1719F, -0.4971F);
 
 
         this.Body1 = new ModelRenderer(this);
@@ -416,9 +415,9 @@ public class ModelSkeletonEurhinosaurus extends ModelBase {
         this.ForelimbL = new ModelRenderer(this);
         this.ForelimbL.setRotationPoint(5.8F, 4.6F, 5.1F);
         this.Body1.addChild(ForelimbL);
-        this.setRotateAngle(ForelimbL, 0.0F, 0.0F, 0.48F);
+        this.setRotateAngle(ForelimbL, 0.0F, -0.3491F, 0.2618F);
         this.ForelimbL.cubeList.add(new ModelBox(ForelimbL, 25, 64, 1.6635F, -0.608F, -1.3F, 1, 1, 4, 0.0F, false));
-        this.ForelimbL.cubeList.add(new ModelBox(ForelimbL, 0, 46, -0.3365F, -0.608F, -1.0F, 2, 1, 3, 0.0F, false));
+        this.ForelimbL.cubeList.add(new ModelBox(ForelimbL, 1, 47, -0.3365F, -0.608F, -0.75F, 2, 1, 2, 0.0F, false));
         this.ForelimbL.cubeList.add(new ModelBox(ForelimbL, 0, 20, 2.9635F, -0.608F, -1.3F, 1, 1, 2, 0.0F, false));
         this.ForelimbL.cubeList.add(new ModelBox(ForelimbL, 32, 0, 2.9635F, -0.608F, 1.7F, 1, 1, 1, 0.0F, false));
         this.ForelimbL.cubeList.add(new ModelBox(ForelimbL, 0, 20, 4.2635F, -0.008F, -2.3F, 14, 0, 7, 0.0F, false));
@@ -426,9 +425,9 @@ public class ModelSkeletonEurhinosaurus extends ModelBase {
         this.ForelimbL2 = new ModelRenderer(this);
         this.ForelimbL2.setRotationPoint(-6.8F, 4.6F, 5.1F);
         this.Body1.addChild(ForelimbL2);
-        this.setRotateAngle(ForelimbL2, 0.0F, 0.0F, -0.3491F);
+        this.setRotateAngle(ForelimbL2, 0.0289F, 0.2163F, -0.4332F);
         this.ForelimbL2.cubeList.add(new ModelBox(ForelimbL2, 0, 40, -2.6635F, -0.608F, -1.3F, 1, 1, 4, 0.0F, false));
-        this.ForelimbL2.cubeList.add(new ModelBox(ForelimbL2, 36, 12, -1.6635F, -0.608F, -1.0F, 2, 1, 3, 0.0F, false));
+        this.ForelimbL2.cubeList.add(new ModelBox(ForelimbL2, 37, 13, -1.6635F, -0.608F, -0.75F, 2, 1, 2, 0.0F, false));
         this.ForelimbL2.cubeList.add(new ModelBox(ForelimbL2, 0, 12, -3.9635F, -0.608F, -1.3F, 1, 1, 2, 0.0F, false));
         this.ForelimbL2.cubeList.add(new ModelBox(ForelimbL2, 28, 28, -3.9635F, -0.608F, 1.7F, 1, 1, 1, 0.0F, false));
         this.ForelimbL2.cubeList.add(new ModelBox(ForelimbL2, 0, 12, -18.2635F, -0.008F, -2.3F, 14, 0, 7, 0.0F, false));
@@ -644,7 +643,7 @@ public class ModelSkeletonEurhinosaurus extends ModelBase {
         this.Body3 = new ModelRenderer(this);
         this.Body3.setRotationPoint(0.0F, 1.2F, 8.9F);
         this.Body2.addChild(Body3);
-        this.setRotateAngle(Body3, -0.0358F, -0.218F, 0.0077F);
+        this.setRotateAngle(Body3, 0.0F, -0.0436F, 0.0F);
 
 
         this.cube_r74 = new ModelRenderer(this);
@@ -704,19 +703,19 @@ public class ModelSkeletonEurhinosaurus extends ModelBase {
         this.cube_r83 = new ModelRenderer(this);
         this.cube_r83.setRotationPoint(-1.0F, 0.393F, 1.3999F);
         this.Body3.addChild(cube_r83);
-        this.setRotateAngle(cube_r83, -0.2315F, -0.0098F, -1.2222F);
+        this.setRotateAngle(cube_r83, -0.1083F, -0.0543F, -1.2262F);
         this.cube_r83.cubeList.add(new ModelBox(cube_r83, 12, 53, -7.774F, -2.6555F, -0.5F, 5, 0, 1, 0.0F, true));
 
         this.cube_r84 = new ModelRenderer(this);
         this.cube_r84.setRotationPoint(-1.0F, 0.393F, 1.3999F);
         this.Body3.addChild(cube_r84);
-        this.setRotateAngle(cube_r84, -0.2106F, 0.0974F, -0.7537F);
+        this.setRotateAngle(cube_r84, -0.1211F, 0.0017F, -0.7492F);
         this.cube_r84.cubeList.add(new ModelBox(cube_r84, 28, 50, -3.6868F, -1.0746F, -0.5F, 2, 0, 1, 0.0F, true));
 
         this.cube_r85 = new ModelRenderer(this);
         this.cube_r85.setRotationPoint(-1.0F, 0.393F, 1.3999F);
         this.Body3.addChild(cube_r85);
-        this.setRotateAngle(cube_r85, -0.1259F, 0.195F, -0.1885F);
+        this.setRotateAngle(cube_r85, -0.1014F, 0.0664F, -0.1853F);
         this.cube_r85.cubeList.add(new ModelBox(cube_r85, 18, 65, -2.0F, 0.0F, -0.5F, 2, 0, 1, 0.0F, true));
 
         this.cube_r86 = new ModelRenderer(this);
@@ -815,7 +814,7 @@ public class ModelSkeletonEurhinosaurus extends ModelBase {
         this.Body4 = new ModelRenderer(this);
         this.Body4.setRotationPoint(0.0F, 0.693F, 8.6999F);
         this.Body3.addChild(Body4);
-        this.setRotateAngle(Body4, 0.0F, -0.2618F, 0.0F);
+        this.setRotateAngle(Body4, 0.0F, -0.1745F, 0.0F);
         this.Body4.cubeList.add(new ModelBox(Body4, 25, 34, -1.0F, -0.5F, -0.5F, 1, 1, 12, 0.0F, false));
 
         this.cube_r101 = new ModelRenderer(this);
@@ -930,7 +929,7 @@ public class ModelSkeletonEurhinosaurus extends ModelBase {
         this.HindlimbL = new ModelRenderer(this);
         this.HindlimbL.setRotationPoint(5.0F, 4.1F, 6.5F);
         this.Body4.addChild(HindlimbL);
-        this.setRotateAngle(HindlimbL, 0.0F, -0.9599F, 0.6109F);
+        this.setRotateAngle(HindlimbL, 0.0F, -0.6545F, 0.6109F);
         this.HindlimbL.cubeList.add(new ModelBox(HindlimbL, 50, 6, -1.0F, -0.6F, -1.0F, 2, 1, 2, 0.0F, false));
         this.HindlimbL.cubeList.add(new ModelBox(HindlimbL, 57, 69, 1.4F, -0.6F, -1.0F, 1, 1, 1, 0.0F, false));
         this.HindlimbL.cubeList.add(new ModelBox(HindlimbL, 52, 69, 1.4F, -0.6F, 1.0F, 1, 1, 1, 0.0F, false));
@@ -939,7 +938,7 @@ public class ModelSkeletonEurhinosaurus extends ModelBase {
         this.HindlimbL2 = new ModelRenderer(this);
         this.HindlimbL2.setRotationPoint(-6.0F, 4.1F, 6.5F);
         this.Body4.addChild(HindlimbL2);
-        this.setRotateAngle(HindlimbL2, -0.3572F, 0.7654F, -1.105F);
+        this.setRotateAngle(HindlimbL2, -0.1658F, 0.5671F, -0.7526F);
         this.HindlimbL2.cubeList.add(new ModelBox(HindlimbL2, 40, 39, -1.0F, -0.6F, -1.0F, 2, 1, 2, 0.0F, false));
         this.HindlimbL2.cubeList.add(new ModelBox(HindlimbL2, 3, 69, -2.4F, -0.6F, -1.0F, 1, 1, 1, 0.0F, false));
         this.HindlimbL2.cubeList.add(new ModelBox(HindlimbL2, 68, 56, -2.4F, -0.6F, 1.0F, 1, 1, 1, 0.0F, false));
@@ -948,25 +947,24 @@ public class ModelSkeletonEurhinosaurus extends ModelBase {
         this.Body5 = new ModelRenderer(this);
         this.Body5.setRotationPoint(0.0F, 0.2F, 11.5F);
         this.Body4.addChild(Body5);
-        this.setRotateAngle(Body5, 0.1072F, -0.217F, -0.0232F);
+        this.setRotateAngle(Body5, 0.0F, 0.2182F, 0.0F);
         this.Body5.cubeList.add(new ModelBox(Body5, 28, 50, -1.0F, -0.7F, 0.0F, 1, 1, 9, 0.002F, false));
 
         this.Body6 = new ModelRenderer(this);
         this.Body6.setRotationPoint(0.0F, -0.2F, 9.0F);
         this.Body5.addChild(Body6);
-        this.setRotateAngle(Body6, -0.0592F, -0.3003F, 0.1425F);
+        this.setRotateAngle(Body6, 0.0F, 0.2618F, 0.0F);
         this.Body6.cubeList.add(new ModelBox(Body6, 50, 6, -1.0F, -0.5F, 0.0F, 1, 1, 9, -0.001F, false));
 
         this.Body7 = new ModelRenderer(this);
         this.Body7.setRotationPoint(0.0F, 0.0F, 9.0F);
         this.Body6.addChild(Body7);
-        this.setRotateAngle(Body7, -0.2947F, -0.4648F, 0.3306F);
+        this.setRotateAngle(Body7, 0.0F, 0.3927F, 0.0F);
         this.Body7.cubeList.add(new ModelBox(Body7, 42, 56, -1.0F, -0.4914F, -0.1095F, 1, 1, 7, -0.002F, false));
 
         this.Body8 = new ModelRenderer(this);
         this.Body8.setRotationPoint(-0.5F, 0.2086F, 6.5905F);
         this.Body7.addChild(Body8);
-        this.setRotateAngle(Body8, 0.0075F, -0.478F, -0.0825F);
 
 
         this.cube_r119 = new ModelRenderer(this);
@@ -984,7 +982,7 @@ public class ModelSkeletonEurhinosaurus extends ModelBase {
         this.Head = new ModelRenderer(this);
         this.Head.setRotationPoint(0.0F, 0.0F, -17.0F);
         this.Eurhinosaurus.addChild(Head);
-        this.setRotateAngle(Head, -0.0284F, 0.3503F, 0.0941F);
+        this.setRotateAngle(Head, -0.0682F, -0.005F, -0.0007F);
         this.Head.cubeList.add(new ModelBox(Head, 47, 46, -3.5F, -1.0F, -5.0F, 6, 4, 5, 0.0F, false));
         this.Head.cubeList.add(new ModelBox(Head, 53, 34, -1.5F, 2.0F, -16.0F, 2, 1, 7, 0.0F, false));
         this.Head.cubeList.add(new ModelBox(Head, 0, 40, -1.0F, 2.0F, -27.0F, 1, 1, 11, 0.0F, false));
@@ -1063,7 +1061,7 @@ public class ModelSkeletonEurhinosaurus extends ModelBase {
         this.Jaw = new ModelRenderer(this);
         this.Jaw.setRotationPoint(0.0F, 3.0F, 0.0F);
         this.Head.addChild(Jaw);
-        this.setRotateAngle(Jaw, 0.4363F, 0.0F, 0.0F);
+        this.setRotateAngle(Jaw, 0.2182F, 0.0F, 0.0F);
         this.Jaw.cubeList.add(new ModelBox(Jaw, 32, 61, 1.5F, 0.0F, -5.0F, 1, 1, 5, -0.001F, false));
         this.Jaw.cubeList.add(new ModelBox(Jaw, 40, 34, 0.0F, 0.0F, -9.0F, 1, 1, 3, 0.0F, false));
         this.Jaw.cubeList.add(new ModelBox(Jaw, 32, 63, 0.5F, 0.0F, -6.0F, 1, 1, 1, 0.0F, false));

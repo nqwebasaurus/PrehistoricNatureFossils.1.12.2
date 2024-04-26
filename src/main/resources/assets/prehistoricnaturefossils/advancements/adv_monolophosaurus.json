@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_monolophosaurus"
+		  },
+		"title": {
+			"translate": "advancements.monolophosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.monolophosaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_monolophosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

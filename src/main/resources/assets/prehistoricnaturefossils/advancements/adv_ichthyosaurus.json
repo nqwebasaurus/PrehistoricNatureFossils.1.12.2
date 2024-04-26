@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_ichthyosaurus"
+		  },
+		"title": {
+			"translate": "advancements.ichthyosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.ichthyosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_ichthyosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -268,6 +268,25 @@ public class BlockInit {
     public static final Block FOSSIL_ERYMA    = new BlockFossilEryma();
     public static final Block FOSSIL_CAPINATATOR    = new BlockFossilCapinatator();
     public static final Block FOSSIL_HADRANAX    = new BlockFossilHadranax();
+    public static final Block FOSSIL_LUFENGOSAURUS    = new BlockFossilLufengosaurus();
+    public static final Block FOSSIL_MONOLOPHOSAURUS    = new BlockFossilMonolophosaurus();
+    public static final Block FOSSIL_PHYLLOCERAS    = new BlockFossilPhylloceras();
+    public static final Block FOSSIL_TITANITES    = new BlockFossilTitanites();
+    public static final Block FOSSIL_BETHESDAICHTHYS    = new BlockFossilBethesdaichthys();
+    public static final Block FOSSIL_BRAZILICHTHYS    = new BlockFossilBrazilichthys();
+    public static final Block FOSSIL_MAMULICHTHYS    = new BlockFossilMamulichthys();
+    public static final Block FOSSIL_SENEKICHTHYS    = new BlockFossilSenekichthys();
+    public static final Block FOSSIL_GOSFORDIA    = new BlockFossilGosfordia();
+    public static final Block FOSSIL_HARPAGOFUTUTOR    = new BlockFossilHarpagofututor();
+    public static final Block FOSSIL_ICHTHYOSAURUS    = new BlockFossilIchthyosaurus();
+    public static final Block FOSSIL_THALATTOSUCHUS    = new BlockFossilThalattosuchus();
+    public static final Block FOSSIL_HYDROPESSUM    = new BlockFossilHydropessum();
+    public static final Block FOSSIL_DIPTERONOTUS    = new BlockFossilDipteronotus();
+    public static final Block FOSSIL_FLAGELLOPANTOPUS    = new BlockFossilFlagellopantopus();
+    public static final Block FOSSIL_PRAEARCTURUS    = new BlockFossilPraearcturus();
+    public static final Block FOSSIL_DEUTEROSAURUS    = new BlockFossilDeuterosaurus();
+    public static final Block FOSSIL_PLIOSAURUS    = new BlockFossilPliosaurus();
+
 
 
 

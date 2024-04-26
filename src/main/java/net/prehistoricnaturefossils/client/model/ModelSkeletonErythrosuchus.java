@@ -1346,10 +1346,11 @@ public class ModelSkeletonErythrosuchus extends ModelBase {
 
 
         this.UpperteethbackR_r1 = new ModelRenderer(this);
-        this.UpperteethbackR_r1.setRotationPoint(0.0F, -0.8F, 1.5F);
+        this.UpperteethbackR_r1.setRotationPoint(-6.08F, -0.8F, 1.5F);
         this.UpperteethbackR.addChild(UpperteethbackR_r1);
         this.setRotateAngle(UpperteethbackR_r1, -0.3054F, 0.0F, 0.0F);
-        this.UpperteethbackR_r1.cubeList.add(new ModelBox(UpperteethbackR_r1, 63, 41, -1.3F, -0.1F, -1.5F, 0, 1, 2, 0.0F, false));
+        this.UpperteethbackR_r1.cubeList.add(new ModelBox(UpperteethbackR_r1, 63, 41, 1.3F, -0.1F, -1.5F, 0, 1, 2, 0.0F, true));
+        this.UpperteethbackR_r1.cubeList.add(new ModelBox(UpperteethbackR_r1, 63, 41, 4.78F, -0.1F, -1.5F, 0, 1, 2, 0.0F, false));
 
         this.Upperjawmiddle = new ModelRenderer(this);
         this.Upperjawmiddle.setRotationPoint(0.01F, 5.73F, -5.6F);
@@ -1417,12 +1418,14 @@ public class ModelSkeletonErythrosuchus extends ModelBase {
         this.Upperlipfront.addChild(UpperteethmidfrontR);
         this.setRotateAngle(UpperteethmidfrontR, 0.2972F, 0.1274F, 0.0F);
         this.UpperteethmidfrontR.cubeList.add(new ModelBox(UpperteethmidfrontR, 14, 89, -1.0F, -1.1F, 0.0F, 0, 1, 3, 0.0F, false));
+        this.UpperteethmidfrontR.cubeList.add(new ModelBox(UpperteethmidfrontR, 14, 89, -3.1F, -1.1F, 0.0F, 0, 1, 3, 0.0F, true));
 
         this.UpperteethmiddleR = new ModelRenderer(this);
         this.UpperteethmiddleR.setRotationPoint(2.6F, -0.9F, -4.0F);
         this.Upperjawmiddle.addChild(UpperteethmiddleR);
         this.setRotateAngle(UpperteethmiddleR, 0.0848F, 0.0848F, 0.0F);
         this.UpperteethmiddleR.cubeList.add(new ModelBox(UpperteethmiddleR, 29, 79, -1.2F, -1.4F, 0.0F, 0, 2, 4, 0.0F, false));
+        this.UpperteethmiddleR.cubeList.add(new ModelBox(UpperteethmiddleR, 29, 79, -4.02F, -1.4F, 0.0F, 0, 2, 4, 0.0F, true));
 
         this.UpperteethmiddleR2 = new ModelRenderer(this);
         this.UpperteethmiddleR2.setRotationPoint(-2.62F, -0.9F, -4.0F);

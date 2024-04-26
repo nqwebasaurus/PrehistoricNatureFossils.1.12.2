@@ -27,7 +27,19 @@ public class ModTriggers
     public static final CustomTrigger SCAUMENACIA_COMPLETE = new CustomTrigger("adv_scaumenacia");
     public static final CustomTrigger DREPANASPIS_COMPLETE = new CustomTrigger("adv_drepanaspis");
     public static final CustomTrigger LONGISQUAMA_COMPLETE = new CustomTrigger("adv_longisquama");
+    public static final CustomTrigger FLAGELLOPANTOPUS_COMPLETE = new CustomTrigger("adv_flagellopantopus");
+    public static final CustomTrigger PRAEARCTURUS_COMPLETE = new CustomTrigger("adv_praearcturus");
+    public static final CustomTrigger GOSFORDIA_COMPLETE = new CustomTrigger("adv_gosfordia");
+    public static final CustomTrigger HYDROPESSUM_COMPLETE = new CustomTrigger("adv_hydropessum");
+    public static final CustomTrigger DIPTERONOTUS_COMPLETE = new CustomTrigger("adv_dipteronotus");
+    public static final CustomTrigger HARPAGOFUTUTOR_COMPLETE = new CustomTrigger("adv_harpagofututor");
+    public static final CustomTrigger MAMULICHTHYS_COMPLETE = new CustomTrigger("adv_mamulichthys");
+    public static final CustomTrigger SENEKICHTHYS_COMPLETE = new CustomTrigger("adv_senekichthys");
+    public static final CustomTrigger PHYLLOCERAS_COMPLETE = new CustomTrigger("adv_phylloceras");
+    public static final CustomTrigger TITANITES_COMPLETE = new CustomTrigger("adv_titanites");
     public static final CustomTrigger CHARNIA_COMPLETE = new CustomTrigger("adv_charnia");
+    public static final CustomTrigger BRAZILICHTHYS_COMPLETE = new CustomTrigger("adv_brazilichthys");
+    public static final CustomTrigger BETHESDAICHTHYS_COMPLETE = new CustomTrigger("adv_bethesdaichthys");
     public static final CustomTrigger HELIOPELTIS_COMPLETE = new CustomTrigger("adv_heliopeltis");
     public static final CustomTrigger PAREXUS_COMPLETE = new CustomTrigger("adv_parexus");
     public static final CustomTrigger SPRIGGINA_COMPLETE = new CustomTrigger("adv_spriggina");
@@ -186,6 +198,12 @@ public class ModTriggers
     public static final CustomTrigger CACOPS_COMPLETE = new CustomTrigger("adv_cacops");
     public static final CustomTrigger OPHTHALMOTHULE_COMPLETE = new CustomTrigger("adv_ophthalmothule");
     public static final CustomTrigger PLESIOSAURUS_COMPLETE = new CustomTrigger("adv_plesiosaurus");
+    public static final CustomTrigger LUFENGOSAURUS_COMPLETE = new CustomTrigger("adv_lufengosaurus");
+    public static final CustomTrigger MONOLOPHOSAURUS_COMPLETE = new CustomTrigger("adv_monolophosaurus");
+    public static final CustomTrigger ICHTHYOSAURUS_COMPLETE = new CustomTrigger("adv_ichthyosaurus");
+    public static final CustomTrigger THALATTOSUCHUS_COMPLETE = new CustomTrigger("adv_thalattosuchus");
+    public static final CustomTrigger DEUTEROSAURUS_COMPLETE = new CustomTrigger("adv_deuterosaurus");
+    public static final CustomTrigger PLIOSAURUS_COMPLETE = new CustomTrigger("adv_pliosaurus");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
@@ -194,7 +212,19 @@ public class ModTriggers
             SCAUMENACIA_COMPLETE,
             DREPANASPIS_COMPLETE,
             LONGISQUAMA_COMPLETE,
+            FLAGELLOPANTOPUS_COMPLETE,
+            PRAEARCTURUS_COMPLETE,
+            GOSFORDIA_COMPLETE,
+            HYDROPESSUM_COMPLETE,
+            DIPTERONOTUS_COMPLETE,
+            HARPAGOFUTUTOR_COMPLETE,
+            MAMULICHTHYS_COMPLETE,
+            SENEKICHTHYS_COMPLETE,
+            PHYLLOCERAS_COMPLETE,
+            TITANITES_COMPLETE,
             CHARNIA_COMPLETE,
+            BRAZILICHTHYS_COMPLETE,
+            BETHESDAICHTHYS_COMPLETE,
             HELIOPELTIS_COMPLETE,
             PAREXUS_COMPLETE,
             SPRIGGINA_COMPLETE,
@@ -213,6 +243,12 @@ public class ModTriggers
             OPHTHALMOTHULE_COMPLETE,
             PLESIOSAURUS_COMPLETE,
             BRACHIOSAURUS_COMPLETE,
+            THALATTOSUCHUS_COMPLETE,
+            DEUTEROSAURUS_COMPLETE,
+            PLIOSAURUS_COMPLETE,
+            ICHTHYOSAURUS_COMPLETE,
+            LUFENGOSAURUS_COMPLETE,
+            MONOLOPHOSAURUS_COMPLETE,
             DUNYU_COMPLETE,
             CIURCOPTERUS_COMPLETE,
             HADRANAX_COMPLETE,
