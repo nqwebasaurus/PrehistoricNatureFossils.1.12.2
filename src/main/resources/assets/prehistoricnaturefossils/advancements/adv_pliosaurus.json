@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_pliosaurus"
+		  },
+		"title": {
+			"translate": "advancements.pliosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.pliosaurus.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_pliosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

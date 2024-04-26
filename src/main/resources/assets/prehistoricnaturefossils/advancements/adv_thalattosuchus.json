@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_thalattosuchus"
+		  },
+		"title": {
+			"translate": "advancements.thalattosuchus.title"
+		},
+		"description": {
+			"translate": "advancements.thalattosuchus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_thalattosuchus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}
