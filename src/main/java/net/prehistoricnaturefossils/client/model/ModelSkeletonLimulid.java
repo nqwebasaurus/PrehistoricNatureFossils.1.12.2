@@ -20,7 +20,7 @@ public class ModelSkeletonLimulid extends ModelBase {
         this.textureHeight = 128;
 
         this.bone = new ModelRenderer(this);
-        this.bone.setRotationPoint(0.0F, 23.25F, 0.0F);
+        this.bone.setRotationPoint(-1.0F, 23.25F, -41.0F);
         this.bone.cubeList.add(new ModelBox(bone, 0, 31, -3.0F, -0.65F, -12.0F, 16, 1, 16, 0.0F, false));
         this.bone.cubeList.add(new ModelBox(bone, 0, 31, -9.0F, -0.65F, -15.0F, 16, 1, 16, -0.01F, false));
         this.bone.cubeList.add(new ModelBox(bone, 0, 31, -18.0F, -0.65F, -14.0F, 16, 1, 16, 0.01F, false));

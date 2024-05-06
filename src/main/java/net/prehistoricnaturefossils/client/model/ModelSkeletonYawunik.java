@@ -42,7 +42,7 @@ public class ModelSkeletonYawunik extends ModelBase {
         this.fossil.cubeList.add(new ModelBox(fossil, 0, 0, -10.0F, -2.0F, -11.0F, 20, 2, 21, 0.0F, false));
 
         this.bodybase = new ModelRenderer(this);
-        this.bodybase.setRotationPoint(6.0F, -4.2F, 1.0F);
+        this.bodybase.setRotationPoint(6.0F, -4.3F, 1.0F);
         this.fossil.addChild(bodybase);
         this.setRotateAngle(bodybase, 0.0F, 0.0F, -1.5708F);
 
@@ -183,18 +183,18 @@ public class ModelSkeletonYawunik extends ModelBase {
         this.tentacle1_1.setRotationPoint(0.2F, 3.0F, 0.0F);
         this.tentacle1.addChild(tentacle1_1);
         this.setRotateAngle(tentacle1_1, -0.2182F, 0.0F, 0.0F);
-        this.tentacle1_1.cubeList.add(new ModelBox(tentacle1_1, 15, 24, 0.2F, 0.0F, -0.5F, 0, 5, 7, 0.0F, false));
+        this.tentacle1_1.cubeList.add(new ModelBox(tentacle1_1, 15, 24, 0.3F, 0.0F, -0.5F, 0, 5, 7, 0.0F, false));
 
         this.tentacle1_2 = new ModelRenderer(this);
         this.tentacle1_2.setRotationPoint(0.4F, 3.0F, 0.0F);
         this.tentacle1.addChild(tentacle1_2);
         this.setRotateAngle(tentacle1_2, 0.3927F, 0.0F, 0.0F);
-        this.tentacle1_2.cubeList.add(new ModelBox(tentacle1_2, 0, 24, -0.04F, 0.0F, -0.5F, 0, 5, 7, 0.0F, false));
+        this.tentacle1_2.cubeList.add(new ModelBox(tentacle1_2, 0, 24, -0.1F, 0.0F, -0.5F, 0, 5, 7, 0.0F, false));
 
         this.tentacle1_3 = new ModelRenderer(this);
         this.tentacle1_3.setRotationPoint(-0.3F, 3.0F, 0.0F);
         this.tentacle1.addChild(tentacle1_3);
-        this.tentacle1_3.cubeList.add(new ModelBox(tentacle1_3, 0, 0, 0.8F, 0.0F, -0.5F, 0, 5, 7, 0.0F, false));
+        this.tentacle1_3.cubeList.add(new ModelBox(tentacle1_3, 0, 0, 0.7F, 0.0F, -0.5F, 0, 5, 7, 0.0F, false));
 
     }
 

@@ -29,6 +29,18 @@ public class ModTriggers
     public static final CustomTrigger LONGISQUAMA_COMPLETE = new CustomTrigger("adv_longisquama");
     public static final CustomTrigger FLAGELLOPANTOPUS_COMPLETE = new CustomTrigger("adv_flagellopantopus");
     public static final CustomTrigger PRAEARCTURUS_COMPLETE = new CustomTrigger("adv_praearcturus");
+    public static final CustomTrigger ECHINOCHIMAERA_COMPLETE = new CustomTrigger("adv_echinochimaera");
+    public static final CustomTrigger SQUATINACTIS_COMPLETE = new CustomTrigger("adv_squatinactis");
+    public static final CustomTrigger HELIANTHASTER_COMPLETE = new CustomTrigger("adv_helianthaster");
+    public static final CustomTrigger MIMETASTER_COMPLETE = new CustomTrigger("adv_mimetaster");
+    public static final CustomTrigger DORYASPIS_COMPLETE = new CustomTrigger("adv_doryaspis");
+    public static final CustomTrigger GANTAROSTRATASPIS_COMPLETE = new CustomTrigger("adv_gantarostrataspis");
+    public static final CustomTrigger STENSIOELLA_COMPLETE = new CustomTrigger("adv_stensioella");
+    public static final CustomTrigger GROENLANDASPIS_COMPLETE = new CustomTrigger("adv_groenlandaspis");
+    public static final CustomTrigger MOBULAVERMIS_COMPLETE = new CustomTrigger("adv_mobulavermis");
+    public static final CustomTrigger KAYKAY_COMPLETE = new CustomTrigger("adv_kaykay");
+    public static final CustomTrigger LEEDSICHTHYS_COMPLETE = new CustomTrigger("adv_leedsichthys");
+    public static final CustomTrigger CAIHONG_COMPLETE = new CustomTrigger("adv_caihong");
     public static final CustomTrigger GOSFORDIA_COMPLETE = new CustomTrigger("adv_gosfordia");
     public static final CustomTrigger HYDROPESSUM_COMPLETE = new CustomTrigger("adv_hydropessum");
     public static final CustomTrigger DIPTERONOTUS_COMPLETE = new CustomTrigger("adv_dipteronotus");
@@ -214,6 +226,18 @@ public class ModTriggers
             LONGISQUAMA_COMPLETE,
             FLAGELLOPANTOPUS_COMPLETE,
             PRAEARCTURUS_COMPLETE,
+            ECHINOCHIMAERA_COMPLETE,
+            SQUATINACTIS_COMPLETE,
+            HELIANTHASTER_COMPLETE,
+            MIMETASTER_COMPLETE,
+            DORYASPIS_COMPLETE,
+            GANTAROSTRATASPIS_COMPLETE,
+            STENSIOELLA_COMPLETE,
+            GROENLANDASPIS_COMPLETE,
+            MOBULAVERMIS_COMPLETE,
+            KAYKAY_COMPLETE,
+            LEEDSICHTHYS_COMPLETE,
+            CAIHONG_COMPLETE,
             GOSFORDIA_COMPLETE,
             HYDROPESSUM_COMPLETE,
             DIPTERONOTUS_COMPLETE,

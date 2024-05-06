@@ -140,6 +140,18 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilDipteronotus.class, new RenderFossilDipteronotus());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilFlagellopantopus.class, new RenderFossilFlagellopantopus());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilPraearcturus.class, new RenderFossilPraearcturus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilMobulavermis.class, new RenderFossilMobulavermis());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilCaihong.class, new RenderFossilCaihong());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilKaykay.class, new RenderFossilKaykay());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilLeedsichthys.class, new RenderFossilLeedsichthys());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilStensioella.class, new RenderFossilStensioella());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilGroenlandaspis.class, new RenderFossilGroenlandaspis());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilGantarostrataspis.class, new RenderFossilGantarostrataspis());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilDoryaspis.class, new RenderFossilDoryaspis());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilHelianthaster.class, new RenderFossilHelianthaster());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilMimetaster.class, new RenderFossilMimetaster());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilEchinochimaera.class, new RenderFossilEchinochimaera());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSquatinactis.class, new RenderFossilSquatinactis());
 
 
         //Skeleton Mounts:

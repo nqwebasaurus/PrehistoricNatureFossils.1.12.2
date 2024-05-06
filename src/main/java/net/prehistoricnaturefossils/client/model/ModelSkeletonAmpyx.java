@@ -40,7 +40,7 @@ public class ModelSkeletonAmpyx extends ModelBase {
         this.textureHeight = 64;
 
         this.base = new ModelRenderer(this);
-        this.base.setRotationPoint(-0.5F, 22.25F, 1.0F);
+        this.base.setRotationPoint(-2.5F, 22.25F, -24.0F);
         this.base.cubeList.add(new ModelBox(base, 0, 18, -5.5F, 0.75F, -14.0F, 16, 1, 16, 0.0F, false));
         this.base.cubeList.add(new ModelBox(base, 0, 18, -13.5F, 0.75F, -5.0F, 16, 1, 16, 0.01F, false));
         this.base.cubeList.add(new ModelBox(base, 0, 18, -0.5F, 0.75F, 2.0F, 16, 1, 16, -0.01F, false));

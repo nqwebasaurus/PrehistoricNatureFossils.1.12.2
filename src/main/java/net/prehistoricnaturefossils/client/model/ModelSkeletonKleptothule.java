@@ -53,7 +53,7 @@ public class ModelSkeletonKleptothule extends ModelBase {
         this.textureHeight = 100;
 
         this.fossil = new ModelRenderer(this);
-        this.fossil.setRotationPoint(0.0F, 24.0F, 0.0F);
+        this.fossil.setRotationPoint(1.0F, 24.0F, -9.0F);
         this.fossil.cubeList.add(new ModelBox(fossil, 0, 0, -12.0F, -1.0F, -12.0F, 23, 1, 38, 0.0F, false));
         this.fossil.cubeList.add(new ModelBox(fossil, 76, 69, -12.0F, -2.0F, -12.0F, 8, 1, 19, 0.0F, false));
         this.fossil.cubeList.add(new ModelBox(fossil, 85, 28, -4.0F, -2.0F, -12.0F, 15, 1, 7, 0.0F, false));
