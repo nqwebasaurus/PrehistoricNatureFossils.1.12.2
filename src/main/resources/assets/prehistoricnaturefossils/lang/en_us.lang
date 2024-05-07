@@ -370,7 +370,7 @@ tile.pf_skeleton_carcinosoma.name=Carcinosoma Fossil Slab
 tile.pf_skeleton_furcaster.name=Furcaster Fossil Slab
 tile.pf_skeleton_eurypterus.name=Eurypterus Fossil Slab
 tile.pf_skeleton_jamoytius.name=Jamoytius Fossil Slab
-tile.pf_skeleton_phragmoceras.name=PhragmocerasFossil Slab
+tile.pf_skeleton_phragmoceras.name=Phragmoceras Fossil Slab
 tile.pf_skeleton_platylomaspis.name=Platylomaspis Fossil Slab
 tile.pf_skeleton_bundenbachiellus.name=Bundenbachiellus Fossil Slab
 tile.pf_skeleton_attercopus.name=Attercopus Fossil Slab
@@ -426,6 +426,18 @@ tile.pf_skeleton_hydropessum.name=Hydropessum Fossil Slab
 tile.pf_skeleton_dipteronotus.name=Dipteronotus Fossil Slab
 tile.pf_skeleton_flagellopantopus.name=Flagellopantopus Fossil Slab
 tile.pf_skeleton_praearcturus.name=Praearcturus Fossil Slab
+tile.pf_skeleton_mobulavermis.name=Mobulavermis Fossil Slab
+tile.pf_skeleton_caihong.name=Caihong Fossil Slab
+tile.pf_skeleton_kaykay.name=Kaykay Fossil Slab
+tile.pf_skeleton_leedsichthys.name=Leedsichthys Fossil Slab
+tile.pf_skeleton_stensioella.name=Stensioella Fossil Slab
+tile.pf_skeleton_groenlandaspis.name=Groenlandaspis Fossil Slab
+tile.pf_skeleton_gantarostrataspis.name=Gantarostrataspis Fossil Slab
+tile.pf_skeleton_doryaspis.name=Doryaspis Fossil Slab
+tile.pf_skeleton_helianthaster.name=Helianthaster Fossil Slab
+tile.pf_skeleton_mimetaster.name=Mimetaster Fossil Slab
+tile.pf_skeleton_echinochimaera.name=Echinochimaera Fossil Slab
+tile.pf_skeleton_squatinactis.name=Squatinactis Fossil Slab
 
 
 

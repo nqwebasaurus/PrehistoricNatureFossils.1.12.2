@@ -29,7 +29,7 @@ public class ModelSkeletonBandringa extends ModelBase {
 
     public ModelSkeletonBandringa() {
         this.textureWidth = 112;
-        this.textureHeight = 95;
+        this.textureHeight = 94;
 
         this.fossil = new ModelRenderer(this);
         this.fossil.setRotationPoint(0.0F, 24.0F, 0.0F);
@@ -61,7 +61,7 @@ public class ModelSkeletonBandringa extends ModelBase {
         this.cube_r4.cubeList.add(new ModelBox(cube_r4, 44, 47, -0.095F, -0.5F, -0.3045F, 17, 1, 9, 0.0F, false));
 
         this.body = new ModelRenderer(this);
-        this.body.setRotationPoint(-2.1F, -0.4F, -7.0F);
+        this.body.setRotationPoint(-3.0F, -0.4F, -7.0F);
         this.fossil.addChild(body);
         this.body.cubeList.add(new ModelBox(body, 0, 64, -2.0F, -0.83F, 7.0F, 4, 0, 9, 0.0F, false));
         this.body.cubeList.add(new ModelBox(body, 65, 0, -1.5F, -0.95F, 7.01F, 3, 1, 9, 0.0F, false));
@@ -82,13 +82,13 @@ public class ModelSkeletonBandringa extends ModelBase {
         this.cube_r7.setRotationPoint(0.0F, -1.7F, 7.1F);
         this.body.addChild(cube_r7);
         this.setRotateAngle(cube_r7, 0.0F, -0.1309F, 0.0F);
-        this.cube_r7.cubeList.add(new ModelBox(cube_r7, 54, 31, 0.7645F, 0.95F, -2.9575F, 1, 0, 3, 0.0F, false));
+        this.cube_r7.cubeList.add(new ModelBox(cube_r7, 18, 64, 0.7645F, 0.95F, -2.9575F, 1, 0, 3, 0.0F, false));
 
         this.cube_r8 = new ModelRenderer(this);
         this.cube_r8.setRotationPoint(0.0F, -1.5F, 7.1F);
         this.body.addChild(cube_r8);
         this.setRotateAngle(cube_r8, 0.0F, -0.2182F, 0.0F);
-        this.cube_r8.cubeList.add(new ModelBox(cube_r8, 18, 64, -1.5F, 0.6199F, -2.7888F, 3, 1, 3, 0.0F, false));
+        this.cube_r8.cubeList.add(new ModelBox(cube_r8, 0, 54, -1.5F, 0.6199F, -2.7888F, 3, 1, 3, 0.0F, false));
 
         this.cube_r9 = new ModelRenderer(this);
         this.cube_r9.setRotationPoint(0.0F, -1.7F, 7.1F);
@@ -127,14 +127,14 @@ public class ModelSkeletonBandringa extends ModelBase {
         this.body5.setRotationPoint(0.0F, 1.4F, 3.0F);
         this.body4.addChild(body5);
         this.setRotateAngle(body5, 0.1309F, 0.0F, -1.5708F);
-        this.body5.cubeList.add(new ModelBox(body5, 0, 64, -0.4F, 0.75F, 0.5F, 0, 3, 4, 0.0F, false));
+        this.body5.cubeList.add(new ModelBox(body5, 0, 64, -0.4F, 0.45F, 0.7F, 0, 3, 4, 0.0F, false));
         this.body5.cubeList.add(new ModelBox(body5, 48, 31, -0.3F, -0.76F, 0.0F, 0, 2, 5, 0.0F, false));
 
         this.body6 = new ModelRenderer(this);
         this.body6.setRotationPoint(0.0F, 0.0F, 5.0F);
         this.body5.addChild(body6);
         this.setRotateAngle(body6, 0.0873F, 0.0F, 0.0F);
-        this.body6.cubeList.add(new ModelBox(body6, 44, 47, -0.4F, 0.5F, 0.0F, 0, 3, 4, 0.0F, false));
+        this.body6.cubeList.add(new ModelBox(body6, 44, 47, -0.4F, 0.4F, -0.6F, 0, 3, 4, 0.0F, false));
         this.body6.cubeList.add(new ModelBox(body6, 14, 0, -0.3F, -0.75F, 0.0F, 0, 2, 4, 0.0F, false));
 
         this.body7 = new ModelRenderer(this);

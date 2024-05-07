@@ -90,7 +90,7 @@ public class ModelSkeletonVillebrunaster extends ModelBase {
         this.textureHeight = 70;
 
         this.fossil = new ModelRenderer(this);
-        this.fossil.setRotationPoint(5.0F, 24.0F, -6.0F);
+        this.fossil.setRotationPoint(3.0F, 24.0F, -8.0F);
         this.fossil.cubeList.add(new ModelBox(fossil, 40, 42, -8.0F, -2.0F, 1.0F, 11, 2, 13, 0.003F, false));
         this.fossil.cubeList.add(new ModelBox(fossil, 0, 0, 0.0F, -2.0F, -8.0F, 7, 2, 22, 0.0F, false));
 
@@ -262,7 +262,7 @@ public class ModelSkeletonVillebrunaster extends ModelBase {
         this.core_r2.setRotationPoint(-0.5F, 0.025F, -3.5F);
         this.core3.addChild(core_r2);
         this.setRotateAngle(core_r2, 0.0F, 0.4974F, 0.0F);
-        this.core_r2.cubeList.add(new ModelBox(core_r2, 5, 51, -1.4F, 0.0F, 0.3F, 5, 0, 1, 0.01F, false));
+        this.core_r2.cubeList.add(new ModelBox(core_r2, 6, 51, -1.4F, 0.0F, 0.3F, 5, 0, 1, 0.01F, false));
 
         this.armmiddlebase11 = new ModelRenderer(this);
         this.armmiddlebase11.setRotationPoint(0.0F, 0.0F, -1.0F);
@@ -343,7 +343,7 @@ public class ModelSkeletonVillebrunaster extends ModelBase {
         this.arm1base_r14.setRotationPoint(-1.0F, 25.0F, -4.25F);
         this.armbase15.addChild(arm1base_r14);
         this.setRotateAngle(arm1base_r14, 0.0F, 0.7854F, 0.0F);
-        this.arm1base_r14.cubeList.add(new ModelBox(arm1base_r14, 23, 57, -2.625F, -24.0F, 0.35F, 3, 0, 2, 0.005F, false));
+        this.arm1base_r14.cubeList.add(new ModelBox(arm1base_r14, 24, 57, -2.625F, -24.0F, 0.35F, 3, 0, 2, 0.005F, false));
 
         this.arm1base_r15 = new ModelRenderer(this);
         this.arm1base_r15.setRotationPoint(0.0F, 0.99F, -1.25F);

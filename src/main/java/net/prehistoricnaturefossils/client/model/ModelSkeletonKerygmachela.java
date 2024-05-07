@@ -15,58 +15,36 @@ public class ModelSkeletonKerygmachela extends ModelBase {
     private final ModelRenderer body1;
     private final ModelRenderer finL1;
     private final ModelRenderer finR1;
-    private final ModelRenderer legL1;
-    private final ModelRenderer legR1;
     private final ModelRenderer body2;
     private final ModelRenderer finL2;
     private final ModelRenderer finR2;
-    private final ModelRenderer legL2;
-    private final ModelRenderer legR2;
     private final ModelRenderer body3;
     private final ModelRenderer finL3;
     private final ModelRenderer finR3;
-    private final ModelRenderer legL3;
-    private final ModelRenderer legR3;
     private final ModelRenderer body4;
     private final ModelRenderer finL4;
     private final ModelRenderer finR4;
-    private final ModelRenderer legL4;
-    private final ModelRenderer legR4;
     private final ModelRenderer body5;
     private final ModelRenderer finL5;
     private final ModelRenderer finR5;
-    private final ModelRenderer legL5;
-    private final ModelRenderer legR5;
     private final ModelRenderer body6;
     private final ModelRenderer finL6;
     private final ModelRenderer finR6;
-    private final ModelRenderer legL6;
-    private final ModelRenderer legR6;
     private final ModelRenderer body7;
     private final ModelRenderer finL7;
     private final ModelRenderer finR7;
-    private final ModelRenderer legL7;
-    private final ModelRenderer legR7;
     private final ModelRenderer body8;
     private final ModelRenderer finL8;
     private final ModelRenderer finR8;
-    private final ModelRenderer legL8;
-    private final ModelRenderer legR8;
     private final ModelRenderer body9;
     private final ModelRenderer finL9;
     private final ModelRenderer finR9;
-    private final ModelRenderer legL9;
-    private final ModelRenderer legR9;
     private final ModelRenderer body10;
     private final ModelRenderer finL10;
     private final ModelRenderer finR10;
-    private final ModelRenderer legL10;
-    private final ModelRenderer legR10;
     private final ModelRenderer body11;
     private final ModelRenderer finL11;
     private final ModelRenderer finR11;
-    private final ModelRenderer legL11;
-    private final ModelRenderer legR11;
     private final ModelRenderer tail;
     private final ModelRenderer appendageR;
     private final ModelRenderer cube_r5;
@@ -183,18 +161,6 @@ public class ModelSkeletonKerygmachela extends ModelBase {
         this.setRotateAngle(finR1, 0.0F, 0.1745F, 0.0F);
         this.finR1.cubeList.add(new ModelBox(finR1, 48, 62, -2.5F, 0.0F, -0.5F, 4, 0, 1, 0.0F, false));
 
-        this.legL1 = new ModelRenderer(this);
-        this.legL1.setRotationPoint(1.25F, 0.5F, 1.0F);
-        this.body1.addChild(legL1);
-        this.setRotateAngle(legL1, 0.0F, 0.5236F, 0.0F);
-        this.legL1.cubeList.add(new ModelBox(legL1, 14, 82, 0.0F, -0.25F, -1.0F, 2, 0, 1, 0.0F, false));
-
-        this.legR1 = new ModelRenderer(this);
-        this.legR1.setRotationPoint(-1.25F, 0.5F, 0.5F);
-        this.body1.addChild(legR1);
-        this.setRotateAngle(legR1, 0.0F, -0.3927F, 0.0F);
-        this.legR1.cubeList.add(new ModelBox(legR1, 7, 82, -2.0F, -0.25F, -0.7F, 2, 0, 1, 0.0F, false));
-
         this.body2 = new ModelRenderer(this);
         this.body2.setRotationPoint(0.0F, 0.0F, 1.0F);
         this.body1.addChild(body2);
@@ -210,18 +176,6 @@ public class ModelSkeletonKerygmachela extends ModelBase {
         this.finR2.setRotationPoint(-1.5F, 0.0F, 0.5F);
         this.body2.addChild(finR2);
         this.finR2.cubeList.add(new ModelBox(finR2, 0, 62, -3.0F, -0.005F, -0.5F, 4, 0, 1, 0.0F, false));
-
-        this.legL2 = new ModelRenderer(this);
-        this.legL2.setRotationPoint(1.25F, 0.5F, 0.5F);
-        this.body2.addChild(legL2);
-        this.setRotateAngle(legL2, 0.0F, 0.1309F, 0.0F);
-        this.legL2.cubeList.add(new ModelBox(legL2, 0, 82, 0.0F, -0.25F, -0.5F, 2, 0, 1, 0.0F, false));
-
-        this.legR2 = new ModelRenderer(this);
-        this.legR2.setRotationPoint(-1.25F, 0.5F, 1.0F);
-        this.body2.addChild(legR2);
-        this.setRotateAngle(legR2, 0.0F, -0.1309F, 0.0F);
-        this.legR2.cubeList.add(new ModelBox(legR2, 48, 77, -2.0F, -0.25F, -1.0F, 2, 0, 1, 0.0F, false));
 
         this.body3 = new ModelRenderer(this);
         this.body3.setRotationPoint(0.0F, 0.0F, 1.0F);
@@ -239,18 +193,6 @@ public class ModelSkeletonKerygmachela extends ModelBase {
         this.body3.addChild(finR3);
         this.finR3.cubeList.add(new ModelBox(finR3, 11, 60, -3.25F, -0.01F, -0.5F, 4, 0, 1, 0.0F, false));
 
-        this.legL3 = new ModelRenderer(this);
-        this.legL3.setRotationPoint(1.25F, 0.5F, 0.1F);
-        this.body3.addChild(legL3);
-        this.setRotateAngle(legL3, 0.0F, 0.1309F, 0.0F);
-        this.legL3.cubeList.add(new ModelBox(legL3, 19, 77, 0.0F, -0.25F, 0.0F, 2, 0, 1, 0.0F, false));
-
-        this.legR3 = new ModelRenderer(this);
-        this.legR3.setRotationPoint(-1.25F, 0.5F, 1.1F);
-        this.body3.addChild(legR3);
-        this.setRotateAngle(legR3, 0.0F, 0.0873F, 0.0F);
-        this.legR3.cubeList.add(new ModelBox(legR3, 0, 77, -2.0F, -0.25F, -1.0F, 2, 0, 1, 0.0F, false));
-
         this.body4 = new ModelRenderer(this);
         this.body4.setRotationPoint(0.0F, 0.0F, 1.0F);
         this.body3.addChild(body4);
@@ -266,17 +208,6 @@ public class ModelSkeletonKerygmachela extends ModelBase {
         this.body4.addChild(finR4);
         this.setRotateAngle(finR4, 0.0F, 0.0873F, 0.0F);
         this.finR4.cubeList.add(new ModelBox(finR4, 48, 58, -3.5F, -0.015F, -0.5F, 4, 0, 1, 0.0F, false));
-
-        this.legL4 = new ModelRenderer(this);
-        this.legL4.setRotationPoint(1.25F, 0.5F, 1.2F);
-        this.body4.addChild(legL4);
-        this.setRotateAngle(legL4, 0.0F, 0.0436F, 0.0F);
-        this.legL4.cubeList.add(new ModelBox(legL4, 68, 76, 0.0F, -0.25F, -1.0F, 2, 0, 1, 0.0F, false));
-
-        this.legR4 = new ModelRenderer(this);
-        this.legR4.setRotationPoint(-1.25F, 0.5F, 0.3F);
-        this.body4.addChild(legR4);
-        this.legR4.cubeList.add(new ModelBox(legR4, 61, 76, -2.0F, -0.25F, 0.0F, 2, 0, 1, 0.0F, false));
 
         this.body5 = new ModelRenderer(this);
         this.body5.setRotationPoint(0.0F, 0.0F, 1.0F);
@@ -295,16 +226,6 @@ public class ModelSkeletonKerygmachela extends ModelBase {
         this.setRotateAngle(finR5, 0.0F, 0.1745F, 0.0F);
         this.finR5.cubeList.add(new ModelBox(finR5, 0, 58, -3.5F, -0.02F, -0.5F, 4, 0, 1, 0.0F, false));
 
-        this.legL5 = new ModelRenderer(this);
-        this.legL5.setRotationPoint(1.25F, 0.5F, 0.3F);
-        this.body5.addChild(legL5);
-        this.legL5.cubeList.add(new ModelBox(legL5, 54, 76, 0.0F, -0.25F, 0.0F, 2, 0, 1, 0.0F, false));
-
-        this.legR5 = new ModelRenderer(this);
-        this.legR5.setRotationPoint(-1.25F, 0.5F, 0.4F);
-        this.body5.addChild(legR5);
-        this.legR5.cubeList.add(new ModelBox(legR5, 13, 76, -2.0F, -0.25F, 0.0F, 2, 0, 1, 0.0F, false));
-
         this.body6 = new ModelRenderer(this);
         this.body6.setRotationPoint(0.0F, 0.0F, 1.0F);
         this.body5.addChild(body6);
@@ -321,18 +242,6 @@ public class ModelSkeletonKerygmachela extends ModelBase {
         this.setRotateAngle(finR6, 0.0F, 0.0873F, 0.0F);
         this.finR6.cubeList.add(new ModelBox(finR6, 11, 56, -3.25F, -0.025F, -0.5F, 4, 0, 1, 0.0F, false));
 
-        this.legL6 = new ModelRenderer(this);
-        this.legL6.setRotationPoint(1.25F, 0.5F, 0.4F);
-        this.body6.addChild(legL6);
-        this.setRotateAngle(legL6, 0.0F, -0.0873F, 0.0F);
-        this.legL6.cubeList.add(new ModelBox(legL6, 6, 76, 0.0F, -0.25F, 0.0F, 2, 0, 1, 0.0F, false));
-
-        this.legR6 = new ModelRenderer(this);
-        this.legR6.setRotationPoint(-1.25F, 0.5F, 0.5F);
-        this.body6.addChild(legR6);
-        this.setRotateAngle(legR6, 0.0F, 0.0873F, 0.0F);
-        this.legR6.cubeList.add(new ModelBox(legR6, 48, 75, -2.0F, -0.25F, 0.0F, 2, 0, 1, 0.0F, false));
-
         this.body7 = new ModelRenderer(this);
         this.body7.setRotationPoint(0.0F, 0.0F, 1.0F);
         this.body6.addChild(body7);
@@ -348,18 +257,6 @@ public class ModelSkeletonKerygmachela extends ModelBase {
         this.body7.addChild(finR7);
         this.setRotateAngle(finR7, 0.0F, -0.0873F, 0.0F);
         this.finR7.cubeList.add(new ModelBox(finR7, 48, 54, -3.25F, -0.03F, -0.5F, 4, 0, 1, 0.0F, false));
-
-        this.legL7 = new ModelRenderer(this);
-        this.legL7.setRotationPoint(1.25F, 0.5F, 0.5F);
-        this.body7.addChild(legL7);
-        this.setRotateAngle(legL7, 0.0F, -0.0436F, 0.0F);
-        this.legL7.cubeList.add(new ModelBox(legL7, 19, 75, 0.0F, -0.25F, 0.0F, 2, 0, 1, 0.0F, false));
-
-        this.legR7 = new ModelRenderer(this);
-        this.legR7.setRotationPoint(-1.25F, 0.5F, 0.5F);
-        this.body7.addChild(legR7);
-        this.setRotateAngle(legR7, 0.0F, 0.1745F, 0.0F);
-        this.legR7.cubeList.add(new ModelBox(legR7, 0, 75, -2.0F, -0.22F, 0.0F, 2, 0, 1, 0.0F, false));
 
         this.body8 = new ModelRenderer(this);
         this.body8.setRotationPoint(0.0F, 0.0F, 1.0F);
@@ -379,17 +276,6 @@ public class ModelSkeletonKerygmachela extends ModelBase {
         this.setRotateAngle(finR8, 0.0F, -0.1745F, 0.0F);
         this.finR8.cubeList.add(new ModelBox(finR8, 0, 54, -3.0F, -0.035F, -0.5F, 4, 0, 1, 0.0F, false));
 
-        this.legL8 = new ModelRenderer(this);
-        this.legL8.setRotationPoint(1.25F, 0.5F, 0.5F);
-        this.body8.addChild(legL8);
-        this.setRotateAngle(legL8, 0.0F, -0.0873F, 0.0F);
-        this.legL8.cubeList.add(new ModelBox(legL8, 68, 74, 0.0F, -0.25F, 0.0F, 2, 0, 1, 0.0F, false));
-
-        this.legR8 = new ModelRenderer(this);
-        this.legR8.setRotationPoint(-1.25F, 0.5F, 0.5F);
-        this.body8.addChild(legR8);
-        this.legR8.cubeList.add(new ModelBox(legR8, 61, 74, -2.0F, -0.25F, 0.0F, 2, 0, 1, 0.0F, false));
-
         this.body9 = new ModelRenderer(this);
         this.body9.setRotationPoint(0.0F, 0.0F, 1.0F);
         this.body8.addChild(body9);
@@ -406,16 +292,6 @@ public class ModelSkeletonKerygmachela extends ModelBase {
         this.body9.addChild(finR9);
         this.setRotateAngle(finR9, 0.0F, -0.1745F, 0.0F);
         this.finR9.cubeList.add(new ModelBox(finR9, 11, 52, -2.75F, -0.04F, -0.5F, 4, 0, 1, 0.0F, false));
-
-        this.legL9 = new ModelRenderer(this);
-        this.legL9.setRotationPoint(1.25F, 0.5F, 0.7F);
-        this.body9.addChild(legL9);
-        this.legL9.cubeList.add(new ModelBox(legL9, 54, 74, 0.0F, -0.25F, 0.0F, 2, 0, 1, 0.0F, false));
-
-        this.legR9 = new ModelRenderer(this);
-        this.legR9.setRotationPoint(-1.25F, 0.5F, 0.5F);
-        this.body9.addChild(legR9);
-        this.legR9.cubeList.add(new ModelBox(legR9, 13, 74, -2.0F, -0.26F, 0.0F, 2, 0, 1, 0.0F, false));
 
         this.body10 = new ModelRenderer(this);
         this.body10.setRotationPoint(0.0F, 0.0F, 1.0F);
@@ -434,18 +310,6 @@ public class ModelSkeletonKerygmachela extends ModelBase {
         this.setRotateAngle(finR10, 0.0F, -0.1309F, 0.0F);
         this.finR10.cubeList.add(new ModelBox(finR10, 48, 50, -2.5F, -0.045F, -0.5F, 4, 0, 1, 0.0F, false));
 
-        this.legL10 = new ModelRenderer(this);
-        this.legL10.setRotationPoint(1.25F, 0.5F, 0.7F);
-        this.body10.addChild(legL10);
-        this.setRotateAngle(legL10, 0.0F, -0.1745F, 0.0F);
-        this.legL10.cubeList.add(new ModelBox(legL10, 6, 74, 0.0F, -0.25F, 0.0F, 2, 0, 1, 0.0F, false));
-
-        this.legR10 = new ModelRenderer(this);
-        this.legR10.setRotationPoint(-1.25F, 0.5F, 0.5F);
-        this.body10.addChild(legR10);
-        this.setRotateAngle(legR10, 0.0F, 0.2182F, 0.0F);
-        this.legR10.cubeList.add(new ModelBox(legR10, 0, 73, -2.0F, -0.25F, 0.0F, 2, 0, 1, 0.0F, false));
-
         this.body11 = new ModelRenderer(this);
         this.body11.setRotationPoint(0.0F, 0.0F, 1.0F);
         this.body10.addChild(body11);
@@ -462,18 +326,6 @@ public class ModelSkeletonKerygmachela extends ModelBase {
         this.body11.addChild(finR11);
         this.setRotateAngle(finR11, 0.0F, -0.1745F, 0.0F);
         this.finR11.cubeList.add(new ModelBox(finR11, 0, 50, -2.25F, -0.05F, -0.5F, 4, 0, 1, 0.0F, false));
-
-        this.legL11 = new ModelRenderer(this);
-        this.legL11.setRotationPoint(1.25F, 0.5F, 0.5F);
-        this.body11.addChild(legL11);
-        this.setRotateAngle(legL11, 0.0F, -0.6109F, 0.0F);
-        this.legL11.cubeList.add(new ModelBox(legL11, 67, 72, 0.0F, -0.25F, 0.0F, 2, 0, 1, 0.0F, false));
-
-        this.legR11 = new ModelRenderer(this);
-        this.legR11.setRotationPoint(-1.25F, 0.5F, 0.5F);
-        this.body11.addChild(legR11);
-        this.setRotateAngle(legR11, 0.0F, 0.5236F, 0.0F);
-        this.legR11.cubeList.add(new ModelBox(legR11, 60, 72, -2.0F, -0.25F, 0.0F, 2, 0, 1, 0.0F, false));
 
         this.tail = new ModelRenderer(this);
         this.tail.setRotationPoint(0.0F, 0.0F, 1.0F);

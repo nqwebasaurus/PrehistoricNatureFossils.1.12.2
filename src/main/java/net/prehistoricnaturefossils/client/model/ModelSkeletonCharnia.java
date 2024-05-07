@@ -21,7 +21,7 @@ public class ModelSkeletonCharnia extends ModelBase {
         this.textureHeight = 128;
 
         this.rock = new ModelRenderer(this);
-        this.rock.setRotationPoint(-2.5422F, 23.0F, 6.8399F);
+        this.rock.setRotationPoint(-4.5422F, 23.0F, 6.8399F);
 
 
         this.cube_r1 = new ModelRenderer(this);
@@ -46,7 +46,7 @@ public class ModelSkeletonCharnia extends ModelBase {
         this.cube_r4.setRotationPoint(-13.0105F, 0.0F, -9.0212F);
         this.rock.addChild(cube_r4);
         this.setRotateAngle(cube_r4, 0.0F, -0.3491F, 0.0F);
-        this.cube_r4.cubeList.add(new ModelBox(cube_r4, 29, 30, -1.0F, -1.0F, -2.3F, 2, 2, 5, 0.0F, false));
+        this.cube_r4.cubeList.add(new ModelBox(cube_r4, 29, 30, -1.0F, -1.0F, -2.3F, 2, 2, 5, 0.003F, false));
 
         this.cube_r5 = new ModelRenderer(this);
         this.cube_r5.setRotationPoint(16.5422F, 0.0F, -10.8399F);
