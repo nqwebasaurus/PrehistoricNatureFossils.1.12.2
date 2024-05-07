@@ -24,6 +24,7 @@ public class ModelSkeletonOpabinia extends ModelBase {
     private final ModelRenderer fronteyeR;
     private final ModelRenderer segment1;
     private final ModelRenderer legR1;
+    private final ModelRenderer cube_r3;
     private final ModelRenderer finR1;
     private final ModelRenderer segment2;
     private final ModelRenderer finR2;
@@ -35,6 +36,7 @@ public class ModelSkeletonOpabinia extends ModelBase {
     private final ModelRenderer finR5;
     private final ModelRenderer segment6;
     private final ModelRenderer legR6;
+    private final ModelRenderer cube_r4;
     private final ModelRenderer finR6;
     private final ModelRenderer segment7;
     private final ModelRenderer finR7;
@@ -42,23 +44,29 @@ public class ModelSkeletonOpabinia extends ModelBase {
     private final ModelRenderer finR8;
     private final ModelRenderer segment9;
     private final ModelRenderer legR9;
+    private final ModelRenderer cube_r5;
     private final ModelRenderer finR9;
     private final ModelRenderer segment10;
     private final ModelRenderer finR10;
     private final ModelRenderer segment11;
     private final ModelRenderer legR11;
+    private final ModelRenderer cube_r6;
     private final ModelRenderer finR11;
     private final ModelRenderer segment12;
     private final ModelRenderer legR12;
+    private final ModelRenderer cube_r7;
     private final ModelRenderer finR12;
     private final ModelRenderer segment13;
     private final ModelRenderer legR13;
+    private final ModelRenderer cube_r8;
     private final ModelRenderer finR13;
     private final ModelRenderer segment14;
     private final ModelRenderer legR14;
+    private final ModelRenderer cube_r9;
     private final ModelRenderer finR14;
     private final ModelRenderer segment15;
     private final ModelRenderer legR15;
+    private final ModelRenderer cube_r10;
     private final ModelRenderer finR15;
     private final ModelRenderer tail;
     private final ModelRenderer tailfinR1;
@@ -178,7 +186,13 @@ public class ModelSkeletonOpabinia extends ModelBase {
         this.legR1.setRotationPoint(0.7F, 0.75F, -0.1F);
         this.segment1.addChild(legR1);
         this.setRotateAngle(legR1, -1.5708F, -1.0908F, 1.5708F);
-        this.legR1.cubeList.add(new ModelBox(legR1, 25, 18, 0.4F, 0.0F, 0.0F, 1, 2, 0, 0.0F, false));
+
+
+        this.cube_r3 = new ModelRenderer(this);
+        this.cube_r3.setRotationPoint(0.9F, 1.0F, 0.0F);
+        this.legR1.addChild(cube_r3);
+        this.setRotateAngle(cube_r3, 0.0F, 3.1416F, 0.0F);
+        this.cube_r3.cubeList.add(new ModelBox(cube_r3, 25, 18, -0.5F, -1.0F, 0.0F, 1, 2, 0, 0.0F, false));
 
         this.finR1 = new ModelRenderer(this);
         this.finR1.setRotationPoint(0.6F, 0.5F, 0.5F);
@@ -240,7 +254,13 @@ public class ModelSkeletonOpabinia extends ModelBase {
         this.legR6.setRotationPoint(-0.5F, 0.75F, 0.5F);
         this.segment6.addChild(legR6);
         this.setRotateAngle(legR6, 0.0F, -1.5708F, 0.0F);
-        this.legR6.cubeList.add(new ModelBox(legR6, 6, 25, -0.5F, 0.0F, -1.2F, 1, 2, 0, 0.0F, false));
+
+
+        this.cube_r4 = new ModelRenderer(this);
+        this.cube_r4.setRotationPoint(0.0F, 1.0F, -1.2F);
+        this.legR6.addChild(cube_r4);
+        this.setRotateAngle(cube_r4, 0.0F, 3.1416F, 0.0F);
+        this.cube_r4.cubeList.add(new ModelBox(cube_r4, 6, 25, -0.5F, -1.0F, 0.0F, 1, 2, 0, 0.0F, false));
 
         this.finR6 = new ModelRenderer(this);
         this.finR6.setRotationPoint(-1.0F, 0.5F, 0.5F);
@@ -280,7 +300,13 @@ public class ModelSkeletonOpabinia extends ModelBase {
         this.legR9.setRotationPoint(-0.5F, 0.75F, 0.5F);
         this.segment9.addChild(legR9);
         this.setRotateAngle(legR9, 0.0F, -1.5708F, 0.0F);
-        this.legR9.cubeList.add(new ModelBox(legR9, 3, 25, -0.5F, 0.0F, -1.2F, 1, 2, 0, 0.0F, false));
+
+
+        this.cube_r5 = new ModelRenderer(this);
+        this.cube_r5.setRotationPoint(0.0F, 1.0F, -1.2F);
+        this.legR9.addChild(cube_r5);
+        this.setRotateAngle(cube_r5, 0.0F, 3.1416F, 0.0F);
+        this.cube_r5.cubeList.add(new ModelBox(cube_r5, 3, 25, -0.5F, -1.0F, 0.0F, 1, 2, 0, 0.0F, false));
 
         this.finR9 = new ModelRenderer(this);
         this.finR9.setRotationPoint(-1.0F, 0.5F, 0.5F);
@@ -309,7 +335,13 @@ public class ModelSkeletonOpabinia extends ModelBase {
         this.legR11.setRotationPoint(-0.5F, 0.75F, 0.5F);
         this.segment11.addChild(legR11);
         this.setRotateAngle(legR11, 0.0F, -1.5708F, 0.0F);
-        this.legR11.cubeList.add(new ModelBox(legR11, 0, 25, -0.5F, 0.0F, -1.2F, 1, 2, 0, 0.0F, false));
+
+
+        this.cube_r6 = new ModelRenderer(this);
+        this.cube_r6.setRotationPoint(0.0F, 1.0F, -1.2F);
+        this.legR11.addChild(cube_r6);
+        this.setRotateAngle(cube_r6, 0.0F, 3.1416F, 0.0F);
+        this.cube_r6.cubeList.add(new ModelBox(cube_r6, 0, 25, -0.5F, -1.0F, 0.0F, 1, 2, 0, 0.0F, false));
 
         this.finR11 = new ModelRenderer(this);
         this.finR11.setRotationPoint(-1.0F, 0.5F, 0.5F);
@@ -327,7 +359,13 @@ public class ModelSkeletonOpabinia extends ModelBase {
         this.legR12.setRotationPoint(-0.5F, 0.75F, 0.5F);
         this.segment12.addChild(legR12);
         this.setRotateAngle(legR12, 0.0F, -1.5708F, 0.0F);
-        this.legR12.cubeList.add(new ModelBox(legR12, 23, 24, -0.5F, 0.0F, -1.2F, 1, 2, 0, 0.0F, false));
+
+
+        this.cube_r7 = new ModelRenderer(this);
+        this.cube_r7.setRotationPoint(0.0F, 1.0F, -1.2F);
+        this.legR12.addChild(cube_r7);
+        this.setRotateAngle(cube_r7, 0.0F, 3.1416F, 0.0F);
+        this.cube_r7.cubeList.add(new ModelBox(cube_r7, 23, 24, -0.5F, -1.0F, 0.0F, 1, 2, 0, 0.0F, false));
 
         this.finR12 = new ModelRenderer(this);
         this.finR12.setRotationPoint(-1.0F, 0.5F, 0.5F);
@@ -345,7 +383,13 @@ public class ModelSkeletonOpabinia extends ModelBase {
         this.legR13.setRotationPoint(-0.5F, 0.75F, 0.5F);
         this.segment13.addChild(legR13);
         this.setRotateAngle(legR13, 0.0F, -1.5708F, 0.0F);
-        this.legR13.cubeList.add(new ModelBox(legR13, 24, 0, -0.5F, 0.0F, -1.2F, 1, 2, 0, 0.0F, false));
+
+
+        this.cube_r8 = new ModelRenderer(this);
+        this.cube_r8.setRotationPoint(0.0F, 1.0F, -1.2F);
+        this.legR13.addChild(cube_r8);
+        this.setRotateAngle(cube_r8, 0.0F, 3.1416F, 0.0F);
+        this.cube_r8.cubeList.add(new ModelBox(cube_r8, 24, 0, -0.5F, -1.0F, 0.0F, 1, 2, 0, 0.0F, false));
 
         this.finR13 = new ModelRenderer(this);
         this.finR13.setRotationPoint(-1.0F, 0.5F, 0.5F);
@@ -363,7 +407,13 @@ public class ModelSkeletonOpabinia extends ModelBase {
         this.legR14.setRotationPoint(-0.5F, 0.75F, 0.5F);
         this.segment14.addChild(legR14);
         this.setRotateAngle(legR14, 0.0F, -1.5708F, 0.0F);
-        this.legR14.cubeList.add(new ModelBox(legR14, 0, 4, -0.5F, 0.0F, -1.2F, 1, 2, 0, 0.0F, false));
+
+
+        this.cube_r9 = new ModelRenderer(this);
+        this.cube_r9.setRotationPoint(0.0F, 1.0F, -1.2F);
+        this.legR14.addChild(cube_r9);
+        this.setRotateAngle(cube_r9, 0.0F, 3.1416F, 0.0F);
+        this.cube_r9.cubeList.add(new ModelBox(cube_r9, 0, 4, -0.5F, -1.0F, 0.0F, 1, 2, 0, 0.0F, false));
 
         this.finR14 = new ModelRenderer(this);
         this.finR14.setRotationPoint(-1.0F, 0.5F, 0.5F);
@@ -381,7 +431,13 @@ public class ModelSkeletonOpabinia extends ModelBase {
         this.legR15.setRotationPoint(-0.5F, 0.75F, 0.5F);
         this.segment15.addChild(legR15);
         this.setRotateAngle(legR15, 0.0F, -1.5708F, 0.0F);
-        this.legR15.cubeList.add(new ModelBox(legR15, 0, 0, -0.5F, 0.0F, -1.23F, 1, 2, 0, 0.0F, false));
+
+
+        this.cube_r10 = new ModelRenderer(this);
+        this.cube_r10.setRotationPoint(0.0F, 1.0F, -1.23F);
+        this.legR15.addChild(cube_r10);
+        this.setRotateAngle(cube_r10, 0.0F, 3.1416F, 0.0F);
+        this.cube_r10.cubeList.add(new ModelBox(cube_r10, 0, 0, -0.5F, -1.0F, 0.0F, 1, 2, 0, 0.0F, false));
 
         this.finR15 = new ModelRenderer(this);
         this.finR15.setRotationPoint(-1.0F, 0.5F, 0.5F);

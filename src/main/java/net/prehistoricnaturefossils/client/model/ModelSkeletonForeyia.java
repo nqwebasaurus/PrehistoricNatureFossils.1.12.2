@@ -176,7 +176,7 @@ public class ModelSkeletonForeyia extends ModelBase {
         this.cube_r16.setRotationPoint(0.0F, 3.4772F, 0.9205F);
         this.body3.addChild(cube_r16);
         this.setRotateAngle(cube_r16, 0.0436F, 0.0F, 0.0F);
-        this.cube_r16.cubeList.add(new ModelBox(cube_r16, 24, 0, 0.0F, -0.0152F, -0.6736F, 0, 2, 1, 0.0F, false));
+        this.cube_r16.cubeList.add(new ModelBox(cube_r16, 24, 0, 0.25F, -0.0152F, -0.6736F, 0, 2, 1, 0.0F, false));
 
         this.cube_r17 = new ModelRenderer(this);
         this.cube_r17.setRotationPoint(0.0F, 4.1703F, 1.8658F);
@@ -210,7 +210,7 @@ public class ModelSkeletonForeyia extends ModelBase {
         this.cube_r20.setRotationPoint(0.0F, 7.0F, -5.0F);
         this.body4.addChild(cube_r20);
         this.setRotateAngle(cube_r20, 0.5672F, 0.0F, 0.0F);
-        this.cube_r20.cubeList.add(new ModelBox(cube_r20, 17, 54, 0.0F, -5.75F, 8.5F, 0, 2, 3, 0.0F, false));
+        this.cube_r20.cubeList.add(new ModelBox(cube_r20, 17, 54, 0.25F, -6.1F, 8.5F, 0, 2, 3, 0.0F, false));
 
         this.cube_r21 = new ModelRenderer(this);
         this.cube_r21.setRotationPoint(0.5F, 7.0F, -5.0F);
@@ -223,7 +223,7 @@ public class ModelSkeletonForeyia extends ModelBase {
         this.body1.addChild(pectoralfinL);
         this.setRotateAngle(pectoralfinL, -0.6981F, 0.0F, 0.0F);
         this.pectoralfinL.cubeList.add(new ModelBox(pectoralfinL, 0, 0, 0.0F, -1.0F, 1.0F, 0, 2, 2, 0.0F, false));
-        this.pectoralfinL.cubeList.add(new ModelBox(pectoralfinL, 14, 0, 0.0F, -0.5F, 0.0F, 0, 1, 1, 0.0F, false));;
+        this.pectoralfinL.cubeList.add(new ModelBox(pectoralfinL, 14, 0, 0.0F, -0.5F, 0.0F, 0, 1, 1, 0.0F, false));
 
     }
 

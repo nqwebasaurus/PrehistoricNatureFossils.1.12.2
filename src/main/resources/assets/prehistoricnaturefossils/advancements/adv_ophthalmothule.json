@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_ophthalmothule"
+		  },
+		"title": {
+			"translate": "advancements.ophthalmothule.title"
+		},
+		"description": {
+			"translate": "advancements.ophthalmothule.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_ophthalmothule"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

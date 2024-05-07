@@ -147,7 +147,7 @@ public class ModelSkeletonBobasatrania extends ModelBase {
         this.Body2.addChild(cube_r10);
         this.setRotateAngle(cube_r10, 0.9599F, 0.0F, 0.0F);
         this.cube_r10.cubeList.add(new ModelBox(cube_r10, 0, 64, -0.085F, -0.0685F, -0.1884F, 0, 5, 12, 0.0F, false));
-        this.cube_r10.cubeList.add(new ModelBox(cube_r10, 83, 87, -0.04F, -0.0685F, -2.1884F, 0, 5, 2, 0.0F, false));
+        this.cube_r10.cubeList.add(new ModelBox(cube_r10, 83, 87, 0.21F, -0.0685F, -2.1884F, 0, 5, 2, 0.0F, false));
 
         this.cube_r11 = new ModelRenderer(this);
         this.cube_r11.setRotationPoint(0.0F, -9.0F, -0.6F);

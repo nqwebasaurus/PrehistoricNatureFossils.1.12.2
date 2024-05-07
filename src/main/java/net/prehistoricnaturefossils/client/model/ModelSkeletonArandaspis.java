@@ -23,7 +23,7 @@ public class ModelSkeletonArandaspis extends ModelBase {
         this.textureHeight = 80;
 
         this.fossil = new ModelRenderer(this);
-        this.fossil.setRotationPoint(0.0F, 24.0F, 0.0F);
+        this.fossil.setRotationPoint(-2.0F, 24.0F, 9.0F);
         this.fossil.cubeList.add(new ModelBox(fossil, 26, 20, -5.0F, -2.0F, -3.0F, 12, 3, 5, 0.003F, false));
         this.fossil.cubeList.add(new ModelBox(fossil, 0, 0, -1.2F, -4.0F, -15.0F, 12, 5, 14, 0.002F, false));
         this.fossil.cubeList.add(new ModelBox(fossil, 0, 40, -5.9209F, -6.0F, -9.6145F, 5, 7, 7, 0.0F, false));

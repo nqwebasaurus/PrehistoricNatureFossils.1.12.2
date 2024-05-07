@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_lufengosaurus"
+		  },
+		"title": {
+			"translate": "advancements.lufengosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.lufengosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_lufengosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

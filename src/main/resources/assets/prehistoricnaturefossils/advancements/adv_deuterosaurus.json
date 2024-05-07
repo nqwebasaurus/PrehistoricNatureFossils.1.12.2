@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_deuterosaurus"
+		  },
+		"title": {
+			"translate": "advancements.deuterosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.deuterosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_deuterosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

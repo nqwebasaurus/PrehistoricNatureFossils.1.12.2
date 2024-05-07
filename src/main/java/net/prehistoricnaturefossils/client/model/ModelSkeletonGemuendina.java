@@ -33,7 +33,7 @@ public class ModelSkeletonGemuendina extends ModelBase {
         this.textureHeight = 160;
 
         this.fossil = new ModelRenderer(this);
-        this.fossil.setRotationPoint(0.0F, 24.0F, 0.0F);
+        this.fossil.setRotationPoint(0.0F, 24.0F, -7.0F);
 
 
         this.cube_r1 = new ModelRenderer(this);

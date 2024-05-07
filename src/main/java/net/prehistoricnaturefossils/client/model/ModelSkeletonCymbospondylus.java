@@ -5,6 +5,7 @@ import net.minecraft.client.model.ModelBox;
 import net.minecraft.client.model.ModelRenderer;
 
 public class ModelSkeletonCymbospondylus extends ModelBase {
+    private final ModelRenderer fossil;
     private final ModelRenderer Chest;
     private final ModelRenderer Body;
     private final ModelRenderer cube_r1;
@@ -214,12 +215,17 @@ public class ModelSkeletonCymbospondylus extends ModelBase {
         this.textureWidth = 128;
         this.textureHeight = 128;
 
+        this.fossil = new ModelRenderer(this);
+        this.fossil.setRotationPoint(0.0F, 4.0F, 0.0F);
+
+
         this.Chest = new ModelRenderer(this);
-        this.Chest.setRotationPoint(0.0F, 4.0F, 0.0F);
+        this.Chest.setRotationPoint(0.0F, 0.0F, 0.0F);
+        this.fossil.addChild(Chest);
 
 
         this.Body = new ModelRenderer(this);
-        this.Body.setRotationPoint(0.0F, -2.0F, 19.0F);
+        this.Body.setRotationPoint(0.0F, -2.0F, -5.0F);
         this.Chest.addChild(Body);
         this.Body.cubeList.add(new ModelBox(Body, 0, 0, -1.0F, -1.8F, -11.0F, 2, 2, 24, 0.0F, false));
 
@@ -1508,7 +1514,7 @@ public class ModelSkeletonCymbospondylus extends ModelBase {
     }
 
     public void renderAll(float f) {
-        this.Chest.render(0.01f);
+        this.fossil.render(0.01f);
     }
 
     public void setRotateAngle(ModelRenderer modelRenderer, float x, float y, float z) {
