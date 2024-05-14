@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_eretmorhipis"
+		  },
+		"title": {
+			"translate": "advancements.eretmorhipis.title"
+		},
+		"description": {
+			"translate": "advancements.eretmorhipis.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_ichthyosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_eretmorhipis"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

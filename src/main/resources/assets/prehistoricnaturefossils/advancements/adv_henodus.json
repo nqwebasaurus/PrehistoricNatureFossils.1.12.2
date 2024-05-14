@@ -10,7 +10,7 @@
 			"translate": "advancements.henodus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_placodontia",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_henodus"

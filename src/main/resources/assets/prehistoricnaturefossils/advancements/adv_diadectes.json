@@ -10,7 +10,7 @@
 			"translate": "advancements.diadectes.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_diadectomorphs",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_diadectes"

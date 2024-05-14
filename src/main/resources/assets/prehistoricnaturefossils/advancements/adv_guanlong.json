@@ -10,7 +10,7 @@
 			"translate": "advancements.guanlong.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_proceratosaurids",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_guanlong"

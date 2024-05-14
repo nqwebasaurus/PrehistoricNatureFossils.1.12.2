@@ -10,7 +10,7 @@
 			"translate": "advancements.datheosaurus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_caseasauria",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_datheosaurus"

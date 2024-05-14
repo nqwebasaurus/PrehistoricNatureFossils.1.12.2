@@ -10,7 +10,7 @@
 			"translate": "advancements.gerrothorax.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_plagiosauroidea",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_gerrothorax"

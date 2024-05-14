@@ -11,7 +11,7 @@
 		},
 		"frame": "challenge"
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_megalosauroidea",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_megalosaurus"

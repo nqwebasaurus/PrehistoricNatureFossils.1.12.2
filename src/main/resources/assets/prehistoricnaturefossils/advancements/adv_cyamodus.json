@@ -10,7 +10,7 @@
 			"translate": "advancements.cyamodus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_placodontia",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_cyamodus"
