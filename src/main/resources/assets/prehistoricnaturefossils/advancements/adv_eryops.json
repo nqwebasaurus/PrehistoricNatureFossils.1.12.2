@@ -10,7 +10,7 @@
 			"translate": "advancements.eryops.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_eryopoidea",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_eryops"

@@ -10,7 +10,7 @@
 			"translate": "advancements.mixosaurus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_ichthyosaurialong",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_mixosaurus"

@@ -10,7 +10,7 @@
 			"translate": "advancements.pristerognathus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_eutheriodontia",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_pristerognathus"

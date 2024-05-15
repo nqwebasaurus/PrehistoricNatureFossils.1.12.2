@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_cartorhynchus"
+		  },
+		"title": {
+			"translate": "advancements.cartorhynchus.title"
+		},
+		"description": {
+			"translate": "advancements.cartorhynchus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_ichthyosaurialong",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_cartorhynchus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

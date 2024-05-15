@@ -10,7 +10,7 @@
 			"translate": "advancements.plesiosaurus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_plesiosauroidea",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_plesiosaurus"

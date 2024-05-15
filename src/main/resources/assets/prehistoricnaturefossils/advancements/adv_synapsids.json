@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_arizonasaurus"
+		  },
+		"title": {
+			"translate": "advancements.synapsids.title"
+		},
+		"description": {
+			"translate": "advancements.synapsids.description"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "prehistoricnaturefossils:base_adv",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

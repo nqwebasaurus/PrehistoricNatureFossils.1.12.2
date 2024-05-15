@@ -10,7 +10,7 @@
 			"translate": "advancements.proganochelys.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_pantestudines",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_proganochelys"

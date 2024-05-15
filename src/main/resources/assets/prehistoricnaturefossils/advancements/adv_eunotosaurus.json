@@ -10,7 +10,7 @@
 			"translate": "advancements.eunotosaurus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_eureptilia",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_eunotosaurus"

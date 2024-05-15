@@ -10,7 +10,7 @@
 			"translate": "advancements.vivaxosaurus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_dicynodontiasmall",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_vivaxosaurus"

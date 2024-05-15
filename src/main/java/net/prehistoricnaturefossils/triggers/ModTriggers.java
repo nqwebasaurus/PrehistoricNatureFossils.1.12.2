@@ -216,7 +216,9 @@ public class ModTriggers
     public static final CustomTrigger THALATTOSUCHUS_COMPLETE = new CustomTrigger("adv_thalattosuchus");
     public static final CustomTrigger DEUTEROSAURUS_COMPLETE = new CustomTrigger("adv_deuterosaurus");
     public static final CustomTrigger PLIOSAURUS_COMPLETE = new CustomTrigger("adv_pliosaurus");
-
+    public static final CustomTrigger ERETMORHIPIS_COMPLETE = new CustomTrigger("adv_eretmorhipis");
+    public static final CustomTrigger CARTORHYNCHUS_COMPLETE = new CustomTrigger("adv_cartorhynchus");
+    public static final CustomTrigger STAHLECKERIA_COMPLETE = new CustomTrigger("adv_stahleckeria");
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
@@ -270,6 +272,9 @@ public class ModTriggers
             THALATTOSUCHUS_COMPLETE,
             DEUTEROSAURUS_COMPLETE,
             PLIOSAURUS_COMPLETE,
+            ERETMORHIPIS_COMPLETE,
+            CARTORHYNCHUS_COMPLETE,
+            STAHLECKERIA_COMPLETE,
             ICHTHYOSAURUS_COMPLETE,
             LUFENGOSAURUS_COMPLETE,
             MONOLOPHOSAURUS_COMPLETE,

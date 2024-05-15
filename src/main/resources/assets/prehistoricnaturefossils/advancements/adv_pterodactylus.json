@@ -10,7 +10,7 @@
 			"translate": "advancements.pterodactylus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_novialoidea",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_pterodactylus"

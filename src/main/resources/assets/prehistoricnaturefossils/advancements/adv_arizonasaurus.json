@@ -10,7 +10,7 @@
 			"translate": "advancements.arizonasaurus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_poposauroidea",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_arizonasaurus"

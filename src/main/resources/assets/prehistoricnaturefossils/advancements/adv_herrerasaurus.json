@@ -11,7 +11,7 @@
 		},
 		"frame": "goal"
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_dinosauromorpha",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_herrerasaurus"

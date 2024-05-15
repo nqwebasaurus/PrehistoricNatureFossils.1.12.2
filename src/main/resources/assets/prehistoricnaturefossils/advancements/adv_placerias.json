@@ -10,7 +10,7 @@
 			"translate": "advancements.placerias.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_dicynodontiabig",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_placerias"

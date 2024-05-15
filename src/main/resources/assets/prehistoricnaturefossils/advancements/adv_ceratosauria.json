@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_arizonasaurus"
+		  },
+		"title": {
+			"translate": "advancements.ceratosauria.title"
+		},
+		"description": {
+			"translate": "advancements.ceratosauria.description"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "prehistoricnaturefossils:adv_theropods",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

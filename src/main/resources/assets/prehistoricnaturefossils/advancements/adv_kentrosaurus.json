@@ -10,7 +10,7 @@
 			"translate": "advancements.kentrosaurus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_stegosauria",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_kentrosaurus"
