@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_arizonasaurus"
+		  },
+		"title": {
+			"translate": "advancements.sauropterygia.title"
+		},
+		"description": {
+			"translate": "advancements.sauropterygia.description"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "prehistoricnaturefossils:adv_sauropsids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

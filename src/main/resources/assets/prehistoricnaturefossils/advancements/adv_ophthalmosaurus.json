@@ -10,7 +10,7 @@
 			"translate": "advancements.ophthalmosaurus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_ichthyosauriafish",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_ophthalmosaurus"

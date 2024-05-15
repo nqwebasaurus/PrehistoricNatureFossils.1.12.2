@@ -10,7 +10,7 @@
 			"translate": "advancements.thecodontosaurus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_prosauropods",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_thecodontosaurus"

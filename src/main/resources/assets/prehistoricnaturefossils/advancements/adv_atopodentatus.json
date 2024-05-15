@@ -10,7 +10,7 @@
 			"translate": "advancements.atopodentatus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_sauropterygia",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_atopodentatus"

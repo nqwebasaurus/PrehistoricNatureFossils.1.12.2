@@ -11,7 +11,7 @@
 		},
 		"frame": "challenge"
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_temnospondyli",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_prionosuchus"

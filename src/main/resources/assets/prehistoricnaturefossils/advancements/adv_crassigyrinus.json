@@ -10,7 +10,7 @@
 			"translate": "advancements.crassigyrinus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_fishapods",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_crassigyrinus"

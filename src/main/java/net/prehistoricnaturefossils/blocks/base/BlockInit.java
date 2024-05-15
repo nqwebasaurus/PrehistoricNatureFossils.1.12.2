@@ -298,6 +298,9 @@ public class BlockInit {
     public static final Block FOSSIL_MIMETASTER    = new BlockFossilMimetaster();
     public static final Block FOSSIL_ECHINOCHIMAERA    = new BlockFossilEchinochimaera();
     public static final Block FOSSIL_SQUATINACTIS    = new BlockFossilSquatinactis();
+    public static final Block FOSSIL_ERETMORHIPIS    = new BlockFossilEretmorhipis();
+    public static final Block FOSSIL_CARTORHYNCHUS    = new BlockFossilCartorhynchus();
+    public static final Block FOSSIL_STAHLECKERIA    = new BlockFossilStahleckeria();
 
 
 

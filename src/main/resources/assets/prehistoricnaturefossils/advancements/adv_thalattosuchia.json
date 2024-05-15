@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_arizonasaurus"
+		  },
+		"title": {
+			"translate": "advancements.thalattosuchia.title"
+		},
+		"description": {
+			"translate": "advancements.thalattosuchia.description"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "prehistoricnaturefossils:adv_sauropsids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

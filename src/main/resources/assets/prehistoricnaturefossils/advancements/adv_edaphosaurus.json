@@ -10,7 +10,7 @@
 			"translate": "advancements.edaphosaurus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_eupelycosaurs",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_edaphosaurus"

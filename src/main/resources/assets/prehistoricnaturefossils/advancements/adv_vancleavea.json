@@ -10,7 +10,7 @@
 			"translate": "advancements.vancleavea.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_archosauromorpha",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_vancleavea"

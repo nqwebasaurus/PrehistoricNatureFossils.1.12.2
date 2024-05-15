@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_arizonasaurus"
+		  },
+		"title": {
+			"translate": "advancements.neotheropodscrested.title"
+		},
+		"description": {
+			"translate": "advancements.neotheropodscrested.description"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "prehistoricnaturefossils:adv_neotheropods",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

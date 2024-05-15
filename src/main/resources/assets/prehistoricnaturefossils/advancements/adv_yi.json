@@ -10,7 +10,7 @@
 			"translate": "advancements.yi.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:base_adv",
+	"parent": "prehistoricnaturefossils:adv_maniraptoriformes",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_yi"

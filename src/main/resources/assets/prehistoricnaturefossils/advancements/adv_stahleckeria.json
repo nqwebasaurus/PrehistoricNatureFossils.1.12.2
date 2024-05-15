@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_stahleckeria"
+		  },
+		"title": {
+			"translate": "advancements.stahleckeria.title"
+		},
+		"description": {
+			"translate": "advancements.stahleckeria.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_dicynodontiabig",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_stahleckeria"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
