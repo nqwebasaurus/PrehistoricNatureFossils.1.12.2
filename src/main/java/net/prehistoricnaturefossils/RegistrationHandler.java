@@ -37,6 +37,11 @@ public class RegistrationHandler {
                 ((IHasModel)block).registerModels();
             }
         }
+        for (Item item : ItemInit.ITEMS) {
+            if (item instanceof IHasModel) {
+                ((IHasModel)item).registerModels();
+            }
+        }
         RenderRegistryFossils.RegisterEntityRenders();
     }
 

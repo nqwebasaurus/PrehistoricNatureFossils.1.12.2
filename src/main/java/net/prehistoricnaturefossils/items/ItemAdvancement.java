@@ -14,13 +14,17 @@ import net.prehistoricnaturefossils.triggers.CustomTrigger;
 
 import javax.annotation.Nullable;
 
-public class ItemAdvancement extends Item {
+public class ItemAdvancement extends Item implements IHasModel{
 
     public ItemAdvancement() {
         setRegistryName(PrehistoricNatureFossils.MODID, "skeleton_placeholder");
         setTranslationKey("pf_skeleton_placeholder");
         ItemInit.ITEMS.add(this);
-        //ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+    }
+
+    @Override
+    public void registerModels() {
+        PrehistoricNatureFossils.proxy.registerItemRenderer(this, 0, "inventory");
     }
 
 }
