@@ -164,6 +164,12 @@ public abstract class BlockSkeletonBase extends Block implements IHasModel, IAdv
         {
             spawnAsEntity(world, pos, new ItemStack(this, 1));
         }
+        TileEntity te = world.getTileEntity(pos);
+        if (te.getTileData().hasKey("frame")) {
+            if (te.getTileData().getBoolean("frame")) {
+                spawnAsEntity(world, pos, new ItemStack(Blocks.IRON_BARS, 1));
+            }
+        }
         world.removeTileEntity(pos);
         super.breakBlock(world, pos, state);
     }
