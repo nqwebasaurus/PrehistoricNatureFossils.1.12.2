@@ -18,6 +18,7 @@ public class RenderFossilCartorhynchus extends TileEntitySpecialRenderer<TileEnt
     private static final ResourceLocation TEXTURE3 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/cartorhynchus_stage3.png");
     private static final ResourceLocation TEXTURE4 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/cartorhynchus_stage4.png");
     private static final ResourceLocation TEXTURE5 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/cartorhynchus_stage5.png");
+    private static final ResourceLocation FRAME = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/cartorhynchus_frame.png");
 
     private final ModelSkeletonCartorhynchus modelSkeleton;
 
@@ -29,9 +30,13 @@ public class RenderFossilCartorhynchus extends TileEntitySpecialRenderer<TileEnt
     public void render(TileEntityFossilCartorhynchus entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
         int currentRotation = 0;
         int currentStage = 0;
+        boolean frame = false;
         if (entity != null && entity.hasWorld()) {
             currentRotation = entity.getTileData().getInteger("rotation");
             currentStage = entity.getTileData().getInteger("stage");
+            if (entity.getTileData().hasKey("frame")) {
+                frame = entity.getTileData().getBoolean("frame");
+            }
         }
         GlStateManager.pushMatrix();
         GlStateManager.disableCull();
@@ -70,10 +75,17 @@ public class RenderFossilCartorhynchus extends TileEntitySpecialRenderer<TileEnt
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
 
         modelSkeleton.renderAll(Minecraft.getMinecraft().player.ticksExisted);
+
+        if (frame) {
+            this.bindTexture(FRAME);
+            modelSkeleton.renderAll(Minecraft.getMinecraft().player.ticksExisted);
+        }
+
         GlStateManager.disableAlpha();
         GlStateManager.disableRescaleNormal();
         GlStateManager.enableCull();
         GlStateManager.popMatrix();
+
 
         //Arrow to show location:
         RenderArrows.showArrows(x, y, z);

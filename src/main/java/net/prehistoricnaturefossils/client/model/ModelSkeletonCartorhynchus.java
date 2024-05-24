@@ -1214,7 +1214,6 @@ public class ModelSkeletonCartorhynchus extends ModelBase {
         this.flipper5.setRotationPoint(7.158F, 1.6104F, 1.6F);
         this.FrontFlipperL2.addChild(flipper5);
 
-
         this.backflipperL = new ModelRenderer(this);
         this.backflipperL.setRotationPoint(3.7581F, 2.2665F, 17.2087F);
         this.root.addChild(backflipperL);

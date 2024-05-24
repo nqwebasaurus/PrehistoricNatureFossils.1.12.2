@@ -9,6 +9,7 @@ import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
@@ -22,6 +23,7 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldServer;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.items.ItemHandlerHelper;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.items.IHasModel;
 import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
@@ -57,6 +59,10 @@ public abstract class BlockSkeletonBase extends Block implements IHasModel, IAdv
 
     public SoundEvent soundTurn() {
         return SoundEvents.ENTITY_SKELETON_HURT;
+    }
+
+    public SoundEvent soundFrame() {
+        return SoundEvents.BLOCK_METAL_PLACE;
     }
 
     @Nullable
@@ -183,6 +189,48 @@ public abstract class BlockSkeletonBase extends Block implements IHasModel, IAdv
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         super.onBlockActivated(worldIn, pos, state, playerIn, hand, facing, hitX, hitY, hitZ);
         int newStage = getStage(worldIn, pos) + 1;
+
+        if (!worldIn.isRemote) {
+            TileEntity tileEntity = worldIn.getTileEntity(pos);
+            if (tileEntity != null) {
+                if (tileEntity instanceof TileEntityFossilBase) {
+                    boolean hasFrame = false;
+                    if (tileEntity.getTileData() != null) {
+                        if (tileEntity.getTileData().hasKey("frame")) {
+                            hasFrame = tileEntity.getTileData().getBoolean("frame");
+                        }
+                    }
+                    if (playerIn.getHeldItem(hand).getItem() == Item.getItemFromBlock(Blocks.IRON_BARS) && !hasFrame) {
+                        tileEntity.getTileData().setBoolean("frame", true);
+                        SoundEvent soundevent = this.soundFrame();
+                        ((WorldServer) playerIn.getEntityWorld()).playSound(null, pos, soundevent, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                        return true;
+                    }
+                }
+            }
+        }
+
+        if (playerIn.isSneaking()) {
+            if (!worldIn.isRemote) {
+                TileEntity tileEntity = worldIn.getTileEntity(pos);
+                if (tileEntity != null) {
+                    if (tileEntity instanceof TileEntityFossilBase) {
+                        boolean hasFrame = false;
+                        if (tileEntity.getTileData() != null) {
+                            if (tileEntity.getTileData().hasKey("frame")) {
+                                hasFrame = tileEntity.getTileData().getBoolean("frame");
+                            }
+                        }
+                        if (playerIn.getHeldItem(hand).isEmpty() && hasFrame) {
+                            tileEntity.getTileData().setBoolean("frame", false);
+                            ItemHandlerHelper.giveItemToPlayer(playerIn, new ItemStack(Blocks.IRON_BARS, 1));
+                            return true;
+                        }
+                    }
+                }
+            }
+        }
+
         if (playerIn.getHeldItemMainhand().getItem() == Item.getItemFromBlock(this)) {
             if (!worldIn.isRemote) {
                 TileEntity tileEntity = worldIn.getTileEntity(pos);
