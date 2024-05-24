@@ -8,6 +8,7 @@ import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.client.model.ModelSkeletonCartorhynchus;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonCartorhynchusFrame;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
 import net.prehistoricnaturefossils.tile.TileEntityFossilCartorhynchus;
 
@@ -21,6 +22,7 @@ public class RenderFossilCartorhynchus extends TileEntitySpecialRenderer<TileEnt
     private static final ResourceLocation FRAME = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/cartorhynchus_frame.png");
 
     private final ModelSkeletonCartorhynchus modelSkeleton;
+    private final ModelSkeletonCartorhynchusFrame modelSkeletonFrame = new ModelSkeletonCartorhynchusFrame();
 
     public RenderFossilCartorhynchus() {
         this.modelSkeleton = new ModelSkeletonCartorhynchus();
@@ -64,28 +66,38 @@ public class RenderFossilCartorhynchus extends TileEntitySpecialRenderer<TileEnt
                 break;
            
         }
-
         GlStateManager.enableAlpha();
         ModelSkeletonCartorhynchus modelSkeleton = this.modelSkeleton;
         double scale = 0.125F * RenderDisplayWallMount.scaler;
-
         GlStateManager.translate(x + 0.5, y + 0.18, z + 0.5);
         GlStateManager.scale(scale,scale,scale);
         GlStateManager.rotate(180, 0F, 0F, 1F);
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
-
         modelSkeleton.renderAll(Minecraft.getMinecraft().player.ticksExisted);
-
-        if (frame) {
-            this.bindTexture(FRAME);
-            modelSkeleton.renderAll(Minecraft.getMinecraft().player.ticksExisted);
-        }
-
         GlStateManager.disableAlpha();
         GlStateManager.disableRescaleNormal();
         GlStateManager.enableCull();
         GlStateManager.popMatrix();
 
+        //Frame:
+        if (frame) {
+            GlStateManager.pushMatrix();
+            GlStateManager.disableCull();
+            GlStateManager.enableRescaleNormal();
+            this.bindTexture(FRAME);
+            GlStateManager.enableAlpha();
+            ModelSkeletonCartorhynchusFrame modelSkeletonFrame = this.modelSkeletonFrame;
+            scale = 0.125F * RenderDisplayWallMount.scaler;
+            GlStateManager.translate(x + 0.5, y + 0.18, z + 0.5);
+            GlStateManager.scale(scale,scale,scale);
+            GlStateManager.rotate(180, 0F, 0F, 1F);
+            GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
+            modelSkeletonFrame.renderAll(Minecraft.getMinecraft().player.ticksExisted);
+            GlStateManager.disableAlpha();
+            GlStateManager.disableRescaleNormal();
+            GlStateManager.enableCull();
+            GlStateManager.popMatrix();
+        }
 
         //Arrow to show location:
         RenderArrows.showArrows(x, y, z);
