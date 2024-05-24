@@ -22,9 +22,10 @@ public class RenderFossilCartorhynchus extends TileEntitySpecialRenderer<TileEnt
     private static final ResourceLocation FRAME = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/cartorhynchus_frame.png");
 
     private final ModelSkeletonCartorhynchus modelSkeleton;
-    private final ModelSkeletonCartorhynchusFrame modelSkeletonFrame = new ModelSkeletonCartorhynchusFrame();
+    private final ModelSkeletonCartorhynchusFrame modelSkeletonFrame;
 
     public RenderFossilCartorhynchus() {
+        this.modelSkeletonFrame = new ModelSkeletonCartorhynchusFrame();
         this.modelSkeleton = new ModelSkeletonCartorhynchus();
     }
 
