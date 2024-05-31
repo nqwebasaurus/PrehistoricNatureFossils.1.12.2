@@ -301,6 +301,15 @@ public class BlockInit {
     public static final Block FOSSIL_ERETMORHIPIS    = new BlockFossilEretmorhipis();
     public static final Block FOSSIL_CARTORHYNCHUS    = new BlockFossilCartorhynchus();
     public static final Block FOSSIL_STAHLECKERIA    = new BlockFossilStahleckeria();
+    public static final Block FOSSIL_ENDOTHIODON    = new BlockFossilEndothiodon();
+    public static final Block FOSSIL_ACANTHOSTOMATOPS    = new BlockFossilAcanthostomatops();
+    public static final Block FOSSIL_MELOSAURUS    = new BlockFossilMelosaurus();
+    public static final Block FOSSIL_ALLENYPTERUS    = new BlockFossilAllenypterus();
+    public static final Block FOSSIL_HADRONECTOR    = new BlockFossilHadronector();
+    public static final Block FOSSIL_PALAEONISCUM    = new BlockFossilPalaeoniscum();
+    public static final Block FOSSIL_PARANAICHTHYS    = new BlockFossilParanaichthys();
+    public static final Block FOSSIL_COOPEROCERAS    = new BlockFossilCooperoceras();
+    public static final Block FOSSIL_VESTINAUTILUS    = new BlockFossilVestinautilus();
 
 
 

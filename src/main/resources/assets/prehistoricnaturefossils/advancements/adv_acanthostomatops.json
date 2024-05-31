@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_acanthostomatops"
+		  },
+		"title": {
+			"translate": "advancements.acanthostomatops.title"
+		},
+		"description": {
+			"translate": "advancements.acanthostomatops.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_eryopoidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_acanthostomatops"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

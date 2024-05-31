@@ -1,6 +1,7 @@
 package net.prehistoricnaturefossils.client.render.skeletons;
 
 import net.lepidodendron.entity.render.entity.RenderAcanthostega;
+import net.lepidodendron.entity.render.entity.RenderAcanthostega;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
@@ -8,6 +9,7 @@ import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.client.model.ModelSkeletonAcanthostega;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonAcanthostegaFrame;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
 import net.prehistoricnaturefossils.tile.TileEntityFossilAcanthostega;
 
@@ -18,10 +20,13 @@ public class RenderFossilAcanthostega extends TileEntitySpecialRenderer<TileEnti
     private static final ResourceLocation TEXTURE3 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/acanthostega_stage3.png");
     private static final ResourceLocation TEXTURE4 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/acanthostega_stage4.png");
     private static final ResourceLocation TEXTURE5 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/acanthostega_stage5.png");
+    private static final ResourceLocation FRAME = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/acanthostega_frame.png");
 
     private final ModelSkeletonAcanthostega modelSkeleton;
+    private final ModelSkeletonAcanthostegaFrame modelSkeletonFrame;
 
     public RenderFossilAcanthostega() {
+        this.modelSkeletonFrame = new ModelSkeletonAcanthostegaFrame();
         this.modelSkeleton = new ModelSkeletonAcanthostega();
     }
 
@@ -29,9 +34,13 @@ public class RenderFossilAcanthostega extends TileEntitySpecialRenderer<TileEnti
     public void render(TileEntityFossilAcanthostega entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
         int currentRotation = 0;
         int currentStage = 0;
+        boolean frame = false;
         if (entity != null && entity.hasWorld()) {
             currentRotation = entity.getTileData().getInteger("rotation");
             currentStage = entity.getTileData().getInteger("stage");
+            if (entity.getTileData().hasKey("frame")) {
+                frame = entity.getTileData().getBoolean("frame");
+            }
         }
         GlStateManager.pushMatrix();
         GlStateManager.disableCull();
@@ -74,6 +83,26 @@ public class RenderFossilAcanthostega extends TileEntitySpecialRenderer<TileEnti
         GlStateManager.disableRescaleNormal();
         GlStateManager.enableCull();
         GlStateManager.popMatrix();
+        
+        //Frame:
+        if (frame) {
+            GlStateManager.pushMatrix();
+            GlStateManager.disableCull();
+            GlStateManager.enableRescaleNormal();
+            this.bindTexture(FRAME);
+            GlStateManager.enableAlpha();
+            ModelSkeletonAcanthostegaFrame modelSkeletonFrame = this.modelSkeletonFrame;
+            scale = RenderAcanthostega.getScaler() * RenderDisplayWallMount.scaler;
+            GlStateManager.translate(x + 0.5, y + 0.38, z + 0.5);
+            GlStateManager.scale(scale,scale,scale);
+            GlStateManager.rotate(180, 0F, 0F, 1F);
+            GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
+            modelSkeletonFrame.renderAll(Minecraft.getMinecraft().player.ticksExisted);
+            GlStateManager.disableAlpha();
+            GlStateManager.disableRescaleNormal();
+            GlStateManager.enableCull();
+            GlStateManager.popMatrix();
+        }
 
         //Arrow to show location:
         RenderArrows.showArrows(x, y, z);
