@@ -1,12 +1,14 @@
 package net.prehistoricnaturefossils.client.render.skeletons;
 
 import net.lepidodendron.entity.render.entity.RenderLystrosaurus;
+import net.lepidodendron.entity.render.entity.RenderLystrosaurus;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonLystrosaurusFrame;
 import net.prehistoricnaturefossils.client.model.ModelSkeletonLystrosaurus;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
 import net.prehistoricnaturefossils.tile.TileEntityFossilLystrosaurus;
@@ -18,10 +20,13 @@ public class RenderFossilLystrosaurus extends TileEntitySpecialRenderer<TileEnti
     private static final ResourceLocation TEXTURE3 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/lystrosaurus_stage3.png");
     private static final ResourceLocation TEXTURE4 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/lystrosaurus_stage4.png");
     private static final ResourceLocation TEXTURE5 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/lystrosaurus_stage5.png");
+    private static final ResourceLocation FRAME = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/lystrosaurus_frame.png");
 
     private final ModelSkeletonLystrosaurus modelSkeleton;
+    private final ModelSkeletonLystrosaurusFrame modelSkeletonFrame;
 
     public RenderFossilLystrosaurus() {
+        this.modelSkeletonFrame = new ModelSkeletonLystrosaurusFrame();
         this.modelSkeleton = new ModelSkeletonLystrosaurus();
     }
 
@@ -29,9 +34,13 @@ public class RenderFossilLystrosaurus extends TileEntitySpecialRenderer<TileEnti
     public void render(TileEntityFossilLystrosaurus entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
         int currentRotation = 0;
         int currentStage = 0;
+        boolean frame = false;
         if (entity != null && entity.hasWorld()) {
             currentRotation = entity.getTileData().getInteger("rotation");
             currentStage = entity.getTileData().getInteger("stage");
+            if (entity.getTileData().hasKey("frame")) {
+                frame = entity.getTileData().getBoolean("frame");
+            }
         }
         GlStateManager.pushMatrix();
         GlStateManager.disableCull();
@@ -74,7 +83,25 @@ public class RenderFossilLystrosaurus extends TileEntitySpecialRenderer<TileEnti
         GlStateManager.disableRescaleNormal();
         GlStateManager.enableCull();
         GlStateManager.popMatrix();
-
+        //Frame:
+        if (frame) {
+            GlStateManager.pushMatrix();
+            GlStateManager.disableCull();
+            GlStateManager.enableRescaleNormal();
+            this.bindTexture(FRAME);
+            GlStateManager.enableAlpha();
+            ModelSkeletonLystrosaurusFrame modelSkeletonFrame = this.modelSkeletonFrame;
+            scale = RenderLystrosaurus.getScaler() * RenderDisplayWallMount.scaler;
+            GlStateManager.translate(x + 0.5, y + 0.9, z + 0.5);
+            GlStateManager.scale(scale,scale,scale);
+            GlStateManager.rotate(180, 0F, 0F, 1F);
+            GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
+            modelSkeletonFrame.renderAll(Minecraft.getMinecraft().player.ticksExisted);
+            GlStateManager.disableAlpha();
+            GlStateManager.disableRescaleNormal();
+            GlStateManager.enableCull();
+            GlStateManager.popMatrix();
+        }
         //Arrow to show location:
         RenderArrows.showArrows(x, y, z);
     }

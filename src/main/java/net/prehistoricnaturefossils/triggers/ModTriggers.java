@@ -27,6 +27,12 @@ public class ModTriggers
     public static final CustomTrigger SCAUMENACIA_COMPLETE = new CustomTrigger("adv_scaumenacia");
     public static final CustomTrigger DREPANASPIS_COMPLETE = new CustomTrigger("adv_drepanaspis");
     public static final CustomTrigger LONGISQUAMA_COMPLETE = new CustomTrigger("adv_longisquama");
+    public static final CustomTrigger COOPEROCERAS_COMPLETE = new CustomTrigger("adv_cooperoceras");
+    public static final CustomTrigger VESTINAUTILUS_COMPLETE = new CustomTrigger("adv_vestinautilus");
+    public static final CustomTrigger PALAEONISCUM_COMPLETE = new CustomTrigger("adv_palaeoniscum");
+    public static final CustomTrigger PARANAICHTHYS_COMPLETE = new CustomTrigger("adv_paranaichthys");
+    public static final CustomTrigger ALLENYPTERUS_COMPLETE = new CustomTrigger("adv_allenypterus");
+    public static final CustomTrigger HADRONECTOR_COMPLETE = new CustomTrigger("adv_hadronector");
     public static final CustomTrigger FLAGELLOPANTOPUS_COMPLETE = new CustomTrigger("adv_flagellopantopus");
     public static final CustomTrigger PRAEARCTURUS_COMPLETE = new CustomTrigger("adv_praearcturus");
     public static final CustomTrigger ECHINOCHIMAERA_COMPLETE = new CustomTrigger("adv_echinochimaera");
@@ -219,6 +225,9 @@ public class ModTriggers
     public static final CustomTrigger ERETMORHIPIS_COMPLETE = new CustomTrigger("adv_eretmorhipis");
     public static final CustomTrigger CARTORHYNCHUS_COMPLETE = new CustomTrigger("adv_cartorhynchus");
     public static final CustomTrigger STAHLECKERIA_COMPLETE = new CustomTrigger("adv_stahleckeria");
+    public static final CustomTrigger ENDOTHIODON_COMPLETE = new CustomTrigger("adv_endothiodon");
+    public static final CustomTrigger ACANTHOSTOMATOPS_COMPLETE = new CustomTrigger("adv_acanthostomatops");
+    public static final CustomTrigger MELOSAURUS_COMPLETE = new CustomTrigger("adv_melosaurus");
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
@@ -226,6 +235,12 @@ public class ModTriggers
             SCAUMENACIA_COMPLETE,
             DREPANASPIS_COMPLETE,
             LONGISQUAMA_COMPLETE,
+            COOPEROCERAS_COMPLETE,
+            VESTINAUTILUS_COMPLETE,
+            PALAEONISCUM_COMPLETE,
+            PARANAICHTHYS_COMPLETE,
+            ALLENYPTERUS_COMPLETE,
+            HADRONECTOR_COMPLETE,
             FLAGELLOPANTOPUS_COMPLETE,
             PRAEARCTURUS_COMPLETE,
             ECHINOCHIMAERA_COMPLETE,
@@ -275,6 +290,9 @@ public class ModTriggers
             ERETMORHIPIS_COMPLETE,
             CARTORHYNCHUS_COMPLETE,
             STAHLECKERIA_COMPLETE,
+            ENDOTHIODON_COMPLETE,
+            ACANTHOSTOMATOPS_COMPLETE,
+            MELOSAURUS_COMPLETE,
             ICHTHYOSAURUS_COMPLETE,
             LUFENGOSAURUS_COMPLETE,
             MONOLOPHOSAURUS_COMPLETE,

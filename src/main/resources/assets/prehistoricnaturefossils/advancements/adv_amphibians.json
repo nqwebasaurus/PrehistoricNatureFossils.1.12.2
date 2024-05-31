@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "prehistoricnaturefossils:skeleton_arizonasaurus"
+			"item": "prehistoricnaturefossils:skeleton_placeholder"
 		  },
 		"title": {
 			"translate": "advancements.amphibians.title"

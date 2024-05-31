@@ -8,6 +8,8 @@ import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.client.model.ModelSkeletonLisowicia;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonLisowiciaFrame;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonLisowicia;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
 import net.prehistoricnaturefossils.tile.TileEntityFossilLisowicia;
 
@@ -28,20 +30,28 @@ public class RenderFossilLisowicia extends TileEntitySpecialRenderer<TileEntityF
     private static final ResourceLocation TEXTURE13 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/lisowicia_stage13.png");
     private static final ResourceLocation TEXTURE14 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/lisowicia_stage14.png");
     private static final ResourceLocation TEXTURE15 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/lisowicia_stage15.png");
+    private static final ResourceLocation FRAME = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/lisowicia_frame.png");
 
     private final ModelSkeletonLisowicia modelSkeleton;
+    private final ModelSkeletonLisowiciaFrame modelSkeletonFrame;
 
     public RenderFossilLisowicia() {
+        this.modelSkeletonFrame = new ModelSkeletonLisowiciaFrame();
         this.modelSkeleton = new ModelSkeletonLisowicia();
     }
+
 
     @Override
     public void render(TileEntityFossilLisowicia entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
         int currentRotation = 0;
         int currentStage = 0;
+        boolean frame = false;
         if (entity != null && entity.hasWorld()) {
             currentRotation = entity.getTileData().getInteger("rotation");
             currentStage = entity.getTileData().getInteger("stage");
+            if (entity.getTileData().hasKey("frame")) {
+                frame = entity.getTileData().getBoolean("frame");
+            }
         }
         GlStateManager.pushMatrix();
         GlStateManager.disableCull();
@@ -107,13 +117,31 @@ public class RenderFossilLisowicia extends TileEntitySpecialRenderer<TileEntityF
         GlStateManager.scale(scale,scale,scale);
         GlStateManager.rotate(180, 0F, 0F, 1F);
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
-
         modelSkeleton.renderAll(Minecraft.getMinecraft().player.ticksExisted);
         GlStateManager.disableAlpha();
         GlStateManager.disableRescaleNormal();
         GlStateManager.enableCull();
         GlStateManager.popMatrix();
 
+        //Frame:
+        if (frame) {
+            GlStateManager.pushMatrix();
+            GlStateManager.disableCull();
+            GlStateManager.enableRescaleNormal();
+            this.bindTexture(FRAME);
+            GlStateManager.enableAlpha();
+            ModelSkeletonLisowiciaFrame modelSkeletonFrame = this.modelSkeletonFrame;
+            scale = RenderLisowicia.getScaler() * RenderDisplayWallMount.scaler;
+            GlStateManager.translate(x + 0.5, y + 1.52, z + 0.5);
+            GlStateManager.scale(scale,scale,scale);
+            GlStateManager.rotate(180, 0F, 0F, 1F);
+            GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
+            modelSkeletonFrame.renderAll(Minecraft.getMinecraft().player.ticksExisted);
+            GlStateManager.disableAlpha();
+            GlStateManager.disableRescaleNormal();
+            GlStateManager.enableCull();
+            GlStateManager.popMatrix();
+        }
         //Arrow to show location:
         RenderArrows.showArrows(x, y, z);
     }

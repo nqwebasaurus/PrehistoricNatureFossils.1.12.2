@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_melosaurus"
+		  },
+		"title": {
+			"translate": "advancements.melosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.melosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_archegosauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_melosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_endothiodon"
+		  },
+		"title": {
+			"translate": "advancements.endothiodon.title"
+		},
+		"description": {
+			"translate": "advancements.endothiodon.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_dicynodontiabig",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_endothiodon"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
