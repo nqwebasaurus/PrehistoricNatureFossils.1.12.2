@@ -165,7 +165,7 @@ public abstract class BlockSkeletonBase extends Block implements IHasModel, IAdv
             spawnAsEntity(world, pos, new ItemStack(this, 1));
         }
         TileEntity te = world.getTileEntity(pos);
-        if (te.getTileData().hasKey("frame")) {
+        if (te.getTileData().hasKey("frame") && PrehistoricNatureFossils.doFrames) {
             if (te.getTileData().getBoolean("frame")) {
                 spawnAsEntity(world, pos, new ItemStack(Blocks.IRON_BARS, 1));
             }
@@ -203,7 +203,7 @@ public abstract class BlockSkeletonBase extends Block implements IHasModel, IAdv
                     boolean hasFrame = false;
                     if (tileEntity.getTileData() != null) {
                         if (tileEntity.getTileData().hasKey("frame")) {
-                            hasFrame = tileEntity.getTileData().getBoolean("frame");
+                            hasFrame = tileEntity.getTileData().getBoolean("frame") && PrehistoricNatureFossils.doFrames;
                         }
                     }
                     if (playerIn.getHeldItem(hand).getItem() == Item.getItemFromBlock(Blocks.IRON_BARS) && !hasFrame) {
@@ -222,7 +222,7 @@ public abstract class BlockSkeletonBase extends Block implements IHasModel, IAdv
                 if (tileEntity != null) {
                     if (tileEntity instanceof TileEntityFossilBase) {
                         boolean hasFrame = false;
-                        if (tileEntity.getTileData() != null) {
+                        if (tileEntity.getTileData() != null && PrehistoricNatureFossils.doFrames) {
                             if (tileEntity.getTileData().hasKey("frame")) {
                                 hasFrame = tileEntity.getTileData().getBoolean("frame");
                             }

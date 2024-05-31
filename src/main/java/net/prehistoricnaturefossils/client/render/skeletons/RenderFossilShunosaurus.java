@@ -49,7 +49,7 @@ public class RenderFossilShunosaurus extends TileEntitySpecialRenderer<TileEntit
         if (entity != null && entity.hasWorld()) {
             currentRotation = entity.getTileData().getInteger("rotation");
             currentStage = entity.getTileData().getInteger("stage");
-            if (entity.getTileData().hasKey("frame")) {
+            if (entity.getTileData().hasKey("frame") && PrehistoricNatureFossils.doFrames) {
                 frame = entity.getTileData().getBoolean("frame");
             }
         }

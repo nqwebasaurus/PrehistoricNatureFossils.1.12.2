@@ -35,6 +35,8 @@ public class PrehistoricNatureFossils {
     @SidedProxy(clientSide = "net.prehistoricnaturefossils.proxy.ClientProxy", serverSide = "net.prehistoricnaturefossils.proxy.CommonProxy")
     public static CommonProxy proxy;
 
+    public static final boolean doFrames = false;
+
     public PrehistoricNatureFossils() {
 
     }
