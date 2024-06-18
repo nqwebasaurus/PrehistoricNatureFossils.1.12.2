@@ -6,6 +6,8 @@ import net.minecraft.client.model.ModelRenderer;
 
 public class ModelSkeletonInostranceviaFrame extends ModelBase {
     private final ModelRenderer root;
+    private final ModelRenderer crossbeam2_r1;
+    private final ModelRenderer crossbeam1_r1;
     private final ModelRenderer body;
     private final ModelRenderer bodyfront;
     private final ModelRenderer frame2_r1;
@@ -34,7 +36,6 @@ public class ModelSkeletonInostranceviaFrame extends ModelBase {
     private final ModelRenderer hips;
     private final ModelRenderer frame4_r1;
     private final ModelRenderer tail1;
-    private final ModelRenderer frame5_r1;
     private final ModelRenderer tail2;
     private final ModelRenderer frame6_r1;
     private final ModelRenderer tail3;
@@ -47,9 +48,6 @@ public class ModelSkeletonInostranceviaFrame extends ModelBase {
     private final ModelRenderer fur1;
     private final ModelRenderer fur2;
     private final ModelRenderer fur3;
-    private final ModelRenderer bb_main;
-    private final ModelRenderer crossbeam2_r1;
-    private final ModelRenderer crossbeam1_r1;
 
     public ModelSkeletonInostranceviaFrame() {
         this.textureWidth = 80;
@@ -57,7 +55,20 @@ public class ModelSkeletonInostranceviaFrame extends ModelBase {
 
         this.root = new ModelRenderer(this);
         this.root.setRotationPoint(0.0F, 0.0F, 0.0F);
+        this.root.cubeList.add(new ModelBox(root, 2, 1, -2.25F, 5.2F, 13.5F, 1, 19, 1, -0.2F, false));
+        this.root.cubeList.add(new ModelBox(root, 2, 1, -2.2F, 4.5F, -14.0F, 1, 20, 1, -0.2F, false));
 
+        this.crossbeam2_r1 = new ModelRenderer(this);
+        this.crossbeam2_r1.setRotationPoint(-1.75F, 11.0F, -13.5F);
+        this.root.addChild(crossbeam2_r1);
+        this.setRotateAngle(crossbeam2_r1, 0.0057F, 0.1308F, 0.044F);
+        this.crossbeam2_r1.cubeList.add(new ModelBox(crossbeam2_r1, -3, 1, -5.05F, -0.5F, -0.5F, 10, 1, 1, -0.2F, false));
+
+        this.crossbeam1_r1 = new ModelRenderer(this);
+        this.crossbeam1_r1.setRotationPoint(-1.5F, 6.25F, 13.5F);
+        this.root.addChild(crossbeam1_r1);
+        this.setRotateAngle(crossbeam1_r1, 0.0F, -0.2618F, 0.0F);
+        this.crossbeam1_r1.cubeList.add(new ModelBox(crossbeam1_r1, -2, 1, -4.0F, -1.0F, 0.0F, 8, 1, 1, -0.2F, false));
 
         this.body = new ModelRenderer(this);
         this.body.setRotationPoint(0.0F, 2.0F, 0.0F);
@@ -221,13 +232,7 @@ public class ModelSkeletonInostranceviaFrame extends ModelBase {
         this.tail1.setRotationPoint(0.0F, 1.4244F, 11.4012F);
         this.hips.addChild(tail1);
         this.setRotateAngle(tail1, -0.4154F, -0.16F, 0.0701F);
-
-
-        this.frame5_r1 = new ModelRenderer(this);
-        this.frame5_r1.setRotationPoint(0.0F, 1.3728F, 4.3684F);
-        this.tail1.addChild(frame5_r1);
-        this.setRotateAngle(frame5_r1, 0.0349F, 0.0F, 0.0F);
-        this.frame5_r1.cubeList.add(new ModelBox(frame5_r1, 18, 50, -0.5F, -0.5F, -4.8F, 1, 1, 5, -0.2F, false));
+        this.tail1.cubeList.add(new ModelBox(tail1, 18, 50, -0.5F, 0.9728F, -0.2316F, 1, 1, 5, -0.2F, false));
 
         this.tail2 = new ModelRenderer(this);
         this.tail2.setRotationPoint(0.0F, -0.2272F, 4.7684F);
@@ -239,13 +244,13 @@ public class ModelSkeletonInostranceviaFrame extends ModelBase {
         this.frame6_r1.setRotationPoint(0.005F, 1.7515F, -0.7387F);
         this.tail2.addChild(frame6_r1);
         this.setRotateAngle(frame6_r1, 0.1396F, 0.0F, 0.0F);
-        this.frame6_r1.cubeList.add(new ModelBox(frame6_r1, 54, 40, -0.5F, -0.5F, 0.5F, 1, 1, 6, -0.2F, false));
+        this.frame6_r1.cubeList.add(new ModelBox(frame6_r1, 55, 41, -0.5F, -0.5F, 0.8F, 1, 1, 5, -0.2F, false));
 
         this.tail3 = new ModelRenderer(this);
         this.tail3.setRotationPoint(0.0F, 0.1015F, 4.7613F);
         this.tail2.addChild(tail3);
         this.setRotateAngle(tail3, 0.0911F, 0.0F, 0.0F);
-        this.tail3.cubeList.add(new ModelBox(tail3, 63, 40, -0.5F, 0.3516F, -0.1616F, 1, 1, 4, -0.2F, false));
+        this.tail3.cubeList.add(new ModelBox(tail3, 63, 40, -0.5F, 0.3516F, -0.3616F, 1, 1, 4, -0.2F, false));
 
         this.rightthigh = new ModelRenderer(this);
         this.rightthigh.setRotationPoint(3.2465F, 2.6461F, 6.53F);
@@ -299,24 +304,6 @@ public class ModelSkeletonInostranceviaFrame extends ModelBase {
         this.fur3.setRotationPoint(0.0F, -0.9F, -1.9F);
         this.fur2.addChild(fur3);
         this.setRotateAngle(fur3, 0.182F, 0.0F, 0.0F);
-
-
-        this.bb_main = new ModelRenderer(this);
-        this.bb_main.setRotationPoint(0.0F, 24.0F, 0.0F);
-        this.bb_main.cubeList.add(new ModelBox(bb_main, 2, 1, -2.15F, -19.1F, 13.5F, 1, 20, 1, -0.2F, false));
-        this.bb_main.cubeList.add(new ModelBox(bb_main, 2, 1, -2.2F, -19.5F, -14.0F, 1, 20, 1, -0.2F, false));
-
-        this.crossbeam2_r1 = new ModelRenderer(this);
-        this.crossbeam2_r1.setRotationPoint(-1.75F, -13.0F, -13.5F);
-        this.bb_main.addChild(crossbeam2_r1);
-        this.setRotateAngle(crossbeam2_r1, 0.0057F, 0.1308F, 0.044F);
-        this.crossbeam2_r1.cubeList.add(new ModelBox(crossbeam2_r1, -3, 1, -5.05F, -0.5F, -0.5F, 10, 1, 1, -0.2F, false));
-
-        this.crossbeam1_r1 = new ModelRenderer(this);
-        this.crossbeam1_r1.setRotationPoint(-1.5F, -17.75F, 13.5F);
-        this.bb_main.addChild(crossbeam1_r1);
-        this.setRotateAngle(crossbeam1_r1, 0.0F, -0.2618F, 0.0F);
-        this.crossbeam1_r1.cubeList.add(new ModelBox(crossbeam1_r1, -2, 1, -4.0F, -1.0F, 0.0F, 8, 1, 1, -0.2F, false));
 
     }
 

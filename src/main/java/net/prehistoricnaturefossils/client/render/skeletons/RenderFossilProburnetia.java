@@ -1,12 +1,14 @@
 package net.prehistoricnaturefossils.client.render.skeletons;
 
 import net.lepidodendron.entity.render.entity.RenderProburnetia;
+import net.lepidodendron.entity.render.entity.RenderProburnetia;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonProburnetiaFrame;
 import net.prehistoricnaturefossils.client.model.ModelSkeletonProburnetia;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
 import net.prehistoricnaturefossils.tile.TileEntityFossilProburnetia;
@@ -22,10 +24,13 @@ public class RenderFossilProburnetia extends TileEntitySpecialRenderer<TileEntit
     private static final ResourceLocation TEXTURE8 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/proburnetia_stage8.png");
     private static final ResourceLocation TEXTURE9 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/proburnetia_stage9.png");
     private static final ResourceLocation TEXTURE10 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/proburnetia_stage10.png");
+    private static final ResourceLocation FRAME = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/proburnetia_frame.png");
 
     private final ModelSkeletonProburnetia modelSkeleton;
+    private final ModelSkeletonProburnetiaFrame modelSkeletonFrame;
 
     public RenderFossilProburnetia() {
+        this.modelSkeletonFrame = new ModelSkeletonProburnetiaFrame();
         this.modelSkeleton = new ModelSkeletonProburnetia();
     }
 
@@ -33,9 +38,13 @@ public class RenderFossilProburnetia extends TileEntitySpecialRenderer<TileEntit
     public void render(TileEntityFossilProburnetia entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
         int currentRotation = 0;
         int currentStage = 0;
+        boolean frame = false;
         if (entity != null && entity.hasWorld()) {
             currentRotation = entity.getTileData().getInteger("rotation");
             currentStage = entity.getTileData().getInteger("stage");
+            if (entity.getTileData().hasKey("frame") && PrehistoricNatureFossils.doFrames) {
+                frame = entity.getTileData().getBoolean("frame");
+            }
         }
         GlStateManager.pushMatrix();
         GlStateManager.disableCull();
@@ -94,6 +103,25 @@ public class RenderFossilProburnetia extends TileEntitySpecialRenderer<TileEntit
         GlStateManager.enableCull();
         GlStateManager.popMatrix();
 
+        //Frame:
+        if (frame) {
+            GlStateManager.pushMatrix();
+            GlStateManager.disableCull();
+            GlStateManager.enableRescaleNormal();
+            this.bindTexture(FRAME);
+            GlStateManager.enableAlpha();
+            ModelSkeletonProburnetiaFrame modelSkeletonFrame = this.modelSkeletonFrame;
+            scale = RenderProburnetia.getScaler() * RenderDisplayWallMount.scaler;
+            GlStateManager.translate(x + 0.5, y + 0.56, z + 0.5);
+            GlStateManager.scale(scale,scale,scale);
+            GlStateManager.rotate(180, 0F, 0F, 1F);
+            GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
+            modelSkeletonFrame.renderAll(Minecraft.getMinecraft().player.ticksExisted);
+            GlStateManager.disableAlpha();
+            GlStateManager.disableRescaleNormal();
+            GlStateManager.enableCull();
+            GlStateManager.popMatrix();
+        }
         //Arrow to show location:
         RenderArrows.showArrows(x, y, z);
     }
