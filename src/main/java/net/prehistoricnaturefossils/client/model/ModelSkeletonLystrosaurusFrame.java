@@ -6,6 +6,8 @@ import net.minecraft.client.model.ModelRenderer;
 
 public class ModelSkeletonLystrosaurusFrame extends ModelBase {
     private final ModelRenderer root;
+    private final ModelRenderer crossbeam2_r1;
+    private final ModelRenderer crossbeam1_r1;
     private final ModelRenderer Hips;
     private final ModelRenderer Bodymiddle;
     private final ModelRenderer Bodyfront;
@@ -31,7 +33,6 @@ public class ModelSkeletonLystrosaurusFrame extends ModelBase {
     private final ModelRenderer Leftlowerarm;
     private final ModelRenderer Leftfrontfoot;
     private final ModelRenderer Tail1;
-    private final ModelRenderer frame5_r1;
     private final ModelRenderer Tail2;
     private final ModelRenderer frame6_r1;
     private final ModelRenderer Tail3;
@@ -41,9 +42,6 @@ public class ModelSkeletonLystrosaurusFrame extends ModelBase {
     private final ModelRenderer Leftthigh;
     private final ModelRenderer Leftshin;
     private final ModelRenderer Lefthindfoot;
-    private final ModelRenderer bb_main;
-    private final ModelRenderer crossbeam2_r1;
-    private final ModelRenderer crossbeam1_r1;
 
     public ModelSkeletonLystrosaurusFrame() {
         this.textureWidth = 64;
@@ -51,7 +49,20 @@ public class ModelSkeletonLystrosaurusFrame extends ModelBase {
 
         this.root = new ModelRenderer(this);
         this.root.setRotationPoint(0.0F, 0.0F, 0.0F);
+        this.root.cubeList.add(new ModelBox(root, 2, 1, -0.5F, 11.1F, 13.0F, 1, 13, 1, -0.1F, false));
+        this.root.cubeList.add(new ModelBox(root, 2, 1, 0.5F, 12.1F, -6.5F, 1, 12, 1, -0.1F, false));
 
+        this.crossbeam2_r1 = new ModelRenderer(this);
+        this.crossbeam2_r1.setRotationPoint(1.0F, 16.0F, -6.5F);
+        this.root.addChild(crossbeam2_r1);
+        this.setRotateAngle(crossbeam2_r1, 0.0F, -0.0436F, 0.0F);
+        this.crossbeam2_r1.cubeList.add(new ModelBox(crossbeam2_r1, -2, 1, -4.0F, -1.0F, 0.0F, 8, 1, 1, -0.1F, false));
+
+        this.crossbeam1_r1 = new ModelRenderer(this);
+        this.crossbeam1_r1.setRotationPoint(0.0F, 14.0F, 14.0F);
+        this.root.addChild(crossbeam1_r1);
+        this.setRotateAngle(crossbeam1_r1, 0.0F, -0.0436F, 0.0F);
+        this.crossbeam1_r1.cubeList.add(new ModelBox(crossbeam1_r1, -1, 1, -3.0F, -1.0F, -1.0F, 6, 1, 1, -0.1F, false));
 
         this.Hips = new ModelRenderer(this);
         this.Hips.setRotationPoint(0.0F, 9.85F, 1.1F);
@@ -81,7 +92,7 @@ public class ModelSkeletonLystrosaurusFrame extends ModelBase {
         this.Neck.setRotationPoint(0.0F, 0.9388F, -7.1821F);
         this.Bodyfront.addChild(Neck);
         this.setRotateAngle(Neck, -0.2754F, -0.7215F, -0.0937F);
-        this.Neck.cubeList.add(new ModelBox(Neck, 13, 35, -0.5F, 1.0016F, -4.9686F, 1, 1, 6, -0.1F, false));
+        this.Neck.cubeList.add(new ModelBox(Neck, 13, 35, -0.5F, 1.2016F, -4.9686F, 1, 1, 6, -0.1F, false));
 
         this.Head = new ModelRenderer(this);
         this.Head.setRotationPoint(-0.01F, 0.1016F, -2.9686F);
@@ -200,13 +211,7 @@ public class ModelSkeletonLystrosaurusFrame extends ModelBase {
         this.Tail1.setRotationPoint(0.0F, -0.9446F, 16.6702F);
         this.Hips.addChild(Tail1);
         this.setRotateAngle(Tail1, -0.3879F, -0.3662F, 0.1452F);
-
-
-        this.frame5_r1 = new ModelRenderer(this);
-        this.frame5_r1.setRotationPoint(0.4F, 1.6037F, 0.0817F);
-        this.Tail1.addChild(frame5_r1);
-        this.setRotateAngle(frame5_r1, 0.0F, -0.0524F, 0.0F);
-        this.frame5_r1.cubeList.add(new ModelBox(frame5_r1, 47, 14, -0.9F, -0.5F, -0.2F, 1, 1, 3, -0.1F, false));
+        this.Tail1.cubeList.add(new ModelBox(Tail1, 47, 14, -0.5F, 1.1037F, -0.3183F, 1, 1, 3, -0.1F, false));
 
         this.Tail2 = new ModelRenderer(this);
         this.Tail2.setRotationPoint(0.0F, -0.3034F, 2.4703F);
@@ -218,13 +223,13 @@ public class ModelSkeletonLystrosaurusFrame extends ModelBase {
         this.frame6_r1.setRotationPoint(0.0F, 1.9102F, 0.363F);
         this.Tail2.addChild(frame6_r1);
         this.setRotateAngle(frame6_r1, 0.4363F, 0.0F, 0.0F);
-        this.frame6_r1.cubeList.add(new ModelBox(frame6_r1, 50, 27, -0.4F, -0.5F, 0.2F, 1, 1, 2, -0.1F, false));
+        this.frame6_r1.cubeList.add(new ModelBox(frame6_r1, 49, 26, -0.5F, -0.5F, -0.5F, 1, 1, 3, -0.1F, false));
 
         this.Tail3 = new ModelRenderer(this);
         this.Tail3.setRotationPoint(0.0F, -0.0399F, 2.5309F);
         this.Tail2.addChild(Tail3);
         this.setRotateAngle(Tail3, -0.3557F, -0.454F, 0.1615F);
-        this.Tail3.cubeList.add(new ModelBox(Tail3, 3, 27, -0.5F, 0.5989F, -0.3162F, 1, 1, 2, -0.1F, false));
+        this.Tail3.cubeList.add(new ModelBox(Tail3, 3, 27, -0.5F, 0.4989F, -0.3162F, 1, 1, 2, -0.1F, false));
 
         this.Rightthigh = new ModelRenderer(this);
         this.Rightthigh.setRotationPoint(2.9F, 1.9554F, 12.2702F);
@@ -260,24 +265,6 @@ public class ModelSkeletonLystrosaurusFrame extends ModelBase {
         this.Lefthindfoot.setRotationPoint(-0.0752F, 4.6818F, 0.6547F);
         this.Leftshin.addChild(Lefthindfoot);
         this.setRotateAngle(Lefthindfoot, -0.0637F, 0.4245F, -0.0213F);
-
-
-        this.bb_main = new ModelRenderer(this);
-        this.bb_main.setRotationPoint(0.0F, 24.0F, 0.0F);
-        this.bb_main.cubeList.add(new ModelBox(bb_main, 2, 1, -0.5F, -12.9F, 13.0F, 1, 13, 1, -0.1F, false));
-        this.bb_main.cubeList.add(new ModelBox(bb_main, 2, 1, 0.5F, -11.9F, -6.5F, 1, 12, 1, -0.1F, false));
-
-        this.crossbeam2_r1 = new ModelRenderer(this);
-        this.crossbeam2_r1.setRotationPoint(1.0F, -8.0F, -6.5F);
-        this.bb_main.addChild(crossbeam2_r1);
-        this.setRotateAngle(crossbeam2_r1, 0.0F, -0.0436F, 0.0F);
-        this.crossbeam2_r1.cubeList.add(new ModelBox(crossbeam2_r1, -2, 1, -4.0F, -1.0F, 0.0F, 8, 1, 1, -0.1F, false));
-
-        this.crossbeam1_r1 = new ModelRenderer(this);
-        this.crossbeam1_r1.setRotationPoint(0.0F, -10.0F, 14.0F);
-        this.bb_main.addChild(crossbeam1_r1);
-        this.setRotateAngle(crossbeam1_r1, 0.0F, -0.0436F, 0.0F);
-        this.crossbeam1_r1.cubeList.add(new ModelBox(crossbeam1_r1, -1, 1, -3.0F, -1.0F, -1.0F, 6, 1, 1, -0.1F, false));
 
     }
 

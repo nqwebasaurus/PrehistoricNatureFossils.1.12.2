@@ -1,12 +1,14 @@
 package net.prehistoricnaturefossils.client.render.skeletons;
 
 import net.lepidodendron.entity.render.entity.RenderPterodactylus;
+import net.lepidodendron.entity.render.entity.RenderPterodactylus;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonPterodactylusFrame;
 import net.prehistoricnaturefossils.client.model.ModelSkeletonPterodactylus;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
 import net.prehistoricnaturefossils.tile.TileEntityFossilPterodactylus;
@@ -18,10 +20,13 @@ public class RenderFossilPterodactylus extends TileEntitySpecialRenderer<TileEnt
     private static final ResourceLocation TEXTURE3 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/pterodactylus_stage3.png");
     private static final ResourceLocation TEXTURE4 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/pterodactylus_stage4.png");
     private static final ResourceLocation TEXTURE5 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/pterodactylus_stage5.png");
+    private static final ResourceLocation FRAME = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/pterodactylus_frame.png");
 
     private final ModelSkeletonPterodactylus modelSkeleton;
+    private final ModelSkeletonPterodactylusFrame modelSkeletonFrame;
 
     public RenderFossilPterodactylus() {
+        this.modelSkeletonFrame = new ModelSkeletonPterodactylusFrame();
         this.modelSkeleton = new ModelSkeletonPterodactylus();
     }
 
@@ -29,9 +34,13 @@ public class RenderFossilPterodactylus extends TileEntitySpecialRenderer<TileEnt
     public void render(TileEntityFossilPterodactylus entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
         int currentRotation = 0;
         int currentStage = 0;
+        boolean frame = false;
         if (entity != null && entity.hasWorld()) {
             currentRotation = entity.getTileData().getInteger("rotation");
             currentStage = entity.getTileData().getInteger("stage");
+            if (entity.getTileData().hasKey("frame") && PrehistoricNatureFossils.doFrames) {
+                frame = entity.getTileData().getBoolean("frame");
+            }
         }
         GlStateManager.pushMatrix();
         GlStateManager.disableCull();
@@ -75,6 +84,25 @@ public class RenderFossilPterodactylus extends TileEntitySpecialRenderer<TileEnt
         GlStateManager.enableCull();
         GlStateManager.popMatrix();
 
+        //Frame:
+        if (frame) {
+            GlStateManager.pushMatrix();
+            GlStateManager.disableCull();
+            GlStateManager.enableRescaleNormal();
+            this.bindTexture(FRAME);
+            GlStateManager.enableAlpha();
+            ModelSkeletonPterodactylusFrame modelSkeletonFrame = this.modelSkeletonFrame;
+            scale = RenderPterodactylus.getScaler() * RenderDisplayWallMount.scaler;
+            GlStateManager.translate(x + 0.5, y + 0.5, z + 0.5);
+            GlStateManager.scale(scale,scale,scale);
+            GlStateManager.rotate(180, 0F, 0F, 1F);
+            GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
+            modelSkeletonFrame.renderAll(Minecraft.getMinecraft().player.ticksExisted);
+            GlStateManager.disableAlpha();
+            GlStateManager.disableRescaleNormal();
+            GlStateManager.enableCull();
+            GlStateManager.popMatrix();
+        }
         //Arrow to show location:
         RenderArrows.showArrows(x, y, z);
     }

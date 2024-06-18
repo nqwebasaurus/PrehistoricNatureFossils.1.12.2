@@ -1,12 +1,14 @@
 package net.prehistoricnaturefossils.client.render.skeletons;
 
 import net.lepidodendron.entity.render.entity.RenderPrionosuchus;
+import net.lepidodendron.entity.render.entity.RenderPrionosuchus;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonPrionosuchusFrame;
 import net.prehistoricnaturefossils.client.model.ModelSkeletonPrionosuchus;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
 import net.prehistoricnaturefossils.tile.TileEntityFossilPrionosuchus;
@@ -33,10 +35,13 @@ public class RenderFossilPrionosuchus extends TileEntitySpecialRenderer<TileEnti
     private static final ResourceLocation TEXTURE18 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/prionosuchus_stage18.png");
     private static final ResourceLocation TEXTURE19 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/prionosuchus_stage19.png");
     private static final ResourceLocation TEXTURE20 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/prionosuchus_stage20.png");
+    private static final ResourceLocation FRAME = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/prionosuchus_frame.png");
 
     private final ModelSkeletonPrionosuchus modelSkeleton;
+    private final ModelSkeletonPrionosuchusFrame modelSkeletonFrame;
 
     public RenderFossilPrionosuchus() {
+        this.modelSkeletonFrame = new ModelSkeletonPrionosuchusFrame();
         this.modelSkeleton = new ModelSkeletonPrionosuchus();
     }
 
@@ -44,9 +49,13 @@ public class RenderFossilPrionosuchus extends TileEntitySpecialRenderer<TileEnti
     public void render(TileEntityFossilPrionosuchus entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
         int currentRotation = 0;
         int currentStage = 0;
+        boolean frame = false;
         if (entity != null && entity.hasWorld()) {
             currentRotation = entity.getTileData().getInteger("rotation");
             currentStage = entity.getTileData().getInteger("stage");
+            if (entity.getTileData().hasKey("frame") && PrehistoricNatureFossils.doFrames) {
+                frame = entity.getTileData().getBoolean("frame");
+            }
         }
         GlStateManager.pushMatrix();
         GlStateManager.disableCull();
@@ -134,6 +143,25 @@ public class RenderFossilPrionosuchus extends TileEntitySpecialRenderer<TileEnti
         GlStateManager.enableCull();
         GlStateManager.popMatrix();
 
+        //Frame:
+        if (frame) {
+            GlStateManager.pushMatrix();
+            GlStateManager.disableCull();
+            GlStateManager.enableRescaleNormal();
+            this.bindTexture(FRAME);
+            GlStateManager.enableAlpha();
+            ModelSkeletonPrionosuchusFrame modelSkeletonFrame = this.modelSkeletonFrame;
+            scale = RenderPrionosuchus.getScaler() * RenderDisplayWallMount.scaler;
+            GlStateManager.translate(x + 0.5, y + 2.7, z + 0.5);
+            GlStateManager.scale(scale,scale,scale);
+            GlStateManager.rotate(180, 0F, 0F, 1F);
+            GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
+            modelSkeletonFrame.renderAll(Minecraft.getMinecraft().player.ticksExisted);
+            GlStateManager.disableAlpha();
+            GlStateManager.disableRescaleNormal();
+            GlStateManager.enableCull();
+            GlStateManager.popMatrix();
+        }
         //Arrow to show location:
         RenderArrows.showArrows(x, y, z);
     }

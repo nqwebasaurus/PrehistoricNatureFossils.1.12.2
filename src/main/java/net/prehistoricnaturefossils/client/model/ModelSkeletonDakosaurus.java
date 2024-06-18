@@ -137,7 +137,7 @@ public class ModelSkeletonDakosaurus extends ModelBase {
 
 
         this.Body = new ModelRenderer(this);
-        this.Body.setRotationPoint(0.0F, -19.5F, -1.0F);
+        this.Body.setRotationPoint(6.0F, -19.5F, -1.0F);
         this.fossil.addChild(Body);
         this.setRotateAngle(Body, -0.0381F, -0.1704F, -0.4767F);
 

@@ -1,12 +1,14 @@
 package net.prehistoricnaturefossils.client.render.skeletons;
 
 import net.lepidodendron.entity.render.entity.RenderJonkeria;
+import net.lepidodendron.entity.render.entity.RenderJonkeria;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonJonkeriaFrame;
 import net.prehistoricnaturefossils.client.model.ModelSkeletonJonkeria;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
 import net.prehistoricnaturefossils.tile.TileEntityFossilJonkeria;
@@ -28,10 +30,13 @@ public class RenderFossilJonkeria extends TileEntitySpecialRenderer<TileEntityFo
     private static final ResourceLocation TEXTURE13 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/jonkeria_stage13.png");
     private static final ResourceLocation TEXTURE14 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/jonkeria_stage14.png");
     private static final ResourceLocation TEXTURE15 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/jonkeria_stage15.png");
+    private static final ResourceLocation FRAME = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/jonkeria_frame.png");
 
     private final ModelSkeletonJonkeria modelSkeleton;
+    private final ModelSkeletonJonkeriaFrame modelSkeletonFrame;
 
     public RenderFossilJonkeria() {
+        this.modelSkeletonFrame = new ModelSkeletonJonkeriaFrame();
         this.modelSkeleton = new ModelSkeletonJonkeria();
     }
 
@@ -39,9 +44,13 @@ public class RenderFossilJonkeria extends TileEntitySpecialRenderer<TileEntityFo
     public void render(TileEntityFossilJonkeria entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
         int currentRotation = 0;
         int currentStage = 0;
+        boolean frame = false;
         if (entity != null && entity.hasWorld()) {
             currentRotation = entity.getTileData().getInteger("rotation");
             currentStage = entity.getTileData().getInteger("stage");
+            if (entity.getTileData().hasKey("frame") && PrehistoricNatureFossils.doFrames) {
+                frame = entity.getTileData().getBoolean("frame");
+            }
         }
         GlStateManager.pushMatrix();
         GlStateManager.disableCull();
@@ -114,6 +123,25 @@ public class RenderFossilJonkeria extends TileEntitySpecialRenderer<TileEntityFo
         GlStateManager.enableCull();
         GlStateManager.popMatrix();
 
+        //Frame:
+        if (frame) {
+            GlStateManager.pushMatrix();
+            GlStateManager.disableCull();
+            GlStateManager.enableRescaleNormal();
+            this.bindTexture(FRAME);
+            GlStateManager.enableAlpha();
+            ModelSkeletonJonkeriaFrame modelSkeletonFrame = this.modelSkeletonFrame;
+            scale = RenderJonkeria.getScaler() * RenderDisplayWallMount.scaler;
+            GlStateManager.translate(x + 0.5, y + 1.32, z + 0.5);
+            GlStateManager.scale(scale,scale,scale);
+            GlStateManager.rotate(180, 0F, 0F, 1F);
+            GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
+            modelSkeletonFrame.renderAll(Minecraft.getMinecraft().player.ticksExisted);
+            GlStateManager.disableAlpha();
+            GlStateManager.disableRescaleNormal();
+            GlStateManager.enableCull();
+            GlStateManager.popMatrix();
+        }
         //Arrow to show location:
         RenderArrows.showArrows(x, y, z);
     }
