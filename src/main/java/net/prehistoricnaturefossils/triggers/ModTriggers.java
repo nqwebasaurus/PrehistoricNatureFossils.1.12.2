@@ -228,6 +228,7 @@ public class ModTriggers
     public static final CustomTrigger ENDOTHIODON_COMPLETE = new CustomTrigger("adv_endothiodon");
     public static final CustomTrigger ACANTHOSTOMATOPS_COMPLETE = new CustomTrigger("adv_acanthostomatops");
     public static final CustomTrigger MELOSAURUS_COMPLETE = new CustomTrigger("adv_melosaurus");
+    public static final CustomTrigger DIPLOCERASPIS_COMPLETE = new CustomTrigger("adv_diploceraspis");
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
@@ -293,6 +294,7 @@ public class ModTriggers
             ENDOTHIODON_COMPLETE,
             ACANTHOSTOMATOPS_COMPLETE,
             MELOSAURUS_COMPLETE,
+            DIPLOCERASPIS_COMPLETE,
             ICHTHYOSAURUS_COMPLETE,
             LUFENGOSAURUS_COMPLETE,
             MONOLOPHOSAURUS_COMPLETE,

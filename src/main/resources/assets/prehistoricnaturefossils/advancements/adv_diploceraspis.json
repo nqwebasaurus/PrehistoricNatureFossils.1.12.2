@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_diploceraspis"
+		  },
+		"title": {
+			"translate": "advancements.diploceraspis.title"
+		},
+		"description": {
+			"translate": "advancements.diploceraspis.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_lepospondyli",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_diploceraspis"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
