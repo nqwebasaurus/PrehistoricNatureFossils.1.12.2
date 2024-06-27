@@ -310,6 +310,7 @@ public class BlockInit {
     public static final Block FOSSIL_PARANAICHTHYS    = new BlockFossilParanaichthys();
     public static final Block FOSSIL_COOPEROCERAS    = new BlockFossilCooperoceras();
     public static final Block FOSSIL_VESTINAUTILUS    = new BlockFossilVestinautilus();
+    public static final Block FOSSIL_DIPLOCERASPIS    = new BlockFossilDiploceraspis();
 
 
 

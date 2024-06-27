@@ -301,6 +301,8 @@ advancements.acanthostomatops.title=Spiky Mouth Face
 advancements.acanthostomatops.description=Complete an Acanthostomatops skeleton
 advancements.melosaurus.title=Cheek Lizard
 advancements.melosaurus.description=Complete a Melosaurus skeleton
+advancements.diploceraspis.title=Double Horned Shield
+advancements.diploceraspis.description=Complete a Diploceraspis skeleton
 
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
@@ -761,4 +763,5 @@ tile.pf_skeleton_stahleckeria.name=Stahleckeria Displayable Fossil
 tile.pf_skeleton_endothiodon.name=Endothiodon Displayable Fossil
 tile.pf_skeleton_acanthostomatops.name=Acanthostomatops Displayable Fossil
 tile.pf_skeleton_melosaurus.name=Melosaurus Displayable Fossil
+tile.pf_skeleton_diploceraspis.name=Diploceraspis Displayable Fossil
 item.pf_skeleton_placeholder.name=Placeholder item DO NOT USE

@@ -312,6 +312,7 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilEndothiodon.class, new RenderFossilEndothiodon());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilAcanthostomatops.class, new RenderFossilAcanthostomatops());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilMelosaurus.class, new RenderFossilMelosaurus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilDiploceraspis.class, new RenderFossilDiploceraspis());
 
     }
 }
