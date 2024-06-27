@@ -313,6 +313,4 @@ public class BlockInit {
     public static final Block FOSSIL_DIPLOCERASPIS    = new BlockFossilDiploceraspis();
 
 
-
-
 }
