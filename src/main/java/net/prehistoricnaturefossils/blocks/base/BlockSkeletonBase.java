@@ -209,6 +209,7 @@ public abstract class BlockSkeletonBase extends Block implements IHasModel, IAdv
                     if (playerIn.getHeldItem(hand).getItem() == Item.getItemFromBlock(Blocks.IRON_BARS) && !hasFrame) {
                         tileEntity.getTileData().setBoolean("frame", true);
                         SoundEvent soundevent = this.soundFrame();
+                        playerIn.getHeldItem(hand).shrink(1);
                         ((WorldServer) playerIn.getEntityWorld()).playSound(null, pos, soundevent, SoundCategory.BLOCKS, 1.0F, 1.0F);
                         return true;
                     }
