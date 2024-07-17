@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_kunbarrasaurus"
+		  },
+		"title": {
+			"translate": "advancements.kunbarrasaurus.title"
+		},
+		"description": {
+			"translate": "advancements.kunbarrasaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_ankylosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_kunbarrasaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

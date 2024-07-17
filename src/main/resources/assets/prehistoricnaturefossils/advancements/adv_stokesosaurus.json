@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_stokesosaurus"
+		  },
+		"title": {
+			"translate": "advancements.stokesosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.stokesosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_proceratosaurids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_stokesosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

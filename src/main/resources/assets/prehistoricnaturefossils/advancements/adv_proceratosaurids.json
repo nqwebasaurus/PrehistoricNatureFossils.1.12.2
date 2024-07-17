@@ -12,7 +12,7 @@
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "prehistoricnaturefossils:adv_maniraptoriformes",
+	"parent": "prehistoricnaturefossils:adv_tyrannoraptora",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "minecraft:tick"

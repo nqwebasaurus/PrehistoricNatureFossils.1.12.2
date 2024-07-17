@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_lesothosaurus"
+		  },
+		"title": {
+			"translate": "advancements.lesothosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.lesothosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_neornithischians",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_lesothosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

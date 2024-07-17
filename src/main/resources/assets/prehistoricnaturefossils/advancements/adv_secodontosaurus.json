@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_secodontosaurus"
+		  },
+		"title": {
+			"translate": "advancements.secodontosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.secodontosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_eupelycosaurs",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_secodontosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

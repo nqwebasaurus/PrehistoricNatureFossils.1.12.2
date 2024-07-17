@@ -132,7 +132,7 @@ public class RenderFossilShonisaurus extends TileEntitySpecialRenderer<TileEntit
         ModelSkeletonShonisaurus modelSkeleton = this.modelSkeleton;
         double scale = RenderShonisaurus.getScaler() * RenderDisplayWallMount.scaler;
 
-        GlStateManager.translate(x + 0.5, y + 3.2, z + 0.5);
+        GlStateManager.translate(x + 0.5, y + 3.3, z + 0.5);
         GlStateManager.scale(scale,scale,scale);
         GlStateManager.rotate(180, 0F, 0F, 1F);
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
@@ -152,7 +152,7 @@ public class RenderFossilShonisaurus extends TileEntitySpecialRenderer<TileEntit
             GlStateManager.enableAlpha();
             ModelSkeletonShonisaurusFrame modelSkeletonFrame = this.modelSkeletonFrame;
             scale = RenderShonisaurus.getScaler() * RenderDisplayWallMount.scaler;
-            GlStateManager.translate(x + 0.5, y + 3.2, z + 0.5);
+            GlStateManager.translate(x + 0.5, y + 3.3, z + 0.5);
             GlStateManager.scale(scale,scale,scale);
             GlStateManager.rotate(180, 0F, 0F, 1F);
             GlStateManager.rotate(currentRotation, 0F, 1F, 0F);

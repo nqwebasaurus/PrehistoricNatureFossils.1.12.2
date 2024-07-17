@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_manidens"
+		  },
+		"title": {
+			"translate": "advancements.manidens.title"
+		},
+		"description": {
+			"translate": "advancements.manidens.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_neornithischians",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_manidens"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

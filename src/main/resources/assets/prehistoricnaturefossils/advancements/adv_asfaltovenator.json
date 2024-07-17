@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_asfaltovenator"
+		  },
+		"title": {
+			"translate": "advancements.asfaltovenator.title"
+		},
+		"description": {
+			"translate": "advancements.asfaltovenator.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_allosauroidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_asfaltovenator"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}
