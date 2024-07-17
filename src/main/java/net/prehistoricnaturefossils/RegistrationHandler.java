@@ -23,10 +23,33 @@ public class RegistrationHandler {
     public RegistrationHandler() {
     }
 
-    public static final boolean doDevOnly = false;
+    public static final boolean doDevOnly = true;
 
     public static final String[] devOnly = new String[]{
-        "skeleton_anomalocaris"
+            "skeleton_stokesosaurus",
+            "skeleton_secodontosaurus",
+            "skeleton_eoabelisaurus",
+            "skeleton_patagosaurus",
+            "skeleton_asfaltovenator",
+            "skeleton_lesothosaurus",
+            "skeleton_brachytrachelopan",
+            "skeleton_manidens",
+            "skeleton_chungkingosaurus",
+            "skeleton_tapejara",
+            "skeleton_irritator",
+            "skeleton_europejara",
+            "skeleton_deinonychus",
+            "skeleton_haliskia",
+            "skeleton_luskhan",
+            "skeleton_spectrovenator",
+            "skeleton_sarcosuchus",
+            "skeleton_ichthyovenator",
+            "skeleton_tenontosaurus",
+            "skeleton_mantellisaurus",
+            "skeleton_suzhousaurus",
+            "skeleton_kunbarrasaurus",
+            "skeleton_amargasaurus",
+            "skeleton_diplocaulusminimus"
     };
 
     @SubscribeEvent

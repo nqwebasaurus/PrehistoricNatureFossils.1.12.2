@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_diplocaulusminimus"
+		  },
+		"title": {
+			"translate": "advancements.diplocaulusminimus.title"
+		},
+		"description": {
+			"translate": "advancements.diplocaulusminimus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_lepospondyli",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_diplocaulusminimus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

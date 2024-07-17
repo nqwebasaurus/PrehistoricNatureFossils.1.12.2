@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_chungkingosaurus"
+		  },
+		"title": {
+			"translate": "advancements.chungkingosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.chungkingosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_stegosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_chungkingosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

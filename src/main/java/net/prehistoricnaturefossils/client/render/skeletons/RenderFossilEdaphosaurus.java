@@ -90,9 +90,9 @@ public class RenderFossilEdaphosaurus extends TileEntitySpecialRenderer<TileEnti
 
         GlStateManager.enableAlpha();
         ModelSkeletonEdaphosaurus modelSkeleton = this.modelSkeleton;
-        double scale = RenderEdaphosaurus.getScaler() * RenderDisplayWallMount.scaler;
+        double scale = 0.62F * RenderDisplayWallMount.scaler;
 
-        GlStateManager.translate(x + 0.5, y + 1.15, z + 0.5);
+        GlStateManager.translate(x + 0.5, y + 0.88, z + 0.5);
         GlStateManager.scale(scale,scale,scale);
         GlStateManager.rotate(180, 0F, 0F, 1F);
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
@@ -111,8 +111,8 @@ public class RenderFossilEdaphosaurus extends TileEntitySpecialRenderer<TileEnti
             this.bindTexture(FRAME);
             GlStateManager.enableAlpha();
             ModelSkeletonEdaphosaurusFrame modelSkeletonFrame = this.modelSkeletonFrame;
-            scale = RenderEdaphosaurus.getScaler() * RenderDisplayWallMount.scaler;
-            GlStateManager.translate(x + 0.5, y + 1.15, z + 0.5);
+            scale = 0.62F * RenderDisplayWallMount.scaler;
+            GlStateManager.translate(x + 0.5, y + 0.88, z + 0.5);
             GlStateManager.scale(scale,scale,scale);
             GlStateManager.rotate(180, 0F, 0F, 1F);
             GlStateManager.rotate(currentRotation, 0F, 1F, 0F);

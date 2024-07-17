@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_placeholder"
+		  },
+		"title": {
+			"translate": "advancements.ornithocheiromorpha.title"
+		},
+		"description": {
+			"translate": "advancements.ornithocheiromorpha.description"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "prehistoricnaturefossils:adv_novialoidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

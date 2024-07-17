@@ -10,7 +10,7 @@
 			"translate": "advancements.ornitholestes.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:adv_maniraptoriformes",
+	"parent": "prehistoricnaturefossils:adv_tyrannoraptora",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_ornitholestes"

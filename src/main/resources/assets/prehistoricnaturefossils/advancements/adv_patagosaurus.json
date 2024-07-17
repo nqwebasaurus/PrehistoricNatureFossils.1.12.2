@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_patagosaurus"
+		},
+		"title": {
+			"translate": "advancements.patagosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.patagosaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_sauropods",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_patagosaurus"
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

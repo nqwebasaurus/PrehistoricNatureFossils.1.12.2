@@ -229,6 +229,30 @@ public class ModTriggers
     public static final CustomTrigger ACANTHOSTOMATOPS_COMPLETE = new CustomTrigger("adv_acanthostomatops");
     public static final CustomTrigger MELOSAURUS_COMPLETE = new CustomTrigger("adv_melosaurus");
     public static final CustomTrigger DIPLOCERASPIS_COMPLETE = new CustomTrigger("adv_diploceraspis");
+    public static final CustomTrigger STOKESOSAURUS_COMPLETE = new CustomTrigger("adv_stokesosaurus");
+    public static final CustomTrigger DIPLOCAULUSMINIMUS_COMPLETE = new CustomTrigger("adv_diplocaulusminimus");
+    public static final CustomTrigger SECODONTOSAURUS_COMPLETE = new CustomTrigger("adv_secodontosaurus");
+    public static final CustomTrigger EOABELISAURUS_COMPLETE = new CustomTrigger("adv_eoabelisaurus");
+    public static final CustomTrigger PATAGOSAURUS_COMPLETE = new CustomTrigger("adv_patagosaurus");
+    public static final CustomTrigger ASFALTOVENATOR_COMPLETE = new CustomTrigger("adv_asfaltovenator");
+    public static final CustomTrigger LESOTHOSAURUS_COMPLETE = new CustomTrigger("adv_lesothosaurus");
+    public static final CustomTrigger BRACHYTRACHELOPAN_COMPLETE = new CustomTrigger("adv_brachytrachelopan");
+    public static final CustomTrigger MANIDENS_COMPLETE = new CustomTrigger("adv_manidens");
+    public static final CustomTrigger CHUNGKINGOSAURUS_COMPLETE = new CustomTrigger("adv_chungkingosaurus");
+    public static final CustomTrigger TAPEJARA_COMPLETE = new CustomTrigger("adv_tapejara");
+    public static final CustomTrigger IRRITATOR_COMPLETE = new CustomTrigger("adv_irritator");
+    public static final CustomTrigger HALISKIA_COMPLETE = new CustomTrigger("adv_haliskia");
+    public static final CustomTrigger LUSKHAN_COMPLETE = new CustomTrigger("adv_luskhan");
+    public static final CustomTrigger EUROPEJARA_COMPLETE = new CustomTrigger("adv_europejara");
+    public static final CustomTrigger DEINONYCHUS_COMPLETE = new CustomTrigger("adv_deinonychus");
+    public static final CustomTrigger SPECTROVENATOR_COMPLETE = new CustomTrigger("adv_spectrovenator");
+    public static final CustomTrigger SARCOSUCHUS_COMPLETE = new CustomTrigger("adv_sarcosuchus");
+    public static final CustomTrigger ICHTHYOVENATOR_COMPLETE = new CustomTrigger("adv_ichthyovenator");
+    public static final CustomTrigger TENONTOSAURUS_COMPLETE = new CustomTrigger("adv_tenontosaurus");
+    public static final CustomTrigger MANTELLISAURUS_COMPLETE = new CustomTrigger("adv_mantellisaurus");
+    public static final CustomTrigger SUZHOUSAURUS_COMPLETE = new CustomTrigger("adv_suzhousaurus");
+    public static final CustomTrigger KUNBARRASAURUS_COMPLETE = new CustomTrigger("adv_kunbarrasaurus");
+    public static final CustomTrigger AMARGASAURUS_COMPLETE = new CustomTrigger("adv_amargasaurus");
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
@@ -295,6 +319,30 @@ public class ModTriggers
             ACANTHOSTOMATOPS_COMPLETE,
             MELOSAURUS_COMPLETE,
             DIPLOCERASPIS_COMPLETE,
+            STOKESOSAURUS_COMPLETE,
+            DIPLOCAULUSMINIMUS_COMPLETE,
+            SECODONTOSAURUS_COMPLETE,
+            EOABELISAURUS_COMPLETE,
+            PATAGOSAURUS_COMPLETE,
+            ASFALTOVENATOR_COMPLETE,
+            LESOTHOSAURUS_COMPLETE,
+            BRACHYTRACHELOPAN_COMPLETE,
+            MANIDENS_COMPLETE,
+            CHUNGKINGOSAURUS_COMPLETE,
+            TAPEJARA_COMPLETE,
+            IRRITATOR_COMPLETE,
+            HALISKIA_COMPLETE,
+            LUSKHAN_COMPLETE,
+            EUROPEJARA_COMPLETE,
+            DEINONYCHUS_COMPLETE,
+            SPECTROVENATOR_COMPLETE,
+            SARCOSUCHUS_COMPLETE,
+            ICHTHYOVENATOR_COMPLETE,
+            TENONTOSAURUS_COMPLETE,
+            MANTELLISAURUS_COMPLETE,
+            SUZHOUSAURUS_COMPLETE,
+            KUNBARRASAURUS_COMPLETE,
+            AMARGASAURUS_COMPLETE,
             ICHTHYOSAURUS_COMPLETE,
             LUFENGOSAURUS_COMPLETE,
             MONOLOPHOSAURUS_COMPLETE,

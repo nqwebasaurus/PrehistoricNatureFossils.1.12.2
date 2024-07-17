@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_tenontosaurus"
+		  },
+		"title": {
+			"translate": "advancements.tenontosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.tenontosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_rhabdodontomorpha",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_tenontosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_placeholder"
+		  },
+		"title": {
+			"translate": "advancements.dicraeosaurids.title"
+		},
+		"description": {
+			"translate": "advancements.dicraeosaurids.description"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "prehistoricnaturefossils:adv_diplodocoidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

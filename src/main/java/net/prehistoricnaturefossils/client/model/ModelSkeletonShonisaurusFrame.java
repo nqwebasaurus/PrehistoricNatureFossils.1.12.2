@@ -59,10 +59,11 @@ public class ModelSkeletonShonisaurusFrame extends ModelBase {
     private final ModelRenderer body2_r1;
     private final ModelRenderer hips;
     private final ModelRenderer body5_r2;
+    private final ModelRenderer body4_r2;
 
     public ModelSkeletonShonisaurusFrame() {
-        this.textureWidth = 150;
-        this.textureHeight = 150;
+        this.textureWidth = 144;
+        this.textureHeight = 144;
 
         this.fossil = new ModelRenderer(this);
         this.fossil.setRotationPoint(0.0F, 0.0F, 0.0F);
@@ -74,19 +75,19 @@ public class ModelSkeletonShonisaurusFrame extends ModelBase {
 
 
         this.tailbase1 = new ModelRenderer(this);
-        this.tailbase1.setRotationPoint(2.0F, -6.8F, 0.9F);
+        this.tailbase1.setRotationPoint(0.0F, -6.8F, 0.9F);
         this.root.addChild(tailbase1);
-        this.setRotateAngle(tailbase1, -0.4266F, -0.3376F, 0.3389F);
+        this.setRotateAngle(tailbase1, -0.3481F, 0.0226F, 0.0843F);
 
 
         this.tail1 = new ModelRenderer(this);
-        this.tail1.setRotationPoint(-0.054F, -0.0287F, 42.6883F);
+        this.tail1.setRotationPoint(-0.054F, 0.2713F, 42.8883F);
         this.tailbase1.addChild(tail1);
-        this.setRotateAngle(tail1, 0.1309F, 0.0873F, 0.0F);
+        this.setRotateAngle(tail1, 0.0903F, 0.2608F, 0.0233F);
 
 
         this.tail5 = new ModelRenderer(this);
-        this.tail5.setRotationPoint(0.0F, 2.6F, -0.6F);
+        this.tail5.setRotationPoint(0.0F, 2.5826F, -0.7992F);
         this.tail1.addChild(tail5);
         this.setRotateAngle(tail5, -0.0456F, 0.0F, 0.0F);
 
@@ -95,49 +96,49 @@ public class ModelSkeletonShonisaurusFrame extends ModelBase {
         this.body3_r1.setRotationPoint(0.0F, -2.4F, 0.0F);
         this.tail5.addChild(body3_r1);
         this.setRotateAngle(body3_r1, 0.0175F, 0.0F, 0.0F);
-        this.body3_r1.cubeList.add(new ModelBox(body3_r1, 102, 92, -1.0F, 0.6F, 0.0F, 2, 2, 12, -0.2F, false));
+        this.body3_r1.cubeList.add(new ModelBox(body3_r1, 0, 75, -1.0F, -0.3F, 0.3F, 2, 2, 16, -0.2F, false));
 
         this.tail2 = new ModelRenderer(this);
-        this.tail2.setRotationPoint(0.0F, 0.1F, 11.0F);
+        this.tail2.setRotationPoint(0.0F, 0.1826F, 14.8008F);
         this.tail1.addChild(tail2);
-        this.setRotateAngle(tail2, 0.2202F, 0.3051F, 0.008F);
+        this.setRotateAngle(tail2, 0.134F, 0.2163F, 0.0289F);
 
 
         this.Tail6 = new ModelRenderer(this);
         this.Tail6.setRotationPoint(0.0F, 3.4F, 1.9F);
         this.tail2.addChild(Tail6);
         this.setRotateAngle(Tail6, -0.0456F, 0.0F, 0.0F);
-        this.Tail6.cubeList.add(new ModelBox(Tail6, -1, 25, -1.0F, -2.2F, -3.0F, 2, 2, 12, -0.2F, false));
+        this.Tail6.cubeList.add(new ModelBox(Tail6, 82, 58, -1.0F, -3.1F, -2.0F, 2, 2, 13, -0.2F, false));
 
         this.tail3 = new ModelRenderer(this);
-        this.tail3.setRotationPoint(0.1F, 0.8F, 11.2F);
+        this.tail3.setRotationPoint(0.0F, 0.9F, 12.7F);
         this.tail2.addChild(tail3);
-        this.setRotateAngle(tail3, 0.1279F, 0.2179F, -0.0101F);
+        this.setRotateAngle(tail3, 0.0F, 0.1745F, 0.0F);
 
 
         this.tail7 = new ModelRenderer(this);
-        this.tail7.setRotationPoint(0.0F, -1.3025F, 0.5093F);
+        this.tail7.setRotationPoint(0.0F, -1.3025F, 1.0093F);
         this.tail3.addChild(tail7);
         this.setRotateAngle(tail7, -0.0456F, 0.0F, 0.0F);
-        this.tail7.cubeList.add(new ModelBox(tail7, 0, -1, -1.0F, 2.025F, -2.0F, 2, 2, 8, -0.2F, false));
+        this.tail7.cubeList.add(new ModelBox(tail7, 25, 87, -0.996F, 1.1F, -1.1F, 2, 2, 12, -0.2F, false));
 
         this.tail4 = new ModelRenderer(this);
-        this.tail4.setRotationPoint(0.0F, 0.0975F, 6.1093F);
+        this.tail4.setRotationPoint(0.0F, 0.2975F, 11.7093F);
         this.tail3.addChild(tail4);
-        this.setRotateAngle(tail4, -0.176F, 0.2158F, -0.0289F);
-        this.tail4.cubeList.add(new ModelBox(tail4, 1, 40, -1.0F, 0.98F, -0.1092F, 2, 2, 9, -0.2F, false));
+        this.setRotateAngle(tail4, 0.0F, 0.3491F, 0.0F);
+        this.tail4.cubeList.add(new ModelBox(tail4, 24, 52, -0.996F, -0.095F, -0.5092F, 2, 2, 9, -0.2F, false));
 
         this.fluke1 = new ModelRenderer(this);
         this.fluke1.setRotationPoint(0.0F, 0.105F, 8.5908F);
         this.tail4.addChild(fluke1);
-        this.setRotateAngle(fluke1, -0.6991F, 0.2381F, -0.1098F);
-        this.fluke1.cubeList.add(new ModelBox(fluke1, 0, 55, -1.0F, 0.7555F, 0.031F, 2, 2, 21, -0.2F, false));
+        this.setRotateAngle(fluke1, -0.6472F, 0.1402F, -0.0223F);
+        this.fluke1.cubeList.add(new ModelBox(fluke1, 30, 43, -0.996F, -0.1695F, 0.031F, 2, 2, 21, -0.2F, false));
 
         this.fluke3_r1 = new ModelRenderer(this);
         this.fluke3_r1.setRotationPoint(0.0F, 0.7305F, 20.931F);
         this.fluke1.addChild(fluke3_r1);
-        this.setRotateAngle(fluke3_r1, 0.2636F, 0.3804F, 0.0999F);
-        this.fluke3_r1.cubeList.add(new ModelBox(fluke3_r1, 64, 44, -0.5F, 0.1F, -0.9F, 1, 1, 22, -0.2F, false));
+        this.setRotateAngle(fluke3_r1, 0.3054F, 0.0F, 0.0F);
+        this.fluke3_r1.cubeList.add(new ModelBox(fluke3_r1, 0, 52, -0.496F, -0.1F, -0.5F, 1, 1, 21, -0.2F, false));
 
         this.belly3 = new ModelRenderer(this);
         this.belly3.setRotationPoint(-0.054F, 14.6713F, 19.6883F);
@@ -146,9 +147,9 @@ public class ModelSkeletonShonisaurusFrame extends ModelBase {
 
 
         this.rearflipper2 = new ModelRenderer(this);
-        this.rearflipper2.setRotationPoint(6.646F, 9.5713F, 39.1883F);
+        this.rearflipper2.setRotationPoint(6.646F, 10.418F, 35.2471F);
         this.tailbase1.addChild(rearflipper2);
-        this.setRotateAngle(rearflipper2, 0.4878F, 0.4489F, -0.5697F);
+        this.setRotateAngle(rearflipper2, 0.2997F, 0.3879F, -1.0484F);
 
 
         this.rearflipperfingers2 = new ModelRenderer(this);
@@ -157,9 +158,9 @@ public class ModelSkeletonShonisaurusFrame extends ModelBase {
 
 
         this.rearflipper3 = new ModelRenderer(this);
-        this.rearflipper3.setRotationPoint(-6.754F, 9.5713F, 39.1883F);
+        this.rearflipper3.setRotationPoint(-6.646F, 10.418F, 35.2471F);
         this.tailbase1.addChild(rearflipper3);
-        this.setRotateAngle(rearflipper3, 0.1532F, -0.6347F, 1.2F);
+        this.setRotateAngle(rearflipper3, 0.2376F, -0.3298F, 1.3529F);
 
 
         this.rearflipperfingers3 = new ModelRenderer(this);
@@ -168,49 +169,49 @@ public class ModelSkeletonShonisaurusFrame extends ModelBase {
 
 
         this.lowerbody3 = new ModelRenderer(this);
-        this.lowerbody3.setRotationPoint(-0.054F, -0.9287F, 20.2883F);
+        this.lowerbody3.setRotationPoint(-0.054F, -0.5287F, 20.8883F);
         this.tailbase1.addChild(lowerbody3);
-        this.setRotateAngle(lowerbody3, 0.0023F, -0.1308F, -0.006F);
+        this.setRotateAngle(lowerbody3, 0.0F, -0.2182F, 0.0F);
 
 
         this.lowerbody2 = new ModelRenderer(this);
-        this.lowerbody2.setRotationPoint(0.0F, -0.9228F, -15.5113F);
+        this.lowerbody2.setRotationPoint(0.0F, -1.3228F, -16.1113F);
         this.lowerbody3.addChild(lowerbody2);
-        this.setRotateAngle(lowerbody2, 0.0024F, -0.2617F, -0.0063F);
+        this.setRotateAngle(lowerbody2, 0.1309F, 0.0F, 0.0F);
 
 
         this.lowerbody1 = new ModelRenderer(this);
-        this.lowerbody1.setRotationPoint(0.0F, -0.4009F, -20.4483F);
+        this.lowerbody1.setRotationPoint(0.0F, -0.4009F, -19.8483F);
         this.lowerbody2.addChild(lowerbody1);
-        this.setRotateAngle(lowerbody1, -0.0417F, -0.1308F, -0.0022F);
+        this.setRotateAngle(lowerbody1, 0.0886F, -0.1739F, -0.0154F);
 
 
         this.neck1 = new ModelRenderer(this);
-        this.neck1.setRotationPoint(0.0F, 0.0713F, -16.6818F);
+        this.neck1.setRotationPoint(0.0F, 0.019F, -17.2795F);
         this.lowerbody1.addChild(neck1);
-        this.setRotateAngle(neck1, -0.1799F, -0.2591F, 0.0312F);
+        this.setRotateAngle(neck1, -0.088F, -0.1304F, 0.0115F);
 
 
         this.neck3_r1 = new ModelRenderer(this);
         this.neck3_r1.setRotationPoint(4.024F, 0.549F, -6.6028F);
         this.neck1.addChild(neck3_r1);
         this.setRotateAngle(neck3_r1, 0.0873F, 0.0F, 0.0F);
-        this.neck3_r1.cubeList.add(new ModelBox(neck3_r1, 0, 10, -5.074F, 0.826F, -0.3972F, 2, 2, 7, -0.2F, false));
+        this.neck3_r1.cubeList.add(new ModelBox(neck3_r1, 0, 0, -5.024F, 0.151F, -0.3972F, 2, 2, 7, -0.2F, false));
 
         this.neck2 = new ModelRenderer(this);
         this.neck2.setRotationPoint(0.0F, 0.7F, -6.8F);
         this.neck1.addChild(neck2);
-        this.setRotateAngle(neck2, 0.0113F, -0.391F, -0.0377F);
-        this.neck2.cubeList.add(new ModelBox(neck2, 25, 67, -1.0F, 0.6083F, -4.9531F, 2, 2, 6, -0.2F, false));
+        this.setRotateAngle(neck2, -0.2085F, -0.6102F, -0.0305F);
+        this.neck2.cubeList.add(new ModelBox(neck2, 106, 73, -0.9F, -0.0417F, -4.9531F, 2, 2, 6, -0.2F, false));
 
         this.head1 = new ModelRenderer(this);
-        this.head1.setRotationPoint(0.0F, 0.0583F, -4.0531F);
+        this.head1.setRotationPoint(0.0F, -0.3417F, -4.0531F);
         this.neck2.addChild(head1);
-        this.setRotateAngle(head1, -0.3175F, -0.2493F, 0.0809F);
+        this.setRotateAngle(head1, -0.0973F, -0.2056F, 0.1871F);
 
 
         this.rostrum1 = new ModelRenderer(this);
-        this.rostrum1.setRotationPoint(0.0F, -0.131F, -10.7303F);
+        this.rostrum1.setRotationPoint(0.0F, 0.6683F, -10.6954F);
         this.head1.addChild(rostrum1);
 
 
@@ -237,13 +238,13 @@ public class ModelSkeletonShonisaurusFrame extends ModelBase {
 
 
         this.jaw1 = new ModelRenderer(this);
-        this.jaw1.setRotationPoint(0.0F, 2.869F, -1.4303F);
+        this.jaw1.setRotationPoint(0.0F, 2.2683F, 1.2046F);
         this.head1.addChild(jaw1);
-        this.setRotateAngle(jaw1, 0.6545F, 0.0F, 0.0F);
+        this.setRotateAngle(jaw1, 0.5236F, 0.0F, 0.0F);
 
 
         this.lowerrostrum1 = new ModelRenderer(this);
-        this.lowerrostrum1.setRotationPoint(0.0F, 0.0F, -9.2F);
+        this.lowerrostrum1.setRotationPoint(0.0F, 1.2853F, -11.8586F);
         this.jaw1.addChild(lowerrostrum1);
 
 
@@ -276,58 +277,58 @@ public class ModelSkeletonShonisaurusFrame extends ModelBase {
 
 
         this.head2 = new ModelRenderer(this);
-        this.head2.setRotationPoint(0.0F, -2.831F, -1.7303F);
+        this.head2.setRotationPoint(0.0F, -2.0317F, -1.6954F);
         this.head1.addChild(head2);
         this.setRotateAngle(head2, 0.3187F, 0.0F, 0.0F);
 
 
         this.flipper2 = new ModelRenderer(this);
-        this.flipper2.setRotationPoint(12.8F, 15.6713F, -12.9818F);
+        this.flipper2.setRotationPoint(8.0F, 12.919F, -13.5795F);
         this.lowerbody1.addChild(flipper2);
-        this.setRotateAngle(flipper2, 0.0995F, 0.2588F, -1.1449F);
+        this.setRotateAngle(flipper2, 0.3992F, 0.239F, -0.8824F);
 
 
         this.flipperfingers2 = new ModelRenderer(this);
-        this.flipperfingers2.setRotationPoint(1.0237F, 1.0161F, -7.0477F);
+        this.flipperfingers2.setRotationPoint(0.1237F, 1.1146F, -7.065F);
         this.flipper2.addChild(flipperfingers2);
 
 
         this.flipper3 = new ModelRenderer(this);
-        this.flipper3.setRotationPoint(-12.8F, 15.6713F, -12.9818F);
+        this.flipper3.setRotationPoint(-7.892F, 12.919F, -13.5795F);
         this.lowerbody1.addChild(flipper3);
-        this.setRotateAngle(flipper3, 0.1108F, -0.2542F, 1.1F);
+        this.setRotateAngle(flipper3, 0.1186F, -0.1284F, 0.8214F);
 
 
         this.flipperfingers3 = new ModelRenderer(this);
-        this.flipperfingers3.setRotationPoint(-0.9415F, 0.8441F, -7.0477F);
+        this.flipperfingers3.setRotationPoint(-0.1237F, 1.1146F, -7.065F);
         this.flipper3.addChild(flipperfingers3);
 
 
         this.body3 = new ModelRenderer(this);
-        this.body3.setRotationPoint(0.0F, 6.2713F, 3.6182F);
+        this.body3.setRotationPoint(0.0F, 6.219F, 3.0205F);
         this.lowerbody1.addChild(body3);
 
 
         this.body6_r1 = new ModelRenderer(this);
-        this.body6_r1.setRotationPoint(0.0F, 4.3848F, -17.5059F);
+        this.body6_r1.setRotationPoint(-0.1F, 2.8762F, -17.319F);
         this.body3.addChild(body6_r1);
-        this.setRotateAngle(body6_r1, 0.0F, -0.0087F, 1.5708F);
-        this.body6_r1.cubeList.add(new ModelBox(body6_r1, 45, 89, 4.175F, -13.5F, -0.5F, 2, 28, 2, -0.2F, false));
+        this.setRotateAngle(body6_r1, 1.5708F, -0.0087F, 1.5708F);
+        this.body6_r1.cubeList.add(new ModelBox(body6_r1, 63, 0, 3.2F, -0.5F, -9.0F, 1, 1, 18, -0.19F, false));
 
         this.body5_r1 = new ModelRenderer(this);
-        this.body5_r1.setRotationPoint(0.0F, -6.3804F, -19.8143F);
+        this.body5_r1.setRotationPoint(0.0F, -5.1715F, -11.889F);
         this.body3.addChild(body5_r1);
-        this.setRotateAngle(body5_r1, 0.0087F, 0.0F, 0.0F);
-        this.body5_r1.cubeList.add(new ModelBox(body5_r1, 45, 89, -1.0F, 1.96F, 1.7394F, 2, 14, 2, -0.25F, false));
+        this.setRotateAngle(body5_r1, 1.5795F, 0.0F, 0.0F);
+        this.body5_r1.cubeList.add(new ModelBox(body5_r1, 68, 5, -0.6F, -6.0F, -12.0F, 1, 1, 13, -0.2F, false));
 
         this.body4_r1 = new ModelRenderer(this);
         this.body4_r1.setRotationPoint(0.0F, -6.3804F, -20.6143F);
         this.body3.addChild(body4_r1);
         this.setRotateAngle(body4_r1, 0.0087F, 0.0F, 0.0F);
-        this.body4_r1.cubeList.add(new ModelBox(body4_r1, 27, 71, -0.85F, 0.835F, -1.2856F, 2, 2, 20, -0.2F, false));
+        this.body4_r1.cubeList.add(new ModelBox(body4_r1, 63, 0, -1.0F, 0.285F, -0.2856F, 2, 2, 18, -0.2F, false));
 
         this.underbelly2 = new ModelRenderer(this);
-        this.underbelly2.setRotationPoint(0.0F, 19.8213F, -15.6818F);
+        this.underbelly2.setRotationPoint(0.0F, 19.769F, -16.2795F);
         this.lowerbody1.addChild(underbelly2);
         this.setRotateAngle(underbelly2, -0.3491F, 0.0F, 0.0F);
 
@@ -341,16 +342,16 @@ public class ModelSkeletonShonisaurusFrame extends ModelBase {
         this.body3_r2.setRotationPoint(0.0F, -6.3919F, -21.7934F);
         this.body2.addChild(body3_r2);
         this.setRotateAngle(body3_r2, -0.0349F, 0.0F, 0.0F);
-        this.body3_r2.cubeList.add(new ModelBox(body3_r2, 67, 68, -1.0F, 1.1918F, -0.2112F, 2, 2, 20, -0.2F, false));
+        this.body3_r2.cubeList.add(new ModelBox(body3_r2, 57, 58, -1.0F, 0.4918F, -0.4112F, 2, 2, 20, -0.2F, false));
 
         this.underbelly3 = new ModelRenderer(this);
-        this.underbelly3.setRotationPoint(0.0F, 19.9772F, -14.6113F);
+        this.underbelly3.setRotationPoint(0.0F, 19.8772F, -12.0113F);
         this.lowerbody3.addChild(underbelly3);
-        this.setRotateAngle(underbelly3, 0.3491F, 0.0F, 0.0F);
+        this.setRotateAngle(underbelly3, 0.1745F, 0.0F, 0.0F);
 
 
         this.body1 = new ModelRenderer(this);
-        this.body1.setRotationPoint(0.0F, 5.5772F, 1.5887F);
+        this.body1.setRotationPoint(0.0F, 5.1772F, 0.9887F);
         this.lowerbody3.addChild(body1);
         this.setRotateAngle(body1, -0.0349F, 0.0F, 0.0F);
 
@@ -359,20 +360,25 @@ public class ModelSkeletonShonisaurusFrame extends ModelBase {
         this.body2_r1.setRotationPoint(0.0F, -5.2892F, -17.905F);
         this.body1.addChild(body2_r1);
         this.setRotateAngle(body2_r1, -0.0349F, 0.0F, 0.0F);
-        this.body2_r1.cubeList.add(new ModelBox(body2_r1, 0, 79, -1.0F, 0.3394F, -0.1054F, 2, 2, 18, -0.2F, false));
+        this.body2_r1.cubeList.add(new ModelBox(body2_r1, 28, 67, -1.0F, -0.3106F, -0.1054F, 2, 2, 17, -0.21F, false));
 
         this.hips = new ModelRenderer(this);
         this.hips.setRotationPoint(-0.054F, 4.4713F, 20.0883F);
         this.tailbase1.addChild(hips);
         this.setRotateAngle(hips, -0.0281F, 0.0F, 0.0F);
-        this.hips.cubeList.add(new ModelBox(hips, 36, 45, -1.0F, -4.375F, 0.0F, 2, 2, 23, -0.2F, false));
-        this.hips.cubeList.add(new ModelBox(hips, 56, 65, -1.0F, -3.275F, 17.65F, 2, 9, 2, -0.25F, false));
+        this.hips.cubeList.add(new ModelBox(hips, 0, 26, -1.0F, -4.9079F, 0.0402F, 2, 2, 23, -0.2F, false));
 
         this.body5_r2 = new ModelRenderer(this);
-        this.body5_r2.setRotationPoint(0.0F, 1.0F, 21.0F);
+        this.body5_r2.setRotationPoint(0.9106F, 5.0461F, 15.1675F);
         this.hips.addChild(body5_r2);
-        this.setRotateAngle(body5_r2, 0.0F, 0.0F, -1.5708F);
-        this.body5_r2.cubeList.add(new ModelBox(body5_r2, 56, 65, -4.725F, -8.0F, -3.35F, 2, 16, 2, -0.2F, false));
+        this.setRotateAngle(body5_r2, 1.5904F, -0.4649F, 1.5708F);
+        this.body5_r2.cubeList.add(new ModelBox(body5_r2, 7, 33, 0.0F, -0.1F, -8.5F, 1, 1, 15, -0.19F, false));
+
+        this.body4_r2 = new ModelRenderer(this);
+        this.body4_r2.setRotationPoint(0.0F, -3.9079F, 11.5402F);
+        this.hips.addChild(body4_r2);
+        this.setRotateAngle(body4_r2, 1.9643F, -0.0662F, -0.1292F);
+        this.body4_r2.cubeList.add(new ModelBox(body4_r2, 11, 37, -0.7F, 0.0F, -10.5F, 1, 1, 11, -0.2F, false));
 
     }
 
