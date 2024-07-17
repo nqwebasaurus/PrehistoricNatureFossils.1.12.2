@@ -91,7 +91,7 @@ public class RenderFossilKunbarrasaurus extends TileEntitySpecialRenderer<TileEn
         ModelSkeletonKunbarrasaurus modelSkeleton = this.modelSkeleton;
         double scale = 0.59F * RenderDisplayWallMount.scaler;
 
-        GlStateManager.translate(x + 0.5, y + 1.15, z + 0.5);
+        GlStateManager.translate(x + 0.5, y + 0.85, z + 0.5);
         GlStateManager.scale(scale,scale,scale);
         GlStateManager.rotate(180, 0F, 0F, 1F);
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
@@ -111,7 +111,7 @@ public class RenderFossilKunbarrasaurus extends TileEntitySpecialRenderer<TileEn
             GlStateManager.enableAlpha();
             ModelSkeletonKunbarrasaurusFrame modelSkeletonFrame = this.modelSkeletonFrame;
             scale = 0.59F * RenderDisplayWallMount.scaler;
-            GlStateManager.translate(x + 0.5, y + 1.15, z + 0.5);
+            GlStateManager.translate(x + 0.5, y + 0.85, z + 0.5);
             GlStateManager.scale(scale,scale,scale);
             GlStateManager.rotate(180, 0F, 0F, 1F);
             GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
