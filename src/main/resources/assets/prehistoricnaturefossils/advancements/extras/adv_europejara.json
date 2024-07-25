@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_europejara"
+		  },
+		"title": {
+			"translate": "advancements.europejara.title"
+		},
+		"description": {
+			"translate": "advancements.europejara.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_tapejaridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_europejara"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
