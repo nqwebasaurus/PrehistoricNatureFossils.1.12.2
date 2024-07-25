@@ -7,8 +7,8 @@ import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
-import net.prehistoricnaturefossils.client.model.ModelSkeletonMonolophosaurusFrame;
 import net.prehistoricnaturefossils.client.model.ModelSkeletonMonolophosaurus;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonMonolophosaurusFrame;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
 import net.prehistoricnaturefossils.tile.TileEntityFossilMonolophosaurus;
 

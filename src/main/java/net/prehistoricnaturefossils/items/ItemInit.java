@@ -1,8 +1,6 @@
 package net.prehistoricnaturefossils.items;
 
-import net.minecraft.block.Block;
 import net.minecraft.item.Item;
-import net.prehistoricnaturefossils.blocks.slabs.BlockFossilAkmonistion;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -9,7 +9,6 @@ import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.client.model.ModelSkeletonLisowicia;
 import net.prehistoricnaturefossils.client.model.ModelSkeletonLisowiciaFrame;
-import net.prehistoricnaturefossils.client.model.ModelSkeletonLisowicia;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
 import net.prehistoricnaturefossils.tile.TileEntityFossilLisowicia;
 

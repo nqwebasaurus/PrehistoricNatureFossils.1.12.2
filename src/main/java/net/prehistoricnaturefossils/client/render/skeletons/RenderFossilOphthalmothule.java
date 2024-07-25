@@ -1,15 +1,14 @@
 package net.prehistoricnaturefossils.client.render.skeletons;
 
 import net.lepidodendron.entity.render.entity.RenderOphthalmothule;
-import net.lepidodendron.entity.render.entity.RenderOphthalmothule;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
-import net.prehistoricnaturefossils.client.model.ModelSkeletonOphthalmothuleFrame;
 import net.prehistoricnaturefossils.client.model.ModelSkeletonOphthalmothule;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonOphthalmothuleFrame;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
 import net.prehistoricnaturefossils.tile.TileEntityFossilOphthalmothule;
 

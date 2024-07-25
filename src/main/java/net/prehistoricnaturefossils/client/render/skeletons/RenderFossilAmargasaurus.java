@@ -11,7 +11,6 @@ import net.prehistoricnaturefossils.client.model.ModelSkeletonAmargasaurus;
 import net.prehistoricnaturefossils.client.model.ModelSkeletonAmargasaurusFrame;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
 import net.prehistoricnaturefossils.tile.TileEntityFossilAmargasaurus;
-import net.prehistoricnaturefossils.tile.TileEntityFossilAmargasaurus;
 
 public class RenderFossilAmargasaurus extends TileEntitySpecialRenderer<TileEntityFossilAmargasaurus> {
 

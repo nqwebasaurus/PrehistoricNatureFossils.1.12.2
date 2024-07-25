@@ -11,7 +11,6 @@ import net.prehistoricnaturefossils.blocks.base.BlockSlabBase;
 import net.prehistoricnaturefossils.items.ItemInit;
 import net.prehistoricnaturefossils.tile.TileEntityFossilPlatylomaspis;
 import net.prehistoricnaturefossils.triggers.CustomTrigger;
-import net.prehistoricnaturefossils.triggers.ModTriggers;
 
 import javax.annotation.Nullable;
 

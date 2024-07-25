@@ -1,15 +1,14 @@
 package net.prehistoricnaturefossils.client.render.skeletons;
 
 import net.lepidodendron.entity.render.entity.RenderPostosuchus;
-import net.lepidodendron.entity.render.entity.RenderPostosuchus;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
-import net.prehistoricnaturefossils.client.model.ModelSkeletonPostosuchusFrame;
 import net.prehistoricnaturefossils.client.model.ModelSkeletonPostosuchus;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonPostosuchusFrame;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
 import net.prehistoricnaturefossils.tile.TileEntityFossilPostosuchus;
 

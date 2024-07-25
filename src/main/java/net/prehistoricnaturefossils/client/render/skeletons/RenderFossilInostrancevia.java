@@ -1,15 +1,14 @@
 package net.prehistoricnaturefossils.client.render.skeletons;
 
 import net.lepidodendron.entity.render.entity.RenderInostrancevia;
-import net.lepidodendron.entity.render.entity.RenderInostrancevia;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
-import net.prehistoricnaturefossils.client.model.ModelSkeletonInostranceviaFrame;
 import net.prehistoricnaturefossils.client.model.ModelSkeletonInostrancevia;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonInostranceviaFrame;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
 import net.prehistoricnaturefossils.tile.TileEntityFossilInostrancevia;
 
