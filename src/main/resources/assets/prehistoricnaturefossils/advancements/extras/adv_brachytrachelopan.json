@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_brachytrachelopan"
+		},
+		"title": {
+			"translate": "advancements.brachytrachelopan.title"
+		},
+		"description": {
+			"translate": "advancements.brachytrachelopan.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_dicraeosaurids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_brachytrachelopan"
+		}
+	},
+	"rewards": {
+		"experience": 50
+  }
+}

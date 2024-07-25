@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_spectrovenator"
+		  },
+		"title": {
+			"translate": "advancements.spectrovenator.title"
+		},
+		"description": {
+			"translate": "advancements.spectrovenator.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_abelisauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_spectrovenator"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

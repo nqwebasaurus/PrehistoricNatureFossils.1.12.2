@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_eoabelisaurus"
+		  },
+		"title": {
+			"translate": "advancements.eoabelisaurus.title"
+		},
+		"description": {
+			"translate": "advancements.eoabelisaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_abelisauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_eoabelisaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

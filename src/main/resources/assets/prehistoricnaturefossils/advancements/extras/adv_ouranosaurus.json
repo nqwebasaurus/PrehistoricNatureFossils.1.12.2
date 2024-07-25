@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_ouranosaurus"
+		  },
+		"title": {
+			"translate": "advancements.ouranosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.ouranosaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_iguanodontids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_ouranosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

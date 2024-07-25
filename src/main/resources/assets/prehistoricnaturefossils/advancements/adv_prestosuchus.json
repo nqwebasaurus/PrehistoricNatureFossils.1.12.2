@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_prestosuchus"
+		  },
+		"title": {
+			"translate": "advancements.prestosuchus.title"
+		},
+		"description": {
+			"translate": "advancements.prestosuchus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_rauisuchians",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_prestosuchus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

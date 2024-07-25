@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_ichthyovenator"
+		  },
+		"title": {
+			"translate": "advancements.ichthyovenator.title"
+		},
+		"description": {
+			"translate": "advancements.ichthyovenator.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_spinosauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_ichthyovenator"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

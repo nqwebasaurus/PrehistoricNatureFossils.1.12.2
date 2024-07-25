@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_sinosaurus"
+		  },
+		"title": {
+			"translate": "advancements.sinosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.sinosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_neotheropodscrested",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_sinosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

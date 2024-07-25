@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_klamelisaurus"
+		  },
+		"title": {
+			"translate": "advancements.klamelisaurus.title"
+		},
+		"description": {
+			"translate": "advancements.klamelisaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_sauropods",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_klamelisaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

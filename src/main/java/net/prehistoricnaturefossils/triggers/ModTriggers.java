@@ -253,6 +253,10 @@ public class ModTriggers
     public static final CustomTrigger SUZHOUSAURUS_COMPLETE = new CustomTrigger("adv_suzhousaurus");
     public static final CustomTrigger KUNBARRASAURUS_COMPLETE = new CustomTrigger("adv_kunbarrasaurus");
     public static final CustomTrigger AMARGASAURUS_COMPLETE = new CustomTrigger("adv_amargasaurus");
+    public static final CustomTrigger SINOSAURUS_COMPLETE = new CustomTrigger("adv_sinosaurus");
+    public static final CustomTrigger OURANOSAURUS_COMPLETE = new CustomTrigger("adv_ouranosaurus");
+    public static final CustomTrigger PRESTOSUCHUS_COMPLETE = new CustomTrigger("adv_prestosuchus");
+    public static final CustomTrigger KLAMELISAURUS_COMPLETE = new CustomTrigger("adv_klamelisaurus");
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
@@ -343,6 +347,10 @@ public class ModTriggers
             SUZHOUSAURUS_COMPLETE,
             KUNBARRASAURUS_COMPLETE,
             AMARGASAURUS_COMPLETE,
+            SINOSAURUS_COMPLETE,
+            OURANOSAURUS_COMPLETE,
+            PRESTOSUCHUS_COMPLETE,
+            KLAMELISAURUS_COMPLETE,
             ICHTHYOSAURUS_COMPLETE,
             LUFENGOSAURUS_COMPLETE,
             MONOLOPHOSAURUS_COMPLETE,
