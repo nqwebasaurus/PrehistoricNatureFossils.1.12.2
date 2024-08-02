@@ -63,6 +63,7 @@ public class RegistrationHandler {
             "skeleton_eremotherium",
             "skeleton_synthetoceras",
             "skeleton_comptonatus",
+            "skeleton_eustreptospondylus",
             "skeleton_diplocaulusminimus"
     };
 
