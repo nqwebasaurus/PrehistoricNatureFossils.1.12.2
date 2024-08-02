@@ -1,5 +1,5 @@
 {
-
+	"comment": {
 	"display": {
 		"icon": {
 			"item": "prehistoricnaturefossils:skeleton_placeholder"
@@ -12,6 +12,7 @@
 		},
 		"show_toast": false,
 		"announce_to_chat": false
+	}
 	},
 	"parent": "prehistoricnaturefossils:adv_dryomorphs",
 	"criteria": {
