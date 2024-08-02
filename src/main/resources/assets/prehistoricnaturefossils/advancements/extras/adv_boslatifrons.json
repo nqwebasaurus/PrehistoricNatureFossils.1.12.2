@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_boslatifrons"
+		  },
+		"title": {
+			"translate": "advancements.boslatifrons.title"
+		},
+		"description": {
+			"translate": "advancements.boslatifrons.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_bovids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_boslatifrons"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

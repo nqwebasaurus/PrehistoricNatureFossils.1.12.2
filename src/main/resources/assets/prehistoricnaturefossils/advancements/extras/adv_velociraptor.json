@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_velociraptor"
+		},
+		"title": {
+			"translate": "advancements.velociraptor.title"
+		},
+		"description": {
+			"translate": "advancements.velociraptor.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_dromaeosauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_velociraptor"
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

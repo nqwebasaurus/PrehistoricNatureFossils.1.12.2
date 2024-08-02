@@ -257,6 +257,18 @@ public class ModTriggers
     public static final CustomTrigger OURANOSAURUS_COMPLETE = new CustomTrigger("adv_ouranosaurus");
     public static final CustomTrigger PRESTOSUCHUS_COMPLETE = new CustomTrigger("adv_prestosuchus");
     public static final CustomTrigger KLAMELISAURUS_COMPLETE = new CustomTrigger("adv_klamelisaurus");
+    public static final CustomTrigger TUPANDACTYLUS_COMPLETE = new CustomTrigger("adv_tupandactylus");
+    public static final CustomTrigger GAIASIA_COMPLETE = new CustomTrigger("adv_gaiasia");
+    public static final CustomTrigger AQUILOPS_COMPLETE = new CustomTrigger("adv_aquilops");
+    public static final CustomTrigger MEILIFEILONG_COMPLETE = new CustomTrigger("adv_meilifeilong");
+    public static final CustomTrigger PROTOCERATOPS_COMPLETE = new CustomTrigger("adv_protoceratops");
+    public static final CustomTrigger BOSLATIFRONS_COMPLETE = new CustomTrigger("adv_boslatifrons");
+    public static final CustomTrigger VELOCIRAPTOR_COMPLETE = new CustomTrigger("adv_velociraptor");
+    public static final CustomTrigger EREMOTHERIUM_COMPLETE = new CustomTrigger("adv_eremotherium");
+    public static final CustomTrigger EUSTREPTOSPONDYLUS_COMPLETE = new CustomTrigger("adv_eustreptospondylus");
+    public static final CustomTrigger KAYENTATHERIUM_COMPLETE = new CustomTrigger("adv_kayentatherium");
+    public static final CustomTrigger SYNTHETOCERAS_COMPLETE = new CustomTrigger("adv_synthetoceras");
+    public static final CustomTrigger COMPTONATUS_COMPLETE = new CustomTrigger("adv_comptonatus");
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
@@ -351,6 +363,18 @@ public class ModTriggers
             OURANOSAURUS_COMPLETE,
             PRESTOSUCHUS_COMPLETE,
             KLAMELISAURUS_COMPLETE,
+            TUPANDACTYLUS_COMPLETE,
+            GAIASIA_COMPLETE,
+            AQUILOPS_COMPLETE,
+            MEILIFEILONG_COMPLETE,
+            PROTOCERATOPS_COMPLETE,
+            BOSLATIFRONS_COMPLETE,
+            VELOCIRAPTOR_COMPLETE,
+            EREMOTHERIUM_COMPLETE,
+            EUSTREPTOSPONDYLUS_COMPLETE,
+            KAYENTATHERIUM_COMPLETE,
+            SYNTHETOCERAS_COMPLETE,
+            COMPTONATUS_COMPLETE,
             ICHTHYOSAURUS_COMPLETE,
             LUFENGOSAURUS_COMPLETE,
             MONOLOPHOSAURUS_COMPLETE,

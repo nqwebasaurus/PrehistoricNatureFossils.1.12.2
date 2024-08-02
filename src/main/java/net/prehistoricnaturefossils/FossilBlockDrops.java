@@ -394,6 +394,7 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_ANTEOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_DIMETRODON, 1),
                 new ItemStack(BlockInit.FOSSIL_OPHIACODON, 1),
+                new ItemStack(BlockInit.FOSSIL_GAIASIA, 1),
                 new ItemStack(BlockInit.FOSSIL_DEUTEROSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_DIPLOCAULUSMINIMUS, 1),
                 new ItemStack(BlockInit.FOSSIL_SECODONTOSAURUS, 1),
@@ -527,6 +528,8 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_CHUNGKINGOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_PATAGOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_STOKESOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_EUSTREPTOSPONDYLUS, 1),
+                new ItemStack(BlockInit.FOSSIL_KAYENTATHERIUM, 1),
                 new ItemStack(BlockInit.FOSSIL_EOABELISAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_KAYKAY, 1),
                 new ItemStack(BlockInit.FOSSIL_LEEDSICHTHYS, 1),
@@ -601,9 +604,15 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_SARCOSUCHUS, 1),
                 new ItemStack(BlockInit.FOSSIL_MANTELLISAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_SUZHOUSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_AQUILOPS, 1),
+                new ItemStack(BlockInit.FOSSIL_COMPTONATUS, 1),
+                new ItemStack(BlockInit.FOSSIL_MEILIFEILONG, 1),
                 new ItemStack(BlockInit.FOSSIL_KUNBARRASAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_AMARGASAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_TUPANDACTYLUS, 1),
                 new ItemStack(BlockInit.FOSSIL_TENONTOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_VELOCIRAPTOR, 1),
+                new ItemStack(BlockInit.FOSSIL_PROTOCERATOPS, 1),
                 new ItemStack(BlockInit.FOSSIL_ICHTHYOVENATOR, 1),
                 new ItemStack(BlockInit.FOSSIL_DEINONYCHUS, 1),
                 new ItemStack(BlockInit.FOSSIL_EUROPEJARA, 1),
@@ -624,14 +633,15 @@ public class FossilBlockDrops {
 
     public static ItemStack[] getNeogeneDisplayableFossilDrops() {
         ItemStack[] itemStack = {
-                ItemStack.EMPTY
+                new ItemStack(BlockInit.FOSSIL_SYNTHETOCERAS, 1)
         };
         return itemStack;
     }
 
     public static ItemStack[] getPleistoceneDisplayableFossilDrops() {
         ItemStack[] itemStack = {
-                ItemStack.EMPTY
+                new ItemStack(BlockInit.FOSSIL_BOSLATIFRONS, 1),
+                new ItemStack(BlockInit.FOSSIL_EREMOTHERIUM, 1)
         };
         return itemStack;
     }

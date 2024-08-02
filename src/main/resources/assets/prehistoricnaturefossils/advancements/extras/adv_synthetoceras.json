@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_synthetoceras"
+		},
+		"title": {
+			"translate": "advancements.synthetoceras.title"
+		},
+		"description": {
+			"translate": "advancements.synthetoceras.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_protoceratids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_synthetoceras"
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

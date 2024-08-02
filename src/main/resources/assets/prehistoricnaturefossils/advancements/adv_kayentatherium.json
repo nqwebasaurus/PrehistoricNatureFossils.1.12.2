@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_kayentatherium"
+		  },
+		"title": {
+			"translate": "advancements.kayentatherium.title"
+		},
+		"description": {
+			"translate": "advancements.kayentatherium.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_mammaliaformes",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_kayentatherium"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

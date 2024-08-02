@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_comptonatus"
+		},
+		"title": {
+			"translate": "advancements.comptonatus.title"
+		},
+		"description": {
+			"translate": "advancements.comptonatus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_iguanodontids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_comptonatus"
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

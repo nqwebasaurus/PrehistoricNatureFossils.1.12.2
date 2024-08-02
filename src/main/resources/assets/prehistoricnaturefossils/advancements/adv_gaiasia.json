@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_gaiasia"
+		  },
+		"title": {
+			"translate": "advancements.gaiasia.title"
+		},
+		"description": {
+			"translate": "advancements.gaiasia.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_fishapods",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_gaiasia"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
