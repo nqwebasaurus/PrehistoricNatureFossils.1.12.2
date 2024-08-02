@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_eremotherium"
+		},
+		"title": {
+			"translate": "advancements.eremotherium.title"
+		},
+		"description": {
+			"translate": "advancements.eremotherium.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_folivora",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_eremotherium"
+		}
+	},
+	"rewards": {
+		"experience": 150
+	}
+}

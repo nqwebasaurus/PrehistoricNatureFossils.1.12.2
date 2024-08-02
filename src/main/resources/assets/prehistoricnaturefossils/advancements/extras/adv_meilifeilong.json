@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_meilifeilong"
+		  },
+		"title": {
+			"translate": "advancements.meilifeilong.title"
+		},
+		"description": {
+			"translate": "advancements.meilifeilong.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_tapejaridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_meilifeilong"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_protoceratops"
+		  },
+		"title": {
+			"translate": "advancements.protoceratops.title"
+		},
+		"description": {
+			"translate": "advancements.protoceratops.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_coronosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_protoceratops"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

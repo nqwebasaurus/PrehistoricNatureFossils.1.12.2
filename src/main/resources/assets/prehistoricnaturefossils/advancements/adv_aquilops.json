@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_aquilops"
+		  },
+		"title": {
+			"translate": "advancements.aquilops.title"
+		},
+		"description": {
+			"translate": "advancements.aquilops.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_ceratopsia",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_aquilops"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_eustreptospondylus"
+		  },
+		"title": {
+			"translate": "advancements.eustreptospondylus.title"
+		},
+		"description": {
+			"translate": "advancements.eustreptospondylus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_megalosauroidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_eustreptospondylus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
