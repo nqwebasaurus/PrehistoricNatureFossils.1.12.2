@@ -2,6 +2,7 @@ package net.prehistoricnaturefossils;
 
 import net.lepidodendron.block.*;
 import net.lepidodendron.item.ItemFossilHammer;
+import net.minecraft.advancements.AdvancementManager;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
@@ -100,6 +101,10 @@ public class FossilBlockDrops {
             strAdv = strAdv.replace("minecraft:", "prehistoricnaturefossils:");
         }
         if (strAdv.equalsIgnoreCase("")) {
+            return false;
+        }
+        if ((((WorldServer) player.world).getAdvancementManager()
+                .getAdvancement(new ResourceLocation(strAdv))) == null) {
             return false;
         }
         if (player instanceof EntityPlayerMP) {
