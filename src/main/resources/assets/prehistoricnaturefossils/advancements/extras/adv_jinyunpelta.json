@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_jinyunpelta"
+		},
+		"title": {
+			"translate": "advancements.jinyunpelta.title"
+		},
+		"description": {
+			"translate": "advancements.jinyunpelta.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_ankylosauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_jinyunpelta"
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

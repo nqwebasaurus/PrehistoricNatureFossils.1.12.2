@@ -12,6 +12,8 @@ public class ModTriggers
 {
 
     public static final CustomTrigger AEGER_COMPLETE = new CustomTrigger("adv_aeger");
+    public static final CustomTrigger XENACANTHUS_COMPLETE = new CustomTrigger("adv_xenacanthus");
+    public static final CustomTrigger GREGORIUS_COMPLETE = new CustomTrigger("adv_gregorius");
     public static final CustomTrigger CIURCOPTERUS_COMPLETE = new CustomTrigger("adv_ciurcopterus");
     public static final CustomTrigger HADRANAX_COMPLETE = new CustomTrigger("adv_hadranax");
     public static final CustomTrigger CAPINATATOR_COMPLETE = new CustomTrigger("adv_capinatator");
@@ -269,9 +271,17 @@ public class ModTriggers
     public static final CustomTrigger KAYENTATHERIUM_COMPLETE = new CustomTrigger("adv_kayentatherium");
     public static final CustomTrigger SYNTHETOCERAS_COMPLETE = new CustomTrigger("adv_synthetoceras");
     public static final CustomTrigger COMPTONATUS_COMPLETE = new CustomTrigger("adv_comptonatus");
+    public static final CustomTrigger JINYUNPELTA_COMPLETE = new CustomTrigger("adv_jinyunpelta");
+    public static final CustomTrigger CENTROSAURUS_COMPLETE = new CustomTrigger("adv_centrosaurus");
+    public static final CustomTrigger CHASMOSAURUS_COMPLETE = new CustomTrigger("adv_chasmosaurus");
+    public static final CustomTrigger DEARC_COMPLETE = new CustomTrigger("adv_dearc");
+    public static final CustomTrigger LAGOSUCHUS_COMPLETE = new CustomTrigger("adv_lagosuchus");
+    public static final CustomTrigger STRUTHIOMIMUS_COMPLETE = new CustomTrigger("adv_struthiomimus");
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
+            XENACANTHUS_COMPLETE,
+            GREGORIUS_COMPLETE,
             SLIMONIA_COMPLETE,
             SCAUMENACIA_COMPLETE,
             DREPANASPIS_COMPLETE,
@@ -375,6 +385,12 @@ public class ModTriggers
             KAYENTATHERIUM_COMPLETE,
             SYNTHETOCERAS_COMPLETE,
             COMPTONATUS_COMPLETE,
+            JINYUNPELTA_COMPLETE,
+            CENTROSAURUS_COMPLETE,
+            CHASMOSAURUS_COMPLETE,
+            DEARC_COMPLETE,
+            LAGOSUCHUS_COMPLETE,
+            STRUTHIOMIMUS_COMPLETE,
             ICHTHYOSAURUS_COMPLETE,
             LUFENGOSAURUS_COMPLETE,
             MONOLOPHOSAURUS_COMPLETE,

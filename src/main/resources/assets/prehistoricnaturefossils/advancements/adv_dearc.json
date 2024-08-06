@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_dearc"
+		  },
+		"title": {
+			"translate": "advancements.dearc.title"
+		},
+		"description": {
+			"translate": "advancements.dearc.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_novialoidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_dearc"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

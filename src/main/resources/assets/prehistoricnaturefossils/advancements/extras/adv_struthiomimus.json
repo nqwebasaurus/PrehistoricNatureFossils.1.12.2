@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_struthiomimus"
+		  },
+		"title": {
+			"translate": "advancements.struthiomimus.title"
+		},
+		"description": {
+			"translate": "advancements.struthiomimus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_ornithomimosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_struthiomimus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

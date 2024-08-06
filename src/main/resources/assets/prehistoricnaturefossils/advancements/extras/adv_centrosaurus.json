@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_centrosaurus"
+		  },
+		"title": {
+			"translate": "advancements.centrosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.centrosaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_centrosaurinae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_centrosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}
