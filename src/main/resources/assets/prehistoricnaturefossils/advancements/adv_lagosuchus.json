@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_lagosuchus"
+		  },
+		"title": {
+			"translate": "advancements.lagosuchus.title"
+		},
+		"description": {
+			"translate": "advancements.lagosuchus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_dinosauromorpha",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_lagosuchus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

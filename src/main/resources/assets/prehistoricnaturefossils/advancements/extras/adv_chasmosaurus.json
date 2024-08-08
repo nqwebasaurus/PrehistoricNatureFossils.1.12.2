@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_chasmosaurus"
+		  },
+		"title": {
+			"translate": "advancements.chasmosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.chasmosaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_chasmosaurinae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_chasmosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

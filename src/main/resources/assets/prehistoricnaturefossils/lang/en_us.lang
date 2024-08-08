@@ -383,6 +383,18 @@ advancements.synthetoceras.title=Combined Horn
 advancements.synthetoceras.description=Complete a Synthetoceras skeleton
 advancements.comptonatus.title=Compton's Thunderer
 advancements.comptonatus.description=Complete a Comptonatus skeleton
+advancements.jinyunpelta.title=Jinyun shield
+advancements.jinyunpelta.description=Complete a Jinyunpelta skeleton
+advancements.centrosaurus.title=Pointed Lizard
+advancements.centrosaurus.description=Complete a Centrosaurus skeleton
+advancements.chasmosaurus.title=Opening Lizard
+advancements.chasmosaurus.description=Complete a Chasmosaurus skeleton
+advancements.dearc.title=Reptile from Skye
+advancements.dearc.description=Complete a Dearc skeleton
+advancements.lagosuchus.title=Rabbit Crocodile
+advancements.lagosuchus.description=Complete a Lagosuchus skeleton
+advancements.struthiomimus.title=Ostrich Mimic
+advancements.struthiomimus.description=Complete a Struthiomimus skeleton
 
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
@@ -584,6 +596,14 @@ advancements.folivora.title=Take your time
 advancements.folivora.description=Folivorans (Sloths)
 advancements.protoceratids.title=Cutlery included
 advancements.protoceratids.description=Protoceratids
+advancements.ankylosauridae.title=Welcome to the Club!
+advancements.ankylosauridae.description=Ankylosaurids
+advancements.centrosaurinae.title=Sword & Shield
+advancements.centrosaurinae.description=Centrosaurinae
+advancements.chasmosaurinae.title=Bannerlords
+advancements.chasmosaurinae.description=Chasmosaurinae
+advancements.ornithomimosauria.title=Meep Meep!
+advancements.ornithomimosauria.description=Ornithomimosauria
 
 enchantment.pf_discerning_collector=Discerning Collector
 
@@ -737,6 +757,8 @@ tile.pf_skeleton_palaeoniscum.name=Palaeoniscum Fossil Slab
 tile.pf_skeleton_paranaichthys.name=Paranaichthys Fossil Slab
 tile.pf_skeleton_cooperoceras.name=Cooperoceras Fossil Slab
 tile.pf_skeleton_vestinautilus.name=Vestinautilus Fossil Slab
+tile.pf_skeleton_xenacanthus.name=Xenacanthus Fossil Slab
+tile.pf_skeleton_gregorius.name=Gregorius Fossil Slab
 
 
 
@@ -932,6 +954,12 @@ tile.pf_skeleton_eustreptospondylus.name=Eustreptospondylus Displayable Fossil
 tile.pf_skeleton_kayentatherium.name=Kayentatherium Displayable Fossil
 tile.pf_skeleton_synthetoceras.name=Synthetoceras Displayable Fossil
 tile.pf_skeleton_comptonatus.name=Comptonatus Displayable Fossil
+tile.pf_skeleton_jinyunpelta.name=Jinyunpelta Displayable Fossil
+tile.pf_skeleton_centrosaurus.name=Centrosaurus Displayable Fossil
+tile.pf_skeleton_chasmosaurus.name=Chasmosaurus Displayable Fossil
+tile.pf_skeleton_dearc.name=Dearc Displayable Fossil
+tile.pf_skeleton_lagosuchus.name=Lagosuchus Displayable Fossil
+tile.pf_skeleton_struthiomimus.name=Struthiomimus Displayable Fossil
 
 
 item.pf_skeleton_placeholder.name=Placeholder item DO NOT USE
