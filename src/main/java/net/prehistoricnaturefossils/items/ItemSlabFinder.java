@@ -3,7 +3,6 @@ package net.prehistoricnaturefossils.items;
 import com.google.common.collect.Multimap;
 import net.lepidodendron.block.BlockFossil;
 import net.lepidodendron.creativetab.TabLepidodendronMisc;
-import net.lepidodendron.item.ItemFossilHammer;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;

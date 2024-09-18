@@ -2,7 +2,6 @@ package net.prehistoricnaturefossils;
 
 import net.lepidodendron.block.*;
 import net.lepidodendron.item.ItemFossilHammer;
-import net.minecraft.advancements.AdvancementManager;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;

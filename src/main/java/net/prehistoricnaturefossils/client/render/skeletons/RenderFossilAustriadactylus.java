@@ -1,6 +1,5 @@
 package net.prehistoricnaturefossils.client.render.skeletons;
 
-import net.lepidodendron.entity.render.entity.RenderAustriadactylus;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
