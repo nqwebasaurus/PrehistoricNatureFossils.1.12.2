@@ -24,6 +24,44 @@ import java.util.Random;
 public class FossilBlockDrops {
 
     @SubscribeEvent //Add to the block drops for the fossils
+    public void onBlockBreak(BlockEvent.BreakEvent event) {
+        Random rand = event.getWorld().rand;
+        World worldIn = event.getWorld();
+        if (event.getPlayer() == null) {
+            return;
+        }
+        if (event.getPlayer().isCreative()) {
+            return;
+        }
+        ItemStack stack = event.getPlayer().getHeldItemMainhand();
+        BlockPos pos = event.getPos();
+        IBlockState state = event.getState();
+        if (state.getBlock() instanceof BlockFossil) {
+            if (!worldIn.isRemote && stack.getItem() == ItemFossilHammer.block) {
+                ItemStack dropStack = getDisplayableFossilStackModified(state, event.getPlayer(), stack, false);
+                if (new Random().nextInt(10) == 0) {
+                    if (!dropStack.isEmpty()) {
+                        Block.spawnAsEntity(worldIn, pos, dropStack);
+                    }
+                }
+                //fortune modifier:
+                int levelEnchantment = net.minecraft.enchantment.EnchantmentHelper.getEnchantmentLevel(net.minecraft.init.Enchantments.FORTUNE, stack);
+                int ii = rand.nextInt(levelEnchantment + 1) * 2;
+                for (int i = 0; i < ii; ++i) {
+                    if (rand.nextInt(2) == 0) {
+                        dropStack = getDisplayableFossilStackModified(state, event.getPlayer(), stack, false);
+                        if (new Random().nextInt(10) == 0) {
+                            if (!dropStack.isEmpty()) {
+                                Block.spawnAsEntity(worldIn, pos, dropStack);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @SubscribeEvent //Add to the block drops for the fossils
     public void onBlockBreak(BlockEvent.HarvestDropsEvent event) {
         Random rand = event.getWorld().rand;
         World worldIn = event.getWorld();
@@ -37,28 +75,6 @@ public class FossilBlockDrops {
         BlockPos pos = event.getPos();
         IBlockState state = event.getState();
         if (state.getBlock() instanceof BlockFossil) {
-            if (!worldIn.isRemote && stack.getItem() == ItemFossilHammer.block) {
-                ItemStack dropStack = getDisplayableFossilStackModified(state, event.getHarvester(), stack, false);
-                if (new Random().nextInt(10) == 0) {
-                    if (!dropStack.isEmpty()) {
-                        Block.spawnAsEntity(worldIn, pos, dropStack);
-                    }
-                }
-                //fortune modifier:
-                int levelEnchantment = net.minecraft.enchantment.EnchantmentHelper.getEnchantmentLevel(net.minecraft.init.Enchantments.FORTUNE, stack);
-                int ii = rand.nextInt(levelEnchantment + 1) * 2;
-                for (int i = 0; i < ii; ++i) {
-                    if (rand.nextInt(2) == 0) {
-                        dropStack = getDisplayableFossilStackModified(state, event.getHarvester(), stack, false);
-                        if (new Random().nextInt(10) == 0) {
-                            if (!dropStack.isEmpty()) {
-                                Block.spawnAsEntity(worldIn, pos, dropStack);
-                            }
-                        }
-                    }
-                }
-            }
-
             //Fossil drops for the new tool:
             if (!worldIn.isRemote && stack.getItem() instanceof ItemSlabFinder) {
                 BlockFossil fossilBlock = (BlockFossil) state.getBlock();
