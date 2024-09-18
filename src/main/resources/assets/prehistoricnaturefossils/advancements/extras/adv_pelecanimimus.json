@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_pelecanimimus"
+		  },
+		"title": {
+			"translate": "advancements.pelecanimimus.title"
+		},
+		"description": {
+			"translate": "advancements.pelecanimimus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_ornithomimosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_pelecanimimus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

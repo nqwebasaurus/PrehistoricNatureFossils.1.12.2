@@ -1,0 +1,21 @@
+{
+		"display": {
+			"icon": {
+				"item": "prehistoricnaturefossils:skeleton_placeholder"
+			},
+			"title": {
+				"translate": "advancements.thylacoleonidae.title"
+			},
+			"description": {
+				"translate": "advancements.thylacoleonidae.description"
+			},
+			"show_toast": false,
+			"announce_to_chat": false
+		},
+	"parent": "prehistoricnaturefossils:extras/adv_vombatiformes",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

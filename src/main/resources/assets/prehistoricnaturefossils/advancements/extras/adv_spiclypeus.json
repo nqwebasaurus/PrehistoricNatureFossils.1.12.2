@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_spiclypeus"
+		  },
+		"title": {
+			"translate": "advancements.spiclypeus.title"
+		},
+		"description": {
+			"translate": "advancements.spiclypeus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_chasmosaurinae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_spiclypeus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

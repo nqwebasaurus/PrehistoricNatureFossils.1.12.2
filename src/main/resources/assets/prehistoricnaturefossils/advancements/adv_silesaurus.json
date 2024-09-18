@@ -10,7 +10,7 @@
 			"translate": "advancements.silesaurus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:adv_dinosauromorpha",
+	"parent": "prehistoricnaturefossils:adv_ornithischians",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_silesaurus"

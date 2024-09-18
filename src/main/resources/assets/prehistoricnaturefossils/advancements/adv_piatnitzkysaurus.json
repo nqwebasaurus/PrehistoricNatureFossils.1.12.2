@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_piatnitzkysaurus"
+		  },
+		"title": {
+			"translate": "advancements.piatnitzkysaurus.title"
+		},
+		"description": {
+			"translate": "advancements.piatnitzkysaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_theropods",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_piatnitzkysaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_olorotitan"
+		  },
+		"title": {
+			"translate": "advancements.olorotitan.title"
+		},
+		"description": {
+			"translate": "advancements.olorotitan.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_lambeosaurines",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_olorotitan"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

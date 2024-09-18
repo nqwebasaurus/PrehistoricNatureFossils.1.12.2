@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_thylacoleo"
+		},
+		"title": {
+			"translate": "advancements.thylacoleo.title"
+		},
+		"description": {
+			"translate": "advancements.thylacoleo.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_thylacoleonidae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_thylacoleo"
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_muttaburrasaurus"
+		  },
+		"title": {
+			"translate": "advancements.muttaburrasaurus.title"
+		},
+		"description": {
+			"translate": "advancements.muttaburrasaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_rhabdodontomorpha",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_muttaburrasaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

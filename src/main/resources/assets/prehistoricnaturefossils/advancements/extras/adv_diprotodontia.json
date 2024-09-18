@@ -1,0 +1,21 @@
+{
+		"display": {
+			"icon": {
+				"item": "prehistoricnaturefossils:skeleton_placeholder"
+			},
+			"title": {
+				"translate": "advancements.diprotodontia.title"
+			},
+			"description": {
+				"translate": "advancements.diprotodontia.description"
+			},
+			"show_toast": false,
+			"announce_to_chat": false
+		},
+	"parent": "prehistoricnaturefossils:extras/adv_marsupialia",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

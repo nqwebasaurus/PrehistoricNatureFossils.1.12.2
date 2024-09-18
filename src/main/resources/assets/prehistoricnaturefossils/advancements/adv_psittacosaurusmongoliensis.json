@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_psittacosaurusmongoliensis"
+		  },
+		"title": {
+			"translate": "advancements.psittacosaurusmongoliensis.title"
+		},
+		"description": {
+			"translate": "advancements.psittacosaurusmongoliensis.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_ceratopsia",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_psittacosaurusmongoliensis"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

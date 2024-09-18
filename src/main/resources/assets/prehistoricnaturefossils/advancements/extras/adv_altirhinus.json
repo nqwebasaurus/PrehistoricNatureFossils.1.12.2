@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_altirhinus"
+		  },
+		"title": {
+			"translate": "advancements.altirhinus.title"
+		},
+		"description": {
+			"translate": "advancements.altirhinus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_iguanodontids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_altirhinus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

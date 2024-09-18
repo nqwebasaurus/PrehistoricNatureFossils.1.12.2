@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_bajadasaurus"
+		},
+		"title": {
+			"translate": "advancements.bajadasaurus.title"
+		},
+		"description": {
+			"translate": "advancements.bajadasaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_dicraeosaurids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_bajadasaurus"
+		}
+	},
+	"rewards": {
+		"experience": 50
+  }
+}

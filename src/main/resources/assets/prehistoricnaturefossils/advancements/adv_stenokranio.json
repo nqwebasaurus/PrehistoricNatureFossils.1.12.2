@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_stenokranio"
+		  },
+		"title": {
+			"translate": "advancements.stenokranio.title"
+		},
+		"description": {
+			"translate": "advancements.stenokranio.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_eryopoidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_stenokranio"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

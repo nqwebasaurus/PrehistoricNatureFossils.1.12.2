@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_nqwebasaurus"
+		  },
+		"title": {
+			"translate": "advancements.nqwebasaurus.title"
+		},
+		"description": {
+			"translate": "advancements.nqwebasaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_ornithomimosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_nqwebasaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

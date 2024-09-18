@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_hypsilophodon"
+		  },
+		"title": {
+			"translate": "advancements.hypsilophodon.title"
+		},
+		"description": {
+			"translate": "advancements.hypsilophodon.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_dryomorphs",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_hypsilophodon"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

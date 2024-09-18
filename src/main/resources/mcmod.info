@@ -12,9 +12,9 @@
     "authorList": [
       "Aecht Rob"
     ],
-    "dependencies": ["lepidodendron@[60.0,)"],
+    "dependencies": ["lepidodendron@[61.0,)"],
     "dependants": [],
-    "requiredMods": ["lepidodendron@[60.0,)"],
+    "requiredMods": ["lepidodendron@[61.0,)"],
     "useDependencyInformation": "true"
   }
 ]

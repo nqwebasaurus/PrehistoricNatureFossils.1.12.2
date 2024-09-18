@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_baryonyx"
+		  },
+		"title": {
+			"translate": "advancements.baryonyx.title"
+		},
+		"description": {
+			"translate": "advancements.baryonyx.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_spinosauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_baryonyx"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

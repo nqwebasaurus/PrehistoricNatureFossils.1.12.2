@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_lusovenator"
+		  },
+		"title": {
+			"translate": "advancements.lusovenator.title"
+		},
+		"description": {
+			"translate": "advancements.lusovenator.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_carcharodontosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_lusovenator"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

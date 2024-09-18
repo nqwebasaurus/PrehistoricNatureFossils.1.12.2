@@ -5,7 +5,6 @@ import net.minecraft.client.model.ModelBox;
 import net.minecraft.client.model.ModelRenderer;
 
 public class ModelSkeletonTenontosaurus extends ModelBase {
-    private final ModelRenderer fossil;
     private final ModelRenderer hips;
     private final ModelRenderer cube_r1;
     private final ModelRenderer cube_r2;
@@ -252,14 +251,9 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.textureWidth = 96;
         this.textureHeight = 96;
 
-        this.fossil = new ModelRenderer(this);
-        this.fossil.setRotationPoint(0.0F, 24.0F, 0.0F);
-
-
         this.hips = new ModelRenderer(this);
-        this.hips.setRotationPoint(0.0F, -21.5F, -1.0F);
-        this.fossil.addChild(hips);
-        this.setRotateAngle(hips, -0.2618F, 0.0F, 0.0F);
+        this.hips.setRotationPoint(0.0F, 2.5F, -1.0F);
+        this.setRotateAngle(hips, 0.1298F, 0.017F, -0.1298F);
         this.hips.cubeList.add(new ModelBox(hips, 0, 0, 2.5F, -2.2845F, -2.7352F, 1, 4, 4, 0.003F, false));
         this.hips.cubeList.add(new ModelBox(hips, 52, 0, 0.5F, -1.2845F, -2.7352F, 2, 1, 4, 0.0F, false));
         this.hips.cubeList.add(new ModelBox(hips, 52, 0, -2.5F, -1.2845F, -2.7352F, 2, 1, 4, 0.0F, true));
@@ -289,8 +283,8 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.cube_r4.setRotationPoint(-3.0F, 1.7675F, -3.0796F);
         this.hips.addChild(cube_r4);
         this.setRotateAngle(cube_r4, 0.3229F, 0.0F, 0.0F);
-        this.cube_r4.cubeList.add(new ModelBox(cube_r4, 8, 51, -0.5F, -0.4F, -1.5F, 1, 1, 2, -0.003F, true));
-        this.cube_r4.cubeList.add(new ModelBox(cube_r4, 8, 51, 5.5F, -0.4F, -1.5F, 1, 1, 2, -0.003F, false));
+        this.cube_r4.cubeList.add(new ModelBox(cube_r4, 8, 51, -0.5F, -0.4F, -1.5F, 1, 1, 2, 0.0F, true));
+        this.cube_r4.cubeList.add(new ModelBox(cube_r4, 8, 51, 5.5F, -0.4F, -1.5F, 1, 1, 2, 0.0F, false));
 
         this.cube_r5 = new ModelRenderer(this);
         this.cube_r5.setRotationPoint(-3.0F, 1.8675F, -4.8796F);
@@ -519,7 +513,7 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.leftLeg = new ModelRenderer(this);
         this.leftLeg.setRotationPoint(4.5F, -0.5F, -0.7F);
         this.hips.addChild(leftLeg);
-        this.setRotateAngle(leftLeg, -0.1745F, 0.0F, 0.0F);
+        this.setRotateAngle(leftLeg, -0.5603F, 0.0934F, 0.1476F);
 
 
         this.cube_r42 = new ModelRenderer(this);
@@ -587,7 +581,7 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.rightLeg = new ModelRenderer(this);
         this.rightLeg.setRotationPoint(-4.5F, -0.5F, -0.7F);
         this.hips.addChild(rightLeg);
-        this.setRotateAngle(rightLeg, 0.3054F, 0.0F, 0.0F);
+        this.setRotateAngle(rightLeg, -0.2182F, 0.0F, 0.0F);
 
 
         this.cube_r48 = new ModelRenderer(this);
@@ -618,7 +612,7 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.rightLeg2 = new ModelRenderer(this);
         this.rightLeg2.setRotationPoint(0.0F, 10.0F, -0.9F);
         this.rightLeg.addChild(rightLeg2);
-        this.setRotateAngle(rightLeg2, 0.8988F, 0.0F, 0.0F);
+        this.setRotateAngle(rightLeg2, 1.2122F, 0.0776F, 0.2041F);
         this.rightLeg2.cubeList.add(new ModelBox(rightLeg2, 42, 54, -0.1F, 2.1354F, -1.2811F, 2, 6, 1, 0.0F, false));
         this.rightLeg2.cubeList.add(new ModelBox(rightLeg2, 20, 58, -0.1F, 0.1354F, -1.4811F, 2, 2, 2, 0.0F, false));
         this.rightLeg2.cubeList.add(new ModelBox(rightLeg2, 58, 16, -0.1F, 8.1354F, -1.4811F, 2, 2, 2, 0.0F, false));
@@ -632,7 +626,7 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.rightLeg3 = new ModelRenderer(this);
         this.rightLeg3.setRotationPoint(0.0F, 10.0354F, -0.1811F);
         this.rightLeg2.addChild(rightLeg3);
-        this.setRotateAngle(rightLeg3, -1.3526F, 0.0F, 0.0F);
+        this.setRotateAngle(rightLeg3, -1.1345F, 0.0F, 0.0F);
         this.rightLeg3.cubeList.add(new ModelBox(rightLeg3, 0, 29, -1.5F, 0.1F, -0.7F, 3, 6, 1, -0.01F, false));
 
         this.cube_r53 = new ModelRenderer(this);
@@ -644,18 +638,19 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.rightLeg4 = new ModelRenderer(this);
         this.rightLeg4.setRotationPoint(0.0F, 5.5F, -0.4F);
         this.rightLeg3.addChild(rightLeg4);
-        this.setRotateAngle(rightLeg4, 0.4276F, 0.0F, 0.0F);
+        this.setRotateAngle(rightLeg4, 0.384F, 0.0F, 0.0F);
         this.rightLeg4.cubeList.add(new ModelBox(rightLeg4, 44, 29, -2.0F, -0.0319F, -3.2504F, 4, 1, 4, 0.0F, false));
 
         this.rightLeg5 = new ModelRenderer(this);
         this.rightLeg5.setRotationPoint(0.0F, 0.2681F, -3.0504F);
         this.rightLeg4.addChild(rightLeg5);
+        this.setRotateAngle(rightLeg5, -0.3491F, 0.0F, 0.0F);
         this.rightLeg5.cubeList.add(new ModelBox(rightLeg5, 28, 48, -2.0F, -0.3F, -3.2F, 4, 1, 4, -0.003F, false));
 
         this.tail = new ModelRenderer(this);
         this.tail.setRotationPoint(0.0F, -1.9F, 4.8F);
         this.hips.addChild(tail);
-        this.setRotateAngle(tail, -0.1264F, -0.2598F, 0.0326F);
+        this.setRotateAngle(tail, 0.0966F, 0.13F, 0.0164F);
         this.tail.cubeList.add(new ModelBox(tail, 0, 51, -0.5F, 0.8F, 0.0F, 1, 2, 5, 0.003F, false));
         this.tail.cubeList.add(new ModelBox(tail, 33, 75, 0.0F, -1.5F, 0.0F, 0, 3, 1, 0.0F, false));
         this.tail.cubeList.add(new ModelBox(tail, 75, 8, 0.0F, -1.8F, 2.0F, 0, 3, 1, 0.0F, false));
@@ -702,7 +697,7 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.tail2 = new ModelRenderer(this);
         this.tail2.setRotationPoint(0.0F, 0.0F, 14.9F);
         this.tail.addChild(tail2);
-        this.setRotateAngle(tail2, 0.0633F, -0.4799F, -0.0091F);
+        this.setRotateAngle(tail2, 0.0176F, 0.1309F, 0.0023F);
 
 
         this.cube_r59 = new ModelRenderer(this);
@@ -746,7 +741,7 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.tail3 = new ModelRenderer(this);
         this.tail3.setRotationPoint(0.0F, 0.0F, 11.9F);
         this.tail2.addChild(tail3);
-        this.setRotateAngle(tail3, 0.0526F, -0.2182F, -0.0019F);
+        this.setRotateAngle(tail3, 0.0964F, 0.0869F, 0.0084F);
         this.tail3.cubeList.add(new ModelBox(tail3, 30, 17, -0.5F, -0.0288F, -0.0996F, 1, 1, 10, -0.003F, false));
 
         this.cube_r64 = new ModelRenderer(this);
@@ -770,18 +765,18 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.cube_r65.cubeList.add(new ModelBox(cube_r65, 78, 50, 0.0F, -2.15F, -3.8F, 0, 2, 1, 0.0F, false));
 
         this.tail4 = new ModelRenderer(this);
-        this.tail4.setRotationPoint(0.0F, 0.3782F, 9.745F);
+        this.tail4.setRotationPoint(0.0F, 0.6282F, 9.495F);
         this.tail3.addChild(tail4);
-        this.setRotateAngle(tail4, -0.0532F, -0.1303F, 0.0126F);
-        this.tail4.cubeList.add(new ModelBox(tail4, 16, 18, -0.5F, -0.42F, 0.1157F, 1, 1, 11, 0.003F, false));
-        this.tail4.cubeList.add(new ModelBox(tail4, 31, 79, 0.0F, -1.32F, 1.1157F, 0, 1, 1, 0.0F, false));
-        this.tail4.cubeList.add(new ModelBox(tail4, 79, 21, 0.0F, -1.22F, 3.1157F, 0, 1, 1, 0.0F, false));
-        this.tail4.cubeList.add(new ModelBox(tail4, 4, 79, 0.0F, -1.22F, 5.1157F, 0, 1, 1, 0.0F, false));
-        this.tail4.cubeList.add(new ModelBox(tail4, 71, 78, 0.0F, -1.12F, 7.1157F, 0, 1, 1, 0.0F, false));
-        this.tail4.cubeList.add(new ModelBox(tail4, 77, 32, 0.0F, -0.92F, 9.1157F, 0, 1, 1, 0.0F, false));
+        this.setRotateAngle(tail4, 0.035F, 0.0872F, 0.0031F);
+        this.tail4.cubeList.add(new ModelBox(tail4, 16, 18, -0.5F, -0.6928F, 0.3405F, 1, 1, 11, 0.003F, false));
+        this.tail4.cubeList.add(new ModelBox(tail4, 31, 79, 0.0F, -1.5928F, 1.3405F, 0, 1, 1, 0.0F, false));
+        this.tail4.cubeList.add(new ModelBox(tail4, 79, 21, 0.0F, -1.4928F, 3.3405F, 0, 1, 1, 0.0F, false));
+        this.tail4.cubeList.add(new ModelBox(tail4, 4, 79, 0.0F, -1.4928F, 5.3405F, 0, 1, 1, 0.0F, false));
+        this.tail4.cubeList.add(new ModelBox(tail4, 71, 78, 0.0F, -1.3928F, 7.3405F, 0, 1, 1, 0.0F, false));
+        this.tail4.cubeList.add(new ModelBox(tail4, 77, 32, 0.0F, -1.1928F, 9.3405F, 0, 1, 1, 0.0F, false));
 
         this.cube_r66 = new ModelRenderer(this);
-        this.cube_r66.setRotationPoint(0.0F, 1.0843F, 5.7488F);
+        this.cube_r66.setRotationPoint(0.0F, 0.8115F, 5.9737F);
         this.tail4.addChild(cube_r66);
         this.setRotateAngle(cube_r66, 0.2618F, 0.0F, 0.0F);
         this.cube_r66.cubeList.add(new ModelBox(cube_r66, 9, 59, 0.0F, -0.1F, 3.75F, 0, 1, 1, 0.0F, false));
@@ -791,21 +786,21 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.cube_r66.cubeList.add(new ModelBox(cube_r66, 65, 78, 0.0F, -2.4F, -4.25F, 0, 2, 1, 0.0F, false));
 
         this.tail5 = new ModelRenderer(this);
-        this.tail5.setRotationPoint(0.0F, 0.58F, 11.0157F);
+        this.tail5.setRotationPoint(0.0F, 0.3072F, 11.2405F);
         this.tail4.addChild(tail5);
-        this.setRotateAngle(tail5, -0.0928F, -0.3477F, 0.0317F);
+        this.setRotateAngle(tail5, -0.0886F, 0.1739F, -0.0154F);
         this.tail5.cubeList.add(new ModelBox(tail5, 16, 4, -0.5F, -1.0F, 0.0F, 1, 1, 11, 0.0F, false));
 
         this.tail6 = new ModelRenderer(this);
         this.tail6.setRotationPoint(0.0F, -0.9F, 11.0F);
         this.tail5.addChild(tail6);
-        this.setRotateAngle(tail6, -0.0268F, -0.4677F, 0.1122F);
+        this.setRotateAngle(tail6, -0.2182F, 0.0F, 0.0F);
         this.tail6.cubeList.add(new ModelBox(tail6, 0, 15, -0.5F, -0.2F, 0.0F, 1, 1, 12, 0.003F, false));
 
         this.body = new ModelRenderer(this);
         this.body.setRotationPoint(0.0F, 0.0F, -5.0F);
         this.hips.addChild(body);
-        this.setRotateAngle(body, -0.0456F, 0.3089F, 0.0735F);
+        this.setRotateAngle(body, 0.0076F, 0.0869F, 0.0876F);
 
 
         this.cube_r67 = new ModelRenderer(this);
@@ -1041,7 +1036,7 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.chest = new ModelRenderer(this);
         this.chest.setRotationPoint(0.0F, 3.0F, -12.0F);
         this.body.addChild(chest);
-        this.setRotateAngle(chest, -0.088F, 0.1304F, -0.0115F);
+        this.setRotateAngle(chest, 0.0F, 0.0873F, 0.0F);
 
 
         this.cube_r105 = new ModelRenderer(this);
@@ -1283,7 +1278,7 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.leftArm = new ModelRenderer(this);
         this.leftArm.setRotationPoint(4.6F, 5.2F, -3.3F);
         this.chest.addChild(leftArm);
-        this.setRotateAngle(leftArm, 0.0316F, 0.3332F, -0.7489F);
+        this.setRotateAngle(leftArm, 0.8335F, 0.2975F, -0.4347F);
         this.leftArm.cubeList.add(new ModelBox(leftArm, 72, 32, -0.3F, -0.3F, -0.5F, 1, 2, 1, 0.0F, false));
         this.leftArm.cubeList.add(new ModelBox(leftArm, 67, 54, -1.0F, -1.3F, -0.5F, 2, 1, 1, 0.0F, false));
 
@@ -1308,7 +1303,7 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.leftArm2 = new ModelRenderer(this);
         this.leftArm2.setRotationPoint(0.2F, 5.6F, 1.4F);
         this.leftArm.addChild(leftArm2);
-        this.setRotateAngle(leftArm2, -1.1946F, 0.036F, 0.3006F);
+        this.setRotateAngle(leftArm2, -1.3715F, 0.4881F, -0.1995F);
         this.leftArm2.cubeList.add(new ModelBox(leftArm2, 47, 65, 0.0F, 0.0F, -0.6F, 1, 7, 1, -0.01F, false));
         this.leftArm2.cubeList.add(new ModelBox(leftArm2, 42, 64, 0.0F, 0.0F, -1.7F, 1, 7, 1, -0.1F, false));
 
@@ -1321,7 +1316,6 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.leftArm4 = new ModelRenderer(this);
         this.leftArm4.setRotationPoint(0.0F, 2.5F, 0.0F);
         this.leftArm3.addChild(leftArm4);
-        this.setRotateAngle(leftArm4, 0.0F, 0.0F, 1.2217F);
         this.leftArm4.cubeList.add(new ModelBox(leftArm4, 62, 50, -0.5F, -0.5F, -0.1F, 2, 1, 2, -0.003F, false));
 
         this.opposablePinkie = new ModelRenderer(this);
@@ -1333,7 +1327,7 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.rightArm = new ModelRenderer(this);
         this.rightArm.setRotationPoint(-4.6F, 5.2F, -3.3F);
         this.chest.addChild(rightArm);
-        this.setRotateAngle(rightArm, 0.721F, -0.2635F, 0.3309F);
+        this.setRotateAngle(rightArm, 0.8555F, -0.1996F, 0.3451F);
         this.rightArm.cubeList.add(new ModelBox(rightArm, 70, 0, -0.7F, -0.3F, -0.5F, 1, 2, 1, 0.0F, false));
         this.rightArm.cubeList.add(new ModelBox(rightArm, 58, 40, -1.0F, -1.3F, -0.5F, 2, 1, 1, 0.0F, false));
 
@@ -1358,20 +1352,20 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.rightArm2 = new ModelRenderer(this);
         this.rightArm2.setRotationPoint(-0.2F, 5.6F, 1.4F);
         this.rightArm.addChild(rightArm2);
-        this.setRotateAngle(rightArm2, -1.1702F, 0.4613F, -0.2434F);
+        this.setRotateAngle(rightArm2, -1.3211F, -0.3497F, 0.1757F);
         this.rightArm2.cubeList.add(new ModelBox(rightArm2, 0, 64, -1.0F, 0.0F, -0.6F, 1, 7, 1, -0.01F, false));
         this.rightArm2.cubeList.add(new ModelBox(rightArm2, 26, 63, -1.0F, 0.0F, -1.7F, 1, 7, 1, -0.1F, false));
 
         this.rightArm3 = new ModelRenderer(this);
         this.rightArm3.setRotationPoint(0.0F, 7.0F, -1.5F);
         this.rightArm2.addChild(rightArm3);
-        this.setRotateAngle(rightArm3, -0.2508F, -0.3435F, -0.0631F);
+        this.setRotateAngle(rightArm3, 0.0518F, -0.3854F, 0.3081F);
         this.rightArm3.cubeList.add(new ModelBox(rightArm3, 13, 31, -0.5F, 0.0F, -0.1F, 1, 3, 2, 0.0F, false));
 
         this.rightArm4 = new ModelRenderer(this);
         this.rightArm4.setRotationPoint(0.0F, 2.5F, 0.0F);
         this.rightArm3.addChild(rightArm4);
-        this.setRotateAngle(rightArm4, 0.0F, 0.0F, -1.4835F);
+        this.setRotateAngle(rightArm4, 0.0F, 0.0F, -0.3927F);
         this.rightArm4.cubeList.add(new ModelBox(rightArm4, 15, 23, -1.5F, -0.5F, -0.1F, 2, 1, 2, -0.003F, false));
 
         this.opposablePinkie2 = new ModelRenderer(this);
@@ -1383,7 +1377,7 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.neck3 = new ModelRenderer(this);
         this.neck3.setRotationPoint(0.0F, -0.1F, -3.9F);
         this.chest.addChild(neck3);
-        this.setRotateAngle(neck3, 0.2946F, 0.209F, 0.0629F);
+        this.setRotateAngle(neck3, 0.4251F, 0.2559F, 0.0592F);
 
 
         this.cube_r150 = new ModelRenderer(this);
@@ -1479,7 +1473,7 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.neck2 = new ModelRenderer(this);
         this.neck2.setRotationPoint(0.0F, -0.9887F, -4.9934F);
         this.neck3.addChild(neck2);
-        this.setRotateAngle(neck2, -0.5029F, 0.3879F, -0.2051F);
+        this.setRotateAngle(neck2, -0.3302F, 0.3027F, -0.0594F);
 
 
         this.cube_r165 = new ModelRenderer(this);
@@ -1517,7 +1511,7 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.neck = new ModelRenderer(this);
         this.neck.setRotationPoint(0.0F, -2.0F, -4.3F);
         this.neck2.addChild(neck);
-        this.setRotateAngle(neck, -0.2044F, 0.6447F, -0.0429F);
+        this.setRotateAngle(neck, 0.1282F, 0.5988F, 0.1582F);
 
 
         this.cube_r170 = new ModelRenderer(this);
@@ -1555,7 +1549,7 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.head = new ModelRenderer(this);
         this.head.setRotationPoint(0.0F, -0.8F, -3.0F);
         this.neck.addChild(head);
-        this.setRotateAngle(head, 0.2564F, 0.2463F, 0.4401F);
+        this.setRotateAngle(head, 0.4494F, 0.1581F, -0.2103F);
 
 
         this.cube_r175 = new ModelRenderer(this);
@@ -1737,7 +1731,7 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
         this.jaw = new ModelRenderer(this);
         this.jaw.setRotationPoint(0.0F, 1.8464F, -1.1F);
         this.head.addChild(jaw);
-        this.setRotateAngle(jaw, 0.48F, 0.0F, 0.0F);
+        this.setRotateAngle(jaw, 0.0873F, 0.0F, 0.0F);
 
 
         this.cube_r201 = new ModelRenderer(this);
@@ -1790,7 +1784,7 @@ public class ModelSkeletonTenontosaurus extends ModelBase {
     }
 
     public void renderAll(float f) {
-        this.fossil.render(0.01f);
+        this.hips.render(0.01f);
     }
 
     public void setRotateAngle(ModelRenderer modelRenderer, float x, float y, float z) {

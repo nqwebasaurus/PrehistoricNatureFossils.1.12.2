@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_acrocanthosaurus"
+		  },
+		"title": {
+			"translate": "advancements.acrocanthosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.acrocanthosaurus.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:adv_carcharodontosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_acrocanthosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

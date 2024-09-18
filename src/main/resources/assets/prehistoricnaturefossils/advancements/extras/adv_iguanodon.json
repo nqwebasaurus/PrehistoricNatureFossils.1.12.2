@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_iguanodon"
+		  },
+		"title": {
+			"translate": "advancements.iguanodon.title"
+		},
+		"description": {
+			"translate": "advancements.iguanodon.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_iguanodontids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_iguanodon"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

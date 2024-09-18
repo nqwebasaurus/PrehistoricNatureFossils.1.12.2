@@ -111,7 +111,7 @@ public class RenderFossilTupandactylus extends TileEntitySpecialRenderer<TileEnt
         ModelSkeletonTupandactylus modelSkeleton = this.modelSkeleton;
         double scale = 0.94F * RenderDisplayWallMount.scaler;
 
-        GlStateManager.translate(x + 0.5, y + 1.8, z + 0.5);
+        GlStateManager.translate(x + 0.5, y + 2.7, z + 0.5);
         GlStateManager.scale(scale,scale,scale);
         GlStateManager.rotate(180, 0F, 0F, 1F);
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
@@ -131,7 +131,7 @@ public class RenderFossilTupandactylus extends TileEntitySpecialRenderer<TileEnt
             GlStateManager.enableAlpha();
             ModelSkeletonTupandactylusFrame modelSkeletonFrame = this.modelSkeletonFrame;
             scale = 0.94F * RenderDisplayWallMount.scaler;
-            GlStateManager.translate(x + 0.5, y + 1.8, z + 0.5);
+            GlStateManager.translate(x + 0.5, y + 2.7, z + 0.5);
             GlStateManager.scale(scale,scale,scale);
             GlStateManager.rotate(180, 0F, 0F, 1F);
             GlStateManager.rotate(currentRotation, 0F, 1F, 0F);

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_diademodon"
+		  },
+		"title": {
+			"translate": "advancements.diademodon.title"
+		},
+		"description": {
+			"translate": "advancements.diademodon.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_mammaliaformes",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_diademodon"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

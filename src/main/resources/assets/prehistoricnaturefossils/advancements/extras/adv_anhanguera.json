@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_anhanguera"
+		  },
+		"title": {
+			"translate": "advancements.anhanguera.title"
+		},
+		"description": {
+			"translate": "advancements.anhanguera.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_ornithocheiromorpha",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_anhanguera"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

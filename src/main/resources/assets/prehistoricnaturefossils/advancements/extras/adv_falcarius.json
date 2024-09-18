@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_falcarius"
+		  },
+		"title": {
+			"translate": "advancements.falcarius.title"
+		},
+		"description": {
+			"translate": "advancements.falcarius.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_therizinosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_falcarius"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_drepanosaurus"
+		  },
+		"title": {
+			"translate": "advancements.drepanosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.drepanosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_drepanosauromorpha",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_drepanosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
