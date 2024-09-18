@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_incisivosaurus"
+		  },
+		"title": {
+			"translate": "advancements.incisivosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.incisivosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_oviraptorosaurs",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_incisivosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_convolosaurus"
+		  },
+		"title": {
+			"translate": "advancements.convolosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.convolosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_dryomorphs",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_convolosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

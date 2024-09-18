@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_cryptoclidus"
+		  },
+		"title": {
+			"translate": "advancements.cryptoclidus.title"
+		},
+		"description": {
+			"translate": "advancements.cryptoclidus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_plesiosauroidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_cryptoclidus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

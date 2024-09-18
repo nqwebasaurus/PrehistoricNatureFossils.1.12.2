@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_berthasaura"
+		  },
+		"title": {
+			"translate": "advancements.berthasaura.title"
+		},
+		"description": {
+			"translate": "advancements.berthasaura.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_ceratosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_berthasaura"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

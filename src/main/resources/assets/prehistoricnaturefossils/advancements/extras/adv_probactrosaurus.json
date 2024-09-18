@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_probactrosaurus"
+		  },
+		"title": {
+			"translate": "advancements.probactrosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.probactrosaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_iguanodontids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_probactrosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_concavenator"
+		  },
+		"title": {
+			"translate": "advancements.concavenator.title"
+		},
+		"description": {
+			"translate": "advancements.concavenator.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_carcharodontosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_concavenator"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

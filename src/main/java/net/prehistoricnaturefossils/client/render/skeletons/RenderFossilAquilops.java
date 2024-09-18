@@ -70,9 +70,9 @@ public class RenderFossilAquilops extends TileEntitySpecialRenderer<TileEntityFo
 
         GlStateManager.enableAlpha();
         ModelSkeletonAquilops modelSkeleton = this.modelSkeleton;
-        double scale = 0.16F * RenderDisplayWallMount.scaler;
+        double scale = 0.26F * RenderDisplayWallMount.scaler;
 
-        GlStateManager.translate(x + 0.5, y + 0.24, z + 0.5);
+        GlStateManager.translate(x + 0.5, y + 0.38, z + 0.5);
         GlStateManager.scale(scale,scale,scale);
         GlStateManager.rotate(180, 0F, 0F, 1F);
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
@@ -91,8 +91,8 @@ public class RenderFossilAquilops extends TileEntitySpecialRenderer<TileEntityFo
             this.bindTexture(FRAME);
             GlStateManager.enableAlpha();
             ModelSkeletonAquilopsFrame modelSkeletonFrame = this.modelSkeletonFrame;
-            scale = 0.16F * RenderDisplayWallMount.scaler;
-            GlStateManager.translate(x + 0.5, y + 0.24, z + 0.5);
+            scale = 0.26F * RenderDisplayWallMount.scaler;
+            GlStateManager.translate(x + 0.5, y + 0.38, z + 0.5);
             GlStateManager.scale(scale,scale,scale);
             GlStateManager.rotate(180, 0F, 0F, 1F);
             GlStateManager.rotate(currentRotation, 0F, 1F, 0F);

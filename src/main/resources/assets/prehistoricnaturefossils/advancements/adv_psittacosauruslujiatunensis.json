@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_psittacosauruslujiatunensis"
+		  },
+		"title": {
+			"translate": "advancements.psittacosauruslujiatunensis.title"
+		},
+		"description": {
+			"translate": "advancements.psittacosauruslujiatunensis.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_ceratopsia",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_psittacosauruslujiatunensis"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

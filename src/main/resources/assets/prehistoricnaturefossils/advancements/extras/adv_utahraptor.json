@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_utahraptor"
+		  },
+		"title": {
+			"translate": "advancements.utahraptor.title"
+		},
+		"description": {
+			"translate": "advancements.utahraptor.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_dromaeosauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_utahraptor"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

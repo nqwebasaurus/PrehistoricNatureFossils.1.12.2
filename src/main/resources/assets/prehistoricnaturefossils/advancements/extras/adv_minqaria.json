@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_minqaria"
+		  },
+		"title": {
+			"translate": "advancements.minqaria.title"
+		},
+		"description": {
+			"translate": "advancements.minqaria.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_lambeosaurines",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_minqaria"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

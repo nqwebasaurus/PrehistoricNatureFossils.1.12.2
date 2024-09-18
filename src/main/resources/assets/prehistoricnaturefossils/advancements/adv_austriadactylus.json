@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_austriadactylus"
+		  },
+		"title": {
+			"translate": "advancements.austriadactylus.title"
+		},
+		"description": {
+			"translate": "advancements.austriadactylus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_pterosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_austriadactylus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

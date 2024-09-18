@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_hypuronector"
+		  },
+		"title": {
+			"translate": "advancements.hypuronector.title"
+		},
+		"description": {
+			"translate": "advancements.hypuronector.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_drepanosauromorpha",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_hypuronector"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

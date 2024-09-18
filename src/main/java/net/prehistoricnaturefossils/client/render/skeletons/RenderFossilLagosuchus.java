@@ -70,9 +70,9 @@ public class RenderFossilLagosuchus extends TileEntitySpecialRenderer<TileEntity
 
         GlStateManager.enableAlpha();
         ModelSkeletonLagosuchus modelSkeleton = this.modelSkeleton;
-        double scale = 0.076F * RenderDisplayWallMount.scaler;
+        double scale = 0.145F * RenderDisplayWallMount.scaler;
 
-        GlStateManager.translate(x + 0.5, y + 0.12, z + 0.5);
+        GlStateManager.translate(x + 0.5, y + 0.2, z + 0.5);
         GlStateManager.scale(scale,scale,scale);
         GlStateManager.rotate(180, 0F, 0F, 1F);
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
@@ -91,8 +91,8 @@ public class RenderFossilLagosuchus extends TileEntitySpecialRenderer<TileEntity
             this.bindTexture(FRAME);
             GlStateManager.enableAlpha();
             ModelSkeletonLagosuchusFrame modelSkeletonFrame = this.modelSkeletonFrame;
-            scale = 0.076F * RenderDisplayWallMount.scaler;
-            GlStateManager.translate(x + 0.5, y + 0.12, z + 0.5);
+            scale = 0.145F * RenderDisplayWallMount.scaler;
+            GlStateManager.translate(x + 0.5, y + 0.2, z + 0.5);
             GlStateManager.scale(scale,scale,scale);
             GlStateManager.rotate(180, 0F, 0F, 1F);
             GlStateManager.rotate(currentRotation, 0F, 1F, 0F);

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_leaellynasaura"
+		  },
+		"title": {
+			"translate": "advancements.leaellynasaura.title"
+		},
+		"description": {
+			"translate": "advancements.leaellynasaura.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_dryomorphs",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_leaellynasaura"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_rechnisaurus"
+		  },
+		"title": {
+			"translate": "advancements.rechnisaurus.title"
+		},
+		"description": {
+			"translate": "advancements.rechnisaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_dicynodontiabig",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_rechnisaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

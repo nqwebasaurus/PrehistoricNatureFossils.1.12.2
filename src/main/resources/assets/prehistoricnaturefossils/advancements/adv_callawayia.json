@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_callawayia"
+		  },
+		"title": {
+			"translate": "advancements.callawayia.title"
+		},
+		"description": {
+			"translate": "advancements.callawayia.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_ichthyosaurialong",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_callawayia"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

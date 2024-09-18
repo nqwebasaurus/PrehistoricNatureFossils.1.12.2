@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_riojasuchus"
+		  },
+		"title": {
+			"translate": "advancements.riojasuchus.title"
+		},
+		"description": {
+			"translate": "advancements.riojasuchus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_pseudosuchians",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_riojasuchus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

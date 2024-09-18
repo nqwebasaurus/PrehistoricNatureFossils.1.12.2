@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_lajasvenator"
+		  },
+		"title": {
+			"translate": "advancements.lajasvenator.title"
+		},
+		"description": {
+			"translate": "advancements.lajasvenator.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_carcharodontosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_lajasvenator"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

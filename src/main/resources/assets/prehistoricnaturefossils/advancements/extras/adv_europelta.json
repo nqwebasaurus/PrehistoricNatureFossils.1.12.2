@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_europelta"
+		},
+		"title": {
+			"translate": "advancements.europelta.title"
+		},
+		"description": {
+			"translate": "advancements.europelta.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_nodosauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_europelta"
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

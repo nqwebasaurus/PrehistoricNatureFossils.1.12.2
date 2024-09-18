@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_barbosania"
+		  },
+		"title": {
+			"translate": "advancements.barbosania.title"
+		},
+		"description": {
+			"translate": "advancements.barbosania.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_ornithocheiromorpha",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_barbosania"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_psittacosaurussibiricus"
+		  },
+		"title": {
+			"translate": "advancements.psittacosaurussibiricus.title"
+		},
+		"description": {
+			"translate": "advancements.psittacosaurussibiricus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_ceratopsia",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_psittacosaurussibiricus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
