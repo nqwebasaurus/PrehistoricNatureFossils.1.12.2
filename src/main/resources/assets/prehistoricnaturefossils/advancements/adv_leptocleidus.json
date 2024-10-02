@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_leptocleidus"
+		  },
+		"title": {
+			"translate": "advancements.leptocleidus.title"
+		},
+		"description": {
+			"translate": "advancements.leptocleidus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_plesiosauroidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_leptocleidus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

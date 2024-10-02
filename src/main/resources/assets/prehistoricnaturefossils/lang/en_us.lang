@@ -479,6 +479,18 @@ advancements.pelecanimimus.title=Pelican Mimic
 advancements.pelecanimimus.description=Complete a Pelecanimimus skeleton
 advancements.bajadasaurus.title=Bajada Colorada Lizard
 advancements.bajadasaurus.description=Complete a Bajadasaurus skeleton
+advancements.eocursor.title=Dawn Runner
+advancements.eocursor.description=Complete an Eocursor skeleton
+advancements.dracoraptor.title=Dragon Robber
+advancements.dracoraptor.description=Complete a Dracoraptor skeleton
+advancements.sauropelta.title=Lizard Shield
+advancements.sauropelta.description=Complete a Sauropelta skeleton
+advancements.yutyrannus.title=Feathered Tyrant
+advancements.yutyrannus.description=Complete a Yutyrannus skeleton
+advancements.leptocleidus.title=Slender Clavicle
+advancements.leptocleidus.description=Complete a Leptocleidus skeleton
+advancements.abyssosaurus.title=Bottom-less Lizard
+advancements.abyssosaurus.description=Complete an Abyssosaurus skeleton
 
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
@@ -1104,8 +1116,14 @@ tile.pf_skeleton_probactrosaurus.name=Probactrosaurus Displayable Fossil
 tile.pf_skeleton_altirhinus.name=Altirhinus Displayable Fossil
 tile.pf_skeleton_pelecanimimus.name=Pelecanimimus Displayable Fossil
 tile.pf_skeleton_bajadasaurus.name=Bajadasaurus Displayable Fossil
+tile.pf_skeleton_eocursor.name=Eocursor Displayable Fossil
+tile.pf_skeleton_dracoraptor.name=Dracoraptor Displayable Fossil
+tile.pf_skeleton_sauropelta.name=Sauropelta Displayable Fossil
+tile.pf_skeleton_yutyrannus.name=Yutyrannus Displayable Fossil
+tile.pf_skeleton_leptocleidus.name=Leptocleidus Displayable Fossil
+tile.pf_skeleton_abyssosaurus.name=Abyssosaurus Displayable Fossil
 
 
-item.pf_fossil_slabber.name=Fossil SOMETHING!!
+item.pf_fossil_slabber.name=Slate Splitter
 
 item.pf_skeleton_placeholder.name=Placeholder item DO NOT USE

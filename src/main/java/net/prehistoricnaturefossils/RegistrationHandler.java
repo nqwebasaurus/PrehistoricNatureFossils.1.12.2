@@ -103,6 +103,12 @@ public class RegistrationHandler {
             "skeleton_altirhinus",
             "skeleton_pelecanimimus",
             "skeleton_bajadasaurus",
+            "skeleton_eocursor",
+            "skeleton_dracoraptor",
+            "skeleton_sauropelta",
+            "skeleton_yutyrannus",
+            "skeleton_leptocleidus",
+            "skeleton_abyssosaurus",
             "skeleton_diplocaulusminimus"
     };
 
