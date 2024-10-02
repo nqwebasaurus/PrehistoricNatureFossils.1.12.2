@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_eocursor"
+		  },
+		"title": {
+			"translate": "advancements.eocursor.title"
+		},
+		"description": {
+			"translate": "advancements.eocursor.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_neornithischians",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_eocursor"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

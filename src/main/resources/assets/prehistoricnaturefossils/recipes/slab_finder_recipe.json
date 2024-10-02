@@ -1,0 +1,17 @@
+{
+ "group": "prehistoricnaturefossils",
+ "type": "minecraft:crafting_shapeless",
+ "ingredients": [
+ {
+ "item": "lepidodendron:fossil_hammer"
+ },
+ {
+ "type": "forge:ore_dict",
+ "ore": "ingotIron"
+ }
+ ],
+ "result": {
+ "item": "prehistoricnaturefossils:fossil_slabber",
+ "count": 1
+ }
+}

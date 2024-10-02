@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_sauropelta"
+		  },
+		"title": {
+			"translate": "advancements.sauropelta.title"
+		},
+		"description": {
+			"translate": "advancements.sauropelta.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_nodosauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_sauropelta"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

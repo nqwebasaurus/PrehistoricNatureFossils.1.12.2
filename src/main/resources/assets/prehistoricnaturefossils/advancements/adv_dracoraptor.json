@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_dracoraptor"
+		  },
+		"title": {
+			"translate": "advancements.dracoraptor.title"
+		},
+		"description": {
+			"translate": "advancements.dracoraptor.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_coelophysoidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_dracoraptor"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_yutyrannus"
+		  },
+		"title": {
+			"translate": "advancements.yutyrannus.title"
+		},
+		"description": {
+			"translate": "advancements.yutyrannus.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:adv_proceratosaurids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_yutyrannus"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}
