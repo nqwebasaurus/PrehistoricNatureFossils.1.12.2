@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_australovenator"
+		  },
+		"title": {
+			"translate": "advancements.australovenator.title"
+		},
+		"description": {
+			"translate": "advancements.australovenator.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_megaraptora",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_australovenator"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

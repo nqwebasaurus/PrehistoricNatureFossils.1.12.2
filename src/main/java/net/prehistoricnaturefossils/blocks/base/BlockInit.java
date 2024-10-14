@@ -407,4 +407,11 @@ public class BlockInit {
     public static final Block FOSSIL_YUTYRANNUS    = new BlockFossilYutyrannus();
     public static final Block FOSSIL_LEPTOCLEIDUS    = new BlockFossilLeptocleidus();
     public static final Block FOSSIL_ABYSSOSAURUS    = new BlockFossilAbyssosaurus();
+    public static final Block FOSSIL_AUSTRALOVENATOR    = new BlockFossilAustralovenator();
+    public static final Block FOSSIL_GASTONIA    = new BlockFossilGastonia();
+    public static final Block FOSSIL_POLACANTHUS    = new BlockFossilPolacanthus();
+    public static final Block FOSSIL_EOCARCHARIA    = new BlockFossilEocarcharia();
+    public static final Block FOSSIL_TRIMERUS    = new BlockFossilTrimerus();
+    public static final Block FOSSIL_LUNGMENSHANASPIS    = new BlockFossilLungmenshanaspis();
+
 }

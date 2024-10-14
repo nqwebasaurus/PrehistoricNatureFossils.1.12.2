@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_polacanthus"
+		},
+		"title": {
+			"translate": "advancements.polacanthus.title"
+		},
+		"description": {
+			"translate": "advancements.polacanthus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_nodosauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_polacanthus"
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

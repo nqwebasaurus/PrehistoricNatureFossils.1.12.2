@@ -12,6 +12,8 @@ public class ModTriggers
 {
 
     public static final CustomTrigger AEGER_COMPLETE = new CustomTrigger("adv_aeger");
+    public static final CustomTrigger TRIMERUS_COMPLETE = new CustomTrigger("adv_trimerus");
+    public static final CustomTrigger LUNGMENSHANASPIS_COMPLETE = new CustomTrigger("adv_lungmenshanaspis");
     public static final CustomTrigger XENACANTHUS_COMPLETE = new CustomTrigger("adv_xenacanthus");
     public static final CustomTrigger GREGORIUS_COMPLETE = new CustomTrigger("adv_gregorius");
     public static final CustomTrigger CIURCOPTERUS_COMPLETE = new CustomTrigger("adv_ciurcopterus");
@@ -325,9 +327,15 @@ public class ModTriggers
     public static final CustomTrigger YUTYRANNUS_COMPLETE = new CustomTrigger("adv_yutyrannus");
     public static final CustomTrigger LEPTOCLEIDUS_COMPLETE = new CustomTrigger("adv_leptocleidus");
     public static final CustomTrigger ABYSSOSAURUS_COMPLETE = new CustomTrigger("adv_abyssosaurus");
+    public static final CustomTrigger AUSTRALOVENATOR_COMPLETE = new CustomTrigger("adv_australovenator");
+    public static final CustomTrigger GASTONIA_COMPLETE = new CustomTrigger("adv_gastonia");
+    public static final CustomTrigger POLACANTHUS_COMPLETE = new CustomTrigger("adv_polacanthus");
+    public static final CustomTrigger EOCARCHARIA_COMPLETE = new CustomTrigger("adv_eocarcharia");
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
+            TRIMERUS_COMPLETE,
+            LUNGMENSHANASPIS_COMPLETE,
             XENACANTHUS_COMPLETE,
             GREGORIUS_COMPLETE,
             SLIMONIA_COMPLETE,
@@ -486,6 +494,10 @@ public class ModTriggers
             YUTYRANNUS_COMPLETE,
             LEPTOCLEIDUS_COMPLETE,
             ABYSSOSAURUS_COMPLETE,
+            AUSTRALOVENATOR_COMPLETE,
+            GASTONIA_COMPLETE,
+            POLACANTHUS_COMPLETE,
+            EOCARCHARIA_COMPLETE,
             OLOROTITAN_COMPLETE,
             ICHTHYOSAURUS_COMPLETE,
             LUFENGOSAURUS_COMPLETE,

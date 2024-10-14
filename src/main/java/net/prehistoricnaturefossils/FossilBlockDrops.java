@@ -646,6 +646,10 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_YUTYRANNUS, 1),
                 new ItemStack(BlockInit.FOSSIL_LEPTOCLEIDUS, 1),
                 new ItemStack(BlockInit.FOSSIL_ABYSSOSAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_AUSTRALOVENATOR, 1),
+                new ItemStack(BlockInit.FOSSIL_GASTONIA, 1),
+                new ItemStack(BlockInit.FOSSIL_POLACANTHUS, 1),
+                new ItemStack(BlockInit.FOSSIL_EOCARCHARIA, 1),
                 new ItemStack(BlockInit.FOSSIL_OURANOSAURUS, 1)
         };
         return itemStack;
@@ -749,6 +753,7 @@ public class FossilBlockDrops {
         ItemStack[] itemStack = {
                 new ItemStack(BlockInit.FOSSIL_CROTALOCEPHALUS, 1),
                 new ItemStack(BlockInit.FOSSIL_CONODONT, 1),
+                new ItemStack(BlockInit.FOSSIL_TRIMERUS, 1),
                 new ItemStack(BlockInit.FOSSIL_CYRTOCERAS, 1),
                 new ItemStack(BlockInit.FOSSIL_ROTACIURCA, 1),
                 new ItemStack(BlockInit.FOSSIL_MACLURINA, 1),
@@ -783,6 +788,8 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_CYRTOCERAS, 1),
                 new ItemStack(BlockInit.FOSSIL_CROTALOCEPHALUS, 1),
                 new ItemStack(BlockInit.FOSSIL_MIMETASTER, 1),
+                new ItemStack(BlockInit.FOSSIL_TRIMERUS, 1),
+                new ItemStack(BlockInit.FOSSIL_LUNGMENSHANASPIS, 1),
                 new ItemStack(BlockInit.FOSSIL_HELIANTHASTER, 1),
                 new ItemStack(BlockInit.FOSSIL_DORYASPIS, 1),
                 new ItemStack(BlockInit.FOSSIL_GANTAROSTRATASPIS, 1),
