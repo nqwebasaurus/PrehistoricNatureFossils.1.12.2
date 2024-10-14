@@ -8,21 +8,21 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.blocks.base.BlockSlabBase;
-import net.prehistoricnaturefossils.client.model.ModelSkeletonXenacanthus;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonLungmenshanaspis;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
-import net.prehistoricnaturefossils.tile.TileEntityFossilXenacanthus;
+import net.prehistoricnaturefossils.tile.TileEntityFossilLungmenshanaspis;
 
-public class RenderFossilXenacanthus extends TileEntitySpecialRenderer<TileEntityFossilXenacanthus> {
+public class RenderFossilLungmenshanaspis extends TileEntitySpecialRenderer<TileEntityFossilLungmenshanaspis> {
 
-    private static final ResourceLocation TEXTURE1 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/xenacanthus_stage1.png");
-    private final ModelSkeletonXenacanthus modelSkeleton;
+    private static final ResourceLocation TEXTURE1 = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/lungmenshanaspis_stage1.png");
+    private final ModelSkeletonLungmenshanaspis modelSkeleton;
 
-    public RenderFossilXenacanthus() {
-        this.modelSkeleton = new ModelSkeletonXenacanthus();
+    public RenderFossilLungmenshanaspis() {
+        this.modelSkeleton = new ModelSkeletonLungmenshanaspis();
     }
 
     @Override
-    public void render(TileEntityFossilXenacanthus entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
+    public void render(TileEntityFossilLungmenshanaspis entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
         int currentRotation = 0;
         int currentStage = 0;
         EnumFacing facing = EnumFacing.UP;
@@ -43,10 +43,11 @@ public class RenderFossilXenacanthus extends TileEntitySpecialRenderer<TileEntit
         }
 
         GlStateManager.enableAlpha();
-        ModelSkeletonXenacanthus modelSkeleton = this.modelSkeleton;
-        double scale = 0.48F * RenderDisplayWallMount.scaler;
+        ModelSkeletonLungmenshanaspis modelSkeleton = this.modelSkeleton;
+        double scale = 0.18F * RenderDisplayWallMount.scaler;
 
-        double offset = 0.68;
+
+        double offset = 0.26;
         if (facing == EnumFacing.UP) {
             GlStateManager.translate(x + 0.5, y + offset, z + 0.5);
             GlStateManager.rotate(180, 0F, 0F, 1F);

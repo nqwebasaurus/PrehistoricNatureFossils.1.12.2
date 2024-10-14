@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_eocarcharia"
+		  },
+		"title": {
+			"translate": "advancements.eocarcharia.title"
+		},
+		"description": {
+			"translate": "advancements.eocarcharia.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_carcharodontosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_eocarcharia"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

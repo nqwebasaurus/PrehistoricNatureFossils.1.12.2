@@ -1,6 +1,5 @@
 package net.prehistoricnaturefossils.client.render.slabs;
 
-import net.lepidodendron.entity.render.entity.RenderPikaia;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
@@ -45,9 +44,9 @@ public class RenderFossilPikaia extends TileEntitySpecialRenderer<TileEntityFoss
 
         GlStateManager.enableAlpha();
         ModelSkeletonPikaia modelSkeleton = this.modelSkeleton;
-        double scale = RenderPikaia.getScaler() * RenderDisplayWallMount.scaler;
+        double scale = 0.055F * RenderDisplayWallMount.scaler;
 
-        double offset = 0.06;
+        double offset = 0.08;
         if (facing == EnumFacing.UP) {
             GlStateManager.translate(x + 0.5, y + offset, z + 0.5);
             GlStateManager.rotate(180, 0F, 0F, 1F);
