@@ -1,8 +1,21 @@
 package net.prehistoricnaturefossils.blocks.base;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemStack;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.EnumActionResult;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.EnumHand;
+import net.minecraft.util.SoundCategory;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 import net.prehistoricnaturefossils.blocks.skeletons.*;
 import net.prehistoricnaturefossils.blocks.slabs.*;
+import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -414,4 +427,95 @@ public class BlockInit {
     public static final Block FOSSIL_TRIMERUS    = new BlockFossilTrimerus();
     public static final Block FOSSIL_LUNGMENSHANASPIS    = new BlockFossilLungmenshanaspis();
 
+    public static EnumActionResult onItemUseFossils(ItemBlock blockitem, EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
+        IBlockState iblockstate = worldIn.getBlockState(pos);
+        Block block = iblockstate.getBlock();
+
+        if (!block.isReplaceable(worldIn, pos)) {
+            pos = pos.offset(facing);
+        }
+
+        ItemStack itemstack = player.getHeldItem(hand);
+
+        if (!itemstack.isEmpty() && player.canPlayerEdit(pos, facing, itemstack) && worldIn.mayPlace(blockitem.getBlock(), pos, false, facing, player)) {
+            int i = blockitem.getMetadata(itemstack.getMetadata());
+            IBlockState iblockstate1 = blockitem.getBlock().getStateForPlacement(worldIn, pos, facing, hitX, hitY, hitZ, i, player, hand);
+
+            if (blockitem.placeBlockAt(itemstack, player, worldIn, pos, facing, hitX, hitY, hitZ, iblockstate1)) {
+                iblockstate1 = worldIn.getBlockState(pos);
+                SoundType soundtype = iblockstate1.getBlock().getSoundType(iblockstate1, worldIn, pos, player);
+                worldIn.playSound(player, pos, soundtype.getPlaceSound(), SoundCategory.BLOCKS, (soundtype.getVolume() + 1.0F) / 2.0F, soundtype.getPitch() * 0.8F);
+                TileEntity te = worldIn.getTileEntity(pos);
+                if (te != null) {
+                    if (te instanceof TileEntityFossilBase) {
+                        if (itemstack.hasTagCompound()) {
+                            if (itemstack.getTagCompound().hasKey("period")) {
+                                switch (itemstack.getTagCompound().getInteger("period")) {
+                                    case 0: default:
+                                        break;
+
+                                    case 1:
+                                        ((TileEntityFossilBase)te).dim01 = 1;
+                                        break;
+
+                                    case 2:
+                                        ((TileEntityFossilBase)te).dim02 = 1;
+                                        break;
+
+                                    case 3:
+                                        ((TileEntityFossilBase)te).dim03 = 1;
+                                        break;
+
+                                    case 4:
+                                        ((TileEntityFossilBase)te).dim04 = 1;
+                                        break;
+
+                                    case 5:
+                                        ((TileEntityFossilBase)te).dim05 = 1;
+                                        break;
+
+                                    case 6:
+                                        ((TileEntityFossilBase)te).dim06 = 1;
+                                        break;
+
+                                    case 7:
+                                        ((TileEntityFossilBase)te).dim07 = 1;
+                                        break;
+
+                                    case 8:
+                                        ((TileEntityFossilBase)te).dim08 = 1;
+                                        break;
+
+                                    case 9:
+                                        ((TileEntityFossilBase)te).dim09 = 1;
+                                        break;
+
+                                    case 10:
+                                        ((TileEntityFossilBase)te).dim10 = 1;
+                                        break;
+
+                                    case 11:
+                                        ((TileEntityFossilBase)te).dim11 = 1;
+                                        break;
+
+                                    case 12:
+                                        ((TileEntityFossilBase)te).dim12 = 1;
+                                        break;
+
+                                    case 13:
+                                        ((TileEntityFossilBase)te).dim13 = 1;
+                                        break;
+                                }
+                            }
+                        }
+                    }
+                }
+                itemstack.shrink(1);
+            }
+
+            return EnumActionResult.SUCCESS;
+        } else {
+            return EnumActionResult.FAIL;
+        }
+    }
 }

@@ -1,6 +1,7 @@
 
 package net.prehistoricnaturefossils.blocks.base;
 
+import net.lepidodendron.util.IDimensionRestricted;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockDirectional;
 import net.minecraft.block.SoundType;
@@ -17,6 +18,7 @@ import net.minecraft.init.Items;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.*;
 import net.minecraft.util.math.AxisAlignedBB;
@@ -26,15 +28,18 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldServer;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import net.prehistoricnaturefossils.FossilBlockDrops;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.items.IHasModel;
 import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 import net.prehistoricnaturefossils.triggers.CustomTrigger;
 
 import javax.annotation.Nullable;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
-public abstract class BlockSlabBase extends Block implements IHasModel, IAdvancementGranterFossil {
+public abstract class BlockSlabBase extends Block implements IDimensionRestricted, IHasModel, IAdvancementGranterFossil {
 
     public static final PropertyDirection FACING = BlockDirectional.FACING;
 
@@ -191,11 +196,400 @@ public abstract class BlockSlabBase extends Block implements IHasModel, IAdvance
 
     @Override
     public void breakBlock(World world, BlockPos pos, IBlockState state) {
-        int count = this.getStage(world, pos);
-        for (int i = 0; i < count; i++)
-        {
-            spawnAsEntity(world, pos, new ItemStack(this, 1));
+        TileEntity te = world.getTileEntity(pos);
+        if (te != null) {
+            if (te instanceof TileEntityFossilBase) {
+                int stages = this.getStage(world, pos);
+                for (int i = 0; i < ((TileEntityFossilBase) te).dim01; i++) {
+                    stages --;
+                    ItemStack stack = new ItemStack(this, 1);
+                    NBTTagCompound stackNBT = new NBTTagCompound();
+                    if (this instanceof IArchiveVertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "vertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 1);
+                    }
+                    else if (this instanceof IArchiveInvertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "invertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 1);
+                    }
+                    else if (this instanceof IArchiveStatic) {
+                        stackNBT.setString("PFStatic", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 1);
+                    }
+                    else if (this instanceof IArchivePlant) {
+                        stackNBT.setString("PFPlant", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 1);
+                    }
+                    spawnAsEntity(world, pos, stack);
+                }
+                for (int i = 0; i < ((TileEntityFossilBase) te).dim02; i++) {
+                    stages --;
+                    ItemStack stack = new ItemStack(this, 1);
+                    NBTTagCompound stackNBT = new NBTTagCompound();
+                    if (this instanceof IArchiveVertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "vertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 2);
+                    }
+                    else if (this instanceof IArchiveInvertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "invertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 2);
+                    }
+                    else if (this instanceof IArchiveStatic) {
+                        stackNBT.setString("PFStatic", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 2);
+                    }
+                    else if (this instanceof IArchivePlant) {
+                        stackNBT.setString("PFPlant", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 2);
+                    }
+                    spawnAsEntity(world, pos, stack);
+                }
+                for (int i = 0; i < ((TileEntityFossilBase) te).dim03; i++) {
+                    stages --;
+                    ItemStack stack = new ItemStack(this, 1);
+                    NBTTagCompound stackNBT = new NBTTagCompound();
+                    if (this instanceof IArchiveVertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "vertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 3);
+                    }
+                    else if (this instanceof IArchiveInvertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "invertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 3);
+                    }
+                    else if (this instanceof IArchiveStatic) {
+                        stackNBT.setString("PFStatic", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 3);
+                    }
+                    else if (this instanceof IArchivePlant) {
+                        stackNBT.setString("PFPlant", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 3);
+                    }
+                    spawnAsEntity(world, pos, stack);
+                }
+                for (int i = 0; i < ((TileEntityFossilBase) te).dim04; i++) {
+                    stages --;
+                    ItemStack stack = new ItemStack(this, 1);
+                    NBTTagCompound stackNBT = new NBTTagCompound();
+                    if (this instanceof IArchiveVertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "vertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 4);
+                    }
+                    else if (this instanceof IArchiveInvertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "invertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 4);
+                    }
+                    else if (this instanceof IArchiveStatic) {
+                        stackNBT.setString("PFStatic", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 4);
+                    }
+                    else if (this instanceof IArchivePlant) {
+                        stackNBT.setString("PFPlant", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 4);
+                    }
+                    spawnAsEntity(world, pos, stack);
+                }
+                for (int i = 0; i < ((TileEntityFossilBase) te).dim05; i++) {
+                    stages --;
+                    ItemStack stack = new ItemStack(this, 1);
+                    NBTTagCompound stackNBT = new NBTTagCompound();
+                    if (this instanceof IArchiveVertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "vertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 5);
+                    }
+                    else if (this instanceof IArchiveInvertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "invertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 5);
+                    }
+                    else if (this instanceof IArchiveStatic) {
+                        stackNBT.setString("PFStatic", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 5);
+                    }
+                    else if (this instanceof IArchivePlant) {
+                        stackNBT.setString("PFPlant", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 5);
+                    }
+                    spawnAsEntity(world, pos, stack);
+                }
+                for (int i = 0; i < ((TileEntityFossilBase) te).dim06; i++) {
+                    stages --;
+                    ItemStack stack = new ItemStack(this, 1);
+                    NBTTagCompound stackNBT = new NBTTagCompound();
+                    if (this instanceof IArchiveVertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "vertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 6);
+                    }
+                    else if (this instanceof IArchiveInvertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "invertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 6);
+                    }
+                    else if (this instanceof IArchiveStatic) {
+                        stackNBT.setString("PFStatic", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 6);
+                    }
+                    else if (this instanceof IArchivePlant) {
+                        stackNBT.setString("PFPlant", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 6);
+                    }
+                    spawnAsEntity(world, pos, stack);
+                }
+                for (int i = 0; i < ((TileEntityFossilBase) te).dim07; i++) {
+                    stages --;
+                    ItemStack stack = new ItemStack(this, 1);
+                    NBTTagCompound stackNBT = new NBTTagCompound();
+                    if (this instanceof IArchiveVertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "vertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 7);
+                    }
+                    else if (this instanceof IArchiveInvertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "invertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 7);
+                    }
+                    else if (this instanceof IArchiveStatic) {
+                        stackNBT.setString("PFStatic", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 7);
+                    }
+                    else if (this instanceof IArchivePlant) {
+                        stackNBT.setString("PFPlant", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 7);
+                    }
+                    spawnAsEntity(world, pos, stack);
+                }
+                for (int i = 0; i < ((TileEntityFossilBase) te).dim08; i++) {
+                    stages --;
+                    ItemStack stack = new ItemStack(this, 1);
+                    NBTTagCompound stackNBT = new NBTTagCompound();
+                    if (this instanceof IArchiveVertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "vertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 8);
+                    }
+                    else if (this instanceof IArchiveInvertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "invertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 8);
+                    }
+                    else if (this instanceof IArchiveStatic) {
+                        stackNBT.setString("PFStatic", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 8);
+                    }
+                    else if (this instanceof IArchivePlant) {
+                        stackNBT.setString("PFPlant", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 8);
+                    }
+                    spawnAsEntity(world, pos, stack);
+                }
+                for (int i = 0; i < ((TileEntityFossilBase) te).dim09; i++) {
+                    stages --;
+                    ItemStack stack = new ItemStack(this, 1);
+                    NBTTagCompound stackNBT = new NBTTagCompound();
+                    if (this instanceof IArchiveVertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "vertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 9);
+                    }
+                    else if (this instanceof IArchiveInvertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "invertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 9);
+                    }
+                    else if (this instanceof IArchiveStatic) {
+                        stackNBT.setString("PFStatic", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 9);
+                    }
+                    else if (this instanceof IArchivePlant) {
+                        stackNBT.setString("PFPlant", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 9);
+                    }
+                    spawnAsEntity(world, pos, stack);
+                }
+                for (int i = 0; i < ((TileEntityFossilBase) te).dim10; i++) {
+                    stages --;
+                    ItemStack stack = new ItemStack(this, 1);
+                    NBTTagCompound stackNBT = new NBTTagCompound();
+                    if (this instanceof IArchiveVertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "vertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 10);
+                    }
+                    else if (this instanceof IArchiveInvertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "invertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 10);
+                    }
+                    else if (this instanceof IArchiveStatic) {
+                        stackNBT.setString("PFStatic", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 10);
+                    }
+                    else if (this instanceof IArchivePlant) {
+                        stackNBT.setString("PFPlant", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 10);
+                    }
+                    spawnAsEntity(world, pos, stack);
+                }
+                for (int i = 0; i < ((TileEntityFossilBase) te).dim11; i++) {
+                    stages --;
+                    ItemStack stack = new ItemStack(this, 1);
+                    NBTTagCompound stackNBT = new NBTTagCompound();
+                    if (this instanceof IArchiveVertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "vertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 11);
+                    }
+                    else if (this instanceof IArchiveInvertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "invertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 11);
+                    }
+                    else if (this instanceof IArchiveStatic) {
+                        stackNBT.setString("PFStatic", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 11);
+                    }
+                    else if (this instanceof IArchivePlant) {
+                        stackNBT.setString("PFPlant", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 11);
+                    }
+                    spawnAsEntity(world, pos, stack);
+                }
+                for (int i = 0; i < ((TileEntityFossilBase) te).dim12; i++) {
+                    stages --;
+                    ItemStack stack = new ItemStack(this, 1);
+                    NBTTagCompound stackNBT = new NBTTagCompound();
+                    if (this instanceof IArchiveVertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "vertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 12);
+                    }
+                    else if (this instanceof IArchiveInvertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "invertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 12);
+                    }
+                    else if (this instanceof IArchiveStatic) {
+                        stackNBT.setString("PFStatic", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 12);
+                    }
+                    else if (this instanceof IArchivePlant) {
+                        stackNBT.setString("PFPlant", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 12);
+                    }
+                    spawnAsEntity(world, pos, stack);
+                }
+                for (int i = 0; i < ((TileEntityFossilBase) te).dim13; i++) {
+                    stages --;
+                    ItemStack stack = new ItemStack(this, 1);
+                    NBTTagCompound stackNBT = new NBTTagCompound();
+                    if (this instanceof IArchiveVertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "vertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 13);
+                    }
+                    else if (this instanceof IArchiveInvertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "invertebrate");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 13);
+                    }
+                    else if (this instanceof IArchiveStatic) {
+                        stackNBT.setString("PFStatic", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 13);
+                    }
+                    else if (this instanceof IArchivePlant) {
+                        stackNBT.setString("PFPlant", "");
+                        stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setInteger("period", 13);
+                    }
+                    spawnAsEntity(world, pos, stack);
+                }
+                for (int i = 0; i < stages; i++) {
+                    ItemStack stack = new ItemStack(this, 1);
+                    NBTTagCompound stackNBT = new NBTTagCompound();
+                    if (this instanceof IArchiveVertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "vertebrate");
+                        stack.setTagCompound(stackNBT);
+                    }
+                    else if (this instanceof IArchiveInvertebrate) {
+                        stackNBT.setString("PFMob", "");
+                        stackNBT.setString("mobtype", "invertebrate");
+                        stack.setTagCompound(stackNBT);
+                    }
+                    else if (this instanceof IArchiveStatic) {
+                        stackNBT.setString("PFStatic", "");
+                        stack.setTagCompound(stackNBT);
+                    }
+                    else if (this instanceof IArchivePlant) {
+                        stackNBT.setString("PFPlant", "");
+                        stack.setTagCompound(stackNBT);
+                    }
+                    spawnAsEntity(world, pos, stack);
+                }
+            }
         }
+
         world.removeTileEntity(pos);
         super.breakBlock(world, pos, state);
     }
@@ -266,6 +660,91 @@ public abstract class BlockSlabBase extends Block implements IHasModel, IAdvance
     @Override
     public CustomTrigger getModTrigger() {
         return null;
+    }
+
+    @Override
+    public ArrayList<Integer> dimAllowed() {
+        ArrayList<Integer> dimArray = new ArrayList<Integer>();
+        if (Arrays.stream(FossilBlockDrops.getPrecambrianDisplayableFossilDrops()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(1);
+        }
+        else if (Arrays.stream(FossilBlockDrops.getPrecambrianDisplayableFossilDropsSlabs()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(1);
+        }
+        if (Arrays.stream(FossilBlockDrops.getCambrianDisplayableFossilDrops()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(2);
+        }
+        else if (Arrays.stream(FossilBlockDrops.getCambrianDisplayableFossilDropsSlabs()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(2);
+        }
+        if (Arrays.stream(FossilBlockDrops.getOrdovicianDisplayableFossilDrops()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(3);
+        }
+        else if (Arrays.stream(FossilBlockDrops.getOrdovicianDisplayableFossilDropsSlabs()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(3);
+        }
+        if (Arrays.stream(FossilBlockDrops.getSilurianDisplayableFossilDrops()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(4);
+        }
+        else if (Arrays.stream(FossilBlockDrops.getSilurianDisplayableFossilDropsSlabs()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(4);
+        }
+        if (Arrays.stream(FossilBlockDrops.getDevonianDisplayableFossilDrops()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(5);
+        }
+        else if (Arrays.stream(FossilBlockDrops.getDevonianDisplayableFossilDropsSlabs()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(5);
+        }
+        if (Arrays.stream(FossilBlockDrops.getCarboniferousDisplayableFossilDrops()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(6);
+        }
+        else  if (Arrays.stream(FossilBlockDrops.getCarboniferousDisplayableFossilDropsSlabs()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(6);
+        }
+        if (Arrays.stream(FossilBlockDrops.getPermianDisplayableFossilDrops()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(7);
+        }
+        else if (Arrays.stream(FossilBlockDrops.getPermianDisplayableFossilDropsSlabs()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(7);
+        }
+        if (Arrays.stream(FossilBlockDrops.getTriassicDisplayableFossilDrops()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(8);
+        }
+        else if (Arrays.stream(FossilBlockDrops.getTriassicDisplayableFossilDropsSlabs()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(8);
+        }
+        if (Arrays.stream(FossilBlockDrops.getJurassicDisplayableFossilDrops()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(9);
+        }
+        else if (Arrays.stream(FossilBlockDrops.getJurassicDisplayableFossilDropsSlabs()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(9);
+        }
+        if (Arrays.stream(FossilBlockDrops.getCretaceousDisplayableFossilDrops()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(10);
+        }
+        else if (Arrays.stream(FossilBlockDrops.getCretaceousDisplayableFossilDropsSlabs()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(10);
+        }
+        if (Arrays.stream(FossilBlockDrops.getPaleogeneDisplayableFossilDrops()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(11);
+        }
+        else if (Arrays.stream(FossilBlockDrops.getPaleogeneDisplayableFossilDropsSlabs()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(11);
+        }
+        if (Arrays.stream(FossilBlockDrops.getNeogeneDisplayableFossilDrops()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(12);
+        }
+        else if (Arrays.stream(FossilBlockDrops.getNeogeneDisplayableFossilDropsSlabs()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(12);
+        }
+        if (Arrays.stream(FossilBlockDrops.getPleistoceneDisplayableFossilDrops()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(13);
+        }
+        else if (Arrays.stream(FossilBlockDrops.getPleistoceneDisplayableFossilDropsSlabs()).anyMatch(n -> n == new ItemStack(this, 1))) {
+            dimArray.add(13);
+        }
+
+        return dimArray;
     }
 }
 

@@ -7,18 +7,23 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.stats.StatList;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldServer;
+import net.minecraftforge.event.entity.player.ItemTooltipEvent;
 import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.prehistoricnaturefossils.blocks.base.BlockInit;
-import net.prehistoricnaturefossils.blocks.base.IAdvancementGranterFossil;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.prehistoricnaturefossils.blocks.base.*;
 import net.prehistoricnaturefossils.enchantments.Enchantments;
 import net.prehistoricnaturefossils.items.ItemSlabFinder;
 
+import java.util.List;
 import java.util.Random;
 
 public class FossilBlockDrops {
@@ -126,6 +131,80 @@ public class FossilBlockDrops {
             if (chanceImprover > 0) {
                 if ((new Random()).nextInt(chanceImproverFactor) == 0) {
                     break;
+                }
+            }
+        }
+        int period = 0;
+        if (state.getBlock() == BlockFossilPrecambrian.block) {
+            period = 1;
+        }
+        else if (state.getBlock() == BlockFossilCambrian.block) {
+            period = 2;
+        }
+        else if (state.getBlock() == BlockFossilOrdovician.block) {
+            period = 3;
+        }
+        else if (state.getBlock() == BlockFossilSilurian.block) {
+            period = 4;
+        }
+        else if (state.getBlock() == BlockFossilDevonian.block) {
+            period = 5;
+        }
+        else if (state.getBlock() == BlockFossilCarboniferous.block) {
+            period = 6;
+        }
+        else if (state.getBlock() == BlockFossilPermian.block) {
+            period = 7;
+        }
+        else if (state.getBlock() == BlockFossilTriassic.block) {
+            period = 8;
+        }
+        else if (state.getBlock() == BlockFossilJurassic.block) {
+            period = 9;
+        }
+        else if (state.getBlock() == BlockFossilCretaceous.block) {
+            period = 10;
+        }
+        else if (state.getBlock() == BlockFossilPaleogene.block) {
+            period = 11;
+        }
+        else if (state.getBlock() == BlockFossilNeogene.block) {
+            period = 12;
+        }
+        else if (state.getBlock() == BlockFossilPleistocene.block) {
+            period = 13;
+        }
+        if (!resultStack.isEmpty()) {
+            Block origin = Block.getBlockFromItem(resultStack.getItem());
+            NBTTagCompound stackNBT = new NBTTagCompound();
+            if (origin instanceof IArchiveVertebrate) {
+                stackNBT.setString("PFMob", "");
+                stackNBT.setString("mobtype", "vertebrate");
+                resultStack.setTagCompound(stackNBT);
+                if (period != 0) {
+                    resultStack.getTagCompound().setInteger("period", period);
+                }
+            }
+            else if (origin instanceof IArchiveInvertebrate) {
+                stackNBT.setString("PFMob", "");
+                stackNBT.setString("mobtype", "invertebrate");
+                resultStack.setTagCompound(stackNBT);
+                if (period != 0) {
+                    resultStack.getTagCompound().setInteger("period", period);
+                }
+            }
+            else if (origin instanceof IArchiveStatic) {
+                stackNBT.setString("PFStatic", "");
+                resultStack.setTagCompound(stackNBT);
+                if (period != 0) {
+                    resultStack.getTagCompound().setInteger("period", period);
+                }
+            }
+            else if (origin instanceof IArchivePlant) {
+                stackNBT.setString("PFPlant", "");
+                resultStack.setTagCompound(stackNBT);
+                if (period != 0) {
+                    resultStack.getTagCompound().setInteger("period", period);
                 }
             }
         }
@@ -932,6 +1011,145 @@ public class FossilBlockDrops {
                 ItemStack.EMPTY
         };
         return itemStack;
+    }
+
+    @SideOnly(Side.CLIENT) //Tooltips for vanilla items etc
+    @SubscribeEvent
+    public void onEvent(ItemTooltipEvent event) throws NoSuchMethodException {
+
+        if (Block.getBlockFromItem(event.getItemStack().getItem()) instanceof BlockSkeletonBase
+            || Block.getBlockFromItem(event.getItemStack().getItem()) instanceof BlockSlabBase) {
+            if (event.getItemStack().hasTagCompound()) {
+                if (event.getItemStack().getTagCompound().hasKey("period")) {
+                    List<String> tt = event.getToolTip();
+                    boolean perioduncertain = false;
+                    if (event.getItemStack().getTagCompound().hasKey("perioduncertain")) {
+                        perioduncertain =  event.getItemStack().getTagCompound().getBoolean("perioduncertain");
+                    }
+                    int period = event.getItemStack().getTagCompound().getInteger("period");
+                    switch (period) {
+                        case 1: default:
+                            if (perioduncertain) {
+                                tt.add(TextFormatting.DARK_RED + "Uncertain: first known from Precambrian");
+                            }
+                            else {
+                                tt.add(TextFormatting.DARK_RED + "Precambrian");
+                            }
+                            break;
+
+                        case 2:
+                            if (perioduncertain) {
+                                tt.add(TextFormatting.DARK_GREEN + "Uncertain: first known from Cambrian");
+                            }
+                            else {
+                                tt.add(TextFormatting.DARK_GREEN + "Cambrian");
+                            }
+                            break;
+
+                        case 3:
+                            if (perioduncertain) {
+                                tt.add(TextFormatting.DARK_AQUA + "Uncertain: first known from Ordovician");
+                            }
+                            else {
+                                tt.add(TextFormatting.DARK_AQUA + "Ordovician");
+                            }
+                            break;
+
+                        case 4:
+                            if (perioduncertain) {
+                                tt.add(TextFormatting.AQUA + "Uncertain: first known from Silurian");
+                            }
+                            else {
+                                tt.add(TextFormatting.AQUA + "Silurian");
+                            }
+                            break;
+
+                        case 5:
+                            if (perioduncertain) {
+                                tt.add(TextFormatting.GOLD + "Uncertain: first known from Devonian");
+                            }
+                            else {
+                                tt.add(TextFormatting.GOLD + "Devonian");
+                            }
+                            break;
+
+                        case 6:
+                            if (perioduncertain) {
+                                tt.add(TextFormatting.DARK_BLUE + "Uncertain: first known from Carboniferous");
+                            }
+                            else {
+                                tt.add(TextFormatting.DARK_BLUE + "Carboniferous");
+                            }
+                            break;
+
+                        case 7:
+
+                            if (perioduncertain) {
+                                tt.add(TextFormatting.RED + "Uncertain: first known from Permian");
+                            }
+                            else {
+                                tt.add(TextFormatting.RED + "Permian");
+                            }
+                            break;
+
+                        case 8:
+                            if (perioduncertain) {
+                                tt.add(TextFormatting.DARK_PURPLE + "Uncertain: first known from Triassic");
+                            }
+                            else {
+                                tt.add(TextFormatting.DARK_PURPLE + "Triassic");
+                            }
+                            break;
+
+                        case 9:
+                            if (perioduncertain) {
+                                tt.add(TextFormatting.BLUE + "Uncertain: first known from Jurassic");
+                            }
+                            else {
+                                tt.add(TextFormatting.BLUE + "Jurassic");
+                            }
+                            break;
+
+                        case 10:
+                            if (perioduncertain) {
+                                tt.add(TextFormatting.GREEN + "Uncertain: first known from Cretaceous");
+                            }
+                            else {
+                                tt.add(TextFormatting.GREEN + "Cretaceous");
+                            }
+                            break;
+
+                        case 11:
+                            if (perioduncertain) {
+                                tt.add(TextFormatting.GOLD + "Uncertain: first known from Paleogene");
+                            }
+                            else {
+                                tt.add(TextFormatting.GOLD + "Paleogene");
+                            }
+                            break;
+
+                        case 12:
+                            if (perioduncertain) {
+                                tt.add(TextFormatting.YELLOW + "Uncertain: first known from Neogene");
+                            }
+                            else {
+                                tt.add(TextFormatting.YELLOW + "Neogene");
+                            }
+                            break;
+
+                        case 13:
+                            if (perioduncertain) {
+                                tt.add(TextFormatting.GRAY + "Uncertain: first known from Pleistocene");
+                            }
+                            else {
+                                tt.add(TextFormatting.GRAY + "Pleistocene");
+                            }
+                            break;
+                    }
+                }
+            }
+        }
+
     }
     
 }
