@@ -1,5 +1,6 @@
 package net.prehistoricnaturefossils.blocks.skeletons;
 
+import net.lepidodendron.block.base.IArchiveVertebrate;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemBlock;
@@ -13,7 +14,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.blocks.base.BlockInit;
 import net.prehistoricnaturefossils.blocks.base.BlockSkeletonBase;
-import net.prehistoricnaturefossils.blocks.base.IArchiveVertebrate;
 import net.prehistoricnaturefossils.items.ItemInit;
 import net.prehistoricnaturefossils.tile.TileEntityFossilBungartius;
 import net.prehistoricnaturefossils.triggers.CustomTrigger;
