@@ -1,6 +1,10 @@
 
 package net.prehistoricnaturefossils.blocks.base;
 
+import net.lepidodendron.block.base.IArchiveInvertebrate;
+import net.lepidodendron.block.base.IArchivePlant;
+import net.lepidodendron.block.base.IArchiveStatic;
+import net.lepidodendron.block.base.IArchiveVertebrate;
 import net.lepidodendron.util.IDimensionRestricted;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -171,26 +175,37 @@ public abstract class BlockSkeletonBase extends Block implements IDimensionRestr
                 for (int i = 0; i < ((TileEntityFossilBase) te).dim01; i++) {
                     stages --;
                     ItemStack stack = new ItemStack(this, 1);
-                    NBTTagCompound stackNBT = new NBTTagCompound();
                     if (this instanceof IArchiveVertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "vertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "vertebrate");
                         stack.getTagCompound().setInteger("period", 1);
                     }
                     else if (this instanceof IArchiveInvertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "invertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "invertebrate");
                         stack.getTagCompound().setInteger("period", 1);
                     }
                     else if (this instanceof IArchiveStatic) {
-                        stackNBT.setString("PFStatic", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFStatic", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 1);
                     }
                     else if (this instanceof IArchivePlant) {
-                        stackNBT.setString("PFPlant", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFPlant", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 1);
                     }
@@ -199,26 +214,37 @@ public abstract class BlockSkeletonBase extends Block implements IDimensionRestr
                 for (int i = 0; i < ((TileEntityFossilBase) te).dim02; i++) {
                     stages --;
                     ItemStack stack = new ItemStack(this, 1);
-                    NBTTagCompound stackNBT = new NBTTagCompound();
                     if (this instanceof IArchiveVertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "vertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "vertebrate");
                         stack.getTagCompound().setInteger("period", 2);
                     }
                     else if (this instanceof IArchiveInvertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "invertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "invertebrate");
                         stack.getTagCompound().setInteger("period", 2);
                     }
                     else if (this instanceof IArchiveStatic) {
-                        stackNBT.setString("PFStatic", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFStatic", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 2);
                     }
                     else if (this instanceof IArchivePlant) {
-                        stackNBT.setString("PFPlant", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFPlant", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 2);
                     }
@@ -227,26 +253,37 @@ public abstract class BlockSkeletonBase extends Block implements IDimensionRestr
                 for (int i = 0; i < ((TileEntityFossilBase) te).dim03; i++) {
                     stages --;
                     ItemStack stack = new ItemStack(this, 1);
-                    NBTTagCompound stackNBT = new NBTTagCompound();
                     if (this instanceof IArchiveVertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "vertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "vertebrate");
                         stack.getTagCompound().setInteger("period", 3);
                     }
                     else if (this instanceof IArchiveInvertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "invertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "invertebrate");
                         stack.getTagCompound().setInteger("period", 3);
                     }
                     else if (this instanceof IArchiveStatic) {
-                        stackNBT.setString("PFStatic", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFStatic", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 3);
                     }
                     else if (this instanceof IArchivePlant) {
-                        stackNBT.setString("PFPlant", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFPlant", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 3);
                     }
@@ -255,26 +292,37 @@ public abstract class BlockSkeletonBase extends Block implements IDimensionRestr
                 for (int i = 0; i < ((TileEntityFossilBase) te).dim04; i++) {
                     stages --;
                     ItemStack stack = new ItemStack(this, 1);
-                    NBTTagCompound stackNBT = new NBTTagCompound();
                     if (this instanceof IArchiveVertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "vertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "vertebrate");
                         stack.getTagCompound().setInteger("period", 4);
                     }
                     else if (this instanceof IArchiveInvertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "invertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "invertebrate");
                         stack.getTagCompound().setInteger("period", 4);
                     }
                     else if (this instanceof IArchiveStatic) {
-                        stackNBT.setString("PFStatic", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFStatic", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 4);
                     }
                     else if (this instanceof IArchivePlant) {
-                        stackNBT.setString("PFPlant", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFPlant", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 4);
                     }
@@ -283,26 +331,37 @@ public abstract class BlockSkeletonBase extends Block implements IDimensionRestr
                 for (int i = 0; i < ((TileEntityFossilBase) te).dim05; i++) {
                     stages --;
                     ItemStack stack = new ItemStack(this, 1);
-                    NBTTagCompound stackNBT = new NBTTagCompound();
                     if (this instanceof IArchiveVertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "vertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "vertebrate");
                         stack.getTagCompound().setInteger("period", 5);
                     }
                     else if (this instanceof IArchiveInvertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "invertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "invertebrate");
                         stack.getTagCompound().setInteger("period", 5);
                     }
                     else if (this instanceof IArchiveStatic) {
-                        stackNBT.setString("PFStatic", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFStatic", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 5);
                     }
                     else if (this instanceof IArchivePlant) {
-                        stackNBT.setString("PFPlant", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFPlant", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 5);
                     }
@@ -311,26 +370,37 @@ public abstract class BlockSkeletonBase extends Block implements IDimensionRestr
                 for (int i = 0; i < ((TileEntityFossilBase) te).dim06; i++) {
                     stages --;
                     ItemStack stack = new ItemStack(this, 1);
-                    NBTTagCompound stackNBT = new NBTTagCompound();
                     if (this instanceof IArchiveVertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "vertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "vertebrate");
                         stack.getTagCompound().setInteger("period", 6);
                     }
                     else if (this instanceof IArchiveInvertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "invertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "invertebrate");
                         stack.getTagCompound().setInteger("period", 6);
                     }
                     else if (this instanceof IArchiveStatic) {
-                        stackNBT.setString("PFStatic", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFStatic", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 6);
                     }
                     else if (this instanceof IArchivePlant) {
-                        stackNBT.setString("PFPlant", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFPlant", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 6);
                     }
@@ -339,26 +409,37 @@ public abstract class BlockSkeletonBase extends Block implements IDimensionRestr
                 for (int i = 0; i < ((TileEntityFossilBase) te).dim07; i++) {
                     stages --;
                     ItemStack stack = new ItemStack(this, 1);
-                    NBTTagCompound stackNBT = new NBTTagCompound();
                     if (this instanceof IArchiveVertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "vertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "vertebrate");
                         stack.getTagCompound().setInteger("period", 7);
                     }
                     else if (this instanceof IArchiveInvertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "invertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "invertebrate");
                         stack.getTagCompound().setInteger("period", 7);
                     }
                     else if (this instanceof IArchiveStatic) {
-                        stackNBT.setString("PFStatic", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFStatic", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 7);
                     }
                     else if (this instanceof IArchivePlant) {
-                        stackNBT.setString("PFPlant", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFPlant", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 7);
                     }
@@ -367,26 +448,37 @@ public abstract class BlockSkeletonBase extends Block implements IDimensionRestr
                 for (int i = 0; i < ((TileEntityFossilBase) te).dim08; i++) {
                     stages --;
                     ItemStack stack = new ItemStack(this, 1);
-                    NBTTagCompound stackNBT = new NBTTagCompound();
                     if (this instanceof IArchiveVertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "vertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "vertebrate");
                         stack.getTagCompound().setInteger("period", 8);
                     }
                     else if (this instanceof IArchiveInvertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "invertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "invertebrate");
                         stack.getTagCompound().setInteger("period", 8);
                     }
                     else if (this instanceof IArchiveStatic) {
-                        stackNBT.setString("PFStatic", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFStatic", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 8);
                     }
                     else if (this instanceof IArchivePlant) {
-                        stackNBT.setString("PFPlant", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFPlant", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 8);
                     }
@@ -395,26 +487,37 @@ public abstract class BlockSkeletonBase extends Block implements IDimensionRestr
                 for (int i = 0; i < ((TileEntityFossilBase) te).dim09; i++) {
                     stages --;
                     ItemStack stack = new ItemStack(this, 1);
-                    NBTTagCompound stackNBT = new NBTTagCompound();
                     if (this instanceof IArchiveVertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "vertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "vertebrate");
                         stack.getTagCompound().setInteger("period", 9);
                     }
                     else if (this instanceof IArchiveInvertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "invertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "invertebrate");
                         stack.getTagCompound().setInteger("period", 9);
                     }
                     else if (this instanceof IArchiveStatic) {
-                        stackNBT.setString("PFStatic", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFStatic", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 9);
                     }
                     else if (this instanceof IArchivePlant) {
-                        stackNBT.setString("PFPlant", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFPlant", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 9);
                     }
@@ -423,26 +526,37 @@ public abstract class BlockSkeletonBase extends Block implements IDimensionRestr
                 for (int i = 0; i < ((TileEntityFossilBase) te).dim10; i++) {
                     stages --;
                     ItemStack stack = new ItemStack(this, 1);
-                    NBTTagCompound stackNBT = new NBTTagCompound();
                     if (this instanceof IArchiveVertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "vertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "vertebrate");
                         stack.getTagCompound().setInteger("period", 10);
                     }
                     else if (this instanceof IArchiveInvertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "invertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "invertebrate");
                         stack.getTagCompound().setInteger("period", 10);
                     }
                     else if (this instanceof IArchiveStatic) {
-                        stackNBT.setString("PFStatic", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFStatic", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 10);
                     }
                     else if (this instanceof IArchivePlant) {
-                        stackNBT.setString("PFPlant", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFPlant", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 10);
                     }
@@ -451,26 +565,37 @@ public abstract class BlockSkeletonBase extends Block implements IDimensionRestr
                 for (int i = 0; i < ((TileEntityFossilBase) te).dim11; i++) {
                     stages --;
                     ItemStack stack = new ItemStack(this, 1);
-                    NBTTagCompound stackNBT = new NBTTagCompound();
                     if (this instanceof IArchiveVertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "vertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "vertebrate");
                         stack.getTagCompound().setInteger("period", 11);
                     }
                     else if (this instanceof IArchiveInvertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "invertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "invertebrate");
                         stack.getTagCompound().setInteger("period", 11);
                     }
                     else if (this instanceof IArchiveStatic) {
-                        stackNBT.setString("PFStatic", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFStatic", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 11);
                     }
                     else if (this instanceof IArchivePlant) {
-                        stackNBT.setString("PFPlant", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFPlant", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 11);
                     }
@@ -479,26 +604,37 @@ public abstract class BlockSkeletonBase extends Block implements IDimensionRestr
                 for (int i = 0; i < ((TileEntityFossilBase) te).dim12; i++) {
                     stages --;
                     ItemStack stack = new ItemStack(this, 1);
-                    NBTTagCompound stackNBT = new NBTTagCompound();
                     if (this instanceof IArchiveVertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "vertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "vertebrate");
                         stack.getTagCompound().setInteger("period", 12);
                     }
                     else if (this instanceof IArchiveInvertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "invertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "invertebrate");
                         stack.getTagCompound().setInteger("period", 12);
                     }
                     else if (this instanceof IArchiveStatic) {
-                        stackNBT.setString("PFStatic", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFStatic", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 12);
                     }
                     else if (this instanceof IArchivePlant) {
-                        stackNBT.setString("PFPlant", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFPlant", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 12);
                     }
@@ -507,26 +643,37 @@ public abstract class BlockSkeletonBase extends Block implements IDimensionRestr
                 for (int i = 0; i < ((TileEntityFossilBase) te).dim13; i++) {
                     stages --;
                     ItemStack stack = new ItemStack(this, 1);
-                    NBTTagCompound stackNBT = new NBTTagCompound();
                     if (this instanceof IArchiveVertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "vertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "vertebrate");
                         stack.getTagCompound().setInteger("period", 13);
                     }
                     else if (this instanceof IArchiveInvertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "invertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "invertebrate");
                         stack.getTagCompound().setInteger("period", 13);
                     }
                     else if (this instanceof IArchiveStatic) {
-                        stackNBT.setString("PFStatic", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFStatic", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 13);
                     }
                     else if (this instanceof IArchivePlant) {
-                        stackNBT.setString("PFPlant", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFPlant", entityNBT);
                         stack.setTagCompound(stackNBT);
                         stack.getTagCompound().setInteger("period", 13);
                     }
@@ -534,23 +681,34 @@ public abstract class BlockSkeletonBase extends Block implements IDimensionRestr
                 }
                 for (int i = 0; i < stages; i++) {
                     ItemStack stack = new ItemStack(this, 1);
-                    NBTTagCompound stackNBT = new NBTTagCompound();
                     if (this instanceof IArchiveVertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "vertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "vertebrate");
                     }
                     else if (this instanceof IArchiveInvertebrate) {
-                        stackNBT.setString("PFMob", "");
-                        stackNBT.setString("mobtype", "invertebrate");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFMob", entityNBT);
                         stack.setTagCompound(stackNBT);
+                        stack.getTagCompound().setString("mobtype", "invertebrate");
                     }
                     else if (this instanceof IArchiveStatic) {
-                        stackNBT.setString("PFStatic", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFStatic", entityNBT);
                         stack.setTagCompound(stackNBT);
                     }
                     else if (this instanceof IArchivePlant) {
-                        stackNBT.setString("PFPlant", "");
+                        NBTTagCompound stackNBT = new NBTTagCompound();
+                        NBTTagCompound entityNBT = new NBTTagCompound();
+                        entityNBT.setString("id", "");
+                        stackNBT.setTag("PFPlant", entityNBT);
                         stack.setTagCompound(stackNBT);
                     }
                     spawnAsEntity(world, pos, stack);

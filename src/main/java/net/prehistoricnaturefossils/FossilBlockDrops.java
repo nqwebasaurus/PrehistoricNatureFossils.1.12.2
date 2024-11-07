@@ -1,6 +1,10 @@
 package net.prehistoricnaturefossils;
 
 import net.lepidodendron.block.*;
+import net.lepidodendron.block.base.IArchiveInvertebrate;
+import net.lepidodendron.block.base.IArchivePlant;
+import net.lepidodendron.block.base.IArchiveStatic;
+import net.lepidodendron.block.base.IArchiveVertebrate;
 import net.lepidodendron.item.ItemFossilHammer;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
@@ -19,7 +23,10 @@ import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import net.prehistoricnaturefossils.blocks.base.*;
+import net.prehistoricnaturefossils.blocks.base.BlockInit;
+import net.prehistoricnaturefossils.blocks.base.BlockSkeletonBase;
+import net.prehistoricnaturefossils.blocks.base.BlockSlabBase;
+import net.prehistoricnaturefossils.blocks.base.IAdvancementGranterFossil;
 import net.prehistoricnaturefossils.enchantments.Enchantments;
 import net.prehistoricnaturefossils.items.ItemSlabFinder;
 
@@ -178,30 +185,41 @@ public class FossilBlockDrops {
             Block origin = Block.getBlockFromItem(resultStack.getItem());
             NBTTagCompound stackNBT = new NBTTagCompound();
             if (origin instanceof IArchiveVertebrate) {
-                stackNBT.setString("PFMob", "");
                 stackNBT.setString("mobtype", "vertebrate");
                 resultStack.setTagCompound(stackNBT);
+
+                NBTTagCompound entityNBT = new NBTTagCompound();
+                entityNBT.setString("id", "");
+                resultStack.getTagCompound().setTag("PFMob", entityNBT);
+
                 if (period != 0) {
                     resultStack.getTagCompound().setInteger("period", period);
                 }
             }
             else if (origin instanceof IArchiveInvertebrate) {
-                stackNBT.setString("PFMob", "");
                 stackNBT.setString("mobtype", "invertebrate");
                 resultStack.setTagCompound(stackNBT);
+
+                NBTTagCompound entityNBT = new NBTTagCompound();
+                entityNBT.setString("id", "");
+                resultStack.getTagCompound().setTag("PFMob", entityNBT);
                 if (period != 0) {
                     resultStack.getTagCompound().setInteger("period", period);
                 }
             }
             else if (origin instanceof IArchiveStatic) {
-                stackNBT.setString("PFStatic", "");
+                NBTTagCompound entityNBT = new NBTTagCompound();
+                entityNBT.setString("id", "");
+                stackNBT.setTag("PFStatic", entityNBT);
                 resultStack.setTagCompound(stackNBT);
                 if (period != 0) {
                     resultStack.getTagCompound().setInteger("period", period);
                 }
             }
             else if (origin instanceof IArchivePlant) {
-                stackNBT.setString("PFPlant", "");
+                NBTTagCompound entityNBT = new NBTTagCompound();
+                entityNBT.setString("id", "");
+                stackNBT.setTag("PFPlant", entityNBT);
                 resultStack.setTagCompound(stackNBT);
                 if (period != 0) {
                     resultStack.getTagCompound().setInteger("period", period);
