@@ -162,6 +162,8 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilGregorius.class, new RenderFossilGregorius());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilTrimerus.class, new RenderFossilTrimerus());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilLungmenshanaspis.class, new RenderFossilLungmenshanaspis());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilAlienum.class, new RenderFossilAlienum());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilPambdelurion.class, new RenderFossilPambdelurion());
 
 
         //Skeleton Mounts:
@@ -416,5 +418,7 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilGastonia.class, new RenderFossilGastonia());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilPolacanthus.class, new RenderFossilPolacanthus());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilEocarcharia.class, new RenderFossilEocarcharia());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilCtenochasma.class, new RenderFossilCtenochasma());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilPterodaustro.class, new RenderFossilPterodaustro());
     }
 }
