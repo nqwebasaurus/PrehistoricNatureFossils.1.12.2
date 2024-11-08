@@ -499,6 +499,10 @@ advancements.polacanthus.title=Many Thorns
 advancements.polacanthus.description=Complete a Polacanthus skeleton
 advancements.eocarcharia.title=Dawn Shark
 advancements.eocarcharia.description=Complete an Eocarcharia skeleton
+advancements.ctenochasma.title=Comb Jaw
+advancements.ctenochasma.description=Complete a Ctenochasma skeleton
+advancements.pterodaustro.title=Southern Wing
+advancements.pterodaustro.description=Complete a Pterodaustro skeleton
 
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
@@ -728,6 +732,8 @@ advancements.nodosauridae.title=Chain saw Tails
 advancements.nodosauridae.description=Nodosaurids (Coming Soon)
 advancements.megaraptora.title=Big claws, big trouble
 advancements.megaraptora.description=Megaraptora (Coming Soon)
+advancements.euctenochasmatia.title=Sieves and fish traps
+advancements.euctenochasmatia.description=Euctenochasmatia (Coming Soon)
 
 enchantment.pf_discerning_collector=Discerning Collector
 
@@ -885,6 +891,8 @@ tile.pf_skeleton_xenacanthus.name=Xenacanthus Fossil Slab
 tile.pf_skeleton_gregorius.name=Gregorius Fossil Slab
 tile.pf_skeleton_trimerus.name=Trimerus Fossil Slab
 tile.pf_skeleton_lungmenshanaspis.name=Lungmenshanaspis Fossil Slab
+tile.pf_skeleton_alienum.name=Alienum Fossil Slab
+tile.pf_skeleton_pambdelurion.name=Pambdelurion Fossil Slab
 
 
 
@@ -1138,6 +1146,8 @@ tile.pf_skeleton_australovenator.name=Australovenator Displayable Fossil
 tile.pf_skeleton_gastonia.name=Gastonia Displayable Fossil
 tile.pf_skeleton_polacanthus.name=Polacanthus Displayable Fossil
 tile.pf_skeleton_eocarcharia.name=Eocarcharia Displayable Fossil
+tile.pf_skeleton_ctenochasma.name=Ctenochasma Displayable Fossil
+tile.pf_skeleton_pterodaustro.name=Pterodaustro Displayable Fossil
 
 
 item.pf_fossil_slabber.name=Slate Splitter

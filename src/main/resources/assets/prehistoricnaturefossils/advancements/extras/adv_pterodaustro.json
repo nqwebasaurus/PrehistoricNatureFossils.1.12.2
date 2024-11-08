@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_pterodaustro"
+		  },
+		"title": {
+			"translate": "advancements.pterodaustro.title"
+		},
+		"description": {
+			"translate": "advancements.pterodaustro.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_euctenochasmatia",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_pterodaustro"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

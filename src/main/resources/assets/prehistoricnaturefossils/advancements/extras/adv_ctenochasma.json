@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_ctenochasma"
+		  },
+		"title": {
+			"translate": "advancements.ctenochasma.title"
+		},
+		"description": {
+			"translate": "advancements.ctenochasma.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_euctenochasmatia",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_ctenochasma"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

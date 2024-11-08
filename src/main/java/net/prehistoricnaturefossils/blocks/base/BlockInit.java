@@ -426,6 +426,10 @@ public class BlockInit {
     public static final Block FOSSIL_EOCARCHARIA    = new BlockFossilEocarcharia();
     public static final Block FOSSIL_TRIMERUS    = new BlockFossilTrimerus();
     public static final Block FOSSIL_LUNGMENSHANASPIS    = new BlockFossilLungmenshanaspis();
+    public static final Block FOSSIL_CTENOCHASMA    = new BlockFossilCtenochasma();
+    public static final Block FOSSIL_PTERODAUSTRO    = new BlockFossilPterodaustro();
+    public static final Block FOSSIL_ALIENUM    = new BlockFossilAlienum();
+    public static final Block FOSSIL_PAMBDELURION    = new BlockFossilPambdelurion();
 
     public static EnumActionResult onItemUseFossils(ItemBlock blockitem, EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         IBlockState iblockstate = worldIn.getBlockState(pos);

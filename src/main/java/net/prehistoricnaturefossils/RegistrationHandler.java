@@ -23,7 +23,7 @@ public class RegistrationHandler {
     public RegistrationHandler() {
     }
 
-    public static final boolean doDevOnly = false;
+    public static final boolean doDevOnly = true;
 
     public static final String[] devOnly = new String[]{
             "skeleton_stokesosaurus",
@@ -31,7 +31,7 @@ public class RegistrationHandler {
             "skeleton_eoabelisaurus",
             "skeleton_patagosaurus",
             "skeleton_asfaltovenator",
-            "skeleton_lesothosaurus",
+            //"skeleton_lesothosaurus",
             "skeleton_brachytrachelopan",
             "skeleton_manidens",
             "skeleton_chungkingosaurus",
@@ -51,7 +51,7 @@ public class RegistrationHandler {
             "skeleton_amargasaurus",
             "skeleton_sinosaurus",
             "skeleton_ouranosaurus",
-            "skeleton_prestosuchus",
+            //"skeleton_prestosuchus",
             "skeleton_klamelisaurus",
             "skeleton_tupandactylus",
             "skeleton_gaiasia",
@@ -83,7 +83,7 @@ public class RegistrationHandler {
             "skeleton_rechnisaurus",
             "skeleton_simolestes",
             "skeleton_cryptoclidus",
-            "skeleton_drepanosaurus",
+            //"skeleton_drepanosaurus",
             "skeleton_hypsilophodon",
             "skeleton_leaellynasaura",
             "skeleton_muttaburrasaurus",
@@ -103,8 +103,8 @@ public class RegistrationHandler {
             "skeleton_altirhinus",
             "skeleton_pelecanimimus",
             "skeleton_bajadasaurus",
-            "skeleton_eocursor",
-            "skeleton_dracoraptor",
+            //"skeleton_eocursor",
+            //"skeleton_dracoraptor",
             "skeleton_sauropelta",
             "skeleton_yutyrannus",
             "skeleton_leptocleidus",
@@ -113,6 +113,8 @@ public class RegistrationHandler {
             "skeleton_gastonia",
             "skeleton_polacanthus",
             "skeleton_eocarcharia",
+            "skeleton_ctenochasma",
+            "skeleton_pterodaustro",
             "skeleton_diplocaulusminimus"
     };
 
