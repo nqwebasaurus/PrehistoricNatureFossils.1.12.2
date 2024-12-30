@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_bannykus"
+		  },
+		"title": {
+			"translate": "advancements.bannykus.title"
+		},
+		"description": {
+			"translate": "advancements.bannykus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_alvarezsauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_bannykus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

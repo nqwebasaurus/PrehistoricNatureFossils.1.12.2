@@ -472,6 +472,16 @@ public class BlockInit {
     public static final Block FOSSIL_RANGIFER    = new BlockFossilRangifer();
     public static final Block FOSSIL_TUPANDACTYLUSNAVIGANS    = new BlockFossilTupandactylusnavigans();
     public static final Block FOSSIL_SINOPTERUS    = new BlockFossilSinopterus();
+    public static final Block FOSSIL_KUTCHICETUS    = new BlockFossilKutchicetus();
+    public static final Block FOSSIL_KUBANOCHOERUS    = new BlockFossilKubanochoerus();
+    public static final Block FOSSIL_TREMAGLASPIS    = new BlockFossilTremaglaspis();
+    public static final Block FOSSIL_PRISCOMYZON    = new BlockFossilPriscomyzon();
+    public static final Block FOSSIL_ASIATYRANNUS    = new BlockFossilAsiatyrannus();
+    public static final Block FOSSIL_SINOCERATOPS    = new BlockFossilSinoceratops();
+    public static final Block FOSSIL_CAMANCHIA    = new BlockFossilCamanchia();
+    public static final Block FOSSIL_SEMIONOTUS    = new BlockFossilSemionotus();
+    public static final Block FOSSIL_BANNYKUS    = new BlockFossilBannykus();
+    public static final Block FOSSIL_KOOLASUCHUS    = new BlockFossilKoolasuchus();
 
     public static EnumActionResult onItemUseFossils(ItemBlock blockitem, EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         IBlockState iblockstate = worldIn.getBlockState(pos);

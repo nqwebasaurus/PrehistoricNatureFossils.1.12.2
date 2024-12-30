@@ -164,6 +164,10 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilLungmenshanaspis.class, new RenderFossilLungmenshanaspis());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilAlienum.class, new RenderFossilAlienum());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilPambdelurion.class, new RenderFossilPambdelurion());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilTremaglaspis.class, new RenderFossilTremaglaspis());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilPriscomyzon.class, new RenderFossilPriscomyzon());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilCamanchia.class, new RenderFossilCamanchia());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSemionotus.class, new RenderFossilSemionotus());
 
 
         //Skeleton Mounts:
@@ -462,5 +466,11 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilRangifer.class, new RenderFossilRangifer());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilTupandactylusnavigans.class, new RenderFossilTupandactylusnavigans());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSinopterus.class, new RenderFossilSinopterus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilKutchicetus.class, new RenderFossilKutchicetus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilKubanochoerus.class, new RenderFossilKubanochoerus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilAsiatyrannus.class, new RenderFossilAsiatyrannus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSinoceratops.class, new RenderFossilSinoceratops());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilBannykus.class, new RenderFossilBannykus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilKoolasuchus.class, new RenderFossilKoolasuchus());
     }
 }

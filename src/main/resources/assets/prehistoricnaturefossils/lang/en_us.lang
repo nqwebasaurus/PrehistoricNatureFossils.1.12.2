@@ -587,6 +587,18 @@ advancements.tupandactylusnavigans.title=Navigating Tupan Finger
 advancements.tupandactylusnavigans.description=Complete a Tupandactylus navigans skeleton
 advancements.sinopterus.title=Chinese Wing
 advancements.sinopterus.description=Complete a Sinopterus skeleton
+advancements.kutchicetus.title=Kachchh Whale
+advancements.kutchicetus.description=Complete a Kutchicetus skeleton
+advancements.kubanochoerus.title=Kubano River Pig
+advancements.kubanochoerus.description=Complete a Kubanochoerus skeleton
+advancements.asiatyrannus.title=Asian Tyrant
+advancements.asiatyrannus.description=Complete an Asiatyrannus skeleton
+advancements.sinoceratops.title=Chinese Horned Face
+advancements.sinoceratops.description=Complete a Sinoceratops skeleton
+advancements.bannykus.title=Half Claw
+advancements.bannykus.description=Complete a Bannykus skeleton
+advancements.koolasuchus.title=Lesley Kool's Crocodile
+advancements.koolasuchus.description=Complete a Koolasuchus skeleton
 
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
@@ -856,6 +868,10 @@ advancements.perissodactyla.title=What odd toes you have...
 advancements.perissodactyla.description=Perissodactyla (Coming Soon)
 advancements.hippomorpha.title=Horsing around
 advancements.hippomorpha.description=Hippomorpha (Coming Soon)
+advancements.suina.title=Aged like fine Swine
+advancements.suina.description=suina (Coming Soon)
+advancements.alvarezsauria.title=Flipping the bird
+advancements.alvarezsauria.description=Alvarezsaurians (Coming Soon)
 
 enchantment.pf_discerning_collector=Discerning Collector
 
@@ -1015,6 +1031,10 @@ tile.pf_skeleton_trimerus.name=Trimerus Fossil Slab
 tile.pf_skeleton_lungmenshanaspis.name=Lungmenshanaspis Fossil Slab
 tile.pf_skeleton_alienum.name=Alienum Fossil Slab
 tile.pf_skeleton_pambdelurion.name=Pambdelurion Fossil Slab
+tile.pf_skeleton_tremaglaspis.name=Tremaglaspis Fossil Slab
+tile.pf_skeleton_priscomyzon.name=Priscomyzon Fossil Slab
+tile.pf_skeleton_camanchia.name=Camanchia Fossil Slab
+tile.pf_skeleton_semionotus.name=Semionotus Fossil Slab
 
 
 
@@ -1312,6 +1332,12 @@ tile.pf_skeleton_hippidion.name=Hippidion Displayable Fossil
 tile.pf_skeleton_rangifer.name=Rangifer Displayable Fossil
 tile.pf_skeleton_tupandactylusnavigans.name=Tupandactylus navigans Displayable Fossil
 tile.pf_skeleton_sinopterus.name=Sinopterus Displayable Fossil
+tile.pf_skeleton_kutchicetus.name=Kutchicetus Displayable Fossil
+tile.pf_skeleton_kubanochoerus.name=Kubanochoerus Displayable Fossil
+tile.pf_skeleton_asiatyrannus.name=Asiatyrannus Displayable Fossil
+tile.pf_skeleton_sinoceratops.name=Sinoceratops Displayable Fossil
+tile.pf_skeleton_bannykus.name=Bannykus Displayable Fossil
+tile.pf_skeleton_koolasuchus.name=Koolasuchus Displayable Fossil
 
 
 item.pf_fossil_slabber.name=Slate Splitter

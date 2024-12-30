@@ -145,6 +145,10 @@ public class RegistrationHandler {
             "skeleton_rangifer",
             "skeleton_tupandactylusnavigans",
             "skeleton_sinopterus",
+            "skeleton_kutchicetus",
+            "skeleton_kubanochoerus",
+            "skeleton_asiatyrannus",
+            "skeleton_sinoceratops",
             "skeleton_diplocaulusminimus"
     };
 

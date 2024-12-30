@@ -12,6 +12,10 @@ public class ModTriggers
 {
 
     public static final CustomTrigger AEGER_COMPLETE = new CustomTrigger("adv_aeger");
+    public static final CustomTrigger TREMAGLASPIS_COMPLETE = new CustomTrigger("adv_tremaglaspis");
+    public static final CustomTrigger PRISCOMYZON_COMPLETE = new CustomTrigger("adv_priscomyzon");
+    public static final CustomTrigger CAMANCHIA_COMPLETE = new CustomTrigger("adv_camanchia");
+    public static final CustomTrigger SEMIONOTUS_COMPLETE = new CustomTrigger("adv_semionotus");
     public static final CustomTrigger ALIENUM_COMPLETE = new CustomTrigger("adv_alienum");
     public static final CustomTrigger PAMBDELURION_COMPLETE = new CustomTrigger("adv_pambdelurion");
     public static final CustomTrigger TRIMERUS_COMPLETE = new CustomTrigger("adv_trimerus");
@@ -377,10 +381,20 @@ public class ModTriggers
     public static final CustomTrigger RANGIFER_COMPLETE = new CustomTrigger("adv_rangifer");
     public static final CustomTrigger TUPANDACTYLUSNAVIGANS_COMPLETE = new CustomTrigger("adv_tupandactylusnavigans");
     public static final CustomTrigger SINOPTERUS_COMPLETE = new CustomTrigger("adv_sinopterus");
+    public static final CustomTrigger KUTCHICETUS_COMPLETE = new CustomTrigger("adv_kutchicetus");
+    public static final CustomTrigger KUBANOCHOERUS_COMPLETE = new CustomTrigger("adv_kubanochoerus");
+    public static final CustomTrigger ASIATYRANNUS_COMPLETE = new CustomTrigger("adv_asiatyrannus");
+    public static final CustomTrigger SINOCERATOPS_COMPLETE = new CustomTrigger("adv_sinoceratops");
+    public static final CustomTrigger BANNYKUS_COMPLETE = new CustomTrigger("adv_bannykus");
+    public static final CustomTrigger KOOLASUCHUS_COMPLETE = new CustomTrigger("adv_koolasuchus");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
+            TREMAGLASPIS_COMPLETE,
+            PRISCOMYZON_COMPLETE,
+            CAMANCHIA_COMPLETE,
+            SEMIONOTUS_COMPLETE,
             ALIENUM_COMPLETE,
             PAMBDELURION_COMPLETE,
             TRIMERUS_COMPLETE,
@@ -591,6 +605,12 @@ public class ModTriggers
             RANGIFER_COMPLETE,
             TUPANDACTYLUSNAVIGANS_COMPLETE,
             SINOPTERUS_COMPLETE,
+            KUTCHICETUS_COMPLETE,
+            KUBANOCHOERUS_COMPLETE,
+            ASIATYRANNUS_COMPLETE,
+            SINOCERATOPS_COMPLETE,
+            BANNYKUS_COMPLETE,
+            KOOLASUCHUS_COMPLETE,
             OLOROTITAN_COMPLETE,
             ICHTHYOSAURUS_COMPLETE,
             LUFENGOSAURUS_COMPLETE,
