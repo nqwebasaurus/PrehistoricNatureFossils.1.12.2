@@ -109,9 +109,9 @@ public class RenderFossilTyrannotitan extends TileEntitySpecialRenderer<TileEnti
 
         GlStateManager.enableAlpha();
         ModelSkeletonTyrannotitan modelSkeleton = this.modelSkeleton;
-        double scale = 1.115F * RenderDisplayWallMount.scaler;
+        double scale = 0.99F * RenderDisplayWallMount.scaler;
 
-        GlStateManager.translate(x + 0.5, y + 1.63, z + 0.5);
+        GlStateManager.translate(x + 0.5, y + 1.45, z + 0.5);
         GlStateManager.scale(scale,scale,scale);
         GlStateManager.rotate(180, 0F, 0F, 1F);
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
@@ -130,8 +130,8 @@ public class RenderFossilTyrannotitan extends TileEntitySpecialRenderer<TileEnti
             this.bindTexture(FRAME);
             GlStateManager.enableAlpha();
             ModelSkeletonTyrannotitanFrame modelSkeletonFrame = this.modelSkeletonFrame;
-            scale = 1.115F * RenderDisplayWallMount.scaler;
-            GlStateManager.translate(x + 0.5, y + 1.63, z + 0.5);
+            scale = 0.99F * RenderDisplayWallMount.scaler;
+            GlStateManager.translate(x + 0.5, y + 1.45, z + 0.5);
             GlStateManager.scale(scale,scale,scale);
             GlStateManager.rotate(180, 0F, 0F, 1F);
             GlStateManager.rotate(currentRotation, 0F, 1F, 0F);

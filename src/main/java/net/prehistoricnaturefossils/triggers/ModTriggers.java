@@ -387,6 +387,20 @@ public class ModTriggers
     public static final CustomTrigger SINOCERATOPS_COMPLETE = new CustomTrigger("adv_sinoceratops");
     public static final CustomTrigger BANNYKUS_COMPLETE = new CustomTrigger("adv_bannykus");
     public static final CustomTrigger KOOLASUCHUS_COMPLETE = new CustomTrigger("adv_koolasuchus");
+    public static final CustomTrigger IKRANDRACO_COMPLETE = new CustomTrigger("adv_ikrandraco");
+    public static final CustomTrigger HAMIPTERUS_COMPLETE = new CustomTrigger("adv_hamipterus");
+    public static final CustomTrigger DSUNGARIPTERUS_COMPLETE = new CustomTrigger("adv_dsungaripterus");
+    public static final CustomTrigger BEIPIAOSAURUS_COMPLETE = new CustomTrigger("adv_beipiaosaurus");
+    public static final CustomTrigger PROA_COMPLETE = new CustomTrigger("adv_proa");
+    public static final CustomTrigger BRIGHTSTONEUS_COMPLETE = new CustomTrigger("adv_brightstoneus");
+    public static final CustomTrigger SCELIDOSAURUS_COMPLETE = new CustomTrigger("adv_scelidosaurus");
+    public static final CustomTrigger YINGSHANOSAURUS_COMPLETE = new CustomTrigger("adv_yingshanosaurus");
+    public static final CustomTrigger JIANCHANGNATHUS_COMPLETE = new CustomTrigger("adv_jianchangnathus");
+    public static final CustomTrigger KRANOSAURA_COMPLETE = new CustomTrigger("adv_kranosaura");
+    public static final CustomTrigger HYPSELOSPINUS_COMPLETE = new CustomTrigger("adv_hypselospinus");
+    public static final CustomTrigger NEOVENATOR_COMPLETE = new CustomTrigger("adv_neovenator");
+    public static final CustomTrigger HUAXIAZHOULONG_COMPLETE = new CustomTrigger("adv_huaxiazhoulong");
+    public static final CustomTrigger CARCHARODONTOSAURUS_COMPLETE = new CustomTrigger("adv_carcharodontosaurus");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
@@ -611,6 +625,20 @@ public class ModTriggers
             SINOCERATOPS_COMPLETE,
             BANNYKUS_COMPLETE,
             KOOLASUCHUS_COMPLETE,
+            IKRANDRACO_COMPLETE,
+            HAMIPTERUS_COMPLETE,
+            DSUNGARIPTERUS_COMPLETE,
+            BEIPIAOSAURUS_COMPLETE,
+            PROA_COMPLETE,
+            BRIGHTSTONEUS_COMPLETE,
+            SCELIDOSAURUS_COMPLETE,
+            YINGSHANOSAURUS_COMPLETE,
+            JIANCHANGNATHUS_COMPLETE,
+            KRANOSAURA_COMPLETE,
+            HYPSELOSPINUS_COMPLETE,
+            NEOVENATOR_COMPLETE,
+            HUAXIAZHOULONG_COMPLETE,
+            CARCHARODONTOSAURUS_COMPLETE,
             OLOROTITAN_COMPLETE,
             ICHTHYOSAURUS_COMPLETE,
             LUFENGOSAURUS_COMPLETE,

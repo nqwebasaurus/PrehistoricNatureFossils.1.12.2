@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_beipiaosaurus"
+		  },
+		"title": {
+			"translate": "advancements.beipiaosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.beipiaosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_therizinosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_beipiaosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_ikrandraco"
+		  },
+		"title": {
+			"translate": "advancements.ikrandraco.title"
+		},
+		"description": {
+			"translate": "advancements.ikrandraco.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_ornithocheiromorpha",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_ikrandraco"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

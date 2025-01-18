@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_proa"
+		},
+		"title": {
+			"translate": "advancements.proa.title"
+		},
+		"description": {
+			"translate": "advancements.proa.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_iguanodontids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_proa"
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

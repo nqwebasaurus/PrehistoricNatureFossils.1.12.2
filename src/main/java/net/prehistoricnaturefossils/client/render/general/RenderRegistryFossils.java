@@ -472,5 +472,20 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSinoceratops.class, new RenderFossilSinoceratops());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilBannykus.class, new RenderFossilBannykus());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilKoolasuchus.class, new RenderFossilKoolasuchus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilIkrandraco.class, new RenderFossilIkrandraco());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilHamipterus.class, new RenderFossilHamipterus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilDsungaripterus.class, new RenderFossilDsungaripterus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilBeipiaosaurus.class, new RenderFossilBeipiaosaurus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilProa.class, new RenderFossilProa());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilBrightstoneus.class, new RenderFossilBrightstoneus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilScelidosaurus.class, new RenderFossilScelidosaurus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilYingshanosaurus.class, new RenderFossilYingshanosaurus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilJianchangnathus.class, new RenderFossilJianchangnathus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilKranosaura.class, new RenderFossilKranosaura());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilHypselospinus.class, new RenderFossilHypselospinus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilNeovenator.class, new RenderFossilNeovenator());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilHuaxiazhoulong.class, new RenderFossilHuaxiazhoulong());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilCarcharodontosaurus.class, new RenderFossilCarcharodontosaurus());
+        
     }
 }

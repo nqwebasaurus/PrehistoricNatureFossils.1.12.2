@@ -482,6 +482,20 @@ public class BlockInit {
     public static final Block FOSSIL_SEMIONOTUS    = new BlockFossilSemionotus();
     public static final Block FOSSIL_BANNYKUS    = new BlockFossilBannykus();
     public static final Block FOSSIL_KOOLASUCHUS    = new BlockFossilKoolasuchus();
+    public static final Block FOSSIL_IKRANDRACO    = new BlockFossilIkrandraco();
+    public static final Block FOSSIL_HAMIPTERUS    = new BlockFossilHamipterus();
+    public static final Block FOSSIL_DSUNGARIPTERUS    = new BlockFossilDsungaripterus();
+    public static final Block FOSSIL_BEIPIAOSAURUS    = new BlockFossilBeipiaosaurus();
+    public static final Block FOSSIL_PROA    = new BlockFossilProa();
+    public static final Block FOSSIL_BRIGHTSTONEUS    = new BlockFossilBrightstoneus();
+    public static final Block FOSSIL_SCELIDOSAURUS    = new BlockFossilScelidosaurus();
+    public static final Block FOSSIL_YINGSHANOSAURUS    = new BlockFossilYingshanosaurus();
+    public static final Block FOSSIL_JIANCHANGNATHUS    = new BlockFossilJianchangnathus();
+    public static final Block FOSSIL_KRANOSAURA    = new BlockFossilKranosaura();
+    public static final Block FOSSIL_HYPSELOSPINUS    = new BlockFossilHypselospinus();
+    public static final Block FOSSIL_NEOVENATOR    = new BlockFossilNeovenator();
+    public static final Block FOSSIL_HUAXIAZHOULONG    = new BlockFossilHuaxiazhoulong();
+    public static final Block FOSSIL_CARCHARODONTOSAURUS    = new BlockFossilCarcharodontosaurus();
 
     public static EnumActionResult onItemUseFossils(ItemBlock blockitem, EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         IBlockState iblockstate = worldIn.getBlockState(pos);

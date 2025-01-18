@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_scelidosaurus"
+		  },
+		"title": {
+			"translate": "advancements.scelidosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.scelidosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_thyreophora",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_scelidosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

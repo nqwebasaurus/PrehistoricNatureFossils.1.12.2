@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_carcharodontosaurus"
+		  },
+		"title": {
+			"translate": "advancements.carcharodontosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.carcharodontosaurus.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:adv_carcharodontosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_carcharodontosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_kranosaura"
+		  },
+		"title": {
+			"translate": "advancements.kranosaura.title"
+		},
+		"description": {
+			"translate": "advancements.kranosaura.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_archosauromorpha",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_kranosaura"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

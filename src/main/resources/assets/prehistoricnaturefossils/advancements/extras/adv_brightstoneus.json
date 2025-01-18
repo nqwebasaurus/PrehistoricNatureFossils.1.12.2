@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_brightstoneus"
+		  },
+		"title": {
+			"translate": "advancements.brightstoneus.title"
+		},
+		"description": {
+			"translate": "advancements.brightstoneus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_iguanodontids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_brightstoneus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

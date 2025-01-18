@@ -149,6 +149,18 @@ public class RegistrationHandler {
             "skeleton_kubanochoerus",
             "skeleton_asiatyrannus",
             "skeleton_sinoceratops",
+            "skeleton_ikrandraco",
+            "skeleton_hamipterus",
+            "skeleton_dsungaripterus",
+            "skeleton_beipiaosaurus",
+            "skeleton_proa",
+            "skeleton_brightstoneus",
+            "skeleton_scelidosaurus",
+            "skeleton_yingshanosaurus",
+            "skeleton_jianchangnathus",
+            "skeleton_kranosaura",
+            "skeleton_hypselospinus",
+            "skeleton_neovenator",
             "skeleton_diplocaulusminimus"
     };
 
