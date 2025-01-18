@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_kutchicetus"
+		  },
+		"title": {
+			"translate": "advancements.kutchicetus.title"
+		},
+		"description": {
+			"translate": "advancements.kutchicetus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_cetacea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_kutchicetus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

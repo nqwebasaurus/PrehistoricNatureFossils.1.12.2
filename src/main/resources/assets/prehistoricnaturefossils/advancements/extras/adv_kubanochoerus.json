@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_kubanochoerus"
+		  },
+		"title": {
+			"translate": "advancements.kubanochoerus.title"
+		},
+		"description": {
+			"translate": "advancements.kubanochoerus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_suina",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_kubanochoerus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

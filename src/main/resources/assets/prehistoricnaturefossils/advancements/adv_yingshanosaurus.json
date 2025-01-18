@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_yingshanosaurus"
+		  },
+		"title": {
+			"translate": "advancements.yingshanosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.yingshanosaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_stegosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_yingshanosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_koolasuchus"
+		  },
+		"title": {
+			"translate": "advancements.koolasuchus.title"
+		},
+		"description": {
+			"translate": "advancements.koolasuchus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_temnospondyli",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_koolasuchus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

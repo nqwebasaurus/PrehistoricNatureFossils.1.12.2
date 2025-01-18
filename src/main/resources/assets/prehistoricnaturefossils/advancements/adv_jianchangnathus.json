@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_jianchangnathus"
+		  },
+		"title": {
+			"translate": "advancements.jianchangnathus.title"
+		},
+		"description": {
+			"translate": "advancements.jianchangnathus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_novialoidea",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_jianchangnathus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

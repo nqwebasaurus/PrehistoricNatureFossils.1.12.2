@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_sinoceratops"
+		  },
+		"title": {
+			"translate": "advancements.sinoceratops.title"
+		},
+		"description": {
+			"translate": "advancements.sinoceratops.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_centrosaurinae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_sinoceratops"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

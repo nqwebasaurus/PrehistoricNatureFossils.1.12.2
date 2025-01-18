@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_huaxiazhoulong"
+		  },
+		"title": {
+			"translate": "advancements.huaxiazhoulong.title"
+		},
+		"description": {
+			"translate": "advancements.huaxiazhoulong.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_ankylosauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_huaxiazhoulong"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

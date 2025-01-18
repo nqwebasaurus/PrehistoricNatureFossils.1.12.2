@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_asiatyrannus"
+		  },
+		"title": {
+			"translate": "advancements.asiatyrannus.title"
+		},
+		"description": {
+			"translate": "advancements.asiatyrannus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_tyrannosaurids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_asiatyrannus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

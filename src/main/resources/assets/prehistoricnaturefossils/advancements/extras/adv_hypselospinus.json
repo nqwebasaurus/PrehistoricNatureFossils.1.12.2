@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_hypselospinus"
+		},
+		"title": {
+			"translate": "advancements.hypselospinus.title"
+		},
+		"description": {
+			"translate": "advancements.hypselospinus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_iguanodontids",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_hypselospinus"
+		}
+	},
+	"rewards": {
+		"experience": 50
+	}
+}

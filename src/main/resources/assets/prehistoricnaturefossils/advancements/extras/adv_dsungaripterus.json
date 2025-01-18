@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_dsungaripterus"
+		  },
+		"title": {
+			"translate": "advancements.dsungaripterus.title"
+		},
+		"description": {
+			"translate": "advancements.dsungaripterus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_tapejaridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_dsungaripterus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

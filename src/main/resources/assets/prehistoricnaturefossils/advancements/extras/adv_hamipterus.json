@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_hamipterus"
+		  },
+		"title": {
+			"translate": "advancements.hamipterus.title"
+		},
+		"description": {
+			"translate": "advancements.hamipterus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_ornithocheiromorpha",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_hamipterus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
