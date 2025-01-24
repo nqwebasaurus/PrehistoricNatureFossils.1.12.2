@@ -401,6 +401,16 @@ public class ModTriggers
     public static final CustomTrigger NEOVENATOR_COMPLETE = new CustomTrigger("adv_neovenator");
     public static final CustomTrigger HUAXIAZHOULONG_COMPLETE = new CustomTrigger("adv_huaxiazhoulong");
     public static final CustomTrigger CARCHARODONTOSAURUS_COMPLETE = new CustomTrigger("adv_carcharodontosaurus");
+    public static final CustomTrigger RABIDOSAURUS_COMPLETE = new CustomTrigger("adv_rabidosaurus");
+    public static final CustomTrigger YUNNANOSAURUS_COMPLETE = new CustomTrigger("adv_yunnanosaurus");
+    public static final CustomTrigger MONTANOCERATOPS_COMPLETE = new CustomTrigger("adv_montanoceratops");
+    public static final CustomTrigger MALAWISAURUS_COMPLETE = new CustomTrigger("adv_malawisaurus");
+    public static final CustomTrigger HESCHELERIA_COMPLETE = new CustomTrigger("adv_hescheleria");
+    public static final CustomTrigger MEGALANCOSAURUS_COMPLETE = new CustomTrigger("adv_megalancosaurus");
+    public static final CustomTrigger ORNATOPS_COMPLETE = new CustomTrigger("adv_ornatops");
+    public static final CustomTrigger ANGULOMASTACATOR_COMPLETE = new CustomTrigger("adv_angulomastacator");
+    public static final CustomTrigger EINIOSAURUS_COMPLETE = new CustomTrigger("adv_einiosaurus");
+    public static final CustomTrigger REGALICERATOPS_COMPLETE = new CustomTrigger("adv_regaliceratops");
 
 
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
@@ -639,6 +649,16 @@ public class ModTriggers
             NEOVENATOR_COMPLETE,
             HUAXIAZHOULONG_COMPLETE,
             CARCHARODONTOSAURUS_COMPLETE,
+            RABIDOSAURUS_COMPLETE,
+            YUNNANOSAURUS_COMPLETE,
+            MONTANOCERATOPS_COMPLETE,
+            MALAWISAURUS_COMPLETE,
+            HESCHELERIA_COMPLETE,
+            MEGALANCOSAURUS_COMPLETE,
+            ORNATOPS_COMPLETE,
+            ANGULOMASTACATOR_COMPLETE,
+            EINIOSAURUS_COMPLETE,
+            REGALICERATOPS_COMPLETE,
             OLOROTITAN_COMPLETE,
             ICHTHYOSAURUS_COMPLETE,
             LUFENGOSAURUS_COMPLETE,

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_megalancosaurus"
+		  },
+		"title": {
+			"translate": "advancements.megalancosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.megalancosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_drepanosauromorpha",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_megalancosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

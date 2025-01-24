@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_malawisaurus"
+		  },
+		"title": {
+			"translate": "advancements.malawisaurus.title"
+		},
+		"description": {
+			"translate": "advancements.malawisaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_titanosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_malawisaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

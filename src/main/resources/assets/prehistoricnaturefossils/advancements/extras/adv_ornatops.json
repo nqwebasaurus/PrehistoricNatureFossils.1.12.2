@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_ornatops"
+		  },
+		"title": {
+			"translate": "advancements.ornatops.title"
+		},
+		"description": {
+			"translate": "advancements.ornatops.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_saurolophines",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_ornatops"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

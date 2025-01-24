@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_einiosaurus"
+		  },
+		"title": {
+			"translate": "advancements.einiosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.einiosaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_centrosaurinae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_einiosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

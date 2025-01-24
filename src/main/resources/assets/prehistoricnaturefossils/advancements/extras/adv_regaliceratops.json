@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_regaliceratops"
+		  },
+		"title": {
+			"translate": "advancements.regaliceratops.title"
+		},
+		"description": {
+			"translate": "advancements.regaliceratops.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_chasmosaurinae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_regaliceratops"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

@@ -68,7 +68,7 @@ public class BlockFossilHuaxiazhoulong extends BlockSkeletonBase implements IArc
     @Override
     public void addInformation(ItemStack stack, World player, List<String> tooltip, ITooltipFlag advanced) {
         super.addInformation(stack, player, tooltip, advanced);
-        tooltip.add("§6Testing additional tooltip here");
+        tooltip.add("§6This Skeleton was brought to you by Discord user Defind as a reward for the December 2024 Fossil Guess-a-Ton!");
     }
 
 }

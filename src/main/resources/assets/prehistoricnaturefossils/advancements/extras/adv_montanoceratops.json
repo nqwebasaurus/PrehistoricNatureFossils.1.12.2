@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_montanoceratops"
+		  },
+		"title": {
+			"translate": "advancements.montanoceratops.title"
+		},
+		"description": {
+			"translate": "advancements.montanoceratops.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_coronosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_montanoceratops"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

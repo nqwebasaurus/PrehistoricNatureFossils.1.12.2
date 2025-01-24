@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_hescheleria"
+		  },
+		"title": {
+			"translate": "advancements.hescheleria.title"
+		},
+		"description": {
+			"translate": "advancements.hescheleria.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_thalattosauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_hescheleria"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}
