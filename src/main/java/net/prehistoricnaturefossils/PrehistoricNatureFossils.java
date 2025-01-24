@@ -5,6 +5,8 @@ import net.minecraft.block.SoundType;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.world.storage.loot.LootTableList;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -49,6 +51,7 @@ public class PrehistoricNatureFossils {
     public void init(FMLInitializationEvent event) {
 
         MinecraftForge.EVENT_BUS.register(new FossilBlockDrops());
+        MinecraftForge.EVENT_BUS.register(new EventHandlers());
         ModTriggers.registerTriggers();
 
         try {
@@ -70,6 +73,8 @@ public class PrehistoricNatureFossils {
             }
         } catch (Exception e) {
         }
+
+        LootTableList.register(new ResourceLocation(PrehistoricNatureFossils.MODID, "loot_aetosaurs"));
 
     }
 

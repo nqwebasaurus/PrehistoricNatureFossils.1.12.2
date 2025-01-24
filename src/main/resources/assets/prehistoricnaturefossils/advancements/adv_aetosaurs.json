@@ -9,13 +9,17 @@
 		"description": {
 			"translate": "advancements.aetosaurs.description"
 		},
-		"show_toast": false,
-		"announce_to_chat": false
+		"show_toast": true,
+		"announce_to_chat": true,
+		"frame": "challenge"
 	},
 	"parent": "prehistoricnaturefossils:adv_rauisuchians_aetosaurs",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_aetosaurs"
 		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_aetosaurs"]
 	}
 }

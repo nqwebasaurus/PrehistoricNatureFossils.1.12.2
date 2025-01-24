@@ -1,6 +1,7 @@
 package net.prehistoricnaturefossils.client.render.general;
 
 import net.minecraftforge.fml.client.registry.ClientRegistry;
+import net.prehistoricnaturefossils.client.render.deco.RenderSkullAcrocanthosaurus;
 import net.prehistoricnaturefossils.client.render.skeletons.*;
 import net.prehistoricnaturefossils.client.render.slabs.*;
 import net.prehistoricnaturefossils.tile.*;
@@ -496,6 +497,10 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilAngulomastacator.class, new RenderFossilAngulomastacator());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilEiniosaurus.class, new RenderFossilEiniosaurus());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilRegaliceratops.class, new RenderFossilRegaliceratops());
+
         
+        //Other tile entity renderers:
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntitySkullAcrocanthosaurus.class, new RenderSkullAcrocanthosaurus());
+
     }
 }

@@ -413,6 +413,10 @@ public class ModTriggers
     public static final CustomTrigger REGALICERATOPS_COMPLETE = new CustomTrigger("adv_regaliceratops");
 
 
+    public static final CustomTrigger AETOSAURS_GROUP_COMPLETE = new CustomTrigger("trigger_aetosaurs");
+    public static final CustomTrigger ALLOSAURS_GROUP_COMPLETE = new CustomTrigger("trigger_allosauroidea");
+
+
     public static final CustomTrigger[] TRIGGER_ARRAY = new CustomTrigger[] {
             AEGER_COMPLETE,
             TREMAGLASPIS_COMPLETE,
@@ -813,7 +817,11 @@ public class ModTriggers
             DIPLOCAULUS_COMPLETE,
             DIMETRODON_COMPLETE,
             RHOMALEOSAURUS_COMPLETE,
-            ARIZONASAURUS_COMPLETE
+            ARIZONASAURUS_COMPLETE,
+
+
+            AETOSAURS_GROUP_COMPLETE,
+            ALLOSAURS_GROUP_COMPLETE
 
     };
 

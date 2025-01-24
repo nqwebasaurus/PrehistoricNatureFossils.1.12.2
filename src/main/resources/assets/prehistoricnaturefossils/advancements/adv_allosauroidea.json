@@ -15,7 +15,7 @@
 	"parent": "prehistoricnaturefossils:adv_theropods",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_allosauroidea"
 		}
 	}
 }
