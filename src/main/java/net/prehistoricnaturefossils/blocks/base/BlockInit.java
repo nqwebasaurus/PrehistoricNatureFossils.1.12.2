@@ -13,6 +13,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.prehistoricnaturefossils.blocks.deco.BlockFossilSkullAcrocanthosaurus;
 import net.prehistoricnaturefossils.blocks.skeletons.*;
 import net.prehistoricnaturefossils.blocks.slabs.*;
 import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
@@ -506,6 +507,10 @@ public class BlockInit {
     public static final Block FOSSIL_ANGULOMASTACATOR    = new BlockFossilAngulomastacator();
     public static final Block FOSSIL_EINIOSAURUS    = new BlockFossilEiniosaurus();
     public static final Block FOSSIL_REGALICERATOPS    = new BlockFossilRegaliceratops();
+
+
+    public static final Block SKULL_ACROCANTHOSAURUS    = new BlockFossilSkullAcrocanthosaurus();
+
 
     public static EnumActionResult onItemUseFossils(ItemBlock blockitem, EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         IBlockState iblockstate = worldIn.getBlockState(pos);

@@ -20,7 +20,7 @@ public class BlockFossilSkullAcrocanthosaurus extends BlockSkullBase {
         setTranslationKey("pf_skull_acrocanthosaurus");
         GameRegistry.registerTileEntity(TileEntitySkullAcrocanthosaurus.class, PrehistoricNatureFossils.MODID + ":tileentityskull_acrocanthosaurus");
         BlockInit.BLOCKS.add(this);
-        ItemInit.ITEMS.add(new ItemBlock(this));
+        ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }
 
     @Nullable

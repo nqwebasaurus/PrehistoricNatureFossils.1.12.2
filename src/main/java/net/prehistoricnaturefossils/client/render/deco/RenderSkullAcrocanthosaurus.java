@@ -1,6 +1,6 @@
 package net.prehistoricnaturefossils.client.render.deco;
 
-import net.lepidodendron.entity.render.entity.RenderAiniktozoon;
+import net.lepidodendron.entity.render.entity.RenderAcrocanthosaurus;
 import net.lepidodendron.entity.render.tile.RenderDisplayWallMount;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
@@ -9,25 +9,22 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.blocks.base.BlockSlabBase;
-import net.prehistoricnaturefossils.client.model.ModelSkeletonAiniktozoon;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonAcrocanthosaurus;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
 import net.prehistoricnaturefossils.tile.TileEntitySkullAcrocanthosaurus;
 
-//Replace Ainiktozoon!
-
 public class RenderSkullAcrocanthosaurus extends TileEntitySpecialRenderer<TileEntitySkullAcrocanthosaurus> {
 
-    private static final ResourceLocation TEXTURE = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/ainiktozoon_stage1.png");
-    private final ModelSkeletonAiniktozoon modelSkeleton;
+    private static final ResourceLocation TEXTURE = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/acrocanthosaurus_stage20.png");
+    private final ModelSkeletonAcrocanthosaurus modelSkeleton;
 
     public RenderSkullAcrocanthosaurus() {
-        this.modelSkeleton = new ModelSkeletonAiniktozoon();
+        this.modelSkeleton = new ModelSkeletonAcrocanthosaurus();
     }
 
     @Override
     public void render(TileEntitySkullAcrocanthosaurus entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
         int currentRotation = 0;
-        int currentStage = 0;
         EnumFacing facing = EnumFacing.UP;
         if (entity != null && entity.hasWorld()) {
             currentRotation = entity.getTileData().getInteger("rotation");
@@ -39,8 +36,8 @@ public class RenderSkullAcrocanthosaurus extends TileEntitySpecialRenderer<TileE
         this.bindTexture(TEXTURE);
 
         GlStateManager.enableAlpha();
-        ModelSkeletonAiniktozoon modelSkeleton = this.modelSkeleton;
-        double scale = RenderAiniktozoon.getScaler() * RenderDisplayWallMount.scaler;
+        ModelSkeletonAcrocanthosaurus modelSkeleton = this.modelSkeleton;
+        double scale = RenderAcrocanthosaurus.getScaler() * RenderDisplayWallMount.scaler;
 
         double offset = 0.475;
         if (facing == EnumFacing.UP) {
@@ -74,6 +71,7 @@ public class RenderSkullAcrocanthosaurus extends TileEntitySpecialRenderer<TileE
         GlStateManager.scale(scale, scale, scale);
 
         modelSkeleton.renderAll(Minecraft.getMinecraft().player.ticksExisted);
+
         GlStateManager.disableAlpha();
         GlStateManager.disableRescaleNormal();
         GlStateManager.enableCull();
