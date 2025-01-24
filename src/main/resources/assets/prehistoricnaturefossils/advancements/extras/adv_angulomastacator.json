@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_angulomastacator"
+		  },
+		"title": {
+			"translate": "advancements.angulomastacator.title"
+		},
+		"description": {
+			"translate": "advancements.angulomastacator.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_lambeosaurines",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_angulomastacator"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

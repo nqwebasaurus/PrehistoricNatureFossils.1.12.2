@@ -496,6 +496,16 @@ public class BlockInit {
     public static final Block FOSSIL_NEOVENATOR    = new BlockFossilNeovenator();
     public static final Block FOSSIL_HUAXIAZHOULONG    = new BlockFossilHuaxiazhoulong();
     public static final Block FOSSIL_CARCHARODONTOSAURUS    = new BlockFossilCarcharodontosaurus();
+    public static final Block FOSSIL_RABIDOSAURUS    = new BlockFossilRabidosaurus();
+    public static final Block FOSSIL_YUNNANOSAURUS    = new BlockFossilYunnanosaurus();
+    public static final Block FOSSIL_MONTANOCERATOPS    = new BlockFossilMontanoceratops();
+    public static final Block FOSSIL_MALAWISAURUS    = new BlockFossilMalawisaurus();
+    public static final Block FOSSIL_HESCHELERIA    = new BlockFossilHescheleria();
+    public static final Block FOSSIL_MEGALANCOSAURUS    = new BlockFossilMegalancosaurus();
+    public static final Block FOSSIL_ORNATOPS    = new BlockFossilOrnatops();
+    public static final Block FOSSIL_ANGULOMASTACATOR    = new BlockFossilAngulomastacator();
+    public static final Block FOSSIL_EINIOSAURUS    = new BlockFossilEiniosaurus();
+    public static final Block FOSSIL_REGALICERATOPS    = new BlockFossilRegaliceratops();
 
     public static EnumActionResult onItemUseFossils(ItemBlock blockitem, EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         IBlockState iblockstate = worldIn.getBlockState(pos);

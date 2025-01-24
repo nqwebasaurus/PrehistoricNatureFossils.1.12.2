@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_rabidosaurus"
+		  },
+		"title": {
+			"translate": "advancements.rabidosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.rabidosaurus.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:adv_dicynodontiabig",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_rabidosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_yunnanosaurus"
+		  },
+		"title": {
+			"translate": "advancements.yunnanosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.yunnanosaurus.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:adv_prosauropods",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_yunnanosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

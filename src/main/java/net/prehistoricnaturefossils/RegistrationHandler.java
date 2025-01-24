@@ -161,6 +161,16 @@ public class RegistrationHandler {
             "skeleton_kranosaura",
             "skeleton_hypselospinus",
             "skeleton_neovenator",
+            "skeleton_rabidosaurus",
+            "skeleton_yunnanosaurus",
+            "skeleton_montanoceratops",
+            "skeleton_malawisaurus",
+            "skeleton_hescheleria",
+            "skeleton_megalancosaurus",
+            "skeleton_ornatops",
+            "skeleton_angulomastacator",
+            "skeleton_einiosaurus",
+            "skeleton_regaliceratops",
             "skeleton_diplocaulusminimus"
     };
 
