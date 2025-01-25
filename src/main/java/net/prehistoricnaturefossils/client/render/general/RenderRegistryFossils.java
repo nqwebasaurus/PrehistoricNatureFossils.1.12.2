@@ -2,6 +2,8 @@ package net.prehistoricnaturefossils.client.render.general;
 
 import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.prehistoricnaturefossils.client.render.deco.RenderSkullAcrocanthosaurus;
+import net.prehistoricnaturefossils.client.render.deco.RenderTrophyAetosaurs;
+import net.prehistoricnaturefossils.client.render.deco.RenderTrophyAetosaurs2;
 import net.prehistoricnaturefossils.client.render.skeletons.*;
 import net.prehistoricnaturefossils.client.render.slabs.*;
 import net.prehistoricnaturefossils.tile.*;
@@ -497,10 +499,14 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilAngulomastacator.class, new RenderFossilAngulomastacator());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilEiniosaurus.class, new RenderFossilEiniosaurus());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilRegaliceratops.class, new RenderFossilRegaliceratops());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilShuvuuia.class, new RenderFossilShuvuuia());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSkorpiovenator.class, new RenderFossilSkorpiovenator());
 
         
         //Other tile entity renderers:
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntitySkullAcrocanthosaurus.class, new RenderSkullAcrocanthosaurus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyAetosaurs.class, new RenderTrophyAetosaurs());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyAetosaurs2.class, new RenderTrophyAetosaurs2());
 
     }
 }

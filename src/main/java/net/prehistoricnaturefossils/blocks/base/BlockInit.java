@@ -14,6 +14,8 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.prehistoricnaturefossils.blocks.deco.BlockFossilSkullAcrocanthosaurus;
+import net.prehistoricnaturefossils.blocks.deco.BlockFossilTrophyAetosaurs;
+import net.prehistoricnaturefossils.blocks.deco.BlockFossilTrophyAetosaurs2;
 import net.prehistoricnaturefossils.blocks.skeletons.*;
 import net.prehistoricnaturefossils.blocks.slabs.*;
 import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
@@ -507,9 +509,13 @@ public class BlockInit {
     public static final Block FOSSIL_ANGULOMASTACATOR    = new BlockFossilAngulomastacator();
     public static final Block FOSSIL_EINIOSAURUS    = new BlockFossilEiniosaurus();
     public static final Block FOSSIL_REGALICERATOPS    = new BlockFossilRegaliceratops();
+    public static final Block FOSSIL_SHUVUUIA    = new BlockFossilShuvuuia();
+    public static final Block FOSSIL_SKORPIOVENATOR    = new BlockFossilSkorpiovenator();
 
 
     public static final Block SKULL_ACROCANTHOSAURUS    = new BlockFossilSkullAcrocanthosaurus();
+    public static final Block TROPHY_AETOSAURS    = new BlockFossilTrophyAetosaurs();
+    public static final Block TROPHY_AETOSAURS2    = new BlockFossilTrophyAetosaurs2();
 
 
     public static EnumActionResult onItemUseFossils(ItemBlock blockitem, EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {

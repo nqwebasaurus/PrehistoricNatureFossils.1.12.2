@@ -8,21 +8,21 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ResourceLocation;
 import net.prehistoricnaturefossils.PrehistoricNatureFossils;
 import net.prehistoricnaturefossils.blocks.base.BlockSlabBase;
-import net.prehistoricnaturefossils.client.model.ModelSkeletonAcrocanthosaurusSkull;
+import net.prehistoricnaturefossils.client.model.ModelSkeletonTrophyAetosaurs;
 import net.prehistoricnaturefossils.client.render.general.RenderArrows;
-import net.prehistoricnaturefossils.tile.TileEntitySkullAcrocanthosaurus;
+import net.prehistoricnaturefossils.tile.TileEntityTrophyAetosaurs;
 
-public class RenderSkullAcrocanthosaurus extends TileEntitySpecialRenderer<TileEntitySkullAcrocanthosaurus> {
+public class RenderTrophyAetosaurs extends TileEntitySpecialRenderer<TileEntityTrophyAetosaurs> {
 
-    private static final ResourceLocation TEXTURE = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/acrocanthosaurus_stage20.png");
-    private final ModelSkeletonAcrocanthosaurusSkull modelSkeleton;
+    private static final ResourceLocation TEXTURE = new ResourceLocation(PrehistoricNatureFossils.MODID + ":textures/skeletons/aetosaur_trophy.png");
+    private final ModelSkeletonTrophyAetosaurs modelSkeleton;
 
-    public RenderSkullAcrocanthosaurus() {
-        this.modelSkeleton = new ModelSkeletonAcrocanthosaurusSkull();
+    public RenderTrophyAetosaurs() {
+        this.modelSkeleton = new ModelSkeletonTrophyAetosaurs();
     }
 
     @Override
-    public void render(TileEntitySkullAcrocanthosaurus entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
+    public void render(TileEntityTrophyAetosaurs entity, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
         int currentRotation = 0;
         EnumFacing facing = EnumFacing.UP;
         if (entity != null && entity.hasWorld()) {
@@ -35,10 +35,10 @@ public class RenderSkullAcrocanthosaurus extends TileEntitySpecialRenderer<TileE
         this.bindTexture(TEXTURE);
 
         GlStateManager.enableAlpha();
-        ModelSkeletonAcrocanthosaurusSkull modelSkeleton = this.modelSkeleton;
-        double scale = 1F * RenderDisplayWallMount.scaler;
+        ModelSkeletonTrophyAetosaurs modelSkeleton = this.modelSkeleton;
+        double scale = 0.2F * RenderDisplayWallMount.scaler;
 
-        double offset = 1.45;
+        double offset = 0.28;
         if (facing == EnumFacing.UP) {
             GlStateManager.translate(x + 0.5, y + offset, z + 0.5);
             GlStateManager.rotate(180, 0F, 0F, 1F);

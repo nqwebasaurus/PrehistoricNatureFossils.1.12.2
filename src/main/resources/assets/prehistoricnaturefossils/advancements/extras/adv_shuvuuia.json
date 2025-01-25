@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_shuvuuia"
+		  },
+		"title": {
+			"translate": "advancements.shuvuuia.title"
+		},
+		"description": {
+			"translate": "advancements.shuvuuia.description"
+		}
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_alvarezsauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_shuvuuia"
+		}
+	},
+  "rewards": {
+	  "experience": 10
+  }
+}

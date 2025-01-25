@@ -9,9 +9,8 @@
 		"description": {
 			"translate": "advancements.aetosaurs.description"
 		},
-		"show_toast": true,
-		"announce_to_chat": true,
-		"frame": "challenge"
+		"show_toast": false,
+		"announce_to_chat": false
 	},
 	"parent": "prehistoricnaturefossils:adv_rauisuchians_aetosaurs",
 	"criteria": {
@@ -20,6 +19,7 @@
 		}
 	},
 	"rewards": {
-		"loot": ["prehistoricnaturefossils:loot_aetosaurs"]
+		"loot": ["prehistoricnaturefossils:loot_aetosaurs"],
+		"experience": 5000
 	}
 }

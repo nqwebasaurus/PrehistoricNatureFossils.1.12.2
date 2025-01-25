@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_skorpiovenator"
+		  },
+		"title": {
+			"translate": "advancements.skorpiovenator.title"
+		},
+		"description": {
+			"translate": "advancements.skorpiovenator.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_abelisauria",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_skorpiovenator"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

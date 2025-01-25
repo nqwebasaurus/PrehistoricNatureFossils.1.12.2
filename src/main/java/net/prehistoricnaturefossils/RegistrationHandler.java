@@ -171,6 +171,8 @@ public class RegistrationHandler {
             "skeleton_angulomastacator",
             "skeleton_einiosaurus",
             "skeleton_regaliceratops",
+            "skeleton_shuvuuia",
+            "skeleton_skorpiovenator",
             "skeleton_diplocaulusminimus"
     };
 
