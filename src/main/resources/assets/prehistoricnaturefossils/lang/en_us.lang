@@ -647,6 +647,10 @@ advancements.einiosaurus.title=Bison Lizard
 advancements.einiosaurus.description=Complete an Einiosaurus skeleton
 advancements.regaliceratops.title=Royal Horned Face
 advancements.regaliceratops.description=Complete a Regaliceratops skeleton
+advancements.shuvuuia.title=Bird
+advancements.shuvuuia.description=Complete a Shuvuuia skeleton
+advancements.skorpiovenator.title=Scorpion Hunter
+advancements.skorpiovenator.description=Complete a Skorpiovenator skeleton
 
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
@@ -1412,6 +1416,13 @@ tile.pf_skeleton_ornatops.name=§9Ornatops Displayable Fossil
 tile.pf_skeleton_angulomastacator.name=§5Angulomastacator Displayable Fossil
 tile.pf_skeleton_einiosaurus.name=§9Einiosaurus Displayable Fossil
 tile.pf_skeleton_regaliceratops.name=§5Regaliceratops Displayable Fossil
+tile.pf_skeleton_shuvuuia.name=§2Shuvuuia Displayable Fossil
+tile.pf_skeleton_skorpiovenator.name=§9Skorpiovenator Displayable Fossil
+
+
+tile.pf_skull_acrocanthosaurus.name=Placeable Acrocanthosaurus Skull
+tile.pf_trophy_aetosaurs.name=§6Aetosaur Mastery Trophy var.1
+tile.pf_trophy_aetosaurs2.name=§6Aetosaur Mastery Trophy var.2
 
 
 item.pf_fossil_slabber.name=Slate Splitter

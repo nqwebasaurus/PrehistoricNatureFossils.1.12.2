@@ -411,6 +411,8 @@ public class ModTriggers
     public static final CustomTrigger ANGULOMASTACATOR_COMPLETE = new CustomTrigger("adv_angulomastacator");
     public static final CustomTrigger EINIOSAURUS_COMPLETE = new CustomTrigger("adv_einiosaurus");
     public static final CustomTrigger REGALICERATOPS_COMPLETE = new CustomTrigger("adv_regaliceratops");
+    public static final CustomTrigger SHUVUUIA_COMPLETE = new CustomTrigger("adv_shuvuuia");
+    public static final CustomTrigger SKORPIOVENATOR_COMPLETE = new CustomTrigger("adv_skorpiovenator");
 
 
     public static final CustomTrigger AETOSAURS_GROUP_COMPLETE = new CustomTrigger("trigger_aetosaurs");
@@ -663,6 +665,8 @@ public class ModTriggers
             ANGULOMASTACATOR_COMPLETE,
             EINIOSAURUS_COMPLETE,
             REGALICERATOPS_COMPLETE,
+            SHUVUUIA_COMPLETE,
+            SKORPIOVENATOR_COMPLETE,
             OLOROTITAN_COMPLETE,
             ICHTHYOSAURUS_COMPLETE,
             LUFENGOSAURUS_COMPLETE,
