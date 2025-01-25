@@ -513,6 +513,7 @@ public class BlockInit {
     public static final Block FOSSIL_SKORPIOVENATOR    = new BlockFossilSkorpiovenator();
 
 
+    //Skulls and so on:
     public static final Block SKULL_ACROCANTHOSAURUS    = new BlockFossilSkullAcrocanthosaurus();
     public static final Block TROPHY_AETOSAURS    = new BlockFossilTrophyAetosaurs();
     public static final Block TROPHY_AETOSAURS2    = new BlockFossilTrophyAetosaurs2();

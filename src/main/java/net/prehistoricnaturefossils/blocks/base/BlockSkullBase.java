@@ -10,7 +10,9 @@ import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.state.BlockFaceShape;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Items;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -134,7 +136,17 @@ public abstract class BlockSkullBase extends Block implements IHasModel {
 
     @Override
     public Item getItemDropped(IBlockState state, java.util.Random rand, int fortune) {
-        return new ItemStack(this, (int) (1)).getItem();
+        return new ItemStack(Items.AIR, (int) (1)).getItem();
+    }
+
+    @Override
+    public void breakBlock(World worldIn, BlockPos pos, IBlockState state) {
+        if (!worldIn.isRemote) {
+            EntityItem entityToSpawn = new EntityItem(worldIn, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(this, (int) (1)));
+            entityToSpawn.setPickupDelay(10);
+            worldIn.spawnEntity(entityToSpawn);
+        }
+        super.breakBlock(worldIn, pos, state);
     }
 
     @Override

@@ -6,7 +6,21 @@
       "entries": [
         {
           "type": "item",
-          "name": "prehistoricnaturefossils:pf_trophy_aetosaurs",
+          "name": "prehistoricnaturefossils:trophy_aetosaurs",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "prehistoricnaturefossils:trophy_aetosaurs2",
           "weight": 1,
           "functions": [
             {
@@ -19,26 +33,6 @@
           ]
         }
       ]
-    },
-    {
-      "name": "aetosaurs",
-      "rolls": 1,
-      "entries": [
-       {
-         "type": "item",
-         "name": "pf_trophy_aetosaurs2",
-          "weight": 1,
-          "functions": [
-           {
-             "function": "set_count",
-             "count": {
-              "min": 0,
-              "max": 1
-            }
-           }
-          ]
-        }
-       ]
-      }
-    ]
-  }
+    }
+  ]
+}
