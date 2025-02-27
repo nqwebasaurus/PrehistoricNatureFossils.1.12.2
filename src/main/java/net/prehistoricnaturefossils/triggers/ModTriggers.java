@@ -413,9 +413,37 @@ public class ModTriggers
     public static final CustomTrigger REGALICERATOPS_COMPLETE = new CustomTrigger("adv_regaliceratops");
     public static final CustomTrigger SHUVUUIA_COMPLETE = new CustomTrigger("adv_shuvuuia");
     public static final CustomTrigger SKORPIOVENATOR_COMPLETE = new CustomTrigger("adv_skorpiovenator");
+    public static final CustomTrigger TETHYSHADROS_COMPLETE = new CustomTrigger("adv_tethyshadros");
+    public static final CustomTrigger SPINOSAURUS_COMPLETE = new CustomTrigger("adv_spinosaurus");
 
 
     public static final CustomTrigger AETOSAURS_GROUP_COMPLETE = new CustomTrigger("trigger_aetosaurs");
+    public static final CustomTrigger PLACODERMI_GROUP_COMPLETE = new CustomTrigger("trigger_placodermi");
+    public static final CustomTrigger EUPELYCOSAURS_GROUP_COMPLETE = new CustomTrigger("trigger_eupelycosaurs");
+    public static final CustomTrigger EARLYSYNAPSIDS_GROUP_COMPLETE = new CustomTrigger("trigger_earlysynapsids");
+    public static final CustomTrigger TAPINOCEPHALIA_GROUP_COMPLETE = new CustomTrigger("trigger_tapinocephalia");
+    public static final CustomTrigger DINOCEPHALIA_GROUP_COMPLETE = new CustomTrigger("trigger_dinocephalia");
+    public static final CustomTrigger DICYNODONTIABIG_GROUP_COMPLETE = new CustomTrigger("trigger_dicynodontiabig");
+    public static final CustomTrigger DICYNODONTIASMALL_GROUP_COMPLETE = new CustomTrigger("trigger_dicynodontiasmall");
+    public static final CustomTrigger ANOMODONTIA_GROUP_COMPLETE = new CustomTrigger("trigger_anomodontia");
+    public static final CustomTrigger BIARMOSUCHIA_GROUP_COMPLETE = new CustomTrigger("trigger_biarmosuchia");
+    public static final CustomTrigger CASEASAURIA_GROUP_COMPLETE = new CustomTrigger("trigger_caseasauria");
+    public static final CustomTrigger GORGONOPSIANS_GROUP_COMPLETE = new CustomTrigger("trigger_gorgonopsians");
+    public static final CustomTrigger LEPOSPONDYLI_GROUP_COMPLETE = new CustomTrigger("trigger_lepospondyli");
+    public static final CustomTrigger EMBOLOMERES_GROUP_COMPLETE = new CustomTrigger("trigger_embolomeres");
+    public static final CustomTrigger SALAMANDERS_GROUP_COMPLETE = new CustomTrigger("trigger_salamanders");
+    public static final CustomTrigger DIADECTOMORPHS_GROUP_COMPLETE = new CustomTrigger("trigger_diadectomorphs");
+    public static final CustomTrigger HISEVEN_GROUP_COMPLETE = new CustomTrigger("trigger_hiseven");
+    public static final CustomTrigger FINFELLOWS_GROUP_COMPLETE = new CustomTrigger("trigger_finfellows");
+    public static final CustomTrigger FISHAPODS_GROUP_COMPLETE = new CustomTrigger("trigger_fishapods");
+    public static final CustomTrigger DISSOROPHOIDEA_GROUP_COMPLETE = new CustomTrigger("trigger_dissorophoidea");
+    public static final CustomTrigger PLAGIOSAUROIDEA_GROUP_COMPLETE = new CustomTrigger("trigger_plagiosauroidea");
+    public static final CustomTrigger TREMATOSAURIA_GROUP_COMPLETE = new CustomTrigger("trigger_trematosauria");
+    public static final CustomTrigger ARCHEGOSAURIDAE_GROUP_COMPLETE = new CustomTrigger("trigger_archegosauridae");
+    public static final CustomTrigger CAPITOSAURIA_GROUP_COMPLETE = new CustomTrigger("trigger_capitosauria");
+    public static final CustomTrigger ERYOPOIDEA_GROUP_COMPLETE = new CustomTrigger("trigger_eryopoidea");
+    public static final CustomTrigger TEMNOSPONDYLI_GROUP_COMPLETE = new CustomTrigger("trigger_temnospondyli");
+    public static final CustomTrigger AMPHIBIANS_GROUP_COMPLETE = new CustomTrigger("trigger_amphibians");
     public static final CustomTrigger ALLOSAURS_GROUP_COMPLETE = new CustomTrigger("trigger_allosauroidea");
 
 
@@ -667,6 +695,8 @@ public class ModTriggers
             REGALICERATOPS_COMPLETE,
             SHUVUUIA_COMPLETE,
             SKORPIOVENATOR_COMPLETE,
+            TETHYSHADROS_COMPLETE,
+            SPINOSAURUS_COMPLETE,
             OLOROTITAN_COMPLETE,
             ICHTHYOSAURUS_COMPLETE,
             LUFENGOSAURUS_COMPLETE,
@@ -825,6 +855,32 @@ public class ModTriggers
 
 
             AETOSAURS_GROUP_COMPLETE,
+            PLACODERMI_GROUP_COMPLETE,
+            EUPELYCOSAURS_GROUP_COMPLETE,
+            EARLYSYNAPSIDS_GROUP_COMPLETE,
+            TAPINOCEPHALIA_GROUP_COMPLETE,
+            DINOCEPHALIA_GROUP_COMPLETE,
+            DICYNODONTIABIG_GROUP_COMPLETE,
+            DICYNODONTIASMALL_GROUP_COMPLETE,
+            ANOMODONTIA_GROUP_COMPLETE,
+            BIARMOSUCHIA_GROUP_COMPLETE,
+            CASEASAURIA_GROUP_COMPLETE,
+            GORGONOPSIANS_GROUP_COMPLETE,
+            LEPOSPONDYLI_GROUP_COMPLETE,
+            EMBOLOMERES_GROUP_COMPLETE,
+            SALAMANDERS_GROUP_COMPLETE,
+            DIADECTOMORPHS_GROUP_COMPLETE,
+            HISEVEN_GROUP_COMPLETE,
+            FINFELLOWS_GROUP_COMPLETE,
+            FISHAPODS_GROUP_COMPLETE,
+            DISSOROPHOIDEA_GROUP_COMPLETE,
+            PLAGIOSAUROIDEA_GROUP_COMPLETE,
+            TREMATOSAURIA_GROUP_COMPLETE,
+            ARCHEGOSAURIDAE_GROUP_COMPLETE,
+            CAPITOSAURIA_GROUP_COMPLETE,
+            ERYOPOIDEA_GROUP_COMPLETE,
+            TEMNOSPONDYLI_GROUP_COMPLETE,
+            AMPHIBIANS_GROUP_COMPLETE,
             ALLOSAURS_GROUP_COMPLETE
 
     };

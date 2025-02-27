@@ -10,7 +10,7 @@
 			"translate": "advancements.uranocentrodon.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:adv_temnospondyli",
+	"parent": "prehistoricnaturefossils:adv_archegosauridae",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_uranocentrodon"

@@ -13,9 +13,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.prehistoricnaturefossils.blocks.deco.BlockFossilSkullAcrocanthosaurus;
-import net.prehistoricnaturefossils.blocks.deco.BlockFossilTrophyAetosaurs;
-import net.prehistoricnaturefossils.blocks.deco.BlockFossilTrophyAetosaurs2;
+import net.prehistoricnaturefossils.blocks.deco.*;
 import net.prehistoricnaturefossils.blocks.skeletons.*;
 import net.prehistoricnaturefossils.blocks.slabs.*;
 import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
@@ -511,12 +509,46 @@ public class BlockInit {
     public static final Block FOSSIL_REGALICERATOPS    = new BlockFossilRegaliceratops();
     public static final Block FOSSIL_SHUVUUIA    = new BlockFossilShuvuuia();
     public static final Block FOSSIL_SKORPIOVENATOR    = new BlockFossilSkorpiovenator();
+    public static final Block FOSSIL_TETHYSHADROS    = new BlockFossilTethyshadros();
+    public static final Block FOSSIL_SPINOSAURUS    = new BlockFossilSpinosaurus();
 
 
     //Skulls and so on:
     public static final Block SKULL_ACROCANTHOSAURUS    = new BlockFossilSkullAcrocanthosaurus();
     public static final Block TROPHY_AETOSAURS    = new BlockFossilTrophyAetosaurs();
     public static final Block TROPHY_AETOSAURS2    = new BlockFossilTrophyAetosaurs2();
+    public static final Block TROPHY_PLACODERMI    = new BlockFossilTrophyPlacodermi();
+    public static final Block TROPHY_PLACODERMI2    = new BlockFossilTrophyPlacodermi2();
+    public static final Block TROPHY_EUPELYCOSAURS    = new BlockFossilTrophyEupelycosaurs();
+    public static final Block TROPHY_EARLYSYNAPSIDS    = new BlockFossilTrophyEarlysynapsids();
+    public static final Block TROPHY_TAPINOCEPHALIA    = new BlockFossilTrophyTapinocephalia();
+    public static final Block TROPHY_TAPINOCEPHALIA2    = new BlockFossilTrophyTapinocephalia2();
+    public static final Block TROPHY_DINOCEPHALIA    = new BlockFossilTrophyDinocephalia();
+    public static final Block TROPHY_DINOCEPHALIA2    = new BlockFossilTrophyDinocephalia2();
+    public static final Block TROPHY_DICYNODONTIABIG    = new BlockFossilTrophyDicynodontiabig();
+    public static final Block TROPHY_DICYNODONTIABIG2    = new BlockFossilTrophyDicynodontiabig2();
+    public static final Block TROPHY_DICYNODONTIASMALL    = new BlockFossilTrophyDicynodontiasmall();
+    public static final Block TROPHY_DICYNODONTIASMALL2    = new BlockFossilTrophyDicynodontiasmall2();
+    public static final Block TROPHY_ANOMODONTIA    = new BlockFossilTrophyAnomodontia();
+    public static final Block TROPHY_ANOMODONTIA2    = new BlockFossilTrophyAnomodontia2();
+    public static final Block TROPHY_BIARMOSUCHIA    = new BlockFossilTrophyBiarmosuchia();
+    public static final Block TROPHY_CASEASAURIA    = new BlockFossilTrophyCaseasauria();
+    public static final Block TROPHY_GORGONOPSIANS    = new BlockFossilTrophyGorgonopsians();
+    public static final Block TROPHY_LEPOSPONDYLI    = new BlockFossilTrophyLepospondyli();
+    public static final Block TROPHY_EMBOLOMERES    = new BlockFossilTrophyEmbolomeres();
+    public static final Block TROPHY_SALAMANDERS    = new BlockFossilTrophySalamanders();
+    public static final Block TROPHY_DIADECTOMORPHS    = new BlockFossilTrophyDiadectomorphs();
+    public static final Block TROPHY_HISEVEN    = new BlockFossilTrophyHiseven();
+    public static final Block TROPHY_FINFELLOWS    = new BlockFossilTrophyFinfellows();
+    public static final Block TROPHY_FISHAPODS    = new BlockFossilTrophyFishapods();
+    public static final Block TROPHY_DISSOROPHOIDEA    = new BlockFossilTrophyDissorophoidea();
+    public static final Block TROPHY_PLAGIOSAUROIDEA    = new BlockFossilTrophyPlagiosauroidea();
+    public static final Block TROPHY_TREMATOSAURIA    = new BlockFossilTrophyTrematosauria();
+    public static final Block TROPHY_ARCHEGOSAURIDAE    = new BlockFossilTrophyArchegosauridae();
+    public static final Block TROPHY_CAPITOSAURIA    = new BlockFossilTrophyCapitosauria();
+    public static final Block TROPHY_ERYOPOIDEA    = new BlockFossilTrophyEryopoidea();
+    public static final Block TROPHY_TEMNOSPONDYLI    = new BlockFossilTrophyTemnospondyli();
+    public static final Block TROPHY_AMPHIBIANS    = new BlockFossilTrophyAmphibians();
 
 
     public static EnumActionResult onItemUseFossils(ItemBlock blockitem, EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {

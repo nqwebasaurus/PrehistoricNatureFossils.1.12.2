@@ -15,7 +15,11 @@
 	"parent": "prehistoricnaturefossils:adv_synapsids",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_anomodontia"
 		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_anomodontia"],
+		"experience": 15000
 	}
 }

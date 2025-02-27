@@ -15,7 +15,11 @@
 	"parent": "prehistoricnaturefossils:adv_amphibians",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_fishapods"
 		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_fishapods"],
+		"experience": 10000
 	}
 }

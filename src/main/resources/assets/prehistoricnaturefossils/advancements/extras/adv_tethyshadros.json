@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_tethyshadros"
+		  },
+		"title": {
+			"translate": "advancements.tethyshadros.title"
+		},
+		"description": {
+			"translate": "advancements.tethyshadros.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_hadrosauromorpha",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_tethyshadros"
+		}
+	},
+  "rewards": {
+	  "experience": 50
+  }
+}

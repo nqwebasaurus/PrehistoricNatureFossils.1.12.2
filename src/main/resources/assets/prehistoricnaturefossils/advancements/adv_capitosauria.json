@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_placeholder"
+		  },
+		"title": {
+			"translate": "advancements.capitosauria.title"
+		},
+		"description": {
+			"translate": "advancements.capitosauria.description"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "prehistoricnaturefossils:adv_temnospondyli",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "trigger_capitosauria"
+		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_capitosauria"],
+		"experience": 5000
+	}
+}

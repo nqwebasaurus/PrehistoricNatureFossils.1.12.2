@@ -15,7 +15,11 @@
 	"parent": "prehistoricnaturefossils:adv_temnospondyli",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_dissorophoidea"
 		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_dissorophoidea"],
+		"experience": 3000
 	}
 }

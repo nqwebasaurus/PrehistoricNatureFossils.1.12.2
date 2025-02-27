@@ -15,7 +15,11 @@
 	"parent": "prehistoricnaturefossils:adv_amphibians",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_temnospondyli"
 		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_temnospondyli"],
+		"experience": 30000
 	}
 }

@@ -15,7 +15,12 @@
 	"parent": "prehistoricnaturefossils:adv_amphibians",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_diadectomorphs"
 		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_diadectomorphs"],
+		"experience": 4000
 	}
+}
 }

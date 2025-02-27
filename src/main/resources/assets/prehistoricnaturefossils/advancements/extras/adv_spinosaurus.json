@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_spinosaurus"
+		  },
+		"title": {
+			"translate": "advancements.spinosaurus.title"
+		},
+		"description": {
+			"translate": "advancements.spinosaurus.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "prehistoricnaturefossils:extras/adv_spinosauridae",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "adv_spinosaurus"
+		}
+	},
+  "rewards": {
+	  "experience": 150
+  }
+}

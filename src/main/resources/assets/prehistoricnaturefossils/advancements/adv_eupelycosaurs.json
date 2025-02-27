@@ -15,7 +15,11 @@
 	"parent": "prehistoricnaturefossils:adv_earlysynapsids",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_eupelycosaurs"
 		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_eupelycosaurs"],
+		"experience": 5000
 	}
 }
