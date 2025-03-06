@@ -38,7 +38,7 @@ public class BlockFossilPulmonoscorpius extends BlockSlabBase implements IArchiv
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_pulmonoscorpius";
+        return "mobdnaPNlepidodendron:prehistoric_flora_scorpion_pulmonoscorpius";
     }
 
     @Nullable

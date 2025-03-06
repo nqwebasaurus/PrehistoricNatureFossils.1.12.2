@@ -13,9 +13,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.prehistoricnaturefossils.blocks.deco.*;
-import net.prehistoricnaturefossils.blocks.skeletons.*;
-import net.prehistoricnaturefossils.blocks.slabs.*;
+import net.prehistoricnaturefossils.blocks.*;
 import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 import java.util.ArrayList;
@@ -551,7 +549,6 @@ public class BlockInit {
     public static final Block TROPHY_ERYOPOIDEA    = new BlockFossilTrophyEryopoidea();
     public static final Block TROPHY_TEMNOSPONDYLI    = new BlockFossilTrophyTemnospondyli();
     public static final Block TROPHY_AMPHIBIANS    = new BlockFossilTrophyAmphibians();
-
 
     public static EnumActionResult onItemUseFossils(ItemBlock blockitem, EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         IBlockState iblockstate = worldIn.getBlockState(pos);
