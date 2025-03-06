@@ -15,7 +15,11 @@
 	"parent": "prehistoricnaturefossils:adv_synapsids",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_dinocephalia"
 		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_dinocephalia"],
+		"experience": 5000
 	}
 }

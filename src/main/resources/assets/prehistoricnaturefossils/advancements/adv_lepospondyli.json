@@ -15,7 +15,11 @@
 	"parent": "prehistoricnaturefossils:adv_salamanders",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_lepospondyli"
 		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_lepospondyli"],
+		"experience": 5000
 	}
 }

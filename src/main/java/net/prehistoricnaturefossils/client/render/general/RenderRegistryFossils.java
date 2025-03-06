@@ -1,9 +1,7 @@
 package net.prehistoricnaturefossils.client.render.general;
 
 import net.minecraftforge.fml.client.registry.ClientRegistry;
-import net.prehistoricnaturefossils.client.render.deco.RenderSkullAcrocanthosaurus;
-import net.prehistoricnaturefossils.client.render.deco.RenderTrophyAetosaurs;
-import net.prehistoricnaturefossils.client.render.deco.RenderTrophyAetosaurs2;
+import net.prehistoricnaturefossils.client.render.deco.*;
 import net.prehistoricnaturefossils.client.render.skeletons.*;
 import net.prehistoricnaturefossils.client.render.slabs.*;
 import net.prehistoricnaturefossils.tile.*;
@@ -171,6 +169,8 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilPriscomyzon.class, new RenderFossilPriscomyzon());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilCamanchia.class, new RenderFossilCamanchia());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSemionotus.class, new RenderFossilSemionotus());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilTuzoia.class, new RenderFossilTuzoia());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilTropaeum.class, new RenderFossilTropaeum());
 
 
         //Skeleton Mounts:
@@ -501,12 +501,46 @@ public class RenderRegistryFossils {
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilRegaliceratops.class, new RenderFossilRegaliceratops());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilShuvuuia.class, new RenderFossilShuvuuia());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSkorpiovenator.class, new RenderFossilSkorpiovenator());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilTethyshadros.class, new RenderFossilTethyshadros());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFossilSpinosaurus.class, new RenderFossilSpinosaurus());
 
         
         //Other tile entity renderers:
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntitySkullAcrocanthosaurus.class, new RenderSkullAcrocanthosaurus());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyAetosaurs.class, new RenderTrophyAetosaurs());
         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyAetosaurs2.class, new RenderTrophyAetosaurs2());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyPlacodermi.class, new RenderTrophyPlacodermi());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyPlacodermi2.class, new RenderTrophyPlacodermi2());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyEupelycosaurs.class, new RenderTrophyEupelycosaurs());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyEarlysynapsids.class, new RenderTrophyEarlysynapsids());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyTapinocephalia.class, new RenderTrophyTapinocephalia());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyTapinocephalia2.class, new RenderTrophyTapinocephalia2());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyDinocephalia.class, new RenderTrophyDinocephalia());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyDinocephalia2.class, new RenderTrophyDinocephalia2());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyDicynodontiabig.class, new RenderTrophyDicynodontiabig());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyDicynodontiabig2.class, new RenderTrophyDicynodontiabig2());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyDicynodontiasmall.class, new RenderTrophyDicynodontiasmall());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyDicynodontiasmall2.class, new RenderTrophyDicynodontiasmall2());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyAnomodontia.class, new RenderTrophyAnomodontia());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyAnomodontia2.class, new RenderTrophyAnomodontia2());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyBiarmosuchia.class, new RenderTrophyBiarmosuchia());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyCaseasauria.class, new RenderTrophyCaseasauria());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyGorgonopsians.class, new RenderTrophyGorgonopsians());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyLepospondyli.class, new RenderTrophyLepospondyli());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyEmbolomeres.class, new RenderTrophyEmbolomeres());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophySalamanders.class, new RenderTrophySalamanders());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyDiadectomorphs.class, new RenderTrophyDiadectomorphs());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyHiseven.class, new RenderTrophyHiseven());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyFinfellows.class, new RenderTrophyFinfellows());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyFishapods.class, new RenderTrophyFishapods());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyDissorophoidea.class, new RenderTrophyDissorophoidea());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyPlagiosauroidea.class, new RenderTrophyPlagiosauroidea());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyTrematosauria.class, new RenderTrophyTrematosauria());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyArchegosauridae.class, new RenderTrophyArchegosauridae());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyCapitosauria.class, new RenderTrophyCapitosauria());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyEryopoidea.class, new RenderTrophyEryopoidea());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyTemnospondyli.class, new RenderTrophyTemnospondyli());
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTrophyAmphibians.class, new RenderTrophyAmphibians());
 
     }
 }

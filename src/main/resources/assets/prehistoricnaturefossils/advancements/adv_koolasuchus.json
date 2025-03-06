@@ -11,7 +11,7 @@
 		},
 		"frame": "goal"
 	},
-	"parent": "prehistoricnaturefossils:adv_temnospondyli",
+	"parent": "prehistoricnaturefossils:adv_trematosauria",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_koolasuchus"

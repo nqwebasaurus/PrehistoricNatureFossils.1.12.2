@@ -15,7 +15,11 @@
 	"parent": "prehistoricnaturefossils:adv_temnospondyli",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_eryopoidea"
 		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_eryopoidea"],
+		"experience": 7000
 	}
 }

@@ -15,7 +15,11 @@
 	"parent": "prehistoricnaturefossils:adv_temnospondyli",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_archegosauridae"
 		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_archegosauridae"],
+		"experience": 5000
 	}
 }

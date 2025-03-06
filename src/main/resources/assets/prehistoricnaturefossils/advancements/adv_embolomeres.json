@@ -15,7 +15,11 @@
 	"parent": "prehistoricnaturefossils:adv_salamanders",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_embolomeres"
 		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_embolomeres"],
+		"experience": 5000
 	}
 }

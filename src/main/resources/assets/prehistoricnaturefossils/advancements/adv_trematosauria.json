@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "prehistoricnaturefossils:skeleton_placeholder"
+		  },
+		"title": {
+			"translate": "advancements.trematosauria.title"
+		},
+		"description": {
+			"translate": "advancements.trematosauria.description"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "prehistoricnaturefossils:adv_temnospondyli",
+	"criteria": {
+		"pf_trigger": {
+			"trigger": "trigger_trematosauria"
+		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_trematosauria"],
+		"experience": 5000
+	}
+}

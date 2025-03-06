@@ -12,10 +12,14 @@
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "prehistoricnaturefossils:adv_temnospondyli",
+	"parent": "prehistoricnaturefossils:adv_trematosauria",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_plagiosauroidea"
 		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_plagiosauroidea"],
+		"experience": 3000
 	}
 }

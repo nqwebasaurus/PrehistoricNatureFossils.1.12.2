@@ -15,7 +15,11 @@
 	"parent": "prehistoricnaturefossils:base_adv",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_placodermi"
 		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_placodermi"],
+		"experience": 3000
 	}
 }

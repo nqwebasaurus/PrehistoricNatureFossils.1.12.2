@@ -716,6 +716,8 @@ public class FossilBlockDrops {
                 new ItemStack(BlockInit.FOSSIL_HYPSELOSPINUS, 1),
                 new ItemStack(BlockInit.FOSSIL_MONTANOCERATOPS, 1),
                 new ItemStack(BlockInit.FOSSIL_MALAWISAURUS, 1),
+                new ItemStack(BlockInit.FOSSIL_TETHYSHADROS, 1),
+                new ItemStack(BlockInit.FOSSIL_SPINOSAURUS, 1),
                 new ItemStack(BlockInit.FOSSIL_ORNATOPS, 1),
                 new ItemStack(BlockInit.FOSSIL_ANGULOMASTACATOR, 1),
                 new ItemStack(BlockInit.FOSSIL_EINIOSAURUS, 1),
@@ -871,6 +873,7 @@ public class FossilBlockDrops {
         ItemStack[] itemStack = {
                 new ItemStack(BlockInit.FOSSIL_OPABINIA, 1),
                 new ItemStack(BlockInit.FOSSIL_OTTOIA, 1),
+                new ItemStack(BlockInit.FOSSIL_TUZOIA, 1),
                 new ItemStack(BlockInit.FOSSIL_PAMBDELURION, 1),
                 new ItemStack(BlockInit.FOSSIL_VETULICOLA, 1),
                 new ItemStack(BlockInit.FOSSIL_HALLUCIGENIA, 1),
@@ -1092,6 +1095,7 @@ public class FossilBlockDrops {
         ItemStack[] itemStack = {
                 new ItemStack(BlockInit.FOSSIL_AEGER, 1),
                 new ItemStack(BlockInit.FOSSIL_MECOCHIRUS, 1),
+                new ItemStack(BlockInit.FOSSIL_TROPAEUM, 1),
                 new ItemStack(BlockInit.FOSSIL_ERYMA, 1)
         };
         return itemStack;

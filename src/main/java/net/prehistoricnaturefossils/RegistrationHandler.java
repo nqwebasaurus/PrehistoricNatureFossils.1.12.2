@@ -173,6 +173,9 @@ public class RegistrationHandler {
             "skeleton_regaliceratops",
             "skeleton_shuvuuia",
             "skeleton_skorpiovenator",
+            "skeleton_tethyshadros",
+            "skeleton_spinosaurus",
+            "skull_acrocanthosaurus",
             "skeleton_diplocaulusminimus"
     };
 

@@ -15,7 +15,11 @@
 	"parent": "prehistoricnaturefossils:adv_fishapods",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_finfellows"
 		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_finfellows"],
+		"experience": 5000
 	}
 }

@@ -651,6 +651,10 @@ advancements.shuvuuia.title=Bird
 advancements.shuvuuia.description=Complete a Shuvuuia skeleton
 advancements.skorpiovenator.title=Scorpion Hunter
 advancements.skorpiovenator.description=Complete a Skorpiovenator skeleton
+advancements.tethyshadros.title=Tethyan Hadrosaur
+advancements.tethyshadros.description=Complete a Tethyshadros skeleton
+advancements.spinosaurus.title=Spine Lizard
+advancements.spinosaurus.description=Complete a Spinosaurus skeleton
 
 advancements.base.title=Fossil Collection
 advancements.base.description=Gonna collect 'em all!
@@ -685,7 +689,7 @@ advancements.plagiosauroidea.description=Plagiosauroid Temnospondyli
 advancements.eryopoidea.title=Here Comes the Boi
 advancements.eryopoidea.description=Eryopoid Temnospondyli
 advancements.dissorophoidea.title=Sail on, Sail off
-advancements.dissorophoidea.description=Dissorophoidean Temnospondyli
+advancements.dissorophoidea.description=Olsoniform Temnospondyli
 advancements.synapsids.title=One hole is better than two
 advancements.synapsids.description=Synapsids (mammals and relatives)
 advancements.caseasauria.title=Head Empty
@@ -803,7 +807,7 @@ advancements.ankylosauria.description=Ankylosaurians
 advancements.stegosauria.title=Thagomizer Threats
 advancements.stegosauria.description=Stegosaurians
 advancements.archegosauridae.title=The Enormous (Not) Crocodile
-advancements.archegosauridae.description=Archegosaurids
+advancements.archegosauridae.description=Stereospondylomorpha
 advancements.abelisauria.title=Armless, not harmless!
 advancements.abelisauria.description=Abelisaurians (Coming Soon)
 advancements.dicraeosaurids.title=Of short necks and spikes
@@ -926,6 +930,12 @@ advancements.alvarezsauria.title=Flipping the bird
 advancements.alvarezsauria.description=Alvarezsaurians
 advancements.titanosauria.title=Larger than Life
 advancements.titanosauria.description=Titanosaurians (coming soon)
+advancements.hadrosauromorpha.title=Not a Duck!
+advancements.hadrosauromorpha.description=Hadrosauromorphs (coming soon)
+advancements.trematosauria.title=That's a Kool arse Suchian!
+advancements.trematosauria.description=Trematosauria
+advancements.capitosauria.title=Cute with a "capito" C
+advancements.capitosauria.description=Capitosauria
 
 enchantment.pf_discerning_collector=Discerning Collector
 
@@ -1089,6 +1099,8 @@ tile.pf_skeleton_tremaglaspis.name=Tremaglaspis Fossil Slab
 tile.pf_skeleton_priscomyzon.name=Priscomyzon Fossil Slab
 tile.pf_skeleton_camanchia.name=Camanchia Fossil Slab
 tile.pf_skeleton_semionotus.name=Semionotus Fossil Slab
+tile.pf_skeleton_tuzoia.name=Tuzoia Fossil Slab
+tile.pf_skeleton_tropaeum.name=Tropaeum Fossil Slab
 
 
 
@@ -1418,11 +1430,45 @@ tile.pf_skeleton_einiosaurus.name=§9Einiosaurus Displayable Fossil
 tile.pf_skeleton_regaliceratops.name=§5Regaliceratops Displayable Fossil
 tile.pf_skeleton_shuvuuia.name=§2Shuvuuia Displayable Fossil
 tile.pf_skeleton_skorpiovenator.name=§9Skorpiovenator Displayable Fossil
+tile.pf_skeleton_tethyshadros.name=§5Tethyshadros Displayable Fossil
+tile.pf_skeleton_spinosaurus.name=§6Spinosaurus Displayable Fossil
 
 
 tile.pf_skull_acrocanthosaurus.name=Placeable Acrocanthosaurus Skull
 tile.pf_trophy_aetosaurs.name=§6Aetosaur Mastery Trophy var.1
 tile.pf_trophy_aetosaurs2.name=§6Aetosaur Mastery Trophy var.2
+tile.pf_trophy_placodermi.name=§6Placoderm Mastery Trophy var.1
+tile.pf_trophy_placodermi2.name=§6Placoderm Mastery Trophy var.2
+tile.pf_trophy_eupelycosaurs.name=§6Eupelycosaur Mastery Trophy
+tile.pf_trophy_earlysynapsids.name=§6Early Synapsid Mastery Trophy
+tile.pf_trophy_tapinocephalia.name=§6Tapinocephalian Mastery Trophy var.1
+tile.pf_trophy_tapinocephalia2.name=§6Tapinocephalian  Mastery Trophy var.2
+tile.pf_trophy_dinocephalia.name=§6Dinocephalian Mastery Trophy var.1
+tile.pf_trophy_dinocephalia2.name=§6Dinocephalian  Mastery Trophy var.2
+tile.pf_trophy_dicynodontiabig.name=§6Large Dicynodontian Mastery Trophy var.1
+tile.pf_trophy_dicynodontiabig2.name=§6Large Dicynodontian  Mastery Trophy var.2
+tile.pf_trophy_dicynodontiasmall.name=§6Small Dicynodontian Mastery Trophy var.1
+tile.pf_trophy_dicynodontiasmall2.name=§6Small Dicynodontian  Mastery Trophy var.2
+tile.pf_trophy_anomodontia.name=§6Anomodontian Mastery Trophy var.1
+tile.pf_trophy_anomodontia2.name=§6Anomodontian Mastery Trophy var.2
+tile.pf_trophy_biarmosuchia.name=§6Biarmosuchian Mastery Trophy
+tile.pf_trophy_caseasauria.name=§6Caseasaurian Mastery Trophy
+tile.pf_trophy_gorgonopsians.name=§6Gorgonopsian Mastery Trophy
+tile.pf_trophy_lepospondyli.name=§6Lepospondyl Mastery Trophy
+tile.pf_trophy_embolomeres.name=§6Embolomere Mastery Trophy
+tile.pf_trophy_salamanders.name=§6Leposondyl & Embolomere Mastery Trophy
+tile.pf_trophy_diadectomorphs.name=§6Diadectomorph Mastery Trophy
+tile.pf_trophy_hiseven.name=§6Many toed tetrapod Mastery Trophy
+tile.pf_trophy_finfellows.name=§6Early Tetrapodomorph Mastery Trophy
+tile.pf_trophy_fishapods.name=§6"Fishapod" Mastery Trophy
+tile.pf_trophy_dissorophoidea.name=§6Olsoniform Mastery Trophy
+tile.pf_trophy_plagiosauroidea.name=§6Plagiosauroid Mastery Trophy
+tile.pf_trophy_trematosauria.name=§6Trematosaur Mastery Trophy
+tile.pf_trophy_archegosauridae.name=§6Stereospondylomorph Mastery Trophy
+tile.pf_trophy_capitosauria.name=§6Capitosauria Mastery Trophy
+tile.pf_trophy_eryopoidea.name=§6Eryopoid Mastery Trophy
+tile.pf_trophy_temnospondyli.name=§6Temnospondyl Mastery Trophy
+tile.pf_trophy_amphibians.name=§6Magnus magister Amphibiae Trophy
 
 
 item.pf_fossil_slabber.name=Slate Splitter

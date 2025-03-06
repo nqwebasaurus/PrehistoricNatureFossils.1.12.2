@@ -15,7 +15,11 @@
 	"parent": "prehistoricnaturefossils:adv_synapsids",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_biarmosuchia"
 		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_biarmosuchia"],
+		"experience": 5000
 	}
 }

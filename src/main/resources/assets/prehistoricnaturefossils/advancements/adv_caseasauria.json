@@ -15,7 +15,11 @@
 	"parent": "prehistoricnaturefossils:adv_synapsids",
 	"criteria": {
 		"pf_trigger": {
-			"trigger": "minecraft:tick"
+			"trigger": "trigger_caseasauria"
 		}
+	},
+	"rewards": {
+		"loot": ["prehistoricnaturefossils:loot_caseasauria"],
+		"experience": 5000
 	}
 }
