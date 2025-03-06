@@ -21,6 +21,7 @@ public class BlockFossilTrophyBiarmosuchia extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyBiarmosuchia.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_biarmosuchia");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

@@ -21,6 +21,7 @@ public class BlockFossilTrophyEryopoidea extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyEryopoidea.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_eryopoidea");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

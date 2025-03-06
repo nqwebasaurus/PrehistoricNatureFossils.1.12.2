@@ -21,6 +21,7 @@ public class BlockFossilTrophyAmphibians extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyAmphibians.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_amphibians");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

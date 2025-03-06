@@ -21,6 +21,7 @@ public class BlockFossilTrophyTemnospondyli extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyTemnospondyli.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_temnospondyli");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

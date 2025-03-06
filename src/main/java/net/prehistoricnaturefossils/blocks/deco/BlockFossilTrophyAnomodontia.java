@@ -21,6 +21,7 @@ public class BlockFossilTrophyAnomodontia extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyAnomodontia.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_anomodontia");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

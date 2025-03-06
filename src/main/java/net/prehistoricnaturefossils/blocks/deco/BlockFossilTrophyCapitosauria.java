@@ -21,6 +21,7 @@ public class BlockFossilTrophyCapitosauria extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyCapitosauria.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_capitosauria");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

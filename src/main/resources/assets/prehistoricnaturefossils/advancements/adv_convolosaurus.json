@@ -10,7 +10,7 @@
 			"translate": "advancements.convolosaurus.description"
 		}
 	},
-	"parent": "prehistoricnaturefossils:adv_dryomorphs",
+	"parent": "prehistoricnaturefossils:extras/adv_rhabdodontomorpha",
 	"criteria": {
 		"pf_trigger": {
 			"trigger": "adv_convolosaurus"

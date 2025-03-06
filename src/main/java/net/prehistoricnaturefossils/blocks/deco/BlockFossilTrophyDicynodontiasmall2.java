@@ -21,6 +21,7 @@ public class BlockFossilTrophyDicynodontiasmall2 extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyDicynodontiasmall2.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_dicynodontiasmall2");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

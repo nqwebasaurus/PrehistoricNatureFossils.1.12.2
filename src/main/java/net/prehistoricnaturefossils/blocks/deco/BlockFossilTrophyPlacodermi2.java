@@ -21,6 +21,7 @@ public class BlockFossilTrophyPlacodermi2 extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyPlacodermi2.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_placodermi2");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

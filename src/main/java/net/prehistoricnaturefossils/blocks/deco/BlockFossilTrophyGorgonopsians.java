@@ -21,6 +21,7 @@ public class BlockFossilTrophyGorgonopsians extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyGorgonopsians.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_gorgonopsians");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

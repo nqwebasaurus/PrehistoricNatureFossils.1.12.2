@@ -21,6 +21,7 @@ public class BlockFossilTrophyFishapods extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyFishapods.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_fishapods");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

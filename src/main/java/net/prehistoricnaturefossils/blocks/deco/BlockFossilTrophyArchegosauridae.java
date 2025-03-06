@@ -21,6 +21,7 @@ public class BlockFossilTrophyArchegosauridae extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyArchegosauridae.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_archegosauridae");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

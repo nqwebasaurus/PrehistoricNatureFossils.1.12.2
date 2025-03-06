@@ -21,6 +21,7 @@ public class BlockFossilTrophyDinocephalia extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyDinocephalia.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_dinocephalia");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

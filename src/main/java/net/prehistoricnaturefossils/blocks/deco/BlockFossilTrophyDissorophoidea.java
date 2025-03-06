@@ -21,6 +21,7 @@ public class BlockFossilTrophyDissorophoidea extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyDissorophoidea.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_dissorophoidea");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

@@ -21,6 +21,7 @@ public class BlockFossilTrophyFinfellows extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyFinfellows.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_finfellows");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

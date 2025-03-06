@@ -21,6 +21,7 @@ public class BlockFossilTrophySalamanders extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophySalamanders.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_salamanders");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

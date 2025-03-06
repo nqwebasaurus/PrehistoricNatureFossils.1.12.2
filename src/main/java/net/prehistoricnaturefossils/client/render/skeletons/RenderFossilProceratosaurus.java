@@ -91,7 +91,7 @@ public class RenderFossilProceratosaurus extends TileEntitySpecialRenderer<TileE
         ModelSkeletonProceratosaurus modelSkeleton = this.modelSkeleton;
         double scale = RenderProceratosaurus.getScaler() * RenderDisplayWallMount.scaler;
 
-        GlStateManager.translate(x + 0.5, y + 0.65, z + 0.5);
+        GlStateManager.translate(x + 0.5, y + 0.67, z + 0.5);
         GlStateManager.scale(scale,scale,scale);
         GlStateManager.rotate(180, 0F, 0F, 1F);
         GlStateManager.rotate(currentRotation, 0F, 1F, 0F);
@@ -111,7 +111,7 @@ public class RenderFossilProceratosaurus extends TileEntitySpecialRenderer<TileE
             GlStateManager.enableAlpha();
             ModelSkeletonProceratosaurusFrame modelSkeletonFrame = this.modelSkeletonFrame;
             scale = RenderProceratosaurus.getScaler() * RenderDisplayWallMount.scaler;
-            GlStateManager.translate(x + 0.5, y + 0.65, z + 0.5);
+            GlStateManager.translate(x + 0.5, y + 0.67, z + 0.5);
             GlStateManager.scale(scale,scale,scale);
             GlStateManager.rotate(180, 0F, 0F, 1F);
             GlStateManager.rotate(currentRotation, 0F, 1F, 0F);

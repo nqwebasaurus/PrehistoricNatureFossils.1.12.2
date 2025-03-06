@@ -21,6 +21,7 @@ public class BlockFossilTrophyCaseasauria extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyCaseasauria.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_caseasauria");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

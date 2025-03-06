@@ -21,6 +21,7 @@ public class BlockFossilTrophyEmbolomeres extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyEmbolomeres.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_embolomeres");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

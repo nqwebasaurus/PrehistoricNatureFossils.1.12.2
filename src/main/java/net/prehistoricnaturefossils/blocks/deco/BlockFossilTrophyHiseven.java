@@ -21,6 +21,7 @@ public class BlockFossilTrophyHiseven extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyHiseven.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_hiseven");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

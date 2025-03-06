@@ -21,6 +21,7 @@ public class BlockFossilTrophyLepospondyli extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyLepospondyli.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_lepospondyli");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable

@@ -21,6 +21,7 @@ public class BlockFossilTrophyPlagiosauroidea extends BlockSkullBase {
         GameRegistry.registerTileEntity(TileEntityTrophyPlagiosauroidea.class, PrehistoricNatureFossils.MODID + ":tileentitytrophy_plagiosauroidea");
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setCreativeTab(null);
     }
     
     @Nullable
