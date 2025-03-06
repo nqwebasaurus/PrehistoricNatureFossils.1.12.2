@@ -13,7 +13,9 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.prehistoricnaturefossils.blocks.*;
+import net.prehistoricnaturefossils.blocks.deco.*;
+import net.prehistoricnaturefossils.blocks.skeletons.*;
+import net.prehistoricnaturefossils.blocks.slabs.*;
 import net.prehistoricnaturefossils.tile.base.TileEntityFossilBase;
 
 import java.util.ArrayList;
