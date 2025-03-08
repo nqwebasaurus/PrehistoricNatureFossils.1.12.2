@@ -38,7 +38,7 @@ public class BlockFossilCharnia extends BlockSlabBase implements IArchiveStatic 
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_charnia";
+        return "staticdnaPNlepidodendron:charnia";
     }
 
     @Nullable
