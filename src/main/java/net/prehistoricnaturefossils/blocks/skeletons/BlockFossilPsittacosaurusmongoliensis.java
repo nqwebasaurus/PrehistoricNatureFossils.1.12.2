@@ -36,11 +36,11 @@ public class BlockFossilPsittacosaurusmongoliensis extends BlockSkeletonBase imp
         }.setRegistryName(this.getRegistryName()));
     }
 
-    @Nullable
-    @Override
-    public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_psittacosaurusmongoliensis";
-    }
+//    @Nullable
+//    @Override
+//    public String getDNACompat() {
+//        return "mobdnaPNlepidodendron:prehistoric_flora_psittacosaurus_mongoliensis";
+//    }
 
     @Nullable
     @Override

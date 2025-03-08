@@ -39,7 +39,7 @@ public class BlockFossilPsittacosaurussibiricus extends BlockSkeletonBase implem
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_psittacosaurussibiricus";
+        return "mobdnaPNlepidodendron:prehistoric_flora_psittacosaurus_sibiricus";
     }
 
     @Nullable

@@ -39,7 +39,7 @@ public class BlockFossilAnurognathus extends BlockSkeletonBase implements IArchi
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_anurognathus";
+        return "mobdnaPNlepidodendron:prehistoric_flora_anurodgnathid@anurognathus";
     }
 
     @Nullable

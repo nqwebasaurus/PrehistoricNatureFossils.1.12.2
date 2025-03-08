@@ -39,7 +39,7 @@ public class BlockFossilShringasaurus extends BlockSkeletonBase implements IArch
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_shringasaurus";
+        return "mobdnaPNlepidodendron:prehistoric_flora_shringasaurus@gendered";
     }
 
     @Nullable
