@@ -39,7 +39,7 @@ public class BlockFossilYi extends BlockSkeletonBase implements IArchiveVertebra
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_yi";
+        return "mobdnaPNlepidodendron:prehistoric_flora_yiqi";
     }
 
     @Nullable

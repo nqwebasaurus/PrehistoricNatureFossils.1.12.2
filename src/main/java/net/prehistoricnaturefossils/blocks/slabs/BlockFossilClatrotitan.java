@@ -38,7 +38,7 @@ public class BlockFossilClatrotitan extends BlockSlabBase implements IArchiveInv
     @Nullable
     @Override
     public String getDNACompat() {
-        return "mobdnaPNlepidodendron:prehistoric_flora_clatrotitan";
+        return "mobdnaPNlepidodendron:prehistoric_flora_titanoptera@clatrotitan";
     }
 
     @Nullable
