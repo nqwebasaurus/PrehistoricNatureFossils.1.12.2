@@ -36,11 +36,11 @@ public class BlockFossilPsittacosauruslujiatunensis extends BlockSkeletonBase im
         }.setRegistryName(this.getRegistryName()));
     }
 
-//    @Nullable
-//    @Override
-//    public String getDNACompat() {
-//        return "mobdnaPNlepidodendron:prehistoric_flora_psittacosaurus_lujiatunensis";
-//    }
+    @Nullable
+    @Override
+    public String getDNACompat() {
+        return "mobdnaPNlepidodendron:prehistoric_flora_psittacosaurus_lujiatunensis";
+    }
 
     @Nullable
     @Override
